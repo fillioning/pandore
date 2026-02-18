@@ -1,0 +1,3 @@
+[submodule "thatmicpre.git"]
+	path = thatmicpre
+	url = https://github.com/kitspace-forks/thatmicpre.git
