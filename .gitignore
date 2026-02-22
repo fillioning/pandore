@@ -1,3 +1,11 @@
 # Drawio
 *.drawio.bkp
 *.drawio.dtmp
+
+# Kicad
+*.kicad_*.lck
+*.kicad_prl
+*#auto_saved_files#*
+*-backups/
+*fp-*-cache
+*fp-*-table
