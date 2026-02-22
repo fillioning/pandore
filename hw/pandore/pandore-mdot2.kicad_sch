@@ -1,0 +1,182 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "fd0f5a6b-d064-4bb4-969c-eb4ec668bef4")
+	(paper "A4")
+	(title_block
+		(title "${name}")
+		(date "2026-02-22")
+		(rev "${revision}")
+		(company "${corp}")
+	)
+	(lib_symbols)
+	(text_box "keyE 2230"
+		(exclude_from_sim no)
+		(at 13.97 99.06 0)
+		(size 267.97 82.55)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.3)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "3cb05cb1-746e-41a9-9797-06205db234ef")
+	)
+	(text_box "keyM 2280"
+		(exclude_from_sim no)
+		(at 13.97 13.97 0)
+		(size 267.97 82.55)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.3)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "6785032e-fe61-4849-aa87-6a2f92f0686f")
+	)
+	(bus
+		(pts
+			(xy 30.48 27.94) (xy 33.02 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e477005-0cd0-4618-b2ce-abfc95c9a743")
+	)
+	(bus
+		(pts
+			(xy 33.02 27.94) (xy 33.02 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31cfdea6-93f9-4ff3-b73f-aeccc4318ce1")
+	)
+	(bus
+		(pts
+			(xy 39.37 172.72) (xy 39.37 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4765f6c2-4915-4948-9ccc-7153fae9f122")
+	)
+	(bus
+		(pts
+			(xy 31.75 172.72) (xy 39.37 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79268e33-5225-47a9-96cb-6b194ad9d8a8")
+	)
+	(bus
+		(pts
+			(xy 38.1 158.75) (xy 38.1 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b7568cd-51d2-485c-ba10-4129ee52c36b")
+	)
+	(bus
+		(pts
+			(xy 31.75 158.75) (xy 38.1 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83fc1874-5148-42c5-9939-4d90e14c7fe8")
+	)
+	(bus
+		(pts
+			(xy 43.18 137.16) (xy 43.18 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a7dbcb3-fee5-4f1e-8869-b82b951ae7e7")
+	)
+	(bus
+		(pts
+			(xy 31.75 137.16) (xy 43.18 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d53ccb28-a7ef-40f8-939c-45974b60de40")
+	)
+	(hierarchical_label "SLOT_M{PCIE4X}"
+		(shape bidirectional)
+		(at 30.48 27.94 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "23400938-6216-4d0e-9e17-fd05bd177923")
+	)
+	(hierarchical_label "SLOT_E{PCIE1X}"
+		(shape bidirectional)
+		(at 31.75 137.16 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "b1160c8e-8f76-4e5e-b07c-4b1d0adef09d")
+	)
+	(hierarchical_label "SLOT_E{I2C}"
+		(shape bidirectional)
+		(at 31.75 158.75 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "ed68d956-99ca-4802-9a42-b95120b9db3a")
+	)
+	(hierarchical_label "SLOT_E{USB2}"
+		(shape bidirectional)
+		(at 31.75 172.72 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "f0d7124e-6666-45be-ab46-0bdb965f47bf")
+	)
+)

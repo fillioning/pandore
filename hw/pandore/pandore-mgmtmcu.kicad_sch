@@ -1,0 +1,98 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "fd0f5a6b-d064-4bb4-969c-eb4ec668bef4")
+	(paper "A4")
+	(title_block
+		(title "${name}")
+		(date "2026-02-22")
+		(rev "${revision}")
+		(company "${corp}")
+	)
+	(lib_symbols)
+	(bus
+		(pts
+			(xy 82.55 76.2) (xy 115.57 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba6dce9a-9fa2-4683-8151-0bc39d8d914e")
+	)
+	(hierarchical_label "USB{USB2}"
+		(shape bidirectional)
+		(at 82.55 76.2 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "b9b58e09-3339-49b3-8248-50f612488fe8")
+	)
+	(sheet
+		(at 115.57 62.23)
+		(size 43.18 81.28)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d2a190b7-8486-4aae-97c0-33ac8d90da8a")
+		(property "Sheetname" "MCU"
+			(at 136.525 66.04 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3 3)
+					(thickness 0.6)
+					(bold yes)
+				)
+			)
+		)
+		(property "Sheetfile" "pandore-mcu.kicad_sch"
+			(at 116.078 99.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "pageNb" "Page ${#}"
+			(at 136.525 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(pin "USB{USB2}" bidirectional
+			(at 115.57 76.2 180)
+			(uuid "63fc682a-1f08-401a-8a17-d3f776596a22")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/57ec90ce-deb5-4a52-b1c0-0a997012959b"
+					(page "18")
+				)
+			)
+		)
+	)
+)

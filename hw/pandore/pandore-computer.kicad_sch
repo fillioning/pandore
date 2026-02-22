@@ -1,0 +1,619 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "fd0f5a6b-d064-4bb4-969c-eb4ec668bef4")
+	(paper "A4")
+	(title_block
+		(title "${name}")
+		(date "2026-02-22")
+		(rev "${revision}")
+		(company "${corp}")
+	)
+	(lib_symbols)
+	(bus
+		(pts
+			(xy 165.1 96.52) (xy 215.9 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0718e18b-869e-4186-aea1-b6138521c277")
+	)
+	(bus
+		(pts
+			(xy 92.71 107.95) (xy 121.92 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ef4a818-0ed6-427a-a8e4-0d0010882840")
+	)
+	(bus
+		(pts
+			(xy 92.71 123.19) (xy 121.92 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44226bc1-19bc-4e8a-aae9-093e7dde83a7")
+	)
+	(wire
+		(pts
+			(xy 165.1 105.41) (xy 215.9 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52fcf9ac-07b3-4bd2-b57e-c6e7a50c2b3a")
+	)
+	(bus
+		(pts
+			(xy 92.71 125.73) (xy 121.92 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f4e190c-9f6a-4609-8dfe-5050a0d2db7d")
+	)
+	(bus
+		(pts
+			(xy 165.1 93.98) (xy 215.9 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bf59048-1fc8-4c7c-a594-87d3553b18bd")
+	)
+	(bus
+		(pts
+			(xy 165.1 102.87) (xy 215.9 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c52765b-7190-4c6c-b212-c0d27af6f65a")
+	)
+	(bus
+		(pts
+			(xy 92.71 132.08) (xy 121.92 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3a634b5-7d3d-4688-8a37-022643a9b2cc")
+	)
+	(bus
+		(pts
+			(xy 165.1 152.4) (xy 218.44 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb62907c-cdc1-4941-b56f-857692173eda")
+	)
+	(bus
+		(pts
+			(xy 165.1 100.33) (xy 215.9 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eae634ac-9b83-46d0-a1dc-e9ae1d951181")
+	)
+	(bus
+		(pts
+			(xy 215.9 88.9) (xy 165.1 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9aebee1-9310-43a7-9602-8710dbc331a6")
+	)
+	(hierarchical_label "USB3P2{USB3}"
+		(shape bidirectional)
+		(at 215.9 96.52 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "107879c6-de8c-4073-9f1b-62ad04c6e3a1")
+	)
+	(hierarchical_label "USB_OC"
+		(shape input)
+		(at 215.9 105.41 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "4052fb04-2254-41bf-84ad-db506e5b62c9")
+	)
+	(hierarchical_label "USB2P8{USB2}"
+		(shape bidirectional)
+		(at 92.71 125.73 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "4390166d-cc05-47b3-a843-37aaabfe27de")
+	)
+	(hierarchical_label "USB2P7{USB2}"
+		(shape bidirectional)
+		(at 218.44 152.4 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "54ed75d4-0b53-41db-b2c7-df31580758c3")
+	)
+	(hierarchical_label "USB2P5{USB2}"
+		(shape bidirectional)
+		(at 215.9 102.87 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "74c03ddd-4083-473b-ba74-af79d977c33f")
+	)
+	(hierarchical_label "DDIB{HDMI}"
+		(shape output)
+		(at 215.9 88.9 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "783d9d43-0d1f-4902-b483-f970df3b81e8")
+	)
+	(hierarchical_label "USBP1{USB3}"
+		(shape bidirectional)
+		(at 215.9 93.98 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "d2c3a879-bc8d-422e-b8f2-e36fef5de461")
+	)
+	(hierarchical_label "USB2P3{USB2}"
+		(shape bidirectional)
+		(at 215.9 100.33 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "e0c8e04c-8936-49c2-a3ea-3f1a313ca3fc")
+	)
+	(hierarchical_label "USB2P4{USB2}"
+		(shape bidirectional)
+		(at 92.71 123.19 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "fbd3f9aa-ec70-4ce6-b447-669cf44139a5")
+	)
+	(hierarchical_label "USB2P6{USB2}"
+		(shape bidirectional)
+		(at 92.71 132.08 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "fc06e562-5e05-436c-8791-4d3478d0194a")
+	)
+	(sheet
+		(at 201.93 57.15)
+		(size 43.18 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "120f9400-7b51-421c-92c5-6533e572ad77")
+		(property "Sheetname" "Extra ports"
+			(at 222.885 60.96 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3 3)
+					(thickness 0.6)
+					(bold yes)
+				)
+			)
+		)
+		(property "Sheetfile" "pandore-extraport.kicad_sch"
+			(at 202.438 94.742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "pageNb" "Page ${#}"
+			(at 222.885 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/88bddcf3-091d-4999-8622-d323c703fd74"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 121.92 33.02)
+		(size 43.18 142.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5f490059-030e-46be-8d18-c6ad7eadfe53")
+		(property "Sheetname" "Computer module"
+			(at 142.875 36.83 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3 3)
+					(thickness 0.6)
+					(bold yes)
+				)
+			)
+		)
+		(property "Sheetfile" "pandore-cpumod.kicad_sch"
+			(at 122.428 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "pageNb" "Page ${#}"
+			(at 142.875 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(pin "BIOS{QSPI SEL}" bidirectional
+			(at 121.92 107.95 180)
+			(uuid "faee53a0-7273-452e-8b30-5de25860a0c2")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_OC" input
+			(at 165.1 105.41 0)
+			(uuid "4421e020-5fa0-41e7-9609-8891baf5ab67")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBP7{USB2}" bidirectional
+			(at 165.1 152.4 0)
+			(uuid "5b3ed184-806b-45c6-93e3-63947c069ce3")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBP4{USB2}" bidirectional
+			(at 121.92 123.19 180)
+			(uuid "8adf73ba-bcc5-4f24-b27d-64bb1b34d21d")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBP8{USB2}" bidirectional
+			(at 121.92 125.73 180)
+			(uuid "3f95e205-f6b3-49b3-a2af-a2dd2f7c4aef")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBP5{USB2}" bidirectional
+			(at 165.1 102.87 0)
+			(uuid "d03bfd17-0092-4329-bbe2-b408d7c0d8ee")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBP1{USB3}" bidirectional
+			(at 165.1 93.98 0)
+			(uuid "1accf48a-496a-4f70-ab9a-62d83aca303f")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBP3{USB2}" bidirectional
+			(at 165.1 100.33 0)
+			(uuid "7c99b67c-ec74-4213-ad5b-9667a7451a2a")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "DDIB{HDMI}" output
+			(at 165.1 88.9 0)
+			(uuid "865ea1c3-2d5a-4987-8cef-86b07aac7e7c")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBP2{USB3}" bidirectional
+			(at 165.1 96.52 0)
+			(uuid "c4ad969a-3fd5-4ced-b3a7-67140cadfdfb")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBP6{USB2}" bidirectional
+			(at 121.92 132.08 180)
+			(uuid "b21fcb0a-6dab-4b7c-8063-f08091cda288")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/88bddcf3-091d-4999-8622-d323c703fd74"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 49.53 57.15)
+		(size 43.18 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9cf15687-6528-4b32-9653-59c05414133f")
+		(property "Sheetname" "Boot control"
+			(at 70.485 60.96 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3 3)
+					(thickness 0.6)
+					(bold yes)
+				)
+			)
+		)
+		(property "Sheetfile" "pandore-bootctl.kicad_sch"
+			(at 50.038 94.742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "pageNb" "Page ${#}"
+			(at 70.485 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/88bddcf3-091d-4999-8622-d323c703fd74"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 49.53 100.33)
+		(size 43.18 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b0d5502d-1c9e-460a-aaa4-6a1fd0bb26fe")
+		(property "Sheetname" "BIOS mem"
+			(at 70.485 104.14 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3 3)
+					(thickness 0.6)
+					(bold yes)
+				)
+			)
+		)
+		(property "Sheetfile" "pandore-bios.kicad_sch"
+			(at 50.038 137.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "pageNb" "Page ${#}"
+			(at 70.485 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(pin "BIOS{QSPI SEL}" bidirectional
+			(at 92.71 107.95 0)
+			(uuid "9b1c45bb-8dc8-49b8-9e0a-7912a229a0c5")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/88bddcf3-091d-4999-8622-d323c703fd74"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 49.53 78.74)
+		(size 43.18 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c21b8118-8da9-423f-b9bf-b175418c956a")
+		(property "Sheetname" "Fans"
+			(at 70.485 82.55 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3 3)
+					(thickness 0.6)
+					(bold yes)
+				)
+			)
+		)
+		(property "Sheetfile" "pandore-fan.kicad_sch"
+			(at 50.038 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "pageNb" "Page ${#}"
+			(at 70.485 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/88bddcf3-091d-4999-8622-d323c703fd74"
+					(page "16")
+				)
+			)
+		)
+	)
+)

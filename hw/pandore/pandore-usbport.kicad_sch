@@ -1,0 +1,79 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "fd0f5a6b-d064-4bb4-969c-eb4ec668bef4")
+	(paper "A4")
+	(title_block
+		(title "${name}")
+		(date "2026-02-22")
+		(rev "${revision}")
+		(company "${corp}")
+	)
+	(lib_symbols)
+	(bus
+		(pts
+			(xy 39.37 26.67) (xy 72.39 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac4da931-093f-419e-87d6-457a8f454960")
+	)
+	(hierarchical_label "USB3HIGH{USB3}"
+		(shape bidirectional)
+		(at 38.1 127 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "17e3d364-c7ea-4acc-847c-7cd912f355cb")
+	)
+	(hierarchical_label "USB_OC"
+		(shape output)
+		(at 38.1 152.4 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "7f8fd3d1-1847-494c-825a-9d27461bcc7f")
+	)
+	(hierarchical_label "USB2HIGH{USB2}"
+		(shape bidirectional)
+		(at 38.1 50.8 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "83e9f00a-0913-4054-b838-bcc6f6aad61a")
+	)
+	(hierarchical_label "USB3LOW{USB3}"
+		(shape bidirectional)
+		(at 38.1 88.9 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "b4e38c01-f01f-4dc7-b9b1-5caa86c622ca")
+	)
+	(hierarchical_label "USB2LOW{USB2}"
+		(shape bidirectional)
+		(at 39.37 26.67 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "f0dd7ef5-97e3-4fdd-8941-788aebea9d97")
+	)
+)

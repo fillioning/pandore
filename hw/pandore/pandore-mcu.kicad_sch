@@ -1,0 +1,8245 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "fd0f5a6b-d064-4bb4-969c-eb4ec668bef4")
+	(paper "A4")
+	(title_block
+		(title "${name}")
+		(date "2026-02-22")
+		(rev "${revision}")
+		(company "${corp}")
+	)
+	(lib_symbols
+		(symbol "reekilib_cap:cap"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 2.54 2.286 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "${Capacitance}, ${Voltage}, ${Dielectric}"
+				(at 2.54 0.762 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "reekilib_cap:CAPC1005"
+				(at 0 -9.652 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
+				(at 0 -14.478 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Non polarized capacitor"
+				(at 0 -11.43 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Link" "https://www.passivecomponent.com/product-search/MLCC/?partnumber=0402B104K160CT"
+				(at 0 -12.954 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Capacitance" "100nF"
+				(at 2.54 0.762 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+				)
+			)
+			(property "Voltage" "16V"
+				(at 2.54 -0.762 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+				)
+			)
+			(property "Dielectric" "X7R"
+				(at 2.54 -2.286 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+				)
+			)
+			(property "MPN" "0402B104K160CT"
+				(at 0 -18.796 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFG" "Walsin Technology Corporation"
+				(at 11.938 -18.796 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN2" "CL05B104KA5NNNC"
+				(at 0 -20.32 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFG2" "Samsung Electro-Mechanics"
+				(at 11.938 -20.32 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN3" "EMK105B7104KV-F"
+				(at 0 -21.844 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFG3" "Taiyo Yuden"
+				(at 11.938 -21.844 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN4" "CC0402KRX7R7BB104"
+				(at 0 -23.368 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFG4" "YAGEO"
+				(at 12.192 -23.368 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "reekilib_cap:CAPC*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "cap_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy 1.905 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -0.635) (xy 1.905 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "cap_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.905)
+					(name "2"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.905)
+					(name "1"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "reekilib_mcu:RP2350B"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -20.32 63.5 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "RP2350B"
+				(at 20.32 63.5 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "reekilib_qfn:QFN40P1000X1000-81"
+				(at 0 -63.5 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://pip-assets.raspberrypi.com/categories/1214-rp2350/documents/RP-008373-DS-2-rp2350-datasheet.pdf?disposition=inline"
+				(at 0 -65.405 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual Cortex-M33 or RISC-V 150MHz"
+				(at 0 -67.31 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "RP2350B-TR13"
+				(at 0 -69.215 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFG" "Raspberry Pi"
+				(at 11.43 -69.215 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Link" "https://www.raspberrypi.com/products/rp2350/"
+				(at 0 -73.025 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN2" "RP2350B-TR7"
+				(at 0 -71.12 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFG2" "Raspberry Pi"
+				(at 11.43 -71.12 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Link2" "https://www.raspberrypi.com/products/rp2350/"
+				(at 0 -74.93 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cortex-m33 risc-v dualcore"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RP2350B_1_1"
+				(rectangle
+					(start -21.59 62.23)
+					(end 21.59 -62.23)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "GPIO bank 0"
+					(at 20.32 -48.26 0)
+					(effects
+						(font
+							(size 2 2)
+							(thickness 0.4)
+							(bold yes)
+						)
+						(justify right)
+					)
+				)
+				(text_box "~ : analog fct\n¹ : 5V tolerant"
+					(at 5.08 -51.562 0)
+					(size 16.51 -5.588)
+					(margins 1.016 1.016 1.016 1.016)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+					(effects
+						(font
+							(size 1 1)
+						)
+						(justify left top)
+					)
+				)
+				(pin bidirectional line
+					(at -25.4 59.69 0)
+					(length 3.81)
+					(name "GPIO0¹(PD)|GPIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "77"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO0¹(PD)|F10:USB.OVCUR_DET" input line)
+					(alternate "GPIO0¹(PD)|F1:SPI0.RX" input line)
+					(alternate "GPIO0¹(PD)|F2:UART0.TX" output line)
+					(alternate "GPIO0¹(PD)|F3:I2C0.SDA" open_collector line)
+					(alternate "GPIO0¹(PD)|F4:PWM0.A" output line)
+					(alternate "GPIO0¹(PD)|F5:SIO" bidirectional line)
+					(alternate "GPIO0¹(PD)|F6:PIO0" bidirectional line)
+					(alternate "GPIO0¹(PD)|F7:PIO1" bidirectional line)
+					(alternate "GPIO0¹(PD)|F8:PIO2" bidirectional line)
+					(alternate "GPIO0¹(PD)|F9:QMI.~{CS1}" output inverted)
+				)
+				(pin bidirectional line
+					(at -25.4 57.15 0)
+					(length 3.81)
+					(name "GPIO1¹(PD)|GPIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "78"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO1¹(PD)|F10:USB.VBUS_DET" input line)
+					(alternate "GPIO1¹(PD)|F1:SPI0.~{CS}" bidirectional inverted)
+					(alternate "GPIO1¹(PD)|F2:UART0.RX" input line)
+					(alternate "GPIO1¹(PD)|F3:I2C0.SCL" open_collector clock)
+					(alternate "GPIO1¹(PD)|F4:PWM0.B" bidirectional line)
+					(alternate "GPIO1¹(PD)|F5:SIO" bidirectional line)
+					(alternate "GPIO1¹(PD)|F6:PIO0" bidirectional line)
+					(alternate "GPIO1¹(PD)|F7:PIO1" bidirectional line)
+					(alternate "GPIO1¹(PD)|F8:PIO2" bidirectional line)
+					(alternate "GPIO1¹(PD)|F9:TRACE.CLK" input clock)
+				)
+				(pin bidirectional line
+					(at -25.4 54.61 0)
+					(length 3.81)
+					(name "GPIO2¹(PD)|GPIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "79"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO2¹(PD)|F10:USB.VBUS_EN" output line)
+					(alternate "GPIO2¹(PD)|F11:UART0.TX" output line)
+					(alternate "GPIO2¹(PD)|F1:SPI0.SCK" bidirectional clock)
+					(alternate "GPIO2¹(PD)|F2:UART0.CTS" input line)
+					(alternate "GPIO2¹(PD)|F3:I2C1.SDA" open_collector line)
+					(alternate "GPIO2¹(PD)|F4:PWM1.A" output line)
+					(alternate "GPIO2¹(PD)|F5:SIO" bidirectional line)
+					(alternate "GPIO2¹(PD)|F6:PIO0" bidirectional line)
+					(alternate "GPIO2¹(PD)|F7:PIO1" bidirectional line)
+					(alternate "GPIO2¹(PD)|F8:PIO8" bidirectional line)
+					(alternate "GPIO2¹(PD)|F9:TRACE.D0" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -25.4 52.07 0)
+					(length 3.81)
+					(name "GPIO3¹(PD)|GPIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "80"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO3¹(PD)|F10:USB.OVCUR_DET" input line)
+					(alternate "GPIO3¹(PD)|F11:UART0.RX" input line)
+					(alternate "GPIO3¹(PD)|F1:SPI0.TX" output line)
+					(alternate "GPIO3¹(PD)|F2:UART0.RTS" output line)
+					(alternate "GPIO3¹(PD)|F3:I2C1.SCL" open_collector clock)
+					(alternate "GPIO3¹(PD)|F4:PWM1.B" bidirectional line)
+					(alternate "GPIO3¹(PD)|F5:SIO" bidirectional line)
+					(alternate "GPIO3¹(PD)|F6:PIO0" bidirectional line)
+					(alternate "GPIO3¹(PD)|F7:PIO1" bidirectional line)
+					(alternate "GPIO3¹(PD)|F8:PIO2" bidirectional line)
+					(alternate "GPIO3¹(PD)|F9:TRACE.D1" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -25.4 49.53 0)
+					(length 3.81)
+					(name "GPIO4¹(PD)|GPIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO4¹(PD)|F10:USB.VBUS_DET" input line)
+					(alternate "GPIO4¹(PD)|F1:SPI0.RX" input line)
+					(alternate "GPIO4¹(PD)|F2:UART1.TX" output line)
+					(alternate "GPIO4¹(PD)|F3:I2C0.SDA" open_collector line)
+					(alternate "GPIO4¹(PD)|F4:PWM2.A" output line)
+					(alternate "GPIO4¹(PD)|F5:SIO" bidirectional line)
+					(alternate "GPIO4¹(PD)|F6:PIO0" bidirectional line)
+					(alternate "GPIO4¹(PD)|F7:PIO1" bidirectional line)
+					(alternate "GPIO4¹(PD)|F8:PIO2" bidirectional line)
+					(alternate "GPIO4¹(PD)|F9:TRACE.D2" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -25.4 46.99 0)
+					(length 3.81)
+					(name "GPIO5¹(PD)|GPIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO5¹(PD)|F10:USB.VBUS_EN" output line)
+					(alternate "GPIO5¹(PD)|F1:SPI0.~{CS}" bidirectional inverted)
+					(alternate "GPIO5¹(PD)|F2:UART1.RX" input line)
+					(alternate "GPIO5¹(PD)|F3:I2C0.SCL" open_collector clock)
+					(alternate "GPIO5¹(PD)|F4:PWM2.B" bidirectional line)
+					(alternate "GPIO5¹(PD)|F5:SIO" bidirectional line)
+					(alternate "GPIO5¹(PD)|F6:PIO0" bidirectional line)
+					(alternate "GPIO5¹(PD)|F7:PIO1" bidirectional line)
+					(alternate "GPIO5¹(PD)|F8:PIO2" bidirectional line)
+					(alternate "GPIO5¹(PD)|F9:TRACE.D3" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -25.4 44.45 0)
+					(length 3.81)
+					(name "GPIO6¹(PD)|GPIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO6¹(PD)|F10:USB.OVCUR_DET" input line)
+					(alternate "GPIO6¹(PD)|F11:UART1.TX" output line)
+					(alternate "GPIO6¹(PD)|F1:SPI0.SCK" bidirectional clock)
+					(alternate "GPIO6¹(PD)|F2:UART1.CTS" input line)
+					(alternate "GPIO6¹(PD)|F3:I2C1.SDA" open_collector line)
+					(alternate "GPIO6¹(PD)|F4:PWM3.A" output line)
+					(alternate "GPIO6¹(PD)|F5:SIO" bidirectional line)
+					(alternate "GPIO6¹(PD)|F6:PIO0" bidirectional line)
+					(alternate "GPIO6¹(PD)|F7:PIO1" bidirectional line)
+					(alternate "GPIO6¹(PD)|F8:PIO2" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -25.4 41.91 0)
+					(length 3.81)
+					(name "GPIO7¹(PD)|GPIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO7¹(PD)|F10:USB.VBUS_DET" input line)
+					(alternate "GPIO7¹(PD)|F11:UART1.RX" input line)
+					(alternate "GPIO7¹(PD)|F1:SPI0.TX" output line)
+					(alternate "GPIO7¹(PD)|F2:UART1.RTS" output line)
+					(alternate "GPIO7¹(PD)|F3:I2C1.SCL" open_collector clock)
+					(alternate "GPIO7¹(PD)|F4:PWM3.B" bidirectional line)
+					(alternate "GPIO7¹(PD)|F5:SIO" bidirectional line)
+					(alternate "GPIO7¹(PD)|F6:PIO0" bidirectional line)
+					(alternate "GPIO7¹(PD)|F7:PIO1" bidirectional line)
+					(alternate "GPIO7¹(PD)|F8:PIO2" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -25.4 39.37 0)
+					(length 3.81)
+					(name "GPIO8¹(PD)|GPIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO8¹(PD)|F10:USB.VBUS_EN" output line)
+					(alternate "GPIO8¹(PD)|F1:SPI1.RX" input line)
+					(alternate "GPIO8¹(PD)|F2:UART1.TX" output line)
+					(alternate "GPIO8¹(PD)|F3:I2C0.SDA" open_collector line)
+					(alternate "GPIO8¹(PD)|F4:PWM4.A" output line)
+					(alternate "GPIO8¹(PD)|F5:SIO" bidirectional line)
+					(alternate "GPIO8¹(PD)|F6:PIO0" bidirectional line)
+					(alternate "GPIO8¹(PD)|F7:PIO1" bidirectional line)
+					(alternate "GPIO8¹(PD)|F8:PIO2" bidirectional line)
+					(alternate "GPIO8¹(PD)|F9:QMI.~{CS1}" bidirectional inverted)
+				)
+				(pin bidirectional line
+					(at -25.4 36.83 0)
+					(length 3.81)
+					(name "GPIO9¹(PD)|GPIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO9¹(PD)|F10:USB.OVCUR_DET" input line)
+					(alternate "GPIO9¹(PD)|F1:SPI1.~{CS}" bidirectional inverted)
+					(alternate "GPIO9¹(PD)|F2:UART1.RX" input line)
+					(alternate "GPIO9¹(PD)|F3:I2C0.SCL" open_collector clock)
+					(alternate "GPIO9¹(PD)|F4:PWM4.B" bidirectional line)
+					(alternate "GPIO9¹(PD)|F5:SIO" bidirectional line)
+					(alternate "GPIO9¹(PD)|F6:PIO0" bidirectional line)
+					(alternate "GPIO9¹(PD)|F7:PIO1" bidirectional line)
+					(alternate "GPIO9¹(PD)|F8:PIO2" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -25.4 34.29 0)
+					(length 3.81)
+					(name "GPIO10¹(PD)|GPIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO10¹(PD)|F10:USB.VBUS_DET" input line)
+					(alternate "GPIO10¹(PD)|F11:UART1.TX" output line)
+					(alternate "GPIO10¹(PD)|F1:SPI1.SCK" bidirectional clock)
+					(alternate "GPIO10¹(PD)|F2:UART1.CTS" input line)
+					(alternate "GPIO10¹(PD)|F3:I2C1.SDA" open_collector line)
+					(alternate "GPIO10¹(PD)|F4:PWM5.A" output line)
+					(alternate "GPIO10¹(PD)|F5:SIO" bidirectional line)
+					(alternate "GPIO10¹(PD)|F6:PIO0" bidirectional line)
+					(alternate "GPIO10¹(PD)|F7:PIO1" bidirectional line)
+					(alternate "GPIO10¹(PD)|F8:PIO2" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -25.4 31.75 0)
+					(length 3.81)
+					(name "GPIO11¹(PD)|GPIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO11¹(PD)|F10:USB.VBUS_EN" output line)
+					(alternate "GPIO11¹(PD)|F11:UART1.RX" input line)
+					(alternate "GPIO11¹(PD)|F1:SPI1.TX" output line)
+					(alternate "GPIO11¹(PD)|F2:UART1.RTS" output line)
+					(alternate "GPIO11¹(PD)|F3:I2C1.SCL" open_collector clock)
+					(alternate "GPIO11¹(PD)|F4:PWM5.B" bidirectional line)
+					(alternate "GPIO11¹(PD)|F5:SIO" bidirectional line)
+					(alternate "GPIO11¹(PD)|F6:PIO0" bidirectional line)
+					(alternate "GPIO11¹(PD)|F7:PIO1" bidirectional line)
+					(alternate "GPIO11¹(PD)|F8:PIO2" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -25.4 29.21 0)
+					(length 3.81)
+					(name "GPIO12¹(PD)|GPIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO12¹(PD)|F0:HSTX" bidirectional line)
+					(alternate "GPIO12¹(PD)|F10:USB.OVCUR_DET" input line)
+					(alternate "GPIO12¹(PD)|F1:SPI1.RX" input line)
+					(alternate "GPIO12¹(PD)|F2:UART0.TX" output line)
+					(alternate "GPIO12¹(PD)|F3:I2C0.SDA" open_collector line)
+					(alternate "GPIO12¹(PD)|F4:PWM6.A" output line)
+					(alternate "GPIO12¹(PD)|F5:SIO" bidirectional line)
+					(alternate "GPIO12¹(PD)|F6:PIO0" bidirectional line)
+					(alternate "GPIO12¹(PD)|F7:PIO1" bidirectional line)
+					(alternate "GPIO12¹(PD)|F8:PIO2" bidirectional line)
+					(alternate "GPIO12¹(PD)|F9:CLOCK.GPIN0" input clock)
+				)
+				(pin bidirectional line
+					(at -25.4 26.67 0)
+					(length 3.81)
+					(name "GPIO13¹(PD)|GPIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO13¹(PD)|F0:HSTX" bidirectional line)
+					(alternate "GPIO13¹(PD)|F10:USB.VBUS_DET" input line)
+					(alternate "GPIO13¹(PD)|F1:SPI1.~{CS}" bidirectional inverted)
+					(alternate "GPIO13¹(PD)|F2:UART0.RX" input line)
+					(alternate "GPIO13¹(PD)|F3:I2C0.SCL" open_collector clock)
+					(alternate "GPIO13¹(PD)|F4:PWM6.B" bidirectional line)
+					(alternate "GPIO13¹(PD)|F5:SIO" bidirectional line)
+					(alternate "GPIO13¹(PD)|F6:PIO0" bidirectional line)
+					(alternate "GPIO13¹(PD)|F7:PIO1" bidirectional line)
+					(alternate "GPIO13¹(PD)|F8:PIO2" bidirectional line)
+					(alternate "GPIO13¹(PD)|F9:CLOCK.GPOUT0" output clock)
+				)
+				(pin bidirectional line
+					(at -25.4 24.13 0)
+					(length 3.81)
+					(name "GPIO14¹(PD)|GPIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO14¹(PD)|F0:HSTX" bidirectional line)
+					(alternate "GPIO14¹(PD)|F10:USB.VBUS_EN" output line)
+					(alternate "GPIO14¹(PD)|F11:UART0.TX" output line)
+					(alternate "GPIO14¹(PD)|F1:SPI1.SCK" bidirectional clock)
+					(alternate "GPIO14¹(PD)|F2:UART0.CTS" input line)
+					(alternate "GPIO14¹(PD)|F3:I2C1.SDA" open_collector line)
+					(alternate "GPIO14¹(PD)|F4:PWM7.A" output line)
+					(alternate "GPIO14¹(PD)|F5:SIO" bidirectional line)
+					(alternate "GPIO14¹(PD)|F6:PIO0" bidirectional line)
+					(alternate "GPIO14¹(PD)|F7:PIO1" bidirectional line)
+					(alternate "GPIO14¹(PD)|F8:PIO2" bidirectional line)
+					(alternate "GPIO14¹(PD)|F9:CLOCK.GPIN1" input clock)
+				)
+				(pin bidirectional line
+					(at -25.4 21.59 0)
+					(length 3.81)
+					(name "GPIO15¹(PD)|GPIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO15¹(PD)|F0:HSTX" bidirectional line)
+					(alternate "GPIO15¹(PD)|F10:USB.OVCUR_DET" input line)
+					(alternate "GPIO15¹(PD)|F11:UART0.RX" input line)
+					(alternate "GPIO15¹(PD)|F1:SPI1.TX" output line)
+					(alternate "GPIO15¹(PD)|F2:UART0.RTS" output line)
+					(alternate "GPIO15¹(PD)|F3:I2C1.SCL" open_collector clock)
+					(alternate "GPIO15¹(PD)|F4:PWM7.B" bidirectional line)
+					(alternate "GPIO15¹(PD)|F5:SIO" bidirectional line)
+					(alternate "GPIO15¹(PD)|F6:PIO0" bidirectional line)
+					(alternate "GPIO15¹(PD)|F7:PIO1" bidirectional line)
+					(alternate "GPIO15¹(PD)|F8:PIO2" bidirectional line)
+					(alternate "GPIO15¹(PD)|F9:CLOCK.GPOUT1" output clock)
+				)
+				(pin bidirectional line
+					(at -25.4 19.05 0)
+					(length 3.81)
+					(name "GPIO16¹(PD)|GPIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO16¹(PD)|F0:HSTX" bidirectional line)
+					(alternate "GPIO16¹(PD)|F10:USB.VBUS_DET" input line)
+					(alternate "GPIO16¹(PD)|F1:SPI0.RX" input line)
+					(alternate "GPIO16¹(PD)|F2:UART0.TX" output line)
+					(alternate "GPIO16¹(PD)|F3:I2C0.SDA" open_collector line)
+					(alternate "GPIO16¹(PD)|F4:PWM0.A" output line)
+					(alternate "GPIO16¹(PD)|F5:SIO" bidirectional line)
+					(alternate "GPIO16¹(PD)|F6:PIO0" bidirectional line)
+					(alternate "GPIO16¹(PD)|F7:PIO1" bidirectional line)
+					(alternate "GPIO16¹(PD)|F8:PIO2" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -25.4 16.51 0)
+					(length 3.81)
+					(name "GPIO17¹(PD)|GPIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO17¹(PD)|F0:HSTX" bidirectional line)
+					(alternate "GPIO17¹(PD)|F10:USB.VBUS_EN" output line)
+					(alternate "GPIO17¹(PD)|F1:SPI0.~{CS}" bidirectional inverted)
+					(alternate "GPIO17¹(PD)|F2:UART0.RX" input line)
+					(alternate "GPIO17¹(PD)|F3:I2C0.SCL" open_collector clock)
+					(alternate "GPIO17¹(PD)|F4:PWM0.B" bidirectional line)
+					(alternate "GPIO17¹(PD)|F5:SIO" bidirectional line)
+					(alternate "GPIO17¹(PD)|F6:PIO0" bidirectional line)
+					(alternate "GPIO17¹(PD)|F7:PIO1" bidirectional line)
+					(alternate "GPIO17¹(PD)|F8:PIO2" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -25.4 13.97 0)
+					(length 3.81)
+					(name "GPIO18¹(PD)|GPIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO18¹(PD)|F0:HSTX" bidirectional line)
+					(alternate "GPIO18¹(PD)|F10:USB.OVCUR_DET" input line)
+					(alternate "GPIO18¹(PD)|F11:UART0.TX" output line)
+					(alternate "GPIO18¹(PD)|F1:SPI0.SCK" bidirectional clock)
+					(alternate "GPIO18¹(PD)|F2:UART0.CTS" input line)
+					(alternate "GPIO18¹(PD)|F3:I2C1.SDA" open_collector line)
+					(alternate "GPIO18¹(PD)|F4:PWM1.A" output line)
+					(alternate "GPIO18¹(PD)|F5:SIO" bidirectional line)
+					(alternate "GPIO18¹(PD)|F6:PIO0" bidirectional line)
+					(alternate "GPIO18¹(PD)|F7:PIO1" bidirectional line)
+					(alternate "GPIO18¹(PD)|F8:PIO2" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -25.4 11.43 0)
+					(length 3.81)
+					(name "GPIO19¹(PD)|GPIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO19¹(PD)|F0:HSTX" bidirectional line)
+					(alternate "GPIO19¹(PD)|F10:USB.VBUS_DET" input line)
+					(alternate "GPIO19¹(PD)|F11:UART0.RX" input line)
+					(alternate "GPIO19¹(PD)|F1:SPI0.TX" output line)
+					(alternate "GPIO19¹(PD)|F2:UART0.RTS" output line)
+					(alternate "GPIO19¹(PD)|F3:I2C1.SCL" open_collector clock)
+					(alternate "GPIO19¹(PD)|F4:PWM1.B" bidirectional line)
+					(alternate "GPIO19¹(PD)|F5:SIO" bidirectional line)
+					(alternate "GPIO19¹(PD)|F6:PIO0" bidirectional line)
+					(alternate "GPIO19¹(PD)|F7:PIO1" bidirectional line)
+					(alternate "GPIO19¹(PD)|F8:PIO2" bidirectional line)
+					(alternate "GPIO19¹(PD)|F9:QMI.~{CS1}" bidirectional inverted)
+				)
+				(pin bidirectional line
+					(at -25.4 8.89 0)
+					(length 3.81)
+					(name "GPIO20¹(PD)|GPIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO20¹(PD)|F10:USB.VBUS_EN" output line)
+					(alternate "GPIO20¹(PD)|F1:SPI0.RX" input line)
+					(alternate "GPIO20¹(PD)|F2:UART1.TX" output line)
+					(alternate "GPIO20¹(PD)|F3:I2C0.SDA" open_collector line)
+					(alternate "GPIO20¹(PD)|F4:PWM2.A" output line)
+					(alternate "GPIO20¹(PD)|F5:SIO" bidirectional line)
+					(alternate "GPIO20¹(PD)|F6:PIO0" bidirectional line)
+					(alternate "GPIO20¹(PD)|F7:PIO1" bidirectional line)
+					(alternate "GPIO20¹(PD)|F8:PIO2" bidirectional line)
+					(alternate "GPIO20¹(PD)|F9:CLOCK.GPIN0" input clock)
+				)
+				(pin bidirectional line
+					(at -25.4 6.35 0)
+					(length 3.81)
+					(name "GPIO21¹(PD)|GPIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO21¹(PD)|F10:USB.OVCUR_DET" input line)
+					(alternate "GPIO21¹(PD)|F1:SPI0.~{CS}" bidirectional inverted)
+					(alternate "GPIO21¹(PD)|F2:UART1.RX" input line)
+					(alternate "GPIO21¹(PD)|F3:I2C0.SCL" open_collector clock)
+					(alternate "GPIO21¹(PD)|F4:PWM2.B" bidirectional line)
+					(alternate "GPIO21¹(PD)|F5:SIO" bidirectional line)
+					(alternate "GPIO21¹(PD)|F6:PIO0" bidirectional line)
+					(alternate "GPIO21¹(PD)|F7:PIO1" bidirectional line)
+					(alternate "GPIO21¹(PD)|F8:PIO2" bidirectional line)
+					(alternate "GPIO21¹(PD)|F9:CLOCK.GPOUT0" output clock)
+				)
+				(pin bidirectional line
+					(at -25.4 3.81 0)
+					(length 3.81)
+					(name "GPIO22¹(PD)|GPIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO22¹(PD)|F10:USB.VBUS_DET" input line)
+					(alternate "GPIO22¹(PD)|F11:UART1.TX" output line)
+					(alternate "GPIO22¹(PD)|F1:SPI0.SCK" bidirectional clock)
+					(alternate "GPIO22¹(PD)|F2:UART1.CTS" input line)
+					(alternate "GPIO22¹(PD)|F3:I2C1.SDA" open_collector line)
+					(alternate "GPIO22¹(PD)|F4:PWM3.A" output line)
+					(alternate "GPIO22¹(PD)|F5:SIO" bidirectional line)
+					(alternate "GPIO22¹(PD)|F6:PIO0" bidirectional line)
+					(alternate "GPIO22¹(PD)|F7:PIO1" bidirectional line)
+					(alternate "GPIO22¹(PD)|F8:PIO2" bidirectional line)
+					(alternate "GPIO22¹(PD)|F9:CLOCK.GPIN1" input clock)
+				)
+				(pin bidirectional line
+					(at -25.4 1.27 0)
+					(length 3.81)
+					(name "GPIO23¹(PD)|GPIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO23¹(PD)|F10:USB.VBUS_EN" output line)
+					(alternate "GPIO23¹(PD)|F11:UART1.RX" input line)
+					(alternate "GPIO23¹(PD)|F1:SPI0.TX" output line)
+					(alternate "GPIO23¹(PD)|F2:UART1.RTS" output line)
+					(alternate "GPIO23¹(PD)|F3:I2C1.SCL" open_collector clock)
+					(alternate "GPIO23¹(PD)|F4:PWM3.B" bidirectional line)
+					(alternate "GPIO23¹(PD)|F5:SIO" bidirectional line)
+					(alternate "GPIO23¹(PD)|F6:PIO0" bidirectional line)
+					(alternate "GPIO23¹(PD)|F7:PIO1" bidirectional line)
+					(alternate "GPIO23¹(PD)|F8:PIO2" bidirectional line)
+					(alternate "GPIO23¹(PD)|F9:CLOCK.GPOUT1" output clock)
+				)
+				(pin bidirectional line
+					(at -25.4 -1.27 0)
+					(length 3.81)
+					(name "GPIO24¹(PD)|GPIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO24¹(PD)|F10:USB.OVCUR_DET" input line)
+					(alternate "GPIO24¹(PD)|F1:SPI1.RX" input line)
+					(alternate "GPIO24¹(PD)|F2:UART1.TX" output line)
+					(alternate "GPIO24¹(PD)|F3:I2C0.SDA" open_collector line)
+					(alternate "GPIO24¹(PD)|F4:PWM4.A" output line)
+					(alternate "GPIO24¹(PD)|F5:SIO" bidirectional line)
+					(alternate "GPIO24¹(PD)|F6:PIO0" bidirectional line)
+					(alternate "GPIO24¹(PD)|F7:PIO1" bidirectional line)
+					(alternate "GPIO24¹(PD)|F8:PIO2" bidirectional line)
+					(alternate "GPIO24¹(PD)|F9:CLOCK.GPOUT2" output clock)
+				)
+				(pin bidirectional line
+					(at -25.4 -3.81 0)
+					(length 3.81)
+					(name "GPIO25¹(PD)|GPIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO25¹(PD)|F10:USB.VBUS_DET" input line)
+					(alternate "GPIO25¹(PD)|F1:SPI1.~{CS}" bidirectional inverted)
+					(alternate "GPIO25¹(PD)|F2:UART1.RX" input line)
+					(alternate "GPIO25¹(PD)|F3:I2C0.SCL" open_collector clock)
+					(alternate "GPIO25¹(PD)|F4:PWM4.B" bidirectional line)
+					(alternate "GPIO25¹(PD)|F5:SIO" bidirectional line)
+					(alternate "GPIO25¹(PD)|F6:PIO0" bidirectional line)
+					(alternate "GPIO25¹(PD)|F7:PIO1" bidirectional line)
+					(alternate "GPIO25¹(PD)|F8:PIO2" bidirectional line)
+					(alternate "GPIO25¹(PD)|F9:CLOCK.GPOUT3" output clock)
+				)
+				(pin bidirectional line
+					(at -25.4 -6.35 0)
+					(length 3.81)
+					(name "GPIO26¹(PD)|GPIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO26¹(PD)|F10:USB.VBUS_EN" output line)
+					(alternate "GPIO26¹(PD)|F1:SPI1.SCK" bidirectional clock)
+					(alternate "GPIO26¹(PD)|F2:UART1.CTS" input line)
+					(alternate "GPIO26¹(PD)|F3:I2C1.SDA" open_collector line)
+					(alternate "GPIO26¹(PD)|F4:PWM5.A" output line)
+					(alternate "GPIO26¹(PD)|F5:SIO" bidirectional line)
+					(alternate "GPIO26¹(PD)|F6:PIO0" bidirectional line)
+					(alternate "GPIO26¹(PD)|F7:PIO1" bidirectional line)
+					(alternate "GPIO26¹(PD)|F8:PIO2" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -25.4 -8.89 0)
+					(length 3.81)
+					(name "GPIO27¹(PD)|GPIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO27¹(PD)|F10:USB.OVCUR_DET" input line)
+					(alternate "GPIO27¹(PD)|F11:UART1.RX" input line)
+					(alternate "GPIO27¹(PD)|F1:SPI1.TX" output line)
+					(alternate "GPIO27¹(PD)|F2:UART1.RTS" output line)
+					(alternate "GPIO27¹(PD)|F3:I2C1.SCL" open_collector clock)
+					(alternate "GPIO27¹(PD)|F4:PWM5.B" bidirectional line)
+					(alternate "GPIO27¹(PD)|F5:SIO" bidirectional line)
+					(alternate "GPIO27¹(PD)|F6:PIO0" bidirectional line)
+					(alternate "GPIO27¹(PD)|F7:PIO1" bidirectional line)
+					(alternate "GPIO27¹(PD)|F8:PIO2" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -25.4 -11.43 0)
+					(length 3.81)
+					(name "GPIO28¹(PD)|GPIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO28¹(PD)|F10:USB.VBUS_DET" input line)
+					(alternate "GPIO28¹(PD)|F1:SPI1.RX" input line)
+					(alternate "GPIO28¹(PD)|F2:UART0.TX" output line)
+					(alternate "GPIO28¹(PD)|F3:I2C0.SDA" open_collector line)
+					(alternate "GPIO28¹(PD)|F4:PWM6.A" output line)
+					(alternate "GPIO28¹(PD)|F5:SIO" bidirectional line)
+					(alternate "GPIO28¹(PD)|F6:PIO0" bidirectional line)
+					(alternate "GPIO28¹(PD)|F7:PIO1" bidirectional line)
+					(alternate "GPIO28¹(PD)|F8:PIO2" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -25.4 -13.97 0)
+					(length 3.81)
+					(name "GPIO29¹(PD)|GPIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO29¹(PD)|F10:USB.VBUS_EN" output line)
+					(alternate "GPIO29¹(PD)|F1:SPI1.~{CS}" bidirectional inverted)
+					(alternate "GPIO29¹(PD)|F2:UART0.RX" input line)
+					(alternate "GPIO29¹(PD)|F3:I2C0.SCL" open_collector clock)
+					(alternate "GPIO29¹(PD)|F4:PWM6.B" bidirectional line)
+					(alternate "GPIO29¹(PD)|F5:SIO" bidirectional line)
+					(alternate "GPIO29¹(PD)|F6:PIO0" bidirectional line)
+					(alternate "GPIO29¹(PD)|F7:PIO1" bidirectional line)
+					(alternate "GPIO29¹(PD)|F8:PIO2" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -25.4 -16.51 0)
+					(length 3.81)
+					(name "GPIO30¹(PD)|GPIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO30¹(PD)|F10:USB.OVCUR_DET" input line)
+					(alternate "GPIO30¹(PD)|F11:UART0.TX" output line)
+					(alternate "GPIO30¹(PD)|F1:SPI1.SCK" bidirectional clock)
+					(alternate "GPIO30¹(PD)|F2:UART0.CTS" input line)
+					(alternate "GPIO30¹(PD)|F3:I2C1.SDA" open_collector line)
+					(alternate "GPIO30¹(PD)|F4:PWM7.A" output line)
+					(alternate "GPIO30¹(PD)|F5:SIO" bidirectional line)
+					(alternate "GPIO30¹(PD)|F6:PIO0" bidirectional line)
+					(alternate "GPIO30¹(PD)|F7:PIO1" bidirectional line)
+					(alternate "GPIO30¹(PD)|F8:PIO2" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -25.4 -19.05 0)
+					(length 3.81)
+					(name "GPIO31¹(PD)|GPIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO31¹(PD)|F10:USB.VBUS_DET" input line)
+					(alternate "GPIO31¹(PD)|F11:UART0.RX" input line)
+					(alternate "GPIO31¹(PD)|F1:SPI1.TX" output line)
+					(alternate "GPIO31¹(PD)|F2:UART0.RTS" output line)
+					(alternate "GPIO31¹(PD)|F3:I2C1.SCL" open_collector clock)
+					(alternate "GPIO31¹(PD)|F4:PWM7.B" bidirectional line)
+					(alternate "GPIO31¹(PD)|F5:SIO" bidirectional line)
+					(alternate "GPIO31¹(PD)|F6:PIO0" bidirectional line)
+					(alternate "GPIO31¹(PD)|F7:PIO1" bidirectional line)
+					(alternate "GPIO31¹(PD)|F8:PIO2" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -25.4 -21.59 0)
+					(length 3.81)
+					(name "GPIO32¹(PD)|GPIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO32¹(PD)|F10:USB.VBUS_EN" output line)
+					(alternate "GPIO32¹(PD)|F1:SPI0.RX" input line)
+					(alternate "GPIO32¹(PD)|F2:UART0.TX" output line)
+					(alternate "GPIO32¹(PD)|F3:I2C0.SDA" open_collector line)
+					(alternate "GPIO32¹(PD)|F4:PWM8.A" output line)
+					(alternate "GPIO32¹(PD)|F5:SIO" bidirectional line)
+					(alternate "GPIO32¹(PD)|F6:PIO0" bidirectional line)
+					(alternate "GPIO32¹(PD)|F7:PIO1" bidirectional line)
+					(alternate "GPIO32¹(PD)|F8:PIO2" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -25.4 -24.13 0)
+					(length 3.81)
+					(name "GPIO33¹(PD)|GPIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO33¹(PD)|F10:USB.OVCUR_DET" input line)
+					(alternate "GPIO33¹(PD)|F1:SPI0.~{CS}" bidirectional inverted)
+					(alternate "GPIO33¹(PD)|F2:UART0.RX" input line)
+					(alternate "GPIO33¹(PD)|F3:I2C0.SCL" open_collector clock)
+					(alternate "GPIO33¹(PD)|F4:PWM8.B" bidirectional line)
+					(alternate "GPIO33¹(PD)|F5:SIO" bidirectional line)
+					(alternate "GPIO33¹(PD)|F6:PIO0" bidirectional line)
+					(alternate "GPIO33¹(PD)|F7:PIO1" bidirectional line)
+					(alternate "GPIO33¹(PD)|F8:PIO2" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -25.4 -26.67 0)
+					(length 3.81)
+					(name "GPIO34¹(PD)|GPIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO34¹(PD)|F10:USB.VBUS_DET" input line)
+					(alternate "GPIO34¹(PD)|F11:UART0.TX" output line)
+					(alternate "GPIO34¹(PD)|F1:SPI0.SCK" bidirectional clock)
+					(alternate "GPIO34¹(PD)|F2:UART0.CTS" input line)
+					(alternate "GPIO34¹(PD)|F3:I2C1.SDA" open_collector line)
+					(alternate "GPIO34¹(PD)|F4:PWM9.A" output line)
+					(alternate "GPIO34¹(PD)|F5:SIO" bidirectional line)
+					(alternate "GPIO34¹(PD)|F6:PIO0" bidirectional line)
+					(alternate "GPIO34¹(PD)|F7:PIO1" bidirectional line)
+					(alternate "GPIO34¹(PD)|F8:PIO2" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -25.4 -29.21 0)
+					(length 3.81)
+					(name "GPIO35¹(PD)|GPIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO35¹(PD)|F10:USB.VBUS_EN" output line)
+					(alternate "GPIO35¹(PD)|F11:UART0.RX" input line)
+					(alternate "GPIO35¹(PD)|F1:SPI0.TX" output line)
+					(alternate "GPIO35¹(PD)|F2:UART0.RTS" output line)
+					(alternate "GPIO35¹(PD)|F3:I2C1.SCL" open_collector clock)
+					(alternate "GPIO35¹(PD)|F4:PWM9.B" bidirectional line)
+					(alternate "GPIO35¹(PD)|F5:SIO" bidirectional line)
+					(alternate "GPIO35¹(PD)|F6:PIO0" bidirectional line)
+					(alternate "GPIO35¹(PD)|F7:PIO1" bidirectional line)
+					(alternate "GPIO35¹(PD)|F8:PIO2" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -25.4 -31.75 0)
+					(length 3.81)
+					(name "GPIO36¹(PD)|GPIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO36¹(PD)|F10:USB.OVCUR_DET" input line)
+					(alternate "GPIO36¹(PD)|F1:SPI0.RX" input line)
+					(alternate "GPIO36¹(PD)|F2:UART1.TX" output line)
+					(alternate "GPIO36¹(PD)|F3:I2C0.SDA" open_collector line)
+					(alternate "GPIO36¹(PD)|F4:PWM10.A" output line)
+					(alternate "GPIO36¹(PD)|F5:SIO" bidirectional line)
+					(alternate "GPIO36¹(PD)|F6:PIO0" bidirectional line)
+					(alternate "GPIO36¹(PD)|F7:PIO1" bidirectional line)
+					(alternate "GPIO36¹(PD)|F8:PIO2" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -25.4 -34.29 0)
+					(length 3.81)
+					(name "GPIO37¹(PD)|GPIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO37¹(PD)|F10:USB.VBUS_DET" input line)
+					(alternate "GPIO37¹(PD)|F1:SPI0.~{CS}" bidirectional inverted)
+					(alternate "GPIO37¹(PD)|F2:UART1.RX" input line)
+					(alternate "GPIO37¹(PD)|F3:I2C0.SCL" open_collector clock)
+					(alternate "GPIO37¹(PD)|F4:PWM10.B" bidirectional line)
+					(alternate "GPIO37¹(PD)|F5:SIO" bidirectional line)
+					(alternate "GPIO37¹(PD)|F6:PIO0" bidirectional line)
+					(alternate "GPIO37¹(PD)|F7:PIO1" bidirectional line)
+					(alternate "GPIO37¹(PD)|F8:PIO2" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -25.4 -36.83 0)
+					(length 3.81)
+					(name "GPIO38¹(PD)|GPIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO38¹(PD)|F10:USB.VBUS_EN" output line)
+					(alternate "GPIO38¹(PD)|F11:UART1.TX" output line)
+					(alternate "GPIO38¹(PD)|F1:SPI0.SCK" bidirectional clock)
+					(alternate "GPIO38¹(PD)|F2:UART1.CTS" input line)
+					(alternate "GPIO38¹(PD)|F3:I2C1.SDA" open_collector line)
+					(alternate "GPIO38¹(PD)|F4:PWM11.A" output line)
+					(alternate "GPIO38¹(PD)|F5:SIO" bidirectional line)
+					(alternate "GPIO38¹(PD)|F6:PIO0" bidirectional line)
+					(alternate "GPIO38¹(PD)|F7:PIO1" bidirectional line)
+					(alternate "GPIO38¹(PD)|F8:PIO2" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -25.4 -39.37 0)
+					(length 3.81)
+					(name "GPIO39¹(PD)|GPIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO39¹(PD)|F10:USB.OVCUR_DET" input line)
+					(alternate "GPIO39¹(PD)|F11:UART1.RX" input line)
+					(alternate "GPIO39¹(PD)|F1:SPI0.TX" output line)
+					(alternate "GPIO39¹(PD)|F2:UART1.RTS" output line)
+					(alternate "GPIO39¹(PD)|F3:I2C1.SCL" open_collector clock)
+					(alternate "GPIO39¹(PD)|F4:PWM11.B" bidirectional line)
+					(alternate "GPIO39¹(PD)|F5:SIO" bidirectional line)
+					(alternate "GPIO39¹(PD)|F6:PIO0" bidirectional line)
+					(alternate "GPIO39¹(PD)|F7:PIO1" bidirectional line)
+					(alternate "GPIO39¹(PD)|F8:PIO2" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -25.4 -41.91 0)
+					(length 3.81)
+					(name "GPIO40~(PD)|ADC0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO40~(PD)|F10:USB.VBUS_DET" input line)
+					(alternate "GPIO40~(PD)|F1:SPI1.RX" input line)
+					(alternate "GPIO40~(PD)|F2:UART1.TX" output line)
+					(alternate "GPIO40~(PD)|F3:I2C0.SDA" open_collector line)
+					(alternate "GPIO40~(PD)|F4:PWM8.A" bidirectional line)
+					(alternate "GPIO40~(PD)|F5:SIO" bidirectional line)
+					(alternate "GPIO40~(PD)|F6:PIO0" bidirectional line)
+					(alternate "GPIO40~(PD)|F7:PIO1" bidirectional line)
+					(alternate "GPIO40~(PD)|F8:PIO2" bidirectional line)
+					(alternate "GPIO40~(PD)|GPIO" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -25.4 -44.45 0)
+					(length 3.81)
+					(name "GPIO41~(PD)|ADC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "52"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO41~(PD)|F10:USB.VBUS_EN" output line)
+					(alternate "GPIO41~(PD)|F1:SPI1.~{CS}" bidirectional inverted)
+					(alternate "GPIO41~(PD)|F2:UART1.RX" input line)
+					(alternate "GPIO41~(PD)|F3:I2C0.SCL" open_collector clock)
+					(alternate "GPIO41~(PD)|F4:PWM8.B" bidirectional line)
+					(alternate "GPIO41~(PD)|F5:SIO" bidirectional line)
+					(alternate "GPIO41~(PD)|F6:PIO0" bidirectional line)
+					(alternate "GPIO41~(PD)|F7:PIO1" bidirectional line)
+					(alternate "GPIO41~(PD)|F8:PIO2" bidirectional line)
+					(alternate "GPIO41~(PD)|GPIO" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -25.4 -46.99 0)
+					(length 3.81)
+					(name "GPIO42~(PD)|ADC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "53"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO42~(PD)|F10:USB.OVCUR_DET" input line)
+					(alternate "GPIO42~(PD)|F11:UART1.TX" output line)
+					(alternate "GPIO42~(PD)|F1:SPI1.SCK" bidirectional clock)
+					(alternate "GPIO42~(PD)|F2:UART1.CTS" input line)
+					(alternate "GPIO42~(PD)|F3:I2C1.SDA" open_collector line)
+					(alternate "GPIO42~(PD)|F4:PWM9.A" output line)
+					(alternate "GPIO42~(PD)|F5:SIO" bidirectional line)
+					(alternate "GPIO42~(PD)|F6:PIO0" bidirectional line)
+					(alternate "GPIO42~(PD)|F7:PIO1" bidirectional line)
+					(alternate "GPIO42~(PD)|F8:PIO2" bidirectional line)
+					(alternate "GPIO42~(PD)|GPIO" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -25.4 -49.53 0)
+					(length 3.81)
+					(name "GPIO43~(PD)|ADC3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "54"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO43~(PD)|F10:USB.VBUS_DET" input line)
+					(alternate "GPIO43~(PD)|F11:UART1.RX" input line)
+					(alternate "GPIO43~(PD)|F1:SPI1.TX" output line)
+					(alternate "GPIO43~(PD)|F2:UART1.RTS" output line)
+					(alternate "GPIO43~(PD)|F3:I2C1.SCL" open_collector clock)
+					(alternate "GPIO43~(PD)|F4:PWM9.B" bidirectional line)
+					(alternate "GPIO43~(PD)|F5:SIO" bidirectional line)
+					(alternate "GPIO43~(PD)|F6:PIO0" bidirectional line)
+					(alternate "GPIO43~(PD)|F7:PIO1" bidirectional line)
+					(alternate "GPIO43~(PD)|F8:PIO2" bidirectional line)
+					(alternate "GPIO43~(PD)|GPIO" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -25.4 -52.07 0)
+					(length 3.81)
+					(name "GPIO44~(PD)|ADC4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "55"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO44~(PD)|F10:USB.VBUS_EN" output line)
+					(alternate "GPIO44~(PD)|F1:SPI1.RX" input line)
+					(alternate "GPIO44~(PD)|F2:UART0.TX" output line)
+					(alternate "GPIO44~(PD)|F3:I2C0.SDA" open_collector line)
+					(alternate "GPIO44~(PD)|F4:PWM10.A" output line)
+					(alternate "GPIO44~(PD)|F5:SIO" bidirectional line)
+					(alternate "GPIO44~(PD)|F6:PIO0" bidirectional line)
+					(alternate "GPIO44~(PD)|F7:PIO1" bidirectional line)
+					(alternate "GPIO44~(PD)|F8:PIO2" bidirectional line)
+					(alternate "GPIO44~(PD)|GPIO" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -25.4 -54.61 0)
+					(length 3.81)
+					(name "GPIO45~(PD)|ADC5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "56"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO45~(PD)|F10:USB.OVCUR_DET" input line)
+					(alternate "GPIO45~(PD)|F1:SPI1.~{CS}" bidirectional inverted)
+					(alternate "GPIO45~(PD)|F2:UART0.RX" input line)
+					(alternate "GPIO45~(PD)|F3:I2C0.SCL" open_collector clock)
+					(alternate "GPIO45~(PD)|F4:PWM10.B" bidirectional line)
+					(alternate "GPIO45~(PD)|F5:SIO" bidirectional line)
+					(alternate "GPIO45~(PD)|F6:PIO0" bidirectional line)
+					(alternate "GPIO45~(PD)|F7:PIO1" bidirectional line)
+					(alternate "GPIO45~(PD)|F8:PIO2" bidirectional line)
+					(alternate "GPIO45~(PD)|GPIO" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -25.4 -57.15 0)
+					(length 3.81)
+					(name "GPIO46~(PD)|ADC6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "57"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO46~(PD)|F10:USB.VBUS_DET" input line)
+					(alternate "GPIO46~(PD)|F11:UART0.TX" output line)
+					(alternate "GPIO46~(PD)|F1:SPI1.SCK" bidirectional clock)
+					(alternate "GPIO46~(PD)|F2:UART0.CTS" input line)
+					(alternate "GPIO46~(PD)|F3:I2C1.SDA" open_collector line)
+					(alternate "GPIO46~(PD)|F4:PWM11.A" output line)
+					(alternate "GPIO46~(PD)|F5:SIO" bidirectional line)
+					(alternate "GPIO46~(PD)|F6:PIO0" bidirectional line)
+					(alternate "GPIO46~(PD)|F7:PIO1" bidirectional line)
+					(alternate "GPIO46~(PD)|F8:PIO2" bidirectional line)
+					(alternate "GPIO46~(PD)|GPIO" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -25.4 -59.69 0)
+					(length 3.81)
+					(name "GPIO47~(PD)|ADC7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "58"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GPIO47~(PD)|F10:USB.VBUS_EN" output line)
+					(alternate "GPIO47~(PD)|F11:UART0.RX" input line)
+					(alternate "GPIO47~(PD)|F1:SPI1.TX" output line)
+					(alternate "GPIO47~(PD)|F2:UART0.RTS" output line)
+					(alternate "GPIO47~(PD)|F3:I2C1.SCL" open_collector clock)
+					(alternate "GPIO47~(PD)|F4:PWM11.B" bidirectional line)
+					(alternate "GPIO47~(PD)|F5:SIO" bidirectional line)
+					(alternate "GPIO47~(PD)|F6:PIO0" bidirectional line)
+					(alternate "GPIO47~(PD)|F7:PIO1" bidirectional line)
+					(alternate "GPIO47~(PD)|F8:PIO2" bidirectional line)
+					(alternate "GPIO47~(PD)|F9:QMI.~{CS1}" bidirectional inverted)
+					(alternate "GPIO47~(PD)|GPIO" bidirectional line)
+				)
+				(pin passive line
+					(at 25.4 59.69 180)
+					(length 3.81)
+					(hide yes)
+					(name "IOVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 59.69 180)
+					(length 3.81)
+					(hide yes)
+					(name "IOVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 59.69 180)
+					(length 3.81)
+					(hide yes)
+					(name "IOVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 59.69 180)
+					(length 3.81)
+					(hide yes)
+					(name "IOVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 25.4 59.69 180)
+					(length 3.81)
+					(name "IOVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 59.69 180)
+					(length 3.81)
+					(hide yes)
+					(name "IOVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "50"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 59.69 180)
+					(length 3.81)
+					(hide yes)
+					(name "IOVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "60"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 59.69 180)
+					(length 3.81)
+					(hide yes)
+					(name "IOVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "76"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 25.4 49.53 180)
+					(length 3.81)
+					(name "ADC.AVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "59"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 25.4 25.4 180)
+					(length 3.81)
+					(name "DVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 25.4 180)
+					(length 3.81)
+					(hide yes)
+					(name "DVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 25.4 180)
+					(length 3.81)
+					(hide yes)
+					(name "DVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "51"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 25.4 10.16 180)
+					(length 3.81)
+					(name "VREG.AVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "61"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 25.4 2.54 180)
+					(length 3.81)
+					(name "VREG.VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "64"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 25.4 -5.08 180)
+					(length 3.81)
+					(name "VREG.LX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "63"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 25.4 -12.7 180)
+					(length 3.81)
+					(name "VREG.FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "65"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 25.4 -20.32 180)
+					(length 3.81)
+					(name "VREG.PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "62"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 25.4 -59.69 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "81"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "RP2350B_2_1"
+				(rectangle
+					(start -21.59 24.13)
+					(end 21.59 -24.13)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "GPIO bank 1"
+					(at 20.32 3.175 0)
+					(effects
+						(font
+							(size 2 2)
+							(thickness 0.4)
+							(bold yes)
+						)
+						(justify right)
+					)
+				)
+				(text_box "¹ : 5V tolerant\n² : boot pin"
+					(at 5.08 1.524 0)
+					(size 16.51 -5.334)
+					(margins 1.016 1.016 1.016 1.016)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+					(effects
+						(font
+							(size 1 1)
+						)
+						(justify left top)
+					)
+				)
+				(pin output clock
+					(at -25.4 21.59 0)
+					(length 3.81)
+					(name "QSPI.SCK(PD)|F0:QMI.SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "71"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "QSPI.SCK(PD)|F11:UART1.TX" output line)
+					(alternate "QSPI.SCK(PD)|F2:UART1.CTS" input line)
+					(alternate "QSPI.SCK(PD)|F3:I2C1.SDA" open_collector line)
+					(alternate "QSPI.SCK(PD)|F5:SIO" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -25.4 19.05 0)
+					(length 3.81)
+					(name "QSPI.SD0(PD)|F0:QMI.SD0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "72"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "QSPI.SD0(PD)|F2:UART0.TX" output line)
+					(alternate "QSPI.SD0(PD)|F3:I2C0.SDA" open_collector line)
+					(alternate "QSPI.SD0(PD)|F5:SIO" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -25.4 16.51 0)
+					(length 3.81)
+					(name "QSPI.SD1²(PD)|F0:QMI.SD1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "74"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "QSPI.SD1²(PD)|F2:UART0.RX" input line)
+					(alternate "QSPI.SD1²(PD)|F3:I2C0.SCL" open_collector clock)
+					(alternate "QSPI.SD1²(PD)|F5:SIO" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -25.4 13.97 0)
+					(length 3.81)
+					(name "QSPI.SD2(PU)|F0:QMI.SD2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "73"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "QSPI.SD2(PU)|F11:UART0.TX" output line)
+					(alternate "QSPI.SD2(PU)|F2:UART0.CTS" input line)
+					(alternate "QSPI.SD2(PU)|F3:I2C1.SDA" open_collector line)
+					(alternate "QSPI.SD2(PU)|F5:SIO" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -25.4 11.43 0)
+					(length 3.81)
+					(name "QSPI.SD3(PU)|F0:QMI.SD3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "70"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "QSPI.SD3(PU)|F11:UART0.RX" input line)
+					(alternate "QSPI.SD3(PU)|F2:UART0.RTS" output line)
+					(alternate "QSPI.SD3(PU)|F3:I2C1.SCL" open_collector clock)
+					(alternate "QSPI.SD3(PU)|F5:SIO" bidirectional line)
+				)
+				(pin output inverted
+					(at -25.4 8.89 0)
+					(length 3.81)
+					(name "QSPI.~{SS}²(PU)|F0:QMI.~{CS0}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "75"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "QSPI.~{SS}²(PU)|F11:UART1.RX" input line)
+					(alternate "QSPI.~{SS}²(PU)|F2:UART1.RTS" output line)
+					(alternate "QSPI.~{SS}²(PU)|F3:I2C1.SCL" open_collector clock)
+					(alternate "QSPI.~{SS}²(PU)|F5:SIO" bidirectional line)
+				)
+				(pin bidirectional inverted
+					(at -25.4 -19.05 0)
+					(length 3.81)
+					(name "USB.D-|USB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "66"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "USB.D-|F2:UART1.RX" input line)
+					(alternate "USB.D-|F3:I2C0.SCL" open_collector clock)
+					(alternate "USB.D-|F5:SIO" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -25.4 -21.59 0)
+					(length 3.81)
+					(name "USB.D+|USB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "67"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "USB.D+|F2:UART1.TX" output line)
+					(alternate "USB.D+|F3:I2C0.SDA" open_collector line)
+					(alternate "USB.D+|F5:SIO" bidirectional line)
+				)
+				(pin power_in line
+					(at 25.4 21.59 180)
+					(length 3.81)
+					(name "QSPI.IOVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "69"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at 25.4 8.89 180)
+					(length 3.81)
+					(name "XIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output clock
+					(at 25.4 6.35 180)
+					(length 3.81)
+					(name "XOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at 25.4 -6.35 180)
+					(length 3.81)
+					(name "SWCLK¹"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 -8.89 180)
+					(length 3.81)
+					(name "SWDIO¹"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 25.4 -11.43 180)
+					(length 3.81)
+					(name "RUN¹"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 25.4 -21.59 180)
+					(length 3.81)
+					(name "USB_OTP.VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "68"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "reekilib_mem:mem_flash_spi"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -8.89 11.43 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "mem_flash_spi"
+				(at 8.89 11.43 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify right)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "reekilib_soic:SOIC127PxxxX200-8"
+				(at 0 -22.225 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.winbond.com/hq/support/documentation/downloadV2022.jsp?__locale=en&xmlPath=/support/resources/.content/item/DA00-W25Q32JV_1.html&level=1"
+				(at 0 -18.415 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "flash memory with std JESD216 pinout"
+				(at 0 -20.955 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Link" "https://www.winbond.com/hq/product/code-storage-flash-memory/serial-nor-flash/?__locale=en&partNo=W25Q32JV"
+				(at 0 -19.685 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "W25Q32JVSSIQ"
+				(at 0 -11.43 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "MFG" "Winbond"
+				(at 8.89 -11.43 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mem flash spi soic son dfn"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "reekilib_soic:SOIC127PxxxX200-8 reekilib_dfn:DFN80P400X400X80-9 reekilib_soic:SOIC127P600X150-8 reekilib_soic:SOIC127P788X200-8 reekilib_son:SON127P800X600X60-9"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "mem_flash_spi_0_1"
+				(rectangle
+					(start -8.89 10.16)
+					(end 8.89 -10.16)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "mem_flash_spi_1_1"
+				(pin input clock
+					(at -12.7 7.62 0)
+					(length 3.81)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at -12.7 5.08 0)
+					(length 3.81)
+					(name "~{CS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 2.54 0)
+					(length 3.81)
+					(name "SI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "IO0" bidirectional line)
+				)
+				(pin output line
+					(at -12.7 0 0)
+					(length 3.81)
+					(name "SO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "IO1" bidirectional line)
+				)
+				(pin input inverted
+					(at -12.7 -5.08 0)
+					(length 3.81)
+					(name "~{WP}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "IO2" bidirectional line)
+				)
+				(pin output inverted
+					(at -12.7 -7.62 0)
+					(length 3.81)
+					(name "~{HOLD}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "IO3" bidirectional line)
+				)
+				(pin power_in line
+					(at 12.7 7.62 180)
+					(length 3.81)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 2.54 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "reekilib_pwr:VSS"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "#PWR"
+				(at 0 -4.445 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VSS"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VSS_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0) (xy 0 -1.27) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VSS_1_1"
+				(pin power_in line
+					(at 0 1.27 270)
+					(length 1.27)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text_box "Debug"
+		(exclude_from_sim no)
+		(at 128.27 54.61 0)
+		(size 29.21 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.3)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "337e7437-a0da-4415-870b-dfa561aa8b70")
+	)
+	(text_box "Oscillator"
+		(exclude_from_sim no)
+		(at 128.27 33.02 0)
+		(size 29.21 20.32)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.3)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "a7db4d77-4e4c-4e30-8e83-4f7f448e2e79")
+	)
+	(text_box "Program Mem"
+		(exclude_from_sim no)
+		(at 15.24 16.51 0)
+		(size 39.37 31.75)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.3)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "c8a343ee-f9bd-40dd-86fd-b503dff7f5ad")
+	)
+	(text_box "Host intf"
+		(exclude_from_sim no)
+		(at 15.24 58.42 0)
+		(size 39.37 17.78)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.3)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "d9f0e89a-c8ff-43f4-b703-1d965393df23")
+	)
+	(junction
+		(at 251.46 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "024a1b9a-4ab7-4436-911c-b3da0d410dc3")
+	)
+	(junction
+		(at 276.86 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "166e932d-a64a-4b4b-a7f1-48db7d289df7")
+	)
+	(junction
+		(at 241.3 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32567439-e018-48a2-a6f8-5ce58d99435e")
+	)
+	(junction
+		(at 21.59 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3473fe3a-c3fc-4cb3-a6f3-11c6c5562efc")
+	)
+	(junction
+		(at 251.46 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34f8e909-b8f8-420f-8a56-eea32d8b9d86")
+	)
+	(junction
+		(at 271.78 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5392c2f1-cde4-4df7-bcb7-f1a74477661f")
+	)
+	(junction
+		(at 241.3 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59d7448c-ef34-4743-bde0-eb3a1a8f5916")
+	)
+	(junction
+		(at 246.38 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c7b97b7-bf1b-4589-9dee-712fb1435a63")
+	)
+	(junction
+		(at 266.7 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d7ba989-7a48-4ca8-b939-c5501ff61fd0")
+	)
+	(junction
+		(at 256.54 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9206c048-03e5-4362-8f57-ecd2612f9ab8")
+	)
+	(junction
+		(at 276.86 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a084c305-e893-4713-a260-c39bb608c622")
+	)
+	(junction
+		(at 256.54 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5ebf1dd-f3f6-4b06-9fc1-38c7e88e2c8e")
+	)
+	(junction
+		(at 246.38 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbf38b38-1eb7-4648-bf64-c2ec2439bada")
+	)
+	(junction
+		(at 261.62 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c27026f5-a765-4ffa-9032-3281de1865cc")
+	)
+	(junction
+		(at 266.7 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cad960c7-699c-4a83-9e6a-13e73579bde3")
+	)
+	(junction
+		(at 246.38 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf78412a-3812-4e44-b66e-37c4692961fe")
+	)
+	(junction
+		(at 246.38 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0b7903b-e2a6-4faf-988f-2ba77496f91f")
+	)
+	(junction
+		(at 21.59 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6713f3d-534f-4ac4-a832-66a65608944f")
+	)
+	(junction
+		(at 121.92 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eeaf11d1-9293-45b8-bd70-1ca924ce49f7")
+	)
+	(junction
+		(at 261.62 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4de6ed2-ef41-4d63-b4c0-0c66e12aa1c8")
+	)
+	(junction
+		(at 271.78 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7fc09ed-2b73-4839-8d2f-9fb0c6ebe212")
+	)
+	(junction
+		(at 121.92 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fba25fce-29f2-4109-882a-32b015f01d30")
+	)
+	(junction
+		(at 251.46 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff9066a9-98ce-4d50-aba8-4b720a4b8a80")
+	)
+	(bus_entry
+		(at 27.94 69.85)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "078f2cae-e49c-4088-a235-c5ea0f353b85")
+	)
+	(bus_entry
+		(at 27.94 67.31)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cab486f-0b58-4d05-9c0a-5cf68410cdeb")
+	)
+	(wire
+		(pts
+			(xy 55.88 34.29) (xy 69.85 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "021d75cb-4edf-438f-bc03-6c21adf6bd91")
+	)
+	(wire
+		(pts
+			(xy 241.3 53.34) (xy 246.38 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0284717b-0736-4b5f-a749-d98d827ebe6b")
+	)
+	(wire
+		(pts
+			(xy 49.53 36.83) (xy 69.85 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06d46ce4-7fc5-4caa-a0dd-e1851d2a7b4c")
+	)
+	(wire
+		(pts
+			(xy 251.46 58.42) (xy 256.54 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08165429-919a-42a3-b9fa-2e79bb9712ce")
+	)
+	(wire
+		(pts
+			(xy 240.03 87.63) (xy 241.3 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13b489f3-6c32-411e-83a0-3c97f59980c9")
+	)
+	(wire
+		(pts
+			(xy 256.54 53.34) (xy 261.62 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e902b08-0435-46c7-918f-e809f0bf7073")
+	)
+	(wire
+		(pts
+			(xy 266.7 53.34) (xy 271.78 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21a0981b-084d-429b-acdf-8fde38cc0ca5")
+	)
+	(wire
+		(pts
+			(xy 52.07 26.67) (xy 49.53 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22a42e4b-b8db-4885-9882-1eae02a533cb")
+	)
+	(wire
+		(pts
+			(xy 241.3 64.77) (xy 241.3 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "263c5e23-4bd8-44d7-a08b-f82006df990c")
+	)
+	(wire
+		(pts
+			(xy 30.48 69.85) (xy 55.88 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28bc6a07-e196-42fc-90ee-fbbfdf3fead9")
+	)
+	(wire
+		(pts
+			(xy 246.38 58.42) (xy 251.46 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a14ee70-7eb2-4d61-b044-2b963fbf5c52")
+	)
+	(wire
+		(pts
+			(xy 121.92 27.94) (xy 121.92 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b0caaf5-f198-4c0e-a4da-ba250e41e91f")
+	)
+	(wire
+		(pts
+			(xy 58.42 29.21) (xy 58.42 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a1afd8f-d68d-4386-97df-0e4b4e029fe7")
+	)
+	(wire
+		(pts
+			(xy 24.13 29.21) (xy 21.59 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c1f420a-e36c-483b-8d91-aaa80bfe7528")
+	)
+	(wire
+		(pts
+			(xy 256.54 58.42) (xy 261.62 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4111aadb-60e1-4a9e-b6ed-43bac750a7c8")
+	)
+	(wire
+		(pts
+			(xy 241.3 63.5) (xy 240.03 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a7c04ff-46cb-4ef8-b1a7-e02792e0dd5f")
+	)
+	(wire
+		(pts
+			(xy 240.03 133.35) (xy 241.3 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c5a21e8-fa16-4f31-9a15-e619a6ffe36d")
+	)
+	(wire
+		(pts
+			(xy 241.3 173.99) (xy 241.3 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d8df63d-9929-44f0-8c4c-de27b2ae4f29")
+	)
+	(wire
+		(pts
+			(xy 281.94 58.42) (xy 281.94 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ddef570-77ba-4a9f-ab40-7d018747bbc4")
+	)
+	(wire
+		(pts
+			(xy 246.38 53.34) (xy 251.46 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5998b14e-51e2-4d94-8cea-ad416c377213")
+	)
+	(wire
+		(pts
+			(xy 251.46 53.34) (xy 256.54 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60968324-e8f0-4d97-a303-3490b873cf7a")
+	)
+	(bus
+		(pts
+			(xy 27.94 67.31) (xy 27.94 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61bfc22a-b69d-4777-ad5d-677c50bf7bea")
+	)
+	(wire
+		(pts
+			(xy 49.53 39.37) (xy 69.85 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ccf4438-c7b5-465a-bc26-57b8fc2bdb0b")
+	)
+	(wire
+		(pts
+			(xy 55.88 31.75) (xy 55.88 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70fb04b2-95f1-4ad2-98d8-e95f03c375d0")
+	)
+	(wire
+		(pts
+			(xy 271.78 58.42) (xy 276.86 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "767eb873-3fd7-4196-8125-fb0a91391868")
+	)
+	(wire
+		(pts
+			(xy 246.38 92.71) (xy 251.46 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80410b8d-2c01-40fb-9b26-366f2001607a")
+	)
+	(wire
+		(pts
+			(xy 276.86 58.42) (xy 281.94 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81c9e0cf-1d7b-4e6a-b63d-659a001d29f9")
+	)
+	(wire
+		(pts
+			(xy 49.53 24.13) (xy 58.42 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "886fb601-71b8-4d16-8474-e44295c09908")
+	)
+	(wire
+		(pts
+			(xy 57.15 31.75) (xy 57.15 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a6c2fdc-6032-4a4b-9b1a-6bfaa8938020")
+	)
+	(wire
+		(pts
+			(xy 266.7 58.42) (xy 271.78 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9201bdab-5af4-47d7-9d34-d8805caf1aa1")
+	)
+	(wire
+		(pts
+			(xy 121.92 71.12) (xy 121.92 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9345a2f6-76a5-4372-9b93-47e08efd9bc2")
+	)
+	(wire
+		(pts
+			(xy 246.38 87.63) (xy 251.46 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94662485-708f-47fe-b7d8-f540c44e3e1e")
+	)
+	(bus
+		(pts
+			(xy 27.94 66.04) (xy 27.94 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9786b327-89d1-497b-973c-c0600b76e41f")
+	)
+	(wire
+		(pts
+			(xy 21.59 24.13) (xy 24.13 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98f7f95d-fd1e-449e-9e4d-2d2e76e32f94")
+	)
+	(wire
+		(pts
+			(xy 120.65 72.39) (xy 121.92 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "990fae4a-a218-4305-bfe1-a2dc261d8298")
+	)
+	(wire
+		(pts
+			(xy 241.3 133.35) (xy 241.3 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9944a251-a32b-406a-b296-2e71dd74dfa1")
+	)
+	(wire
+		(pts
+			(xy 271.78 53.34) (xy 276.86 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99f0e396-61ca-40ad-a575-3942d9aa863b")
+	)
+	(wire
+		(pts
+			(xy 21.59 29.21) (xy 21.59 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d263b86-b208-4533-ac00-2f9a12b91d27")
+	)
+	(wire
+		(pts
+			(xy 251.46 92.71) (xy 251.46 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d7850de-24b4-4727-802f-81cc09590653")
+	)
+	(wire
+		(pts
+			(xy 21.59 22.86) (xy 21.59 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a259098b-fc87-47fe-8870-dd953e2fe3bc")
+	)
+	(wire
+		(pts
+			(xy 261.62 53.34) (xy 266.7 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a31759d7-f5fe-477c-a3db-564a0088dca3")
+	)
+	(bus
+		(pts
+			(xy 26.67 66.04) (xy 27.94 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5d386c4-9898-40e5-be97-945abcda3286")
+	)
+	(wire
+		(pts
+			(xy 241.3 58.42) (xy 246.38 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a79003e2-712e-4959-b631-bb0a99df66b1")
+	)
+	(wire
+		(pts
+			(xy 30.48 72.39) (xy 55.88 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa83091a-9146-4ade-ae56-c0bd0f6587f7")
+	)
+	(wire
+		(pts
+			(xy 69.85 31.75) (xy 57.15 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2330810-e56a-4a39-b710-4c3ae476bbd8")
+	)
+	(wire
+		(pts
+			(xy 241.3 92.71) (xy 246.38 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b293c9ca-6db0-4834-9120-1ea819aa1334")
+	)
+	(wire
+		(pts
+			(xy 52.07 41.91) (xy 52.07 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6f39928-0a74-4cd3-8f9e-0352b5e94e26")
+	)
+	(wire
+		(pts
+			(xy 55.88 31.75) (xy 49.53 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7fbb0a1-326d-4673-bda5-be4f89d9bf43")
+	)
+	(wire
+		(pts
+			(xy 69.85 41.91) (xy 52.07 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf9a57f1-7893-4a4d-9a8b-e02933500f36")
+	)
+	(wire
+		(pts
+			(xy 276.86 53.34) (xy 281.94 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfef37cb-7180-4ffa-ae83-dbe5810584f8")
+	)
+	(wire
+		(pts
+			(xy 57.15 29.21) (xy 49.53 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4d67af7-7b15-4327-b0c9-b0ffba8df7e5")
+	)
+	(wire
+		(pts
+			(xy 120.65 29.21) (xy 121.92 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0b62155-8939-4a3e-9de5-f58e910d7046")
+	)
+	(wire
+		(pts
+			(xy 241.3 87.63) (xy 246.38 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3d979d1-ab26-4a58-bdae-07a3f5a8f378")
+	)
+	(wire
+		(pts
+			(xy 240.03 53.34) (xy 241.3 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d77a9a6b-2750-4477-9a3c-39893144a6ed")
+	)
+	(wire
+		(pts
+			(xy 261.62 58.42) (xy 266.7 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df0a335f-b3c1-4437-9048-93ee5e492637")
+	)
+	(wire
+		(pts
+			(xy 69.85 29.21) (xy 58.42 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee41b953-2163-4d3c-990b-504c7404446a")
+	)
+	(wire
+		(pts
+			(xy 281.94 52.07) (xy 281.94 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0d57a4c-2768-4a0d-b4ce-f38313c41bff")
+	)
+	(wire
+		(pts
+			(xy 241.3 172.72) (xy 240.03 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f697a102-737c-4e36-9031-6ecb8298ed72")
+	)
+	(label "QSPI.SCK"
+		(at 68.58 29.21 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "299f0262-e465-4f2e-9301-5c50c67c4064")
+	)
+	(label "QSPI.~{CS}"
+		(at 68.58 41.91 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "4f448dbe-ddcd-41bc-8482-4839119aefc4")
+	)
+	(label "QSPI.D0"
+		(at 68.58 31.75 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "846dd72a-680f-4898-be78-e6c7747faa86")
+	)
+	(label "USB.D+"
+		(at 33.02 72.39 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "893e0556-d74f-4766-ad94-2d9d306af9f9")
+	)
+	(label "USB.D-"
+		(at 33.02 69.85 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "a948e5fc-0eb6-4272-95d7-1966ee5f5753")
+	)
+	(label "QSPI.D2"
+		(at 68.58 36.83 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "afde534c-f3f7-4f2d-bf34-aa2bef5f2798")
+	)
+	(label "QSPI.D3"
+		(at 68.58 39.37 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "d49a55fc-535c-4362-8bb5-fe18d602c156")
+	)
+	(label "QSPI.D1"
+		(at 68.58 34.29 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "e0893673-57a9-4fcc-bc99-a428871cc51c")
+	)
+	(hierarchical_label "USB{USB2}"
+		(shape bidirectional)
+		(at 26.67 66.04 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "c2fdfde9-00d1-4fcb-a216-8685d9009b01")
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 49.53 21.59) (xy 49.53 44.45) (xy 69.85 44.45) (xy 69.85 21.59)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 0e62f553-9b5e-423c-b113-ff8241fda45b)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape diamond)
+		(at 67.31 21.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "b337be75-90d2-4fd0-a13b-7ae6efe65b5c")
+		(property "Netclass" "QSPI"
+			(at 66.2127 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at 222.25 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_cap:cap")
+		(at 271.78 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "05f0a5da-c83b-40a5-aa8a-22097b2c3dc1")
+		(property "Reference" "C21"
+			(at 271.78 47.371 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "${Capacitance}, ${Voltage}, ${Dielectric}"
+			(at 274.32 55.118 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "reekilib_cap:CAPC1005"
+			(at 271.78 65.532 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
+			(at 271.78 70.358 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Non polarized capacitor"
+			(at 271.78 67.31 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.passivecomponent.com/product-search/MLCC/?partnumber=0402B104K160CT"
+			(at 271.78 68.834 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "100nF"
+			(at 271.78 48.895 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 271.78 50.419 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 271.78 51.943 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "MPN" "0402B104K160CT"
+			(at 271.78 74.676 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Walsin Technology Corporation"
+			(at 283.718 74.676 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN2" "CL05B104KA5NNNC"
+			(at 271.78 76.2 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG2" "Samsung Electro-Mechanics"
+			(at 283.718 76.2 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN3" "EMK105B7104KV-F"
+			(at 271.78 77.724 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG3" "Taiyo Yuden"
+			(at 283.718 77.724 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN4" "CC0402KRX7R7BB104"
+			(at 271.78 79.248 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG4" "YAGEO"
+			(at 283.972 79.248 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f354c992-4adf-41fc-bc28-a6d8e83f26f5")
+		)
+		(pin "1"
+			(uuid "cc41030a-a489-48ae-863d-5e0f00bf1cef")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/57ec90ce-deb5-4a52-b1c0-0a997012959b/d2a190b7-8486-4aae-97c0-33ac8d90da8a"
+					(reference "C21")
+					(unit 1)
+				)
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/f774142b-755f-468a-93e0-eecae9257f8f/8e05de8b-3536-4686-b4df-144081dee611"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_pwr:VSS")
+		(at 121.92 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "109ae979-f4c0-44b6-8ab4-dc2aaeecd882")
+		(property "Reference" "#PWR016"
+			(at 121.92 40.005 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSS"
+			(at 121.92 38.1 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 35.56 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 33.02 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "860577b6-f1e9-4a2a-a860-c7ef8c4b4612")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/57ec90ce-deb5-4a52-b1c0-0a997012959b/d2a190b7-8486-4aae-97c0-33ac8d90da8a"
+					(reference "#PWR016")
+					(unit 1)
+				)
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/f774142b-755f-468a-93e0-eecae9257f8f/8e05de8b-3536-4686-b4df-144081dee611"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_mcu:RP2350B")
+		(at 214.63 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "176c40fa-f7fd-4b51-8ff0-914845b56f54")
+		(property "Reference" "U3"
+			(at 194.31 49.53 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RP2350B"
+			(at 234.95 49.53 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "reekilib_qfn:QFN40P1000X1000-81"
+			(at 214.63 176.53 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://pip-assets.raspberrypi.com/categories/1214-rp2350/documents/RP-008373-DS-2-rp2350-datasheet.pdf?disposition=inline"
+			(at 214.63 178.435 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Cortex-M33 or RISC-V 150MHz"
+			(at 214.63 180.34 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RP2350B-TR13"
+			(at 214.63 182.245 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Raspberry Pi"
+			(at 226.06 182.245 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.raspberrypi.com/products/rp2350/"
+			(at 214.63 186.055 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" "RP2350B-TR7"
+			(at 214.63 184.15 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG2" "Raspberry Pi"
+			(at 226.06 184.15 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Link2" "https://www.raspberrypi.com/products/rp2350/"
+			(at 214.63 187.96 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "61"
+			(uuid "288d295f-3c1d-4fcc-8aeb-8f0d733ba0f4")
+		)
+		(pin "50"
+			(uuid "21115471-a671-4639-a959-ecd0cba88f5a")
+		)
+		(pin "33"
+			(uuid "6054916a-6a09-48bf-b784-4966d673ff7a")
+		)
+		(pin "52"
+			(uuid "f803de37-00c0-4456-8abc-16d28aee6b2b")
+		)
+		(pin "3"
+			(uuid "9ee97fde-6fb5-4483-84f7-1c6680ca8d5c")
+		)
+		(pin "80"
+			(uuid "d6030278-6739-44c0-afac-114be82a42f4")
+		)
+		(pin "79"
+			(uuid "b5cf1a5e-d6f0-4900-a5e7-7e9cf14b0596")
+		)
+		(pin "75"
+			(uuid "533145e4-f6a1-48d8-a241-dc07c6345699")
+		)
+		(pin "28"
+			(uuid "355b2f16-4924-46ed-8ff0-3d15f30a5e7a")
+		)
+		(pin "46"
+			(uuid "933968a6-ba22-4384-960f-f4f8570911b5")
+		)
+		(pin "54"
+			(uuid "01a3df0c-2bf6-4fc1-b349-e7c3ed95d5eb")
+		)
+		(pin "63"
+			(uuid "42040589-3d43-4732-a6d1-da690ff62550")
+		)
+		(pin "4"
+			(uuid "c8885b29-7aed-4a28-963a-96966008d86f")
+		)
+		(pin "36"
+			(uuid "3a4912f9-3e65-43a1-baca-bc0f0d50fc54")
+		)
+		(pin "68"
+			(uuid "d5ef5cb1-edf1-47b3-bde5-ce362d329d86")
+		)
+		(pin "51"
+			(uuid "fe5927ce-3d79-489a-a802-1a9496c5c30c")
+		)
+		(pin "58"
+			(uuid "09f8b287-0bae-43b9-813f-45276b69617e")
+		)
+		(pin "60"
+			(uuid "c031afd2-8727-474f-9c06-f4c5a1bc748d")
+		)
+		(pin "18"
+			(uuid "5351f2ed-f49e-4ef2-8d2b-1b5faa0eb714")
+		)
+		(pin "65"
+			(uuid "e339dabc-c795-47bf-8b3b-0a24ae8c6336")
+		)
+		(pin "1"
+			(uuid "9abf6517-c9d3-4f61-8d17-b6e7d7b34727")
+		)
+		(pin "74"
+			(uuid "4d937f4e-918e-4b69-8900-cf5650d45683")
+		)
+		(pin "38"
+			(uuid "f24d71ab-db2d-473f-ba2c-269a875d67b4")
+		)
+		(pin "14"
+			(uuid "fafb814e-7a50-456f-b3b9-50b4d116119a")
+		)
+		(pin "53"
+			(uuid "5ab33497-b711-44a6-848a-64eb1783b341")
+		)
+		(pin "45"
+			(uuid "2d169947-d1e6-4315-87f2-b38026385160")
+		)
+		(pin "81"
+			(uuid "a59400c7-8ceb-464c-afcf-2f0e3d3a287b")
+		)
+		(pin "32"
+			(uuid "880dc425-2c91-42ce-8471-66822a631b3b")
+		)
+		(pin "64"
+			(uuid "1770d178-3bdd-4bf0-b133-5177dd03d567")
+		)
+		(pin "12"
+			(uuid "75edaa4c-7287-418c-9ce1-8134febf5ae6")
+		)
+		(pin "27"
+			(uuid "582b693b-4154-4aed-9a0a-ee9c636dd297")
+		)
+		(pin "56"
+			(uuid "4a9b195b-b4c4-4733-a6ed-23c2a8589bb5")
+		)
+		(pin "8"
+			(uuid "7ad3887f-eee3-4147-bb49-11946f378e11")
+		)
+		(pin "13"
+			(uuid "5a33c164-629e-4ece-b7b1-f4ef7e74c0ff")
+		)
+		(pin "19"
+			(uuid "331b90fb-e519-4a89-82d0-4f40163d392d")
+		)
+		(pin "31"
+			(uuid "c056254d-1c71-4516-9487-2f507240c9d4")
+		)
+		(pin "6"
+			(uuid "c3d663d5-9fa6-4559-9e08-5b3e90c45853")
+		)
+		(pin "44"
+			(uuid "c18e9953-b37e-467d-a670-d21984065f2c")
+		)
+		(pin "41"
+			(uuid "fbc61d77-18a9-4bed-b0b0-36c742119857")
+		)
+		(pin "48"
+			(uuid "f0463ba7-d323-484c-b46a-b2a2f4d30619")
+		)
+		(pin "49"
+			(uuid "30b6e4a1-1a85-40d5-bf30-34c5f38ee04b")
+		)
+		(pin "71"
+			(uuid "972955c2-984d-4864-93d3-47e59b0833e5")
+		)
+		(pin "57"
+			(uuid "e9873937-a8fc-4c89-a859-d660b600bf34")
+		)
+		(pin "34"
+			(uuid "04971b21-22a8-4c13-b38b-b9614ece11db")
+		)
+		(pin "39"
+			(uuid "a7659ed0-8436-45e8-93d7-17086c1f355b")
+		)
+		(pin "47"
+			(uuid "91818175-101d-4536-8072-40b0d9dde3e0")
+		)
+		(pin "30"
+			(uuid "1f210144-51f0-4e59-9a13-3a0eaee8e335")
+		)
+		(pin "11"
+			(uuid "10cbb1a4-0bb7-40d7-bdb1-2645bab62f64")
+		)
+		(pin "24"
+			(uuid "bcc729d3-34ae-4ecc-905e-c0e4fd15b1b9")
+		)
+		(pin "43"
+			(uuid "217d6f0e-c812-4ced-9f9d-8bc5d0c5e917")
+		)
+		(pin "26"
+			(uuid "7c845027-1360-4895-b8f7-c2b35ab3e125")
+		)
+		(pin "55"
+			(uuid "cef72aa0-01a8-4e7d-bf38-8e2e5c33faa8")
+		)
+		(pin "69"
+			(uuid "cc5cc6d0-7b04-4eb8-a453-77efb80cc1fe")
+		)
+		(pin "16"
+			(uuid "31d10570-98c7-4376-88be-a03e8b485d30")
+		)
+		(pin "10"
+			(uuid "464a4572-d080-4708-b828-42f68b86f2f7")
+		)
+		(pin "37"
+			(uuid "82516807-85ae-4b26-8db4-9392ed90276d")
+		)
+		(pin "67"
+			(uuid "08ee7e39-dd24-4e81-9691-56f849810786")
+		)
+		(pin "59"
+			(uuid "c2aff742-a345-4889-a780-c7c53620fdf6")
+		)
+		(pin "40"
+			(uuid "53b15d86-a779-4ceb-98db-557ba0e779fb")
+		)
+		(pin "20"
+			(uuid "eac876ea-c2f0-44a9-bcb5-691e98caa507")
+		)
+		(pin "7"
+			(uuid "6e7b85fd-4b7f-440d-ad48-a3b88bd60f59")
+		)
+		(pin "77"
+			(uuid "c7075041-bf5d-4207-8bf4-5f2089f47677")
+		)
+		(pin "29"
+			(uuid "77607593-89f1-4cb9-8a60-be2f19c4147f")
+		)
+		(pin "2"
+			(uuid "e5bccf93-e625-4bb2-91f6-62cd5aa13914")
+		)
+		(pin "78"
+			(uuid "c04993f4-7e2d-4ece-9733-4188470a7b0b")
+		)
+		(pin "9"
+			(uuid "dfbbab23-2d9f-49ff-be22-f0abe8e90ae7")
+		)
+		(pin "21"
+			(uuid "23ede246-83ee-4ba0-82b4-b8b7baf07739")
+		)
+		(pin "22"
+			(uuid "9f8e3cd4-e9ac-42cf-82fa-4690a70987a8")
+		)
+		(pin "17"
+			(uuid "cf888684-bf73-4a2d-aae8-56f2ab4f5392")
+		)
+		(pin "25"
+			(uuid "d78bd055-258a-4bec-9622-ab0d5ff7db1a")
+		)
+		(pin "23"
+			(uuid "785852a9-5b32-4bb6-8a60-4319d474e719")
+		)
+		(pin "42"
+			(uuid "fb96a563-ed6d-451d-b940-c4930dd4a132")
+		)
+		(pin "15"
+			(uuid "f8f902fd-0d70-4e59-9c63-c8327fb602b8")
+		)
+		(pin "72"
+			(uuid "c8f9c341-045d-4582-b1cd-66228a5af0ca")
+		)
+		(pin "73"
+			(uuid "74b9791e-087e-4588-a8d5-1ed832122f6d")
+		)
+		(pin "76"
+			(uuid "6fad8c0d-b32a-475e-8050-a1e5827b7b4a")
+		)
+		(pin "70"
+			(uuid "c60a4459-e7f5-4480-be13-726e1769c6bb")
+		)
+		(pin "62"
+			(uuid "94bb056d-2517-4e45-8250-35d15b71d67d")
+		)
+		(pin "66"
+			(uuid "0509ef79-b656-4ff0-be98-53ec0edac90a")
+		)
+		(pin "35"
+			(uuid "b649ebd9-c014-432f-a5f8-49ff0bb8c80e")
+		)
+		(pin "5"
+			(uuid "4b22c267-45b3-4c56-94b4-672c865f04d1")
+		)
+		(instances
+			(project ""
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/57ec90ce-deb5-4a52-b1c0-0a997012959b/d2a190b7-8486-4aae-97c0-33ac8d90da8a"
+					(reference "U3")
+					(unit 1)
+				)
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/f774142b-755f-468a-93e0-eecae9257f8f/8e05de8b-3536-4686-b4df-144081dee611"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_cap:cap")
+		(at 121.92 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ac59ed6-29ee-41fc-b418-cd9bf4d18f14")
+		(property "Reference" "C5"
+			(at 124.46 72.644 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "${Capacitance}, ${Voltage}, ${Dielectric}"
+			(at 124.46 74.168 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "reekilib_cap:CAPC1005"
+			(at 121.92 84.582 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
+			(at 121.92 89.408 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Non polarized capacitor"
+			(at 121.92 86.36 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.passivecomponent.com/product-search/MLCC/?partnumber=0402B104K160CT"
+			(at 121.92 87.884 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "100nF"
+			(at 124.46 74.168 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 124.46 75.692 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 124.46 77.216 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "0402B104K160CT"
+			(at 121.92 93.726 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Walsin Technology Corporation"
+			(at 133.858 93.726 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN2" "CL05B104KA5NNNC"
+			(at 121.92 95.25 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG2" "Samsung Electro-Mechanics"
+			(at 133.858 95.25 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN3" "EMK105B7104KV-F"
+			(at 121.92 96.774 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG3" "Taiyo Yuden"
+			(at 133.858 96.774 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN4" "CC0402KRX7R7BB104"
+			(at 121.92 98.298 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG4" "YAGEO"
+			(at 134.112 98.298 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d5fdc3a9-da7c-4c58-8b53-b560a16bc033")
+		)
+		(pin "1"
+			(uuid "1d932f93-35c5-4fe5-9357-8881a7b8ede6")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/57ec90ce-deb5-4a52-b1c0-0a997012959b/d2a190b7-8486-4aae-97c0-33ac8d90da8a"
+					(reference "C5")
+					(unit 1)
+				)
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/f774142b-755f-468a-93e0-eecae9257f8f/8e05de8b-3536-4686-b4df-144081dee611"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_cap:cap")
+		(at 241.3 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33560ca2-9251-4ab5-87e1-e2bc1e345988")
+		(property "Reference" "C25"
+			(at 243.84 65.024 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "${Capacitance}, ${Voltage}, ${Dielectric}"
+			(at 243.84 66.548 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "reekilib_cap:CAPC1005"
+			(at 241.3 76.962 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
+			(at 241.3 81.788 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Non polarized capacitor"
+			(at 241.3 78.74 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.passivecomponent.com/product-search/MLCC/?partnumber=0402B104K160CT"
+			(at 241.3 80.264 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "100nF"
+			(at 243.84 66.548 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 243.84 68.072 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 243.84 69.596 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "0402B104K160CT"
+			(at 241.3 86.106 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Walsin Technology Corporation"
+			(at 253.238 86.106 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN2" "CL05B104KA5NNNC"
+			(at 241.3 87.63 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG2" "Samsung Electro-Mechanics"
+			(at 253.238 87.63 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN3" "EMK105B7104KV-F"
+			(at 241.3 89.154 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG3" "Taiyo Yuden"
+			(at 253.238 89.154 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN4" "CC0402KRX7R7BB104"
+			(at 241.3 90.678 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG4" "YAGEO"
+			(at 253.492 90.678 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6ea842a9-0e2c-446d-919c-93e873913dae")
+		)
+		(pin "1"
+			(uuid "c06205a9-7b59-430f-84ae-4fb4c37a3b75")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/57ec90ce-deb5-4a52-b1c0-0a997012959b/d2a190b7-8486-4aae-97c0-33ac8d90da8a"
+					(reference "C25")
+					(unit 1)
+				)
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/f774142b-755f-468a-93e0-eecae9257f8f/8e05de8b-3536-4686-b4df-144081dee611"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_pwr:VSS")
+		(at 21.59 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "33f488d9-e6ce-46bb-8851-1fb6cf212c47")
+		(property "Reference" "#PWR09"
+			(at 21.59 36.195 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSS"
+			(at 21.59 34.29 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 31.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 29.21 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 21.59 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eaa4b4c4-cf69-4766-8b4a-039df29b8fb0")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/57ec90ce-deb5-4a52-b1c0-0a997012959b/d2a190b7-8486-4aae-97c0-33ac8d90da8a"
+					(reference "#PWR09")
+					(unit 1)
+				)
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/f774142b-755f-468a-93e0-eecae9257f8f/8e05de8b-3536-4686-b4df-144081dee611"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_pwr:VSS")
+		(at 241.3 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "6092729f-1858-42f2-8e1d-7d2f607e5643")
+		(property "Reference" "#PWR011"
+			(at 241.3 140.335 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSS"
+			(at 241.3 138.43 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 135.89 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 133.35 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47bbf1cb-fdc9-41af-96c3-a9d63bc8c7f1")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/57ec90ce-deb5-4a52-b1c0-0a997012959b/d2a190b7-8486-4aae-97c0-33ac8d90da8a"
+					(reference "#PWR011")
+					(unit 1)
+				)
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/f774142b-755f-468a-93e0-eecae9257f8f/8e05de8b-3536-4686-b4df-144081dee611"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_cap:cap")
+		(at 251.46 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65f54796-81c7-45eb-a48a-6f6377bb5e72")
+		(property "Reference" "C13"
+			(at 251.46 47.371 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "${Capacitance}, ${Voltage}, ${Dielectric}"
+			(at 254 55.118 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "reekilib_cap:CAPC1005"
+			(at 251.46 65.532 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
+			(at 251.46 70.358 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Non polarized capacitor"
+			(at 251.46 67.31 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.passivecomponent.com/product-search/MLCC/?partnumber=0402B104K160CT"
+			(at 251.46 68.834 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "100nF"
+			(at 251.46 48.895 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 251.46 50.419 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 251.46 51.943 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "MPN" "0402B104K160CT"
+			(at 251.46 74.676 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Walsin Technology Corporation"
+			(at 263.398 74.676 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN2" "CL05B104KA5NNNC"
+			(at 251.46 76.2 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG2" "Samsung Electro-Mechanics"
+			(at 263.398 76.2 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN3" "EMK105B7104KV-F"
+			(at 251.46 77.724 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG3" "Taiyo Yuden"
+			(at 263.398 77.724 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN4" "CC0402KRX7R7BB104"
+			(at 251.46 79.248 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG4" "YAGEO"
+			(at 263.652 79.248 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "afa8e36e-0d24-4f13-96c7-f7849fd00887")
+		)
+		(pin "1"
+			(uuid "a4318ecb-3557-4a96-8f7a-8bd7c24f30c9")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/57ec90ce-deb5-4a52-b1c0-0a997012959b/d2a190b7-8486-4aae-97c0-33ac8d90da8a"
+					(reference "C13")
+					(unit 1)
+				)
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/f774142b-755f-468a-93e0-eecae9257f8f/8e05de8b-3536-4686-b4df-144081dee611"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_cap:cap")
+		(at 276.86 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e28e64a-30e9-43d0-8def-5e57fd46df5d")
+		(property "Reference" "C23"
+			(at 276.86 47.371 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "${Capacitance}, ${Voltage}, ${Dielectric}"
+			(at 279.4 55.118 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "reekilib_cap:CAPC1005"
+			(at 276.86 65.532 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
+			(at 276.86 70.358 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Non polarized capacitor"
+			(at 276.86 67.31 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.passivecomponent.com/product-search/MLCC/?partnumber=0402B104K160CT"
+			(at 276.86 68.834 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "100nF"
+			(at 276.86 48.895 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 276.86 50.419 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 276.86 51.943 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "MPN" "0402B104K160CT"
+			(at 276.86 74.676 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Walsin Technology Corporation"
+			(at 288.798 74.676 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN2" "CL05B104KA5NNNC"
+			(at 276.86 76.2 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG2" "Samsung Electro-Mechanics"
+			(at 288.798 76.2 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN3" "EMK105B7104KV-F"
+			(at 276.86 77.724 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG3" "Taiyo Yuden"
+			(at 288.798 77.724 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN4" "CC0402KRX7R7BB104"
+			(at 276.86 79.248 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG4" "YAGEO"
+			(at 289.052 79.248 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a4ccde79-fa08-46e4-9bfb-0d5bcf492d0f")
+		)
+		(pin "1"
+			(uuid "7cbea0ba-88c2-42b0-a7f1-f28e1921911b")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/57ec90ce-deb5-4a52-b1c0-0a997012959b/d2a190b7-8486-4aae-97c0-33ac8d90da8a"
+					(reference "C23")
+					(unit 1)
+				)
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/f774142b-755f-468a-93e0-eecae9257f8f/8e05de8b-3536-4686-b4df-144081dee611"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_cap:cap")
+		(at 241.3 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a774e23-b5af-4b98-bdcd-b90e117f782b")
+		(property "Reference" "C9"
+			(at 241.3 47.371 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "${Capacitance}, ${Voltage}, ${Dielectric}"
+			(at 243.84 55.118 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "reekilib_cap:CAPC1005"
+			(at 241.3 65.532 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
+			(at 241.3 70.358 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Non polarized capacitor"
+			(at 241.3 67.31 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.passivecomponent.com/product-search/MLCC/?partnumber=0402B104K160CT"
+			(at 241.3 68.834 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "100nF"
+			(at 241.3 48.895 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 241.3 50.419 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 241.3 51.943 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "MPN" "0402B104K160CT"
+			(at 241.3 74.676 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Walsin Technology Corporation"
+			(at 253.238 74.676 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN2" "CL05B104KA5NNNC"
+			(at 241.3 76.2 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG2" "Samsung Electro-Mechanics"
+			(at 253.238 76.2 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN3" "EMK105B7104KV-F"
+			(at 241.3 77.724 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG3" "Taiyo Yuden"
+			(at 253.238 77.724 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN4" "CC0402KRX7R7BB104"
+			(at 241.3 79.248 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG4" "YAGEO"
+			(at 253.492 79.248 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8487d6c1-b176-4120-9c2d-56a27edd3e92")
+		)
+		(pin "1"
+			(uuid "492d3935-57c4-4a48-aadd-be37df64e4e3")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/57ec90ce-deb5-4a52-b1c0-0a997012959b/d2a190b7-8486-4aae-97c0-33ac8d90da8a"
+					(reference "C9")
+					(unit 1)
+				)
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/f774142b-755f-468a-93e0-eecae9257f8f/8e05de8b-3536-4686-b4df-144081dee611"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_mem:mem_flash_spi")
+		(at 36.83 31.75 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c84beac-d5e4-4c5f-b4bb-5d2ce3fb0987")
+		(property "Reference" "U5"
+			(at 45.72 20.32 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "mem_flash_spi"
+			(at 27.94 20.32 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "reekilib_soic:SOIC127PxxxX200-8"
+			(at 36.83 53.975 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
+			(at 36.83 50.165 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "flash memory with std JESD216 pinout"
+			(at 36.83 52.705 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.winbond.com/hq/product/code-storage-flash-memory/serial-nor-flash/?__locale=en&partNo=W25Q128JV"
+			(at 36.83 51.435 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "W25Q128JVSIM TR"
+			(at 36.83 43.18 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "MFG" "Winbond"
+			(at 27.94 43.18 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "27148116-b543-4b40-9857-c34b116181f8")
+			(alternate "IO2")
+		)
+		(pin "7"
+			(uuid "a22a1cb3-2af1-4e95-80d6-cb1baa61204c")
+			(alternate "IO3")
+		)
+		(pin "8"
+			(uuid "b552f02a-8f1d-496a-9bfc-d89a278a9691")
+		)
+		(pin "5"
+			(uuid "418f28b8-9b34-4466-9b83-0358ad5b2f47")
+			(alternate "IO0")
+		)
+		(pin "2"
+			(uuid "6aed08b9-eda9-453e-ac9e-c52955755ef1")
+			(alternate "IO1")
+		)
+		(pin "6"
+			(uuid "65ad587c-6d3b-4801-aa9b-e7eccd5a1439")
+		)
+		(pin "1"
+			(uuid "41b87543-4dce-46b4-9426-7c5ba97de30f")
+		)
+		(pin "4"
+			(uuid "28d57ea6-a4dc-4ecf-b899-0e895b493eaa")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/57ec90ce-deb5-4a52-b1c0-0a997012959b/d2a190b7-8486-4aae-97c0-33ac8d90da8a"
+					(reference "U5")
+					(unit 1)
+				)
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/f774142b-755f-468a-93e0-eecae9257f8f/8e05de8b-3536-4686-b4df-144081dee611"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_pwr:VSS")
+		(at 241.3 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "96684d5b-4633-4985-8edf-c58827dbcdbb")
+		(property "Reference" "#PWR07"
+			(at 241.3 179.705 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSS"
+			(at 241.3 177.8 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 175.26 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 172.72 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "daf22815-b624-4155-8d44-86303690071d")
+		)
+		(instances
+			(project ""
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/57ec90ce-deb5-4a52-b1c0-0a997012959b/d2a190b7-8486-4aae-97c0-33ac8d90da8a"
+					(reference "#PWR07")
+					(unit 1)
+				)
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/f774142b-755f-468a-93e0-eecae9257f8f/8e05de8b-3536-4686-b4df-144081dee611"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_cap:cap")
+		(at 246.38 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96b8b3ee-60a9-42e7-8a9e-a8e55739b646")
+		(property "Reference" "C29"
+			(at 246.38 81.661 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "${Capacitance}, ${Voltage}, ${Dielectric}"
+			(at 248.92 89.408 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "reekilib_cap:CAPC1005"
+			(at 246.38 99.822 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
+			(at 246.38 104.648 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Non polarized capacitor"
+			(at 246.38 101.6 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.passivecomponent.com/product-search/MLCC/?partnumber=0402B104K160CT"
+			(at 246.38 103.124 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "100nF"
+			(at 246.38 83.185 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 246.38 84.709 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 246.38 86.233 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "MPN" "0402B104K160CT"
+			(at 246.38 108.966 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Walsin Technology Corporation"
+			(at 258.318 108.966 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN2" "CL05B104KA5NNNC"
+			(at 246.38 110.49 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG2" "Samsung Electro-Mechanics"
+			(at 258.318 110.49 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN3" "EMK105B7104KV-F"
+			(at 246.38 112.014 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG3" "Taiyo Yuden"
+			(at 258.318 112.014 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN4" "CC0402KRX7R7BB104"
+			(at 246.38 113.538 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG4" "YAGEO"
+			(at 258.572 113.538 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9f967dd8-f6ac-4e7b-bb0f-48ccbf0987fa")
+		)
+		(pin "1"
+			(uuid "1a8d8c32-9179-44ab-bbc2-76f08e8f3e20")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/57ec90ce-deb5-4a52-b1c0-0a997012959b/d2a190b7-8486-4aae-97c0-33ac8d90da8a"
+					(reference "C29")
+					(unit 1)
+				)
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/f774142b-755f-468a-93e0-eecae9257f8f/8e05de8b-3536-4686-b4df-144081dee611"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_pwr:VSS")
+		(at 121.92 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "96fbc0a7-4284-4043-a78d-221b0f0e72df")
+		(property "Reference" "#PWR014"
+			(at 121.92 83.185 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSS"
+			(at 121.92 81.28 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 78.74 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 76.2 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af6577c7-8721-464c-97e0-ce1615236663")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/57ec90ce-deb5-4a52-b1c0-0a997012959b/d2a190b7-8486-4aae-97c0-33ac8d90da8a"
+					(reference "#PWR014")
+					(unit 1)
+				)
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/f774142b-755f-468a-93e0-eecae9257f8f/8e05de8b-3536-4686-b4df-144081dee611"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_cap:cap")
+		(at 241.3 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7c037ad-13b9-4e37-b270-feda3fff5200")
+		(property "Reference" "C27"
+			(at 241.3 81.661 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "${Capacitance}, ${Voltage}, ${Dielectric}"
+			(at 243.84 89.408 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "reekilib_cap:CAPC1005"
+			(at 241.3 99.822 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
+			(at 241.3 104.648 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Non polarized capacitor"
+			(at 241.3 101.6 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.passivecomponent.com/product-search/MLCC/?partnumber=0402B104K160CT"
+			(at 241.3 103.124 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "100nF"
+			(at 241.3 83.185 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 241.3 84.709 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 241.3 86.233 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "MPN" "0402B104K160CT"
+			(at 241.3 108.966 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Walsin Technology Corporation"
+			(at 253.238 108.966 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN2" "CL05B104KA5NNNC"
+			(at 241.3 110.49 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG2" "Samsung Electro-Mechanics"
+			(at 253.238 110.49 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN3" "EMK105B7104KV-F"
+			(at 241.3 112.014 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG3" "Taiyo Yuden"
+			(at 253.238 112.014 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN4" "CC0402KRX7R7BB104"
+			(at 241.3 113.538 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG4" "YAGEO"
+			(at 253.492 113.538 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b7ac8fef-b982-4741-a1c9-c35d862a9edf")
+		)
+		(pin "1"
+			(uuid "11dc883a-99cd-4a8d-8951-6e39a2c73d2d")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/57ec90ce-deb5-4a52-b1c0-0a997012959b/d2a190b7-8486-4aae-97c0-33ac8d90da8a"
+					(reference "C27")
+					(unit 1)
+				)
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/f774142b-755f-468a-93e0-eecae9257f8f/8e05de8b-3536-4686-b4df-144081dee611"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_cap:cap")
+		(at 261.62 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8aec609-cdcf-4002-a3db-cc2688779451")
+		(property "Reference" "C17"
+			(at 261.62 47.371 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "${Capacitance}, ${Voltage}, ${Dielectric}"
+			(at 264.16 55.118 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "reekilib_cap:CAPC1005"
+			(at 261.62 65.532 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
+			(at 261.62 70.358 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Non polarized capacitor"
+			(at 261.62 67.31 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.passivecomponent.com/product-search/MLCC/?partnumber=0402B104K160CT"
+			(at 261.62 68.834 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "100nF"
+			(at 261.62 48.895 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 261.62 50.419 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 261.62 51.943 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "MPN" "0402B104K160CT"
+			(at 261.62 74.676 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Walsin Technology Corporation"
+			(at 273.558 74.676 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN2" "CL05B104KA5NNNC"
+			(at 261.62 76.2 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG2" "Samsung Electro-Mechanics"
+			(at 273.558 76.2 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN3" "EMK105B7104KV-F"
+			(at 261.62 77.724 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG3" "Taiyo Yuden"
+			(at 273.558 77.724 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN4" "CC0402KRX7R7BB104"
+			(at 261.62 79.248 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG4" "YAGEO"
+			(at 273.812 79.248 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7d1c5c96-ceb1-4c8c-b5a1-1f0e81a2cb91")
+		)
+		(pin "1"
+			(uuid "f392ff29-a04f-46a9-a42b-323cff835a17")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/57ec90ce-deb5-4a52-b1c0-0a997012959b/d2a190b7-8486-4aae-97c0-33ac8d90da8a"
+					(reference "C17")
+					(unit 1)
+				)
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/f774142b-755f-468a-93e0-eecae9257f8f/8e05de8b-3536-4686-b4df-144081dee611"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_cap:cap")
+		(at 121.92 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa91036e-1a52-492a-ba08-dfd00356f2bf")
+		(property "Reference" "C7"
+			(at 124.46 29.464 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "${Capacitance}, ${Voltage}, ${Dielectric}"
+			(at 124.46 30.988 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "reekilib_cap:CAPC1005"
+			(at 121.92 41.402 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
+			(at 121.92 46.228 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Non polarized capacitor"
+			(at 121.92 43.18 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.passivecomponent.com/product-search/MLCC/?partnumber=0402B104K160CT"
+			(at 121.92 44.704 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "100nF"
+			(at 124.46 30.988 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 124.46 32.512 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 124.46 34.036 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "0402B104K160CT"
+			(at 121.92 50.546 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Walsin Technology Corporation"
+			(at 133.858 50.546 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN2" "CL05B104KA5NNNC"
+			(at 121.92 52.07 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG2" "Samsung Electro-Mechanics"
+			(at 133.858 52.07 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN3" "EMK105B7104KV-F"
+			(at 121.92 53.594 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG3" "Taiyo Yuden"
+			(at 133.858 53.594 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN4" "CC0402KRX7R7BB104"
+			(at 121.92 55.118 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG4" "YAGEO"
+			(at 134.112 55.118 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5c391f36-a24b-48f8-b4cc-811c57e4af04")
+		)
+		(pin "1"
+			(uuid "c14ef023-5db8-4d74-affc-63a8a0702e46")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/57ec90ce-deb5-4a52-b1c0-0a997012959b/d2a190b7-8486-4aae-97c0-33ac8d90da8a"
+					(reference "C7")
+					(unit 1)
+				)
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/f774142b-755f-468a-93e0-eecae9257f8f/8e05de8b-3536-4686-b4df-144081dee611"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_cap:cap")
+		(at 21.59 26.67 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3eae8b5-2537-483e-9756-12d6f6e835aa")
+		(property "Reference" "C3"
+			(at 19.05 24.384 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "${Capacitance}, ${Voltage}, ${Dielectric}"
+			(at 19.05 25.908 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "reekilib_cap:CAPC1005"
+			(at 21.59 36.322 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
+			(at 21.59 41.148 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Non polarized capacitor"
+			(at 21.59 38.1 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.passivecomponent.com/product-search/MLCC/?partnumber=0402B104K160CT"
+			(at 21.59 39.624 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "100nF"
+			(at 19.05 25.908 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 19.05 27.432 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 19.05 28.956 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "0402B104K160CT"
+			(at 21.59 45.466 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Walsin Technology Corporation"
+			(at 9.652 45.466 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN2" "CL05B104KA5NNNC"
+			(at 21.59 46.99 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG2" "Samsung Electro-Mechanics"
+			(at 9.652 46.99 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN3" "EMK105B7104KV-F"
+			(at 21.59 48.514 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG3" "Taiyo Yuden"
+			(at 9.652 48.514 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN4" "CC0402KRX7R7BB104"
+			(at 21.59 50.038 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG4" "YAGEO"
+			(at 9.398 50.038 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9f55e8a4-29a3-4643-a929-13cfe42c559b")
+		)
+		(pin "1"
+			(uuid "b71f7200-86b3-4ffc-89d9-086cb19b7ae1")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/57ec90ce-deb5-4a52-b1c0-0a997012959b/d2a190b7-8486-4aae-97c0-33ac8d90da8a"
+					(reference "C3")
+					(unit 1)
+				)
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/f774142b-755f-468a-93e0-eecae9257f8f/8e05de8b-3536-4686-b4df-144081dee611"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_pwr:VSS")
+		(at 251.46 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "b4cc492f-2668-4854-bb7e-c52b60d1f60b")
+		(property "Reference" "#PWR022"
+			(at 251.46 99.695 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSS"
+			(at 251.46 97.79 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 95.25 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 92.71 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71b419ee-112a-4027-ad3f-5cf86c35a38e")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/57ec90ce-deb5-4a52-b1c0-0a997012959b/d2a190b7-8486-4aae-97c0-33ac8d90da8a"
+					(reference "#PWR022")
+					(unit 1)
+				)
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/f774142b-755f-468a-93e0-eecae9257f8f/8e05de8b-3536-4686-b4df-144081dee611"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_cap:cap")
+		(at 256.54 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc8cfbfe-b7dc-4bf7-b506-3dfffab53354")
+		(property "Reference" "C15"
+			(at 256.54 47.371 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "${Capacitance}, ${Voltage}, ${Dielectric}"
+			(at 259.08 55.118 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "reekilib_cap:CAPC1005"
+			(at 256.54 65.532 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
+			(at 256.54 70.358 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Non polarized capacitor"
+			(at 256.54 67.31 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.passivecomponent.com/product-search/MLCC/?partnumber=0402B104K160CT"
+			(at 256.54 68.834 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "100nF"
+			(at 256.54 48.895 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 256.54 50.419 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 256.54 51.943 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "MPN" "0402B104K160CT"
+			(at 256.54 74.676 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Walsin Technology Corporation"
+			(at 268.478 74.676 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN2" "CL05B104KA5NNNC"
+			(at 256.54 76.2 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG2" "Samsung Electro-Mechanics"
+			(at 268.478 76.2 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN3" "EMK105B7104KV-F"
+			(at 256.54 77.724 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG3" "Taiyo Yuden"
+			(at 268.478 77.724 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN4" "CC0402KRX7R7BB104"
+			(at 256.54 79.248 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG4" "YAGEO"
+			(at 268.732 79.248 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "967c27df-6436-4704-bb0e-b7a183ffa0f4")
+		)
+		(pin "1"
+			(uuid "cb5e9e49-193c-4027-9dbf-2a4474955249")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/57ec90ce-deb5-4a52-b1c0-0a997012959b/d2a190b7-8486-4aae-97c0-33ac8d90da8a"
+					(reference "C15")
+					(unit 1)
+				)
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/f774142b-755f-468a-93e0-eecae9257f8f/8e05de8b-3536-4686-b4df-144081dee611"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_pwr:VSS")
+		(at 241.3 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "c1e13da6-1419-4243-a8a8-0f0678050b4e")
+		(property "Reference" "#PWR020"
+			(at 241.3 75.565 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSS"
+			(at 241.3 73.66 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 71.12 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 68.58 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d63694c4-eca2-452e-8762-633449953941")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/57ec90ce-deb5-4a52-b1c0-0a997012959b/d2a190b7-8486-4aae-97c0-33ac8d90da8a"
+					(reference "#PWR020")
+					(unit 1)
+				)
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/f774142b-755f-468a-93e0-eecae9257f8f/8e05de8b-3536-4686-b4df-144081dee611"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_mcu:RP2350B")
+		(at 95.25 50.8 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4eab8c7-019e-4723-ad48-1cee8934cc13")
+		(property "Reference" "U3"
+			(at 74.93 25.4 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RP2350B"
+			(at 115.57 25.4 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "reekilib_qfn:QFN40P1000X1000-81"
+			(at 95.25 114.3 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://pip-assets.raspberrypi.com/categories/1214-rp2350/documents/RP-008373-DS-2-rp2350-datasheet.pdf?disposition=inline"
+			(at 95.25 116.205 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Cortex-M33 or RISC-V 150MHz"
+			(at 95.25 118.11 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RP2350B-TR13"
+			(at 95.25 120.015 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Raspberry Pi"
+			(at 106.68 120.015 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.raspberrypi.com/products/rp2350/"
+			(at 95.25 123.825 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" "RP2350B-TR7"
+			(at 95.25 121.92 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG2" "Raspberry Pi"
+			(at 106.68 121.92 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Link2" "https://www.raspberrypi.com/products/rp2350/"
+			(at 95.25 125.73 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "61"
+			(uuid "288d295f-3c1d-4fcc-8aeb-8f0d733ba0f4")
+		)
+		(pin "50"
+			(uuid "21115471-a671-4639-a959-ecd0cba88f5a")
+		)
+		(pin "33"
+			(uuid "6054916a-6a09-48bf-b784-4966d673ff7a")
+		)
+		(pin "52"
+			(uuid "f803de37-00c0-4456-8abc-16d28aee6b2b")
+		)
+		(pin "3"
+			(uuid "9ee97fde-6fb5-4483-84f7-1c6680ca8d5c")
+		)
+		(pin "80"
+			(uuid "d6030278-6739-44c0-afac-114be82a42f4")
+		)
+		(pin "79"
+			(uuid "b5cf1a5e-d6f0-4900-a5e7-7e9cf14b0596")
+		)
+		(pin "75"
+			(uuid "533145e4-f6a1-48d8-a241-dc07c6345699")
+		)
+		(pin "28"
+			(uuid "355b2f16-4924-46ed-8ff0-3d15f30a5e7a")
+		)
+		(pin "46"
+			(uuid "933968a6-ba22-4384-960f-f4f8570911b5")
+		)
+		(pin "54"
+			(uuid "01a3df0c-2bf6-4fc1-b349-e7c3ed95d5eb")
+		)
+		(pin "63"
+			(uuid "42040589-3d43-4732-a6d1-da690ff62550")
+		)
+		(pin "4"
+			(uuid "c8885b29-7aed-4a28-963a-96966008d86f")
+		)
+		(pin "36"
+			(uuid "3a4912f9-3e65-43a1-baca-bc0f0d50fc54")
+		)
+		(pin "68"
+			(uuid "d5ef5cb1-edf1-47b3-bde5-ce362d329d86")
+		)
+		(pin "51"
+			(uuid "fe5927ce-3d79-489a-a802-1a9496c5c30c")
+		)
+		(pin "58"
+			(uuid "09f8b287-0bae-43b9-813f-45276b69617e")
+		)
+		(pin "60"
+			(uuid "c031afd2-8727-474f-9c06-f4c5a1bc748d")
+		)
+		(pin "18"
+			(uuid "5351f2ed-f49e-4ef2-8d2b-1b5faa0eb714")
+		)
+		(pin "65"
+			(uuid "e339dabc-c795-47bf-8b3b-0a24ae8c6336")
+		)
+		(pin "1"
+			(uuid "9abf6517-c9d3-4f61-8d17-b6e7d7b34727")
+		)
+		(pin "74"
+			(uuid "4d937f4e-918e-4b69-8900-cf5650d45683")
+		)
+		(pin "38"
+			(uuid "f24d71ab-db2d-473f-ba2c-269a875d67b4")
+		)
+		(pin "14"
+			(uuid "fafb814e-7a50-456f-b3b9-50b4d116119a")
+		)
+		(pin "53"
+			(uuid "5ab33497-b711-44a6-848a-64eb1783b341")
+		)
+		(pin "45"
+			(uuid "2d169947-d1e6-4315-87f2-b38026385160")
+		)
+		(pin "81"
+			(uuid "a59400c7-8ceb-464c-afcf-2f0e3d3a287b")
+		)
+		(pin "32"
+			(uuid "880dc425-2c91-42ce-8471-66822a631b3b")
+		)
+		(pin "64"
+			(uuid "1770d178-3bdd-4bf0-b133-5177dd03d567")
+		)
+		(pin "12"
+			(uuid "75edaa4c-7287-418c-9ce1-8134febf5ae6")
+		)
+		(pin "27"
+			(uuid "582b693b-4154-4aed-9a0a-ee9c636dd297")
+		)
+		(pin "56"
+			(uuid "4a9b195b-b4c4-4733-a6ed-23c2a8589bb5")
+		)
+		(pin "8"
+			(uuid "7ad3887f-eee3-4147-bb49-11946f378e11")
+		)
+		(pin "13"
+			(uuid "5a33c164-629e-4ece-b7b1-f4ef7e74c0ff")
+		)
+		(pin "19"
+			(uuid "331b90fb-e519-4a89-82d0-4f40163d392d")
+		)
+		(pin "31"
+			(uuid "c056254d-1c71-4516-9487-2f507240c9d4")
+		)
+		(pin "6"
+			(uuid "c3d663d5-9fa6-4559-9e08-5b3e90c45853")
+		)
+		(pin "44"
+			(uuid "c18e9953-b37e-467d-a670-d21984065f2c")
+		)
+		(pin "41"
+			(uuid "fbc61d77-18a9-4bed-b0b0-36c742119857")
+		)
+		(pin "48"
+			(uuid "f0463ba7-d323-484c-b46a-b2a2f4d30619")
+		)
+		(pin "49"
+			(uuid "30b6e4a1-1a85-40d5-bf30-34c5f38ee04b")
+		)
+		(pin "71"
+			(uuid "972955c2-984d-4864-93d3-47e59b0833e5")
+		)
+		(pin "57"
+			(uuid "e9873937-a8fc-4c89-a859-d660b600bf34")
+		)
+		(pin "34"
+			(uuid "04971b21-22a8-4c13-b38b-b9614ece11db")
+		)
+		(pin "39"
+			(uuid "a7659ed0-8436-45e8-93d7-17086c1f355b")
+		)
+		(pin "47"
+			(uuid "91818175-101d-4536-8072-40b0d9dde3e0")
+		)
+		(pin "30"
+			(uuid "1f210144-51f0-4e59-9a13-3a0eaee8e335")
+		)
+		(pin "11"
+			(uuid "10cbb1a4-0bb7-40d7-bdb1-2645bab62f64")
+		)
+		(pin "24"
+			(uuid "bcc729d3-34ae-4ecc-905e-c0e4fd15b1b9")
+		)
+		(pin "43"
+			(uuid "217d6f0e-c812-4ced-9f9d-8bc5d0c5e917")
+		)
+		(pin "26"
+			(uuid "7c845027-1360-4895-b8f7-c2b35ab3e125")
+		)
+		(pin "55"
+			(uuid "cef72aa0-01a8-4e7d-bf38-8e2e5c33faa8")
+		)
+		(pin "69"
+			(uuid "cc5cc6d0-7b04-4eb8-a453-77efb80cc1fe")
+		)
+		(pin "16"
+			(uuid "31d10570-98c7-4376-88be-a03e8b485d30")
+		)
+		(pin "10"
+			(uuid "464a4572-d080-4708-b828-42f68b86f2f7")
+		)
+		(pin "37"
+			(uuid "82516807-85ae-4b26-8db4-9392ed90276d")
+		)
+		(pin "67"
+			(uuid "08ee7e39-dd24-4e81-9691-56f849810786")
+		)
+		(pin "59"
+			(uuid "c2aff742-a345-4889-a780-c7c53620fdf6")
+		)
+		(pin "40"
+			(uuid "53b15d86-a779-4ceb-98db-557ba0e779fb")
+		)
+		(pin "20"
+			(uuid "eac876ea-c2f0-44a9-bcb5-691e98caa507")
+		)
+		(pin "7"
+			(uuid "6e7b85fd-4b7f-440d-ad48-a3b88bd60f59")
+		)
+		(pin "77"
+			(uuid "c7075041-bf5d-4207-8bf4-5f2089f47677")
+		)
+		(pin "29"
+			(uuid "77607593-89f1-4cb9-8a60-be2f19c4147f")
+		)
+		(pin "2"
+			(uuid "e5bccf93-e625-4bb2-91f6-62cd5aa13914")
+		)
+		(pin "78"
+			(uuid "c04993f4-7e2d-4ece-9733-4188470a7b0b")
+		)
+		(pin "9"
+			(uuid "dfbbab23-2d9f-49ff-be22-f0abe8e90ae7")
+		)
+		(pin "21"
+			(uuid "23ede246-83ee-4ba0-82b4-b8b7baf07739")
+		)
+		(pin "22"
+			(uuid "9f8e3cd4-e9ac-42cf-82fa-4690a70987a8")
+		)
+		(pin "17"
+			(uuid "cf888684-bf73-4a2d-aae8-56f2ab4f5392")
+		)
+		(pin "25"
+			(uuid "d78bd055-258a-4bec-9622-ab0d5ff7db1a")
+		)
+		(pin "23"
+			(uuid "785852a9-5b32-4bb6-8a60-4319d474e719")
+		)
+		(pin "42"
+			(uuid "fb96a563-ed6d-451d-b940-c4930dd4a132")
+		)
+		(pin "15"
+			(uuid "f8f902fd-0d70-4e59-9c63-c8327fb602b8")
+		)
+		(pin "72"
+			(uuid "c8f9c341-045d-4582-b1cd-66228a5af0ca")
+		)
+		(pin "73"
+			(uuid "74b9791e-087e-4588-a8d5-1ed832122f6d")
+		)
+		(pin "76"
+			(uuid "6fad8c0d-b32a-475e-8050-a1e5827b7b4a")
+		)
+		(pin "70"
+			(uuid "c60a4459-e7f5-4480-be13-726e1769c6bb")
+		)
+		(pin "62"
+			(uuid "94bb056d-2517-4e45-8250-35d15b71d67d")
+		)
+		(pin "66"
+			(uuid "0509ef79-b656-4ff0-be98-53ec0edac90a")
+		)
+		(pin "35"
+			(uuid "b649ebd9-c014-432f-a5f8-49ff0bb8c80e")
+		)
+		(pin "5"
+			(uuid "4b22c267-45b3-4c56-94b4-672c865f04d1")
+		)
+		(instances
+			(project ""
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/57ec90ce-deb5-4a52-b1c0-0a997012959b/d2a190b7-8486-4aae-97c0-33ac8d90da8a"
+					(reference "U3")
+					(unit 2)
+				)
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/f774142b-755f-468a-93e0-eecae9257f8f/8e05de8b-3536-4686-b4df-144081dee611"
+					(reference "U4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_cap:cap")
+		(at 266.7 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f756adb7-556b-4f1a-813f-41faf8655376")
+		(property "Reference" "C19"
+			(at 266.7 47.371 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "${Capacitance}, ${Voltage}, ${Dielectric}"
+			(at 269.24 55.118 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "reekilib_cap:CAPC1005"
+			(at 266.7 65.532 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
+			(at 266.7 70.358 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Non polarized capacitor"
+			(at 266.7 67.31 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.passivecomponent.com/product-search/MLCC/?partnumber=0402B104K160CT"
+			(at 266.7 68.834 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "100nF"
+			(at 266.7 48.895 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 266.7 50.419 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 266.7 51.943 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "MPN" "0402B104K160CT"
+			(at 266.7 74.676 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Walsin Technology Corporation"
+			(at 278.638 74.676 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN2" "CL05B104KA5NNNC"
+			(at 266.7 76.2 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG2" "Samsung Electro-Mechanics"
+			(at 278.638 76.2 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN3" "EMK105B7104KV-F"
+			(at 266.7 77.724 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG3" "Taiyo Yuden"
+			(at 278.638 77.724 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN4" "CC0402KRX7R7BB104"
+			(at 266.7 79.248 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG4" "YAGEO"
+			(at 278.892 79.248 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "64b50a5d-e879-4809-8041-54dc327f0ae9")
+		)
+		(pin "1"
+			(uuid "655e0863-6c28-4455-a6cf-347c54825dda")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/57ec90ce-deb5-4a52-b1c0-0a997012959b/d2a190b7-8486-4aae-97c0-33ac8d90da8a"
+					(reference "C19")
+					(unit 1)
+				)
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/f774142b-755f-468a-93e0-eecae9257f8f/8e05de8b-3536-4686-b4df-144081dee611"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_cap:cap")
+		(at 246.38 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa596c1c-2bd1-42fa-947e-e58e528bb1cf")
+		(property "Reference" "C11"
+			(at 246.38 47.371 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "${Capacitance}, ${Voltage}, ${Dielectric}"
+			(at 248.92 55.118 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "reekilib_cap:CAPC1005"
+			(at 246.38 65.532 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
+			(at 246.38 70.358 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Non polarized capacitor"
+			(at 246.38 67.31 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.passivecomponent.com/product-search/MLCC/?partnumber=0402B104K160CT"
+			(at 246.38 68.834 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "100nF"
+			(at 246.38 48.895 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 246.38 50.419 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 246.38 51.943 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "MPN" "0402B104K160CT"
+			(at 246.38 74.676 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Walsin Technology Corporation"
+			(at 258.318 74.676 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN2" "CL05B104KA5NNNC"
+			(at 246.38 76.2 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG2" "Samsung Electro-Mechanics"
+			(at 258.318 76.2 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN3" "EMK105B7104KV-F"
+			(at 246.38 77.724 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG3" "Taiyo Yuden"
+			(at 258.318 77.724 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN4" "CC0402KRX7R7BB104"
+			(at 246.38 79.248 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG4" "YAGEO"
+			(at 258.572 79.248 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "20f0dcbf-d585-4f10-a679-3143ba071690")
+		)
+		(pin "1"
+			(uuid "bac0be01-a199-4abd-b8f3-fdfbec33c494")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/57ec90ce-deb5-4a52-b1c0-0a997012959b/d2a190b7-8486-4aae-97c0-33ac8d90da8a"
+					(reference "C11")
+					(unit 1)
+				)
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/f774142b-755f-468a-93e0-eecae9257f8f/8e05de8b-3536-4686-b4df-144081dee611"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_cap:cap")
+		(at 251.46 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd6a180c-4fc4-4b97-b369-55725cd5c978")
+		(property "Reference" "C31"
+			(at 251.46 81.661 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "${Capacitance}, ${Voltage}, ${Dielectric}"
+			(at 254 89.408 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "reekilib_cap:CAPC1005"
+			(at 251.46 99.822 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ds.yuden.co.jp/TYCOMPAS/ut/specSheet?pn=MSASJ105BB5475MFNA01"
+			(at 251.46 104.648 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Non polarized capacitor"
+			(at 251.46 101.6 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=MSASJ105BB5475MFNA01&u=M"
+			(at 251.46 103.124 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "4.7nF"
+			(at 251.46 83.185 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Voltage" "6.3V"
+			(at 251.46 84.709 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 251.46 86.233 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "MPN" "JMK105BBJ475MV-F"
+			(at 251.46 108.966 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Taiyo Yuden"
+			(at 263.398 108.966 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN2" "CL05A475MP5NRNC"
+			(at 251.46 110.49 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG2" "Samsung Electro-Mechanics"
+			(at 263.398 110.49 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN3" "GRM155R60J475ME47D"
+			(at 251.46 112.014 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG3" "Murata"
+			(at 263.398 112.014 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN4" "CC0402MRX5R6BB475"
+			(at 251.46 113.538 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG4" "YAGEO"
+			(at 263.652 113.538 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1955107a-cbab-4258-8914-b206c4e105ef")
+		)
+		(pin "1"
+			(uuid "1528ee03-83c3-4895-aa7c-fe83aac887c5")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/57ec90ce-deb5-4a52-b1c0-0a997012959b/d2a190b7-8486-4aae-97c0-33ac8d90da8a"
+					(reference "C31")
+					(unit 1)
+				)
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/f774142b-755f-468a-93e0-eecae9257f8f/8e05de8b-3536-4686-b4df-144081dee611"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_pwr:VSS")
+		(at 281.94 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "fd6d64c4-a0de-4de8-bf93-12123afe331d")
+		(property "Reference" "#PWR018"
+			(at 281.94 65.405 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSS"
+			(at 281.94 63.5 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 281.94 60.96 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 281.94 58.42 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 281.94 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2d5b073-3dd4-4cbc-8f2a-99b52c7bf9c3")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/57ec90ce-deb5-4a52-b1c0-0a997012959b/d2a190b7-8486-4aae-97c0-33ac8d90da8a"
+					(reference "#PWR018")
+					(unit 1)
+				)
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/f774142b-755f-468a-93e0-eecae9257f8f/8e05de8b-3536-4686-b4df-144081dee611"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
