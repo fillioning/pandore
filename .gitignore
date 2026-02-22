@@ -8,4 +8,6 @@
 *#auto_saved_files#*
 *-backups/
 *fp-*-cache
-*fp-*-table
+*-lib-table
+*replicate_layout.log
+*projinst.*
