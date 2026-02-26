@@ -1,0 +1,804 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "fd0f5a6b-d064-4bb4-969c-eb4ec668bef4")
+	(paper "A4")
+	(title_block
+		(title "${name}")
+		(date "2026-02-22")
+		(rev "${revision}")
+		(company "${corp}")
+	)
+	(lib_symbols
+		(symbol "reekilib_con:xlr_trs_combo"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "P"
+				(at 0 19.05 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Value" "XLR+TRS6.35+SW"
+				(at -8.89 0 90)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Footprint" "reekilib_con:neutrik_ncj9fi-h-0"
+				(at 0 -27.305 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "file:///home/laurencedv/Downloads/ncj9fi-h-0-4-1.pdf"
+				(at 0 -26.035 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "XLR TRS6.35mm combo receptacle with all switches"
+				(at 0 -24.765 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vmax" "50V"
+				(at -5.08 -23.495 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify right)
+					(hide yes)
+				)
+			)
+			(property "Imax" "7A"
+				(at 0 -23.495 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "NCJ9FI-H-0"
+				(at 0 -17.78 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFG" "Neutrik"
+				(at 12.7 -17.78 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Link" "https://www.neutrik.com/en/product/ncj9fi-h-0"
+				(at 27.94 -17.78 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "xlr trs trs6.35"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "reekilib_con:neutrik_ncj9fi-h-0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "xlr_trs_combo_0_1"
+				(circle
+					(center -3.81 8.89)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 -2.54)
+					(end -1.27 -10.16)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -10.16) (xy -1.27 -15.24) (xy 12.7 -15.24)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 8.89)
+					(radius 7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 5.08)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -7.62) (xy 3.81 -6.35) (xy 5.08 -7.62) (xy 12.7 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.81 8.89)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -3.81) (xy 6.35 -5.08) (xy 7.62 -3.81) (xy 12.7 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 5.08) (xy 6.604 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -1.27) (xy 8.89 -1.27) (xy 8.89 -2.54) (xy 7.62 -2.54) (xy 8.89 -3.81) (xy 10.16 -2.54)
+						(xy 8.89 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -10.16) (xy 8.89 -10.16) (xy 8.89 -8.89) (xy 7.62 -8.89) (xy 8.89 -7.62) (xy 10.16 -8.89)
+						(xy 8.89 -8.89)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -12.7) (xy 8.89 -12.7) (xy 8.89 -13.97) (xy 7.62 -13.97) (xy 8.89 -15.24) (xy 10.16 -13.97)
+						(xy 8.89 -13.97)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "xlr_trs_combo_1_1"
+				(rectangle
+					(start -10.16 17.78)
+					(end 12.7 -16.51)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "2"
+					(at -3.81 8.89 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "3"
+					(at 0 5.08 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "1"
+					(at 3.81 8.89 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin passive line
+					(at 16.51 12.7 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 16.51 10.16 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 16.51 7.62 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 16.51 5.08 180)
+					(length 3.81)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 16.51 -1.27 180)
+					(length 3.81)
+					(name "TS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "TS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 16.51 -3.81 180)
+					(length 3.81)
+					(name "T"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 16.51 -7.62 180)
+					(length 3.81)
+					(name "R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 16.51 -10.16 180)
+					(length 3.81)
+					(name "RS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "RS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 16.51 -12.7 180)
+					(length 3.81)
+					(name "SS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 16.51 -15.24 180)
+					(length 3.81)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_con:xlr_trs_combo")
+		(at 50.8 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "093fc0f0-4ba8-4311-b70a-b15d148ba4ea")
+		(property "Reference" "P4"
+			(at 50.8 26.67 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "XLR+TRS6.35+SW"
+			(at 41.91 45.72 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "reekilib_con:neutrik_ncj9fi-h-0"
+			(at 50.8 73.025 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "file:///home/laurencedv/Downloads/ncj9fi-h-0-4-1.pdf"
+			(at 50.8 71.755 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "XLR TRS6.35mm combo receptacle with all switches"
+			(at 50.8 70.485 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vmax" "50V"
+			(at 45.72 69.215 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Imax" "7A"
+			(at 50.8 69.215 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NCJ9FI-H-0"
+			(at 50.8 63.5 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Neutrik"
+			(at 63.5 63.5 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.neutrik.com/en/product/ncj9fi-h-0"
+			(at 78.74 63.5 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "SS"
+			(uuid "de0c2192-3b16-4653-bf66-5aa6f99e64a5")
+		)
+		(pin "G"
+			(uuid "675226d3-2fa6-4ff9-83ac-e2fdbea0d079")
+		)
+		(pin "S"
+			(uuid "b084e162-6b39-4af2-a095-c0656a1518b7")
+		)
+		(pin "TS"
+			(uuid "87415f8a-9259-44df-ac27-0e204d6b0207")
+		)
+		(pin "2"
+			(uuid "29ceb765-dd1e-4a18-b22a-8c464b679b72")
+		)
+		(pin "RS"
+			(uuid "4a6a3b2a-bb29-4684-ae08-277ada4c0613")
+		)
+		(pin "1"
+			(uuid "f0fc5e25-aabc-4460-816f-75e04e903367")
+		)
+		(pin "R"
+			(uuid "83074b97-ddb6-4299-a5a5-c769d5fbf5d0")
+		)
+		(pin "T"
+			(uuid "e2de9e68-94db-4a6c-8268-79f6acec9605")
+		)
+		(pin "3"
+			(uuid "55f397f7-13d2-43e5-ad28-538a73bc8608")
+		)
+		(instances
+			(project ""
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/505def28-a163-4964-82bd-abe7e8697de4"
+					(reference "P4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_con:xlr_trs_combo")
+		(at 52.07 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab17d635-5d6c-4f02-988d-3007e64e1aa9")
+		(property "Reference" "P5"
+			(at 52.07 104.14 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "XLR+TRS6.35+SW"
+			(at 43.18 123.19 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "reekilib_con:neutrik_ncj9fi-h-0"
+			(at 52.07 150.495 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "file:///home/laurencedv/Downloads/ncj9fi-h-0-4-1.pdf"
+			(at 52.07 149.225 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "XLR TRS6.35mm combo receptacle with all switches"
+			(at 52.07 147.955 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vmax" "50V"
+			(at 46.99 146.685 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Imax" "7A"
+			(at 52.07 146.685 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NCJ9FI-H-0"
+			(at 52.07 140.97 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Neutrik"
+			(at 64.77 140.97 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.neutrik.com/en/product/ncj9fi-h-0"
+			(at 80.01 140.97 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "SS"
+			(uuid "31000532-3698-46a4-ad54-8ed6228c3fe0")
+		)
+		(pin "G"
+			(uuid "0dd7bc61-fd27-4d2f-a05c-2eea97248862")
+		)
+		(pin "S"
+			(uuid "2fa223cc-56d6-4a89-a1d9-2691c308eda8")
+		)
+		(pin "TS"
+			(uuid "1264e11a-a532-428a-b450-8012b7bff0f4")
+		)
+		(pin "2"
+			(uuid "89317e6c-98c4-42b0-941a-9b87502661ad")
+		)
+		(pin "RS"
+			(uuid "6f231c86-70d2-465e-afa1-e73585488793")
+		)
+		(pin "1"
+			(uuid "ac4819ae-d959-48eb-9a95-d7e0f95962cd")
+		)
+		(pin "R"
+			(uuid "20e68e90-7835-4340-bab0-d848f6b3672d")
+		)
+		(pin "T"
+			(uuid "0762194e-c81c-40c0-bf1a-73ad33e8cde4")
+		)
+		(pin "3"
+			(uuid "1ef46576-a77f-4dcc-9a62-bc49ac6f19f9")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/505def28-a163-4964-82bd-abe7e8697de4"
+					(reference "P5")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

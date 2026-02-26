@@ -10,7 +10,830 @@
 		(rev "${revision}")
 		(company "${corp}")
 	)
-	(lib_symbols)
+	(lib_symbols
+		(symbol "reekilib_con:USB2-A_2stacked"
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "P"
+				(at 0 12.065 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Value" "USB2-A_2stacked"
+				(at -7.62 0 90)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Footprint" "reekilib_con:USB2_A_RCPT_HORZ_2STACKED"
+				(at 0 -17.78 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61400826021.pdf"
+				(at 0 -19.05 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "usb2 type a connector"
+				(at 0 -20.32 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vmax" "30V"
+				(at -3.175 -22.225 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify right)
+					(hide yes)
+				)
+			)
+			(property "Imax" "1.5A"
+				(at 0 -22.225 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "61400826021"
+				(at 0 -11.43 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFG" "Würth Elektronik"
+				(at 8.255 -11.43 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Link" "https://www.we-online.com/en/components/products/INPUT_OUTPUT_WR_USB_STANDARD#61400826021"
+				(at 31.75 -11.43 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN2" "AU-Y1008-2"
+				(at 0 -12.7 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFG2" "Assmann WSW Components"
+				(at 8.255 -12.7 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Link2" "https://www.assmann-wsw.com/us/product/au-y1008-2/"
+				(at 31.75 -12.7 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN3" "SS-52100-003"
+				(at 0 -13.97 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFG3" "Stewart Connector"
+				(at 8.255 -13.97 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Link3" "https://www.cinch.com/products/ethernet-usb/connectors/usb-connectors/ss-52100-003"
+				(at 31.75 -13.97 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector usb usb2 usb2.0 usba"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "reekilib_con:USB2_A_RCPT_HORZ_2STACKED"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "USB2-A_2stacked_0_1"
+				(rectangle
+					(start -8.89 10.16)
+					(end 8.89 -10.16)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "USB2-A_2stacked_1_1"
+				(pin power_in line
+					(at 12.7 7.62 180)
+					(length 3.81)
+					(name "TOP_VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional inverted
+					(at 12.7 5.08 180)
+					(length 3.81)
+					(name "TOP_D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 2.54 180)
+					(length 3.81)
+					(name "TOP_D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 0 180)
+					(length 3.81)
+					(name "TOP_GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -7.62 180)
+					(length 3.81)
+					(name "SHD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "USB2-A_2stacked_2_1"
+				(pin power_in line
+					(at 12.7 7.62 180)
+					(length 3.81)
+					(name "BOT_VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional inverted
+					(at 12.7 5.08 180)
+					(length 3.81)
+					(name "BOT_D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 2.54 180)
+					(length 3.81)
+					(name "BOT_D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 0 180)
+					(length 3.81)
+					(name "BOT_GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "reekilib_con:USB3-A_2stacked"
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "P"
+				(at 0 13.97 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Value" "USB3-A_2stacked"
+				(at -7.62 -0.635 90)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Footprint" "reekilib_con:USB3_A_RCPT_HORZ_2STACKED"
+				(at 0 -29.21 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.cnctech.us/pdfs/1003-004-01010_.pdf"
+				(at 0 -31.115 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "dual usb3 type a connector"
+				(at -0.635 -33.02 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "1003-004-01010"
+				(at 0 -22.225 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFG" "CNC tech"
+				(at 8.89 -22.225 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Link" "https://www.cnctech.us/productdetails.asp?ID=1709"
+				(at 24.13 -22.225 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector usb dual usb2 usb2.0 usb3 usb3.0 usba"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "USB3-A_2stacked_0_1"
+				(rectangle
+					(start -8.89 12.7)
+					(end 8.89 -20.32)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "USB3-A_2stacked_1_1"
+				(pin power_in line
+					(at 12.7 10.16 180)
+					(length 3.81)
+					(name "TOP_VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional inverted
+					(at 12.7 7.62 180)
+					(length 3.81)
+					(name "TOP_D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 5.08 180)
+					(length 3.81)
+					(name "TOP_D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 2.54 180)
+					(length 3.81)
+					(name "TOP_GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 12.7 -2.54 180)
+					(length 3.81)
+					(name "TOP_SSRX-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -5.08 180)
+					(length 3.81)
+					(name "TOP_SSRX+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 -7.62 180)
+					(length 3.81)
+					(name "TOP_GNDSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at 12.7 -10.16 180)
+					(length 3.81)
+					(name "TOP_SSTX-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -12.7 180)
+					(length 3.81)
+					(name "TOP_SSTX+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -17.78 180)
+					(length 3.81)
+					(name "SHD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "USB3-A_2stacked_2_1"
+				(pin power_in line
+					(at 12.7 10.16 180)
+					(length 3.81)
+					(name "BOT_VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional inverted
+					(at 12.7 7.62 180)
+					(length 3.81)
+					(name "BOT_D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 5.08 180)
+					(length 3.81)
+					(name "BOT_D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 2.54 180)
+					(length 3.81)
+					(name "BOT_GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 12.7 -2.54 180)
+					(length 3.81)
+					(name "BOT_SSRX-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -5.08 180)
+					(length 3.81)
+					(name "BOT_SSRX+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 -7.62 180)
+					(length 3.81)
+					(name "BOT_GNDSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at 12.7 -10.16 180)
+					(length 3.81)
+					(name "BOT_SSTX-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -12.7 180)
+					(length 3.81)
+					(name "BOT_SSTX+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
 	(bus
 		(pts
 			(xy 39.37 26.67) (xy 72.39 26.67)
@@ -75,5 +898,743 @@
 			(justify right)
 		)
 		(uuid "f0dd7ef5-97e3-4fdd-8941-788aebea9d97")
+	)
+	(symbol
+		(lib_id "reekilib_con:USB3-A_2stacked")
+		(at 266.7 100.33 0)
+		(mirror y)
+		(unit 2)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d86fbc4-7ec0-420d-b679-8a48c0623987")
+		(property "Reference" "P3"
+			(at 266.7 86.36 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "USB3-A_2stacked"
+			(at 274.32 100.965 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "reekilib_con:USB3_A_RCPT_HORZ_2STACKED"
+			(at 266.7 129.54 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.cnctech.us/pdfs/1003-004-01010_.pdf"
+			(at 266.7 131.445 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "dual usb3 type a connector"
+			(at 267.335 133.35 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1003-004-01010"
+			(at 266.7 122.555 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "CNC tech"
+			(at 257.81 122.555 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.cnctech.us/productdetails.asp?ID=1709"
+			(at 242.57 122.555 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "053643b7-66d9-4aa1-9a5a-889c93edde8d")
+		)
+		(pin "9"
+			(uuid "33186118-4b84-411f-83b2-a03975c4f8ea")
+		)
+		(pin "14"
+			(uuid "baa75aa4-c337-4ae3-96b1-c322fd6998ea")
+		)
+		(pin "10"
+			(uuid "07ca9019-a799-46b8-8788-f45ba953c73c")
+		)
+		(pin "2"
+			(uuid "6fa3cb01-15eb-497c-9610-3fb4ce035c5d")
+		)
+		(pin "8"
+			(uuid "f12f5f1c-8beb-47d2-918a-b105766f0aa1")
+		)
+		(pin "16"
+			(uuid "718d5971-0d8e-40a3-a0bf-9f93db8c090c")
+		)
+		(pin "19"
+			(uuid "a089b031-aa7d-4816-8011-e97343cd39e6")
+		)
+		(pin "7"
+			(uuid "17817e94-4b2c-4a0b-b794-468f6845f8d7")
+		)
+		(pin "13"
+			(uuid "c0a15699-96ec-45b1-8a40-39ee450d69c5")
+		)
+		(pin "1"
+			(uuid "e883ec65-621c-4a82-881d-dd6d544cb83b")
+		)
+		(pin "12"
+			(uuid "d573f4c0-11b9-48a2-92e8-453024e41ba5")
+		)
+		(pin "17"
+			(uuid "1e1794e1-ffdf-472b-b961-39a61caf8508")
+		)
+		(pin "5"
+			(uuid "712580a6-b9d8-4788-aa5d-88989a26d6dd")
+		)
+		(pin "6"
+			(uuid "3b9f6209-003a-401a-8178-fc78e932a5e8")
+		)
+		(pin "3"
+			(uuid "aae7a44d-9c6b-4fae-bbf1-bcfc6a81292a")
+		)
+		(pin "18"
+			(uuid "84da5c95-e647-4356-ac73-f1712b7946fd")
+		)
+		(pin "15"
+			(uuid "38c3580f-d8dc-4693-ae2f-6fba8f8bfc78")
+		)
+		(pin "11"
+			(uuid "fd51c318-8764-417d-86be-11d7b0caf6ef")
+		)
+		(instances
+			(project ""
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/bb2b2e05-965b-41e8-90ff-dc0d1c46f97c"
+					(reference "P3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_con:USB2-A_2stacked")
+		(at 266.7 33.02 0)
+		(mirror y)
+		(unit 2)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44604102-a51d-47bd-b422-6cdc45bf78e1")
+		(property "Reference" "P2"
+			(at 266.7 20.955 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "USB2-A_2stacked"
+			(at 274.32 33.02 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "reekilib_con:USB2_A_RCPT_HORZ_2STACKED"
+			(at 266.7 50.8 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61400826021.pdf"
+			(at 266.7 52.07 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "usb2 type a connector"
+			(at 266.7 53.34 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vmax" "30V"
+			(at 269.875 55.245 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Imax" "1.5A"
+			(at 266.7 55.245 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "61400826021"
+			(at 266.7 44.45 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Würth Elektronik"
+			(at 258.445 44.45 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.we-online.com/en/components/products/INPUT_OUTPUT_WR_USB_STANDARD#61400826021"
+			(at 234.95 44.45 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN2" "AU-Y1008-2"
+			(at 266.7 45.72 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG2" "Assmann WSW Components"
+			(at 258.445 45.72 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Link2" "https://www.assmann-wsw.com/us/product/au-y1008-2/"
+			(at 234.95 45.72 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN3" "SS-52100-003"
+			(at 266.7 46.99 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG3" "Stewart Connector"
+			(at 258.445 46.99 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Link3" "https://www.cinch.com/products/ethernet-usb/connectors/usb-connectors/ss-52100-003"
+			(at 234.95 46.99 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "eb01ea36-1aae-4a05-aa83-f74c74800e94")
+		)
+		(pin "9"
+			(uuid "8060a0e5-22cc-48ad-9039-bfe9e112c457")
+		)
+		(pin "6"
+			(uuid "2114ee0e-288e-4e10-b2e5-239f69860e4d")
+		)
+		(pin "4"
+			(uuid "5e81f1c8-9e31-442a-adea-f2fda37d7ad7")
+		)
+		(pin "1"
+			(uuid "b0f91290-2cc0-47a3-a16f-e2581a8902b0")
+		)
+		(pin "7"
+			(uuid "1c1defda-4a37-412b-8c8a-77a647029ff4")
+		)
+		(pin "8"
+			(uuid "9d5ba556-fb25-4b0c-b4f2-84cd1da750fe")
+		)
+		(pin "2"
+			(uuid "90ab6d92-0d81-4b52-84ac-4fcc23902cea")
+		)
+		(pin "3"
+			(uuid "16e5f4a4-1231-48e3-960c-857e84f9b08a")
+		)
+		(instances
+			(project ""
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/bb2b2e05-965b-41e8-90ff-dc0d1c46f97c"
+					(reference "P2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_con:USB2-A_2stacked")
+		(at 266.7 57.15 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d621651-26ef-4c4a-b593-488453950654")
+		(property "Reference" "P2"
+			(at 266.7 45.085 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "USB2-A_2stacked"
+			(at 274.32 57.15 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "reekilib_con:USB2_A_RCPT_HORZ_2STACKED"
+			(at 266.7 74.93 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61400826021.pdf"
+			(at 266.7 76.2 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "usb2 type a connector"
+			(at 266.7 77.47 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vmax" "30V"
+			(at 269.875 79.375 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Imax" "1.5A"
+			(at 266.7 79.375 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "61400826021"
+			(at 266.7 68.58 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Würth Elektronik"
+			(at 258.445 68.58 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.we-online.com/en/components/products/INPUT_OUTPUT_WR_USB_STANDARD#61400826021"
+			(at 234.95 68.58 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN2" "AU-Y1008-2"
+			(at 266.7 69.85 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG2" "Assmann WSW Components"
+			(at 258.445 69.85 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Link2" "https://www.assmann-wsw.com/us/product/au-y1008-2/"
+			(at 234.95 69.85 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN3" "SS-52100-003"
+			(at 266.7 71.12 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG3" "Stewart Connector"
+			(at 258.445 71.12 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Link3" "https://www.cinch.com/products/ethernet-usb/connectors/usb-connectors/ss-52100-003"
+			(at 234.95 71.12 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "eb01ea36-1aae-4a05-aa83-f74c74800e95")
+		)
+		(pin "9"
+			(uuid "8060a0e5-22cc-48ad-9039-bfe9e112c458")
+		)
+		(pin "6"
+			(uuid "2114ee0e-288e-4e10-b2e5-239f69860e4e")
+		)
+		(pin "4"
+			(uuid "5e81f1c8-9e31-442a-adea-f2fda37d7ad8")
+		)
+		(pin "1"
+			(uuid "b0f91290-2cc0-47a3-a16f-e2581a8902b1")
+		)
+		(pin "7"
+			(uuid "1c1defda-4a37-412b-8c8a-77a647029ff5")
+		)
+		(pin "8"
+			(uuid "9d5ba556-fb25-4b0c-b4f2-84cd1da750ff")
+		)
+		(pin "2"
+			(uuid "90ab6d92-0d81-4b52-84ac-4fcc23902ceb")
+		)
+		(pin "3"
+			(uuid "16e5f4a4-1231-48e3-960c-857e84f9b08b")
+		)
+		(instances
+			(project ""
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/bb2b2e05-965b-41e8-90ff-dc0d1c46f97c"
+					(reference "P2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_con:USB3-A_2stacked")
+		(at 266.7 137.16 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd2edf15-479e-4c55-92fe-e1804f286342")
+		(property "Reference" "P3"
+			(at 266.7 123.19 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "USB3-A_2stacked"
+			(at 274.32 137.795 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "reekilib_con:USB3_A_RCPT_HORZ_2STACKED"
+			(at 266.7 166.37 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.cnctech.us/pdfs/1003-004-01010_.pdf"
+			(at 266.7 168.275 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "dual usb3 type a connector"
+			(at 267.335 170.18 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1003-004-01010"
+			(at 266.7 159.385 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "CNC tech"
+			(at 257.81 159.385 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.cnctech.us/productdetails.asp?ID=1709"
+			(at 242.57 159.385 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "053643b7-66d9-4aa1-9a5a-889c93edde8e")
+		)
+		(pin "9"
+			(uuid "33186118-4b84-411f-83b2-a03975c4f8eb")
+		)
+		(pin "14"
+			(uuid "baa75aa4-c337-4ae3-96b1-c322fd6998eb")
+		)
+		(pin "10"
+			(uuid "07ca9019-a799-46b8-8788-f45ba953c73d")
+		)
+		(pin "2"
+			(uuid "6fa3cb01-15eb-497c-9610-3fb4ce035c5e")
+		)
+		(pin "8"
+			(uuid "f12f5f1c-8beb-47d2-918a-b105766f0aa2")
+		)
+		(pin "16"
+			(uuid "718d5971-0d8e-40a3-a0bf-9f93db8c090d")
+		)
+		(pin "19"
+			(uuid "a089b031-aa7d-4816-8011-e97343cd39e7")
+		)
+		(pin "7"
+			(uuid "17817e94-4b2c-4a0b-b794-468f6845f8d8")
+		)
+		(pin "13"
+			(uuid "c0a15699-96ec-45b1-8a40-39ee450d69c6")
+		)
+		(pin "1"
+			(uuid "e883ec65-621c-4a82-881d-dd6d544cb83c")
+		)
+		(pin "12"
+			(uuid "d573f4c0-11b9-48a2-92e8-453024e41ba6")
+		)
+		(pin "17"
+			(uuid "1e1794e1-ffdf-472b-b961-39a61caf8509")
+		)
+		(pin "5"
+			(uuid "712580a6-b9d8-4788-aa5d-88989a26d6de")
+		)
+		(pin "6"
+			(uuid "3b9f6209-003a-401a-8178-fc78e932a5e9")
+		)
+		(pin "3"
+			(uuid "aae7a44d-9c6b-4fae-bbf1-bcfc6a81292b")
+		)
+		(pin "18"
+			(uuid "84da5c95-e647-4356-ac73-f1712b7946fe")
+		)
+		(pin "15"
+			(uuid "38c3580f-d8dc-4693-ae2f-6fba8f8bfc79")
+		)
+		(pin "11"
+			(uuid "fd51c318-8764-417d-86be-11d7b0caf6f0")
+		)
+		(instances
+			(project ""
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/bb2b2e05-965b-41e8-90ff-dc0d1c46f97c"
+					(reference "P3")
+					(unit 1)
+				)
+			)
+		)
 	)
 )

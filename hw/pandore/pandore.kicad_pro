@@ -896,6 +896,12 @@
       "/Mgmt MCU/MCU/QSPI.~{CS}": [
         "QSPI"
       ],
+      "/Mgmt MCU/MCU/_USB.D+": [
+        "D90Ω"
+      ],
+      "/Mgmt MCU/MCU/_USB.D-": [
+        "D90Ω"
+      ],
       "/Real-Time MCU/MCU/QSPI.D0": [
         "QSPI"
       ],
@@ -913,6 +919,12 @@
       ],
       "/Real-Time MCU/MCU/QSPI.~{CS}": [
         "QSPI"
+      ],
+      "/Real-Time MCU/MCU/_USB.D+": [
+        "D90Ω"
+      ],
+      "/Real-Time MCU/MCU/_USB.D-": [
+        "D90Ω"
       ],
       "EARTH": [
         "GND"
@@ -1284,6 +1296,10 @@
     [
       "8e05de8b-3536-4686-b4df-144081dee611",
       "MCU"
+    ],
+    [
+      "505def28-a163-4964-82bd-abe7e8697de4",
+      "Audio inputs"
     ]
   ],
   "text_variables": {

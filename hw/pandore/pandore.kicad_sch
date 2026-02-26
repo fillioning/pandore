@@ -1210,26 +1210,26 @@
 		)
 	)
 	(junction
-		(at 201.93 149.86)
+		(at 255.27 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "03a0931a-c231-4449-aeca-12eb87a37ab3")
 	)
 	(junction
-		(at 209.55 143.51)
+		(at 262.89 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc6cd912-5079-4994-b5b4-2ed28fc18535")
 	)
 	(junction
-		(at 201.93 157.48)
+		(at 255.27 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e94176bd-5ef6-4159-b5f2-220a17833c4f")
 	)
 	(wire
 		(pts
-			(xy 209.55 143.51) (xy 201.93 143.51)
+			(xy 262.89 20.32) (xy 255.27 20.32)
 		)
 		(stroke
 			(width 0)
@@ -1239,7 +1239,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 149.86) (xy 205.74 149.86)
+			(xy 255.27 26.67) (xy 259.08 26.67)
 		)
 		(stroke
 			(width 0)
@@ -1269,7 +1269,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 157.48) (xy 201.93 158.75)
+			(xy 255.27 34.29) (xy 255.27 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1299,7 +1299,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 157.48) (xy 205.74 157.48)
+			(xy 255.27 34.29) (xy 259.08 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1349,7 +1349,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 149.86) (xy 201.93 151.13)
+			(xy 255.27 26.67) (xy 255.27 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1359,7 +1359,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 143.51) (xy 213.36 143.51)
+			(xy 262.89 20.32) (xy 266.7 20.32)
 		)
 		(stroke
 			(width 0)
@@ -1369,7 +1369,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 156.21) (xy 201.93 157.48)
+			(xy 255.27 33.02) (xy 255.27 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1379,7 +1379,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 143.51) (xy 201.93 149.86)
+			(xy 255.27 20.32) (xy 255.27 26.67)
 		)
 		(stroke
 			(width 0)
@@ -1400,7 +1400,7 @@
 	(netclass_flag ""
 		(length 1.27)
 		(shape diamond)
-		(at 269.24 115.57 180)
+		(at 83.82 25.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1410,7 +1410,7 @@
 		)
 		(uuid "21f7b14c-ac57-4df9-8ee3-1211e74e1cdd")
 		(property "Netclass" "PWR"
-			(at 270.3373 116.84 0)
+			(at 84.9173 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1419,7 +1419,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 97.79 16.51 0)
+			(at -87.63 -73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1431,7 +1431,7 @@
 	(netclass_flag ""
 		(length 1.27)
 		(shape diamond)
-		(at 269.24 120.65 0)
+		(at 83.82 30.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1441,7 +1441,7 @@
 		)
 		(uuid "64a99166-8d07-460f-ae97-1547004517e8")
 		(property "Netclass" "GND"
-			(at 270.3373 119.38 0)
+			(at 84.9173 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1450,7 +1450,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 97.79 21.59 0)
+			(at -87.63 -68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1462,7 +1462,7 @@
 	(netclass_flag ""
 		(length 1.27)
 		(shape diamond)
-		(at 209.55 143.51 0)
+		(at 262.89 20.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1472,7 +1472,7 @@
 		)
 		(uuid "d4a10a4a-bec1-452e-b506-d0a356e3de24")
 		(property "Netclass" "GND"
-			(at 210.6473 142.24 0)
+			(at 263.9873 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1481,7 +1481,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at -41.91 13.97 0)
+			(at 11.43 -109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1492,7 +1492,7 @@
 	)
 	(symbol
 		(lib_id "reekilib_vrt:virtual")
-		(at 219.71 158.75 0)
+		(at 273.05 35.56 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -1501,7 +1501,7 @@
 		(fields_autoplaced yes)
 		(uuid "10c53b1a-30da-49e9-8da0-102641213b80")
 		(property "Reference" "MNT3"
-			(at 219.71 157.48 0)
+			(at 273.05 34.29 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1510,7 +1510,7 @@
 			)
 		)
 		(property "Value" "Mounting"
-			(at 219.71 160.02 0)
+			(at 273.05 36.83 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1519,7 +1519,7 @@
 			)
 		)
 		(property "Footprint" "reekilib_mnt:mnt_M3"
-			(at 219.71 162.814 0)
+			(at 273.05 39.624 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1529,7 +1529,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mcmaster.com/mvD/Library/M4/20240725/F72DDE8E/92832A214_Zinc-Plated%20Steel%20Button%20Head%20Torx%20Screws.PDF"
-			(at 219.71 164.338 0)
+			(at 273.05 41.148 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1539,7 +1539,7 @@
 			)
 		)
 		(property "Description" "Mounting point M3"
-			(at 219.71 167.132 0)
+			(at 273.05 43.942 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1549,7 +1549,7 @@
 			)
 		)
 		(property "Link" "https://www.mcmaster.com/92832A214/?SrchEntryWebPart_InpBox=92832A214"
-			(at 219.71 158.75 0)
+			(at 273.05 35.56 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -1558,7 +1558,7 @@
 			)
 		)
 		(property "MPN" "92832A214"
-			(at 219.71 165.608 0)
+			(at 273.05 42.418 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1568,7 +1568,7 @@
 			)
 		)
 		(property "MFG" "Mcmaster-carr"
-			(at 224.536 165.608 0)
+			(at 277.876 42.418 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1780,16 +1780,17 @@
 		)
 	)
 	(symbol
-		(lib_id "reekilib_con:hdr-1x1")
-		(at 220.98 143.51 0)
+		(lib_id "reekilib_vrt:virtual")
+		(at 273.05 66.04 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5e9b3a21-4977-4545-a82a-1308b79daf17")
-		(property "Reference" "MNT1"
-			(at 220.98 142.24 0)
+		(fields_autoplaced yes)
+		(uuid "467f8180-7b11-41f7-964b-7cc2122dfdbe")
+		(property "Reference" "MNT7"
+			(at 273.05 64.77 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1797,8 +1798,8 @@
 				)
 			)
 		)
-		(property "Value" "MNT-CHASSIS"
-			(at 220.98 139.7 0)
+		(property "Value" "Mounting"
+			(at 273.05 67.31 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1806,8 +1807,8 @@
 				)
 			)
 		)
-		(property "Footprint" "reekilib_mnt:mnt_M3_ele"
-			(at 220.98 150.368 0)
+		(property "Footprint" "reekilib_mnt:mnt_M3"
+			(at 273.05 70.104 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1817,7 +1818,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mcmaster.com/mvD/Library/M4/20240725/F72DDE8E/92832A214_Zinc-Plated%20Steel%20Button%20Head%20Torx%20Screws.PDF"
-			(at 220.98 154.432 0)
+			(at 273.05 71.628 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1826,8 +1827,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "mount connected to chassis"
-			(at 220.98 151.892 0)
+		(property "Description" "Mounting point M3"
+			(at 273.05 74.422 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1837,17 +1838,16 @@
 			)
 		)
 		(property "Link" "https://www.mcmaster.com/92832A214/?SrchEntryWebPart_InpBox=92832A214"
-			(at 220.98 153.162 0)
-			(do_not_autoplace yes)
+			(at 273.05 66.04 0)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.016 1.016)
 				)
 				(hide yes)
 			)
 		)
 		(property "MPN" "92832A214"
-			(at 220.98 148.844 0)
+			(at 273.05 72.898 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1857,7 +1857,201 @@
 			)
 		)
 		(property "MFG" "Mcmaster-carr"
-			(at 225.298 148.844 0)
+			(at 277.876 72.898 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966"
+					(reference "MNT7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_vrt:virtual")
+		(at 273.05 58.42 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46e9ef60-4977-4134-81c8-9425bd313256")
+		(property "Reference" "MNT6"
+			(at 273.05 57.15 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "Mounting"
+			(at 273.05 59.69 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "reekilib_mnt:mnt_M3"
+			(at 273.05 62.484 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mcmaster.com/mvD/Library/M4/20240725/F72DDE8E/92832A214_Zinc-Plated%20Steel%20Button%20Head%20Torx%20Screws.PDF"
+			(at 273.05 64.008 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting point M3"
+			(at 273.05 66.802 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mcmaster.com/92832A214/?SrchEntryWebPart_InpBox=92832A214"
+			(at 273.05 58.42 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "92832A214"
+			(at 273.05 65.278 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Mcmaster-carr"
+			(at 277.876 65.278 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966"
+					(reference "MNT6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_con:hdr-1x1")
+		(at 274.32 20.32 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e9b3a21-4977-4545-a82a-1308b79daf17")
+		(property "Reference" "MNT1"
+			(at 274.32 19.05 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "MNT-CHASSIS"
+			(at 274.32 16.51 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "reekilib_mnt:mnt_M3_ele"
+			(at 274.32 27.178 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mcmaster.com/mvD/Library/M4/20240725/F72DDE8E/92832A214_Zinc-Plated%20Steel%20Button%20Head%20Torx%20Screws.PDF"
+			(at 274.32 31.242 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "mount connected to chassis"
+			(at 274.32 28.702 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mcmaster.com/92832A214/?SrchEntryWebPart_InpBox=92832A214"
+			(at 274.32 29.972 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "92832A214"
+			(at 274.32 25.654 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Mcmaster-carr"
+			(at 278.638 25.654 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1881,7 +2075,7 @@
 	)
 	(symbol
 		(lib_id "reekilib_pwr:VSS")
-		(at 269.24 121.92 0)
+		(at 83.82 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1889,7 +2083,7 @@
 		(dnp no)
 		(uuid "6b205b56-22ca-4201-b4d4-19dd5c678038")
 		(property "Reference" "#PWR02"
-			(at 269.24 126.365 0)
+			(at 83.82 36.195 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1899,7 +2093,7 @@
 			)
 		)
 		(property "Value" "VSS"
-			(at 269.24 124.206 0)
+			(at 83.82 34.036 0)
 			(effects
 				(font
 					(size 1 1)
@@ -1907,7 +2101,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 269.24 121.92 0)
+			(at 83.82 31.75 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1915,7 +2109,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 119.38 0)
+			(at 83.82 29.21 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1923,7 +2117,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 269.24 121.92 0)
+			(at 83.82 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2137,7 +2331,7 @@
 	)
 	(symbol
 		(lib_id "reekilib_vrt:virtual")
-		(at 219.71 151.13 0)
+		(at 273.05 27.94 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -2146,7 +2340,7 @@
 		(fields_autoplaced yes)
 		(uuid "775b550a-4551-4a70-b1c9-0d46cabbb24f")
 		(property "Reference" "MNT2"
-			(at 219.71 149.86 0)
+			(at 273.05 26.67 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2155,7 +2349,7 @@
 			)
 		)
 		(property "Value" "Mounting"
-			(at 219.71 152.4 0)
+			(at 273.05 29.21 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2164,7 +2358,7 @@
 			)
 		)
 		(property "Footprint" "reekilib_mnt:mnt_M3"
-			(at 219.71 155.194 0)
+			(at 273.05 32.004 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2174,7 +2368,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mcmaster.com/mvD/Library/M4/20240725/F72DDE8E/92832A214_Zinc-Plated%20Steel%20Button%20Head%20Torx%20Screws.PDF"
-			(at 219.71 156.718 0)
+			(at 273.05 33.528 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2184,7 +2378,7 @@
 			)
 		)
 		(property "Description" "Mounting point M3"
-			(at 219.71 159.512 0)
+			(at 273.05 36.322 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2194,7 +2388,7 @@
 			)
 		)
 		(property "Link" "https://www.mcmaster.com/92832A214/?SrchEntryWebPart_InpBox=92832A214"
-			(at 219.71 151.13 0)
+			(at 273.05 27.94 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -2203,7 +2397,7 @@
 			)
 		)
 		(property "MPN" "92832A214"
-			(at 219.71 157.988 0)
+			(at 273.05 34.798 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2213,7 +2407,7 @@
 			)
 		)
 		(property "MFG" "Mcmaster-carr"
-			(at 224.536 157.988 0)
+			(at 277.876 34.798 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2233,8 +2427,105 @@
 		)
 	)
 	(symbol
+		(lib_id "reekilib_vrt:virtual")
+		(at 273.05 73.66 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "797b0068-d8f0-4ef4-8a66-3a43c9ab69a4")
+		(property "Reference" "MNT8"
+			(at 273.05 72.39 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "Mounting"
+			(at 273.05 74.93 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "reekilib_mnt:mnt_M3"
+			(at 273.05 77.724 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mcmaster.com/mvD/Library/M4/20240725/F72DDE8E/92832A214_Zinc-Plated%20Steel%20Button%20Head%20Torx%20Screws.PDF"
+			(at 273.05 79.248 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting point M3"
+			(at 273.05 82.042 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mcmaster.com/92832A214/?SrchEntryWebPart_InpBox=92832A214"
+			(at 273.05 73.66 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "92832A214"
+			(at 273.05 80.518 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Mcmaster-carr"
+			(at 277.876 80.518 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966"
+					(reference "MNT8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "reekilib_cap:cap")
-		(at 201.93 153.67 0)
+		(at 255.27 30.48 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2243,7 +2534,7 @@
 		(dnp no)
 		(uuid "7f85ae1e-abd7-4de7-a98a-ce4b8ffeefd7")
 		(property "Reference" "C1"
-			(at 199.39 150.876 0)
+			(at 252.73 27.686 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2253,7 +2544,7 @@
 			)
 		)
 		(property "Value" "${Capacitance}, ${Voltage}, ${Dielectric}"
-			(at 199.39 152.908 0)
+			(at 252.73 29.718 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2264,7 +2555,7 @@
 			)
 		)
 		(property "Footprint" "reekilib_cap:CAPC3216"
-			(at 201.93 163.322 0)
+			(at 255.27 40.132 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2274,7 +2565,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.holystone.com.tw/downloads/series/10000/1000/43/20240823161915_file2.pdf"
-			(at 201.93 168.148 0)
+			(at 255.27 44.958 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2284,7 +2575,7 @@
 			)
 		)
 		(property "Description" "Non polarized capacitor"
-			(at 201.93 165.1 0)
+			(at 255.27 41.91 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2294,7 +2585,7 @@
 			)
 		)
 		(property "Link" "https://www.holystone.com.tw/product_detail.php?&mlevel1=14&DetailId=QD48PyomJTFAKCsjJV4r&lineId=QD48PyomJTE5QCgrIyVeKw=="
-			(at 201.93 166.624 0)
+			(at 255.27 43.434 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2304,7 +2595,7 @@
 			)
 		)
 		(property "Capacitance" "10nF"
-			(at 199.39 152.4 0)
+			(at 252.73 29.21 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2314,7 +2605,7 @@
 			)
 		)
 		(property "Voltage" "630V"
-			(at 199.39 153.924 0)
+			(at 252.73 30.734 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2324,7 +2615,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 199.39 155.448 0)
+			(at 252.73 32.258 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2334,7 +2625,7 @@
 			)
 		)
 		(property "MPN" "ACC1206X103K631TX"
-			(at 201.93 172.466 0)
+			(at 255.27 49.276 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2344,7 +2635,7 @@
 			)
 		)
 		(property "MFG" " Holy Stone Enterprise Co Ltd"
-			(at 189.992 172.466 0)
+			(at 243.332 49.276 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2355,7 +2646,7 @@
 			)
 		)
 		(property "MPN2" ""
-			(at 201.93 173.99 0)
+			(at 255.27 50.8 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2365,7 +2656,7 @@
 			)
 		)
 		(property "MFG2" ""
-			(at 189.992 173.99 0)
+			(at 243.332 50.8 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2376,7 +2667,7 @@
 			)
 		)
 		(property "MPN3" ""
-			(at 201.93 175.514 0)
+			(at 255.27 52.324 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2386,7 +2677,7 @@
 			)
 		)
 		(property "MFG3" ""
-			(at 189.992 175.514 0)
+			(at 243.332 52.324 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2397,7 +2688,7 @@
 			)
 		)
 		(property "MPN4" ""
-			(at 201.93 177.038 0)
+			(at 255.27 53.848 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2407,7 +2698,7 @@
 			)
 		)
 		(property "MFG4" ""
-			(at 189.738 177.038 0)
+			(at 243.078 53.848 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2418,7 +2709,7 @@
 			)
 		)
 		(property "Rating" "X1,Y2"
-			(at 199.39 156.718 0)
+			(at 252.73 33.528 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2634,8 +2925,105 @@
 		)
 	)
 	(symbol
+		(lib_id "reekilib_vrt:virtual")
+		(at 273.05 50.8 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96d2acb9-85f0-4cfa-8133-b501944ac0f3")
+		(property "Reference" "MNT5"
+			(at 273.05 49.53 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "Mounting"
+			(at 273.05 52.07 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "reekilib_mnt:mnt_M3"
+			(at 273.05 54.864 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mcmaster.com/mvD/Library/M4/20240725/F72DDE8E/92832A214_Zinc-Plated%20Steel%20Button%20Head%20Torx%20Screws.PDF"
+			(at 273.05 56.388 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting point M3"
+			(at 273.05 59.182 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mcmaster.com/92832A214/?SrchEntryWebPart_InpBox=92832A214"
+			(at 273.05 50.8 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "92832A214"
+			(at 273.05 57.658 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Mcmaster-carr"
+			(at 277.876 57.658 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966"
+					(reference "MNT5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "reekilib_pwr:EARTH")
-		(at 209.55 144.78 0)
+		(at 262.89 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2643,7 +3031,7 @@
 		(dnp no)
 		(uuid "98405f43-e3eb-4560-b976-d6646803097c")
 		(property "Reference" "#PWR03"
-			(at 209.55 149.225 0)
+			(at 262.89 26.035 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2653,7 +3041,7 @@
 			)
 		)
 		(property "Value" "EARTH"
-			(at 209.55 147.066 0)
+			(at 262.89 23.876 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2661,7 +3049,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 144.78 0)
+			(at 262.89 21.59 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2669,7 +3057,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 144.78 0)
+			(at 262.89 21.59 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2677,7 +3065,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 209.55 144.78 0)
+			(at 262.89 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2795,7 +3183,7 @@
 	)
 	(symbol
 		(lib_id "reekilib_res:res")
-		(at 205.74 153.67 0)
+		(at 259.08 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2803,7 +3191,7 @@
 		(dnp no)
 		(uuid "ac0836d5-97d3-44a9-b224-0cc7833e208a")
 		(property "Reference" "R1"
-			(at 207.772 150.876 0)
+			(at 261.112 27.686 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2813,7 +3201,7 @@
 			)
 		)
 		(property "Value" "${Resistance}, ${Tolerance}, ${Power}"
-			(at 207.772 152.908 0)
+			(at 261.112 29.718 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2824,7 +3212,7 @@
 			)
 		)
 		(property "Footprint" "reekilib_res:RESC3216"
-			(at 205.994 164.846 0)
+			(at 259.334 41.656 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2834,7 +3222,7 @@
 			)
 		)
 		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ktr-e.pdf"
-			(at 205.74 167.894 0)
+			(at 259.08 44.704 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2844,7 +3232,7 @@
 			)
 		)
 		(property "Description" "Resistor single 2 pad"
-			(at 205.74 166.37 0)
+			(at 259.08 43.18 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2854,7 +3242,7 @@
 			)
 		)
 		(property "Link" "https://www.rohm.com/products/resistors/high-reliability-resistors/high-voltage-resistance-chip-resistors/ktr18ezpj-product"
-			(at 205.994 169.418 0)
+			(at 259.334 46.228 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2864,7 +3252,7 @@
 			)
 		)
 		(property "Resistance" "1MΩ"
-			(at 207.772 152.4 0)
+			(at 261.112 29.21 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2874,7 +3262,7 @@
 			)
 		)
 		(property "Tolerance" "5%"
-			(at 207.772 153.924 0)
+			(at 261.112 30.734 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2884,7 +3272,7 @@
 			)
 		)
 		(property "Power" "250mW"
-			(at 207.772 155.448 0)
+			(at 261.112 32.258 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2894,7 +3282,7 @@
 			)
 		)
 		(property "MPN" "KTR18EZPJ105"
-			(at 205.74 171.45 0)
+			(at 259.08 48.26 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2904,7 +3292,7 @@
 			)
 		)
 		(property "MFG" "Rohm Semiconductor"
-			(at 219.71 171.196 0)
+			(at 273.05 48.006 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2915,7 +3303,7 @@
 			)
 		)
 		(property "MPN2" ""
-			(at 205.232 173.228 0)
+			(at 258.572 50.038 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2925,7 +3313,7 @@
 			)
 		)
 		(property "MFG2" ""
-			(at 219.964 173.228 0)
+			(at 273.304 50.038 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2936,7 +3324,7 @@
 			)
 		)
 		(property "MPN3" ""
-			(at 205.74 175.006 0)
+			(at 259.08 51.816 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2946,7 +3334,7 @@
 			)
 		)
 		(property "MFG3" ""
-			(at 219.964 175.006 0)
+			(at 273.304 51.816 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2957,7 +3345,7 @@
 			)
 		)
 		(property "Voltage" "500V"
-			(at 207.772 156.972 0)
+			(at 261.112 33.782 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2983,7 +3371,7 @@
 	)
 	(symbol
 		(lib_id "reekilib_pwr:VSS")
-		(at 201.93 160.02 0)
+		(at 255.27 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2991,7 +3379,7 @@
 		(dnp no)
 		(uuid "b7f2cc99-cd19-4403-826c-bcaf13b0393d")
 		(property "Reference" "#PWR04"
-			(at 201.93 164.465 0)
+			(at 255.27 41.275 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3001,7 +3389,7 @@
 			)
 		)
 		(property "Value" "VSS"
-			(at 201.93 162.306 0)
+			(at 255.27 39.116 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3009,7 +3397,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 160.02 0)
+			(at 255.27 36.83 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3017,7 +3405,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 157.48 0)
+			(at 255.27 34.29 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3025,7 +3413,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 160.02 0)
+			(at 255.27 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3047,7 +3435,7 @@
 	)
 	(symbol
 		(lib_id "reekilib_pwr:VDD")
-		(at 269.24 114.3 0)
+		(at 83.82 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3055,7 +3443,7 @@
 		(dnp no)
 		(uuid "bf411692-d935-4b93-b649-a7971a3a4f69")
 		(property "Reference" "#PWR01"
-			(at 269.24 111.125 0)
+			(at 83.82 20.955 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3065,7 +3453,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 269.24 113.284 0)
+			(at 83.82 23.114 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3073,7 +3461,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 269.24 114.3 0)
+			(at 83.82 24.13 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3081,7 +3469,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 114.3 0)
+			(at 83.82 24.13 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3089,7 +3477,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 269.24 114.3 0)
+			(at 83.82 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3303,7 +3691,7 @@
 	)
 	(symbol
 		(lib_id "reekilib_vrt:virtual")
-		(at 219.71 166.37 0)
+		(at 273.05 43.18 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -3312,7 +3700,7 @@
 		(fields_autoplaced yes)
 		(uuid "d78234bc-1d4b-497e-a02f-a9246d74256d")
 		(property "Reference" "MNT4"
-			(at 219.71 165.1 0)
+			(at 273.05 41.91 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3321,7 +3709,7 @@
 			)
 		)
 		(property "Value" "Mounting"
-			(at 219.71 167.64 0)
+			(at 273.05 44.45 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3330,7 +3718,7 @@
 			)
 		)
 		(property "Footprint" "reekilib_mnt:mnt_M3"
-			(at 219.71 170.434 0)
+			(at 273.05 47.244 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3340,7 +3728,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mcmaster.com/mvD/Library/M4/20240725/F72DDE8E/92832A214_Zinc-Plated%20Steel%20Button%20Head%20Torx%20Screws.PDF"
-			(at 219.71 171.958 0)
+			(at 273.05 48.768 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3350,7 +3738,7 @@
 			)
 		)
 		(property "Description" "Mounting point M3"
-			(at 219.71 174.752 0)
+			(at 273.05 51.562 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3360,7 +3748,7 @@
 			)
 		)
 		(property "Link" "https://www.mcmaster.com/92832A214/?SrchEntryWebPart_InpBox=92832A214"
-			(at 219.71 166.37 0)
+			(at 273.05 43.18 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -3369,7 +3757,7 @@
 			)
 		)
 		(property "MPN" "92832A214"
-			(at 219.71 173.228 0)
+			(at 273.05 50.038 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3379,7 +3767,7 @@
 			)
 		)
 		(property "MFG" "Mcmaster-carr"
-			(at 224.536 173.228 0)
+			(at 277.876 50.038 0)
 			(do_not_autoplace yes)
 			(effects
 				(font

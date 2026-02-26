@@ -10,7 +10,481 @@
 		(rev "${revision}")
 		(company "${corp}")
 	)
-	(lib_symbols)
+	(lib_symbols
+		(symbol "reekilib_con:HDMI"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "P?"
+				(at 0 31.75 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Value" "HDMI"
+				(at -8.89 0 90)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Footprint" "reekilib_con:TE_1747981-1"
+				(at 0 -45.085 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.te.com/usa-en/product-1747981-1.datasheet.pdf"
+				(at 0 -46.355 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "HDMI receptacle"
+				(at 0 -43.815 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vmax" "-"
+				(at -6.35 -41.91 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify right)
+					(hide yes)
+				)
+			)
+			(property "Imax" "0.5A"
+				(at 0 -41.91 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "1747981-1"
+				(at 0 -38.1 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFG" "TE connectivity"
+				(at 12.7 -38.1 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Link" "https://www.te.com/usa-en/product-1747981-1.html"
+				(at 38.1 -38.1 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "reekilib_con:TE_1747981-1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HDMI_0_1"
+				(rectangle
+					(start -10.16 30.48)
+					(end 11.43 -36.83)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "HDMI_1_1"
+				(pin passive line
+					(at 15.24 27.94 180)
+					(length 3.81)
+					(name "TMDS.D0+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at 15.24 25.4 180)
+					(length 3.81)
+					(name "TMDS.D0-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 22.86 180)
+					(length 3.81)
+					(name "TMDS.D0SHD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 17.78 180)
+					(length 3.81)
+					(name "TMDS.D1+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at 15.24 15.24 180)
+					(length 3.81)
+					(name "TMDS.D1-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 12.7 180)
+					(length 3.81)
+					(name "TMDS.D1SHD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 7.62 180)
+					(length 3.81)
+					(name "TMDS.D2+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at 15.24 5.08 180)
+					(length 3.81)
+					(name "TMDS.D2-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 2.54 180)
+					(length 3.81)
+					(name "TMDS.D2SHD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive clock
+					(at 15.24 -2.54 180)
+					(length 3.81)
+					(name "TMDS.CLK+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted_clock
+					(at 15.24 -5.08 180)
+					(length 3.81)
+					(name "TMDS.CLK-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -7.62 180)
+					(length 3.81)
+					(name "TMDS.CLKSHD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive clock
+					(at 15.24 -12.7 180)
+					(length 3.81)
+					(name "DDC.CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -15.24 180)
+					(length 3.81)
+					(name "DDC.DATA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -17.78 180)
+					(length 3.81)
+					(name "CEC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -20.32 180)
+					(length 3.81)
+					(name "HotPlugDetect"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -25.4 180)
+					(length 3.81)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -30.48 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -34.29 180)
+					(length 3.81)
+					(name "SHD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
 	(bus_entry
 		(at 59.69 69.85)
 		(size 2.54 2.54)
@@ -528,5 +1002,183 @@
 			(justify right)
 		)
 		(uuid "b908b9d1-6d72-409b-a7c9-94d92625261b")
+	)
+	(symbol
+		(lib_id "reekilib_con:HDMI")
+		(at 224.79 90.17 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ce666a3-e65e-496f-b70d-a8cf13d6a72b")
+		(property "Reference" "P1"
+			(at 224.79 58.42 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "HDMI"
+			(at 233.68 90.17 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "reekilib_con:TE_1747981-1"
+			(at 224.79 135.255 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/usa-en/product-1747981-1.datasheet.pdf"
+			(at 224.79 136.525 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "HDMI receptacle"
+			(at 224.79 133.985 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vmax" "-"
+			(at 231.14 132.08 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Imax" "0.5A"
+			(at 224.79 132.08 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1747981-1"
+			(at 224.79 128.27 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "TE connectivity"
+			(at 212.09 128.27 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.te.com/usa-en/product-1747981-1.html"
+			(at 186.69 128.27 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "443b6fdf-97f8-4c5b-9b0b-3bdd16320fa9")
+		)
+		(pin "9"
+			(uuid "f5b10e64-82fe-4efa-b9da-a293b4401a8c")
+		)
+		(pin "12"
+			(uuid "1730d312-dd9f-42ed-acee-322f53056bb9")
+		)
+		(pin "4"
+			(uuid "27976c33-e5c1-4083-b2a5-f9c7006c9e23")
+		)
+		(pin "13"
+			(uuid "c6db343b-96cb-4e54-ab61-bd3040120d45")
+		)
+		(pin "0"
+			(uuid "920e1188-e63a-4319-98f5-20a1531ca5ac")
+		)
+		(pin "16"
+			(uuid "27324721-f1dd-407a-8313-7d6540321108")
+		)
+		(pin "10"
+			(uuid "142f59c5-c91a-42dc-ade5-7685fde2ce06")
+		)
+		(pin "15"
+			(uuid "d26be9de-3879-4e38-84e3-62b7380ff0b5")
+		)
+		(pin "11"
+			(uuid "c9c13e9a-b364-4507-a6ea-f13b9456a997")
+		)
+		(pin "8"
+			(uuid "191d049d-6c43-4459-9d35-869fd431f6de")
+		)
+		(pin "7"
+			(uuid "cc494f07-5d3a-4c9a-b0a9-acb8b998e6c6")
+		)
+		(pin "2"
+			(uuid "6d0a7332-7bd4-46b2-ac9b-281ce6703ad0")
+		)
+		(pin "18"
+			(uuid "113ae240-bc9b-44f9-9ced-8d96b3af202f")
+		)
+		(pin "6"
+			(uuid "b3d409fd-576f-49b6-aa92-cbd20c108bee")
+		)
+		(pin "1"
+			(uuid "4c4e7e8c-ee23-4fcc-a916-d489b340f462")
+		)
+		(pin "17"
+			(uuid "5b717e36-a14f-4955-ba3b-9a59a4fe5679")
+		)
+		(pin "19"
+			(uuid "11c53827-874c-4df3-9c78-d68836ccd2ca")
+		)
+		(pin "5"
+			(uuid "ea31d5f3-5035-4df4-9b17-22c204839111")
+		)
+		(instances
+			(project ""
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/db554ed3-9c74-43b8-ae28-746fed02a615"
+					(reference "P1")
+					(unit 1)
+				)
+			)
+		)
 	)
 )
