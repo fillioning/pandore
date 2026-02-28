@@ -10,5 +10,549 @@
 		(rev "${revision}")
 		(company "${corp}")
 	)
-	(lib_symbols)
+	(lib_symbols
+		(symbol "reekilib_con:8p8c_2led_shield"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 15.24 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Value" "8p8c_2led_shield"
+				(at -7.62 0 90)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Footprint" "reekilib_con:amphenol_RJE58-188-54x1-0x"
+				(at 0 -28.575 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/rje581885xx1.pdf"
+				(at 0 -31.115 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "8P8C Ethernet connector, 2LED with shield"
+				(at 0 -29.845 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vmax" "125V"
+				(at -3.81 -25.4 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify right)
+					(hide yes)
+				)
+			)
+			(property "Imax" "1.25A"
+				(at 0 -25.4 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "RJE581885411"
+				(at 0 -35.56 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFG" "Amphenol ICC (Commercial Products)"
+				(at 12.7 -35.56 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Link" "https://www.amphenol-cs.com/product/rje581885411.html"
+				(at 50.8 -35.56 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "reekilib_con:amphenol_RJE58-188-54x1-0x reekilib_con:amphenol_RJHSE538x"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "8p8c_2led_shield_0_1"
+				(rectangle
+					(start -8.89 13.97)
+					(end 8.89 -21.59)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "8p8c_2led_shield_1_1"
+				(polyline
+					(pts
+						(xy -3.048 -2.032) (xy 3.302 -2.032) (xy 3.302 1.778) (xy 2.032 1.778) (xy 2.032 2.286) (xy 1.524 2.286)
+						(xy 1.524 3.048) (xy -1.27 3.048) (xy -1.27 2.286) (xy -1.778 2.286) (xy -1.778 1.778) (xy -3.048 1.778)
+						(xy -3.048 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -12.7 -19.05 0)
+					(length 3.81)
+					(name "SHD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 11.43 180)
+					(length 3.81)
+					(name "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 8.89 180)
+					(length 3.81)
+					(name "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 6.35 180)
+					(length 3.81)
+					(name "C3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 3.81 180)
+					(length 3.81)
+					(name "C4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 1.27 180)
+					(length 3.81)
+					(name "C5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -1.27 180)
+					(length 3.81)
+					(name "C6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -3.81 180)
+					(length 3.81)
+					(name "C7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -6.35 180)
+					(length 3.81)
+					(name "C8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -11.43 180)
+					(length 3.81)
+					(name "LEDL_C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "CL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -13.97 180)
+					(length 3.81)
+					(name "LEDL_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "AL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -16.51 180)
+					(length 3.81)
+					(name "LEDR_C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "CR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -19.05 180)
+					(length 3.81)
+					(name "LEDR_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "AR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_con:8p8c_2led_shield")
+		(at 254 52.07 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "224a23c9-ff57-4e7c-adc8-1bca39bbfdee")
+		(property "Reference" "J1"
+			(at 254 36.83 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "8p8c_2led_shield"
+			(at 261.62 52.07 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "reekilib_con:amphenol_RJE58-188-54x1-0x"
+			(at 254 80.645 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/rje581885xx1.pdf"
+			(at 254 83.185 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "8P8C Ethernet connector, 2LED with shield"
+			(at 254 81.915 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vmax" "125V"
+			(at 257.81 77.47 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Imax" "1.25A"
+			(at 254 77.47 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RJE581885411"
+			(at 254 87.63 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Amphenol ICC (Commercial Products)"
+			(at 241.3 87.63 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.amphenol-cs.com/product/rje581885411.html"
+			(at 203.2 87.63 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "CL"
+			(uuid "6cfc2721-6532-4760-b6df-322abed3012b")
+		)
+		(pin "3"
+			(uuid "ee5dad73-c723-4a3c-a679-c99feb7552b3")
+		)
+		(pin "SH"
+			(uuid "dfbf167c-843f-4d65-9f3e-dda4bbf9f143")
+		)
+		(pin "AL"
+			(uuid "3a17b487-10ed-43f1-ae45-7125b251b4b8")
+		)
+		(pin "4"
+			(uuid "a64a6117-5ee4-4bcc-881f-9624d87fb797")
+		)
+		(pin "5"
+			(uuid "332ea925-ec98-4c2a-ae81-920330c81e34")
+		)
+		(pin "6"
+			(uuid "650ac52f-9c48-45f8-983c-4b9929b537b7")
+		)
+		(pin "AR"
+			(uuid "2dd45267-c382-4712-b499-25059414ccdc")
+		)
+		(pin "2"
+			(uuid "e3eebd06-28ed-479c-aa95-e86e8b1cb06f")
+		)
+		(pin "CR"
+			(uuid "49f49c13-c4b4-48ab-9754-84313cddfbee")
+		)
+		(pin "1"
+			(uuid "9018b41c-879b-4b63-a69c-d1838195ede3")
+		)
+		(pin "7"
+			(uuid "23883d27-84c7-4026-8b50-3f46fcbc3238")
+		)
+		(pin "8"
+			(uuid "94e6bb10-ce2c-4f8c-b1ab-650b35fba70e")
+		)
+		(instances
+			(project ""
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/83546ca1-08e2-4cd0-99ad-1e2a6bc1b076"
+					(reference "J2")
+					(unit 1)
+				)
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b69294f0-a26d-445f-ba7c-20a0f29876f9"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
