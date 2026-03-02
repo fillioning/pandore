@@ -402,7 +402,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "224a23c9-ff57-4e7c-adc8-1bca39bbfdee")
-		(property "Reference" "J1"
+		(property "Reference" "J9"
 			(at 254 36.83 0)
 			(do_not_autoplace yes)
 			(effects
@@ -545,11 +545,11 @@
 		(instances
 			(project ""
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/83546ca1-08e2-4cd0-99ad-1e2a6bc1b076"
-					(reference "J2")
+					(reference "J8")
 					(unit 1)
 				)
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b69294f0-a26d-445f-ba7c-20a0f29876f9"
-					(reference "J1")
+					(reference "J9")
 					(unit 1)
 				)
 			)

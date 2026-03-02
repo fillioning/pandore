@@ -11,14 +11,14 @@
 		(company "${corp}")
 	)
 	(lib_symbols
-		(symbol "reekilib_con:xlr_trs_combo"
+		(symbol "reekilib_con:xlr3_trs3sw_combo"
 			(pin_names
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "P"
+			(property "Reference" "J"
 				(at 0 19.05 0)
 				(do_not_autoplace)
 				(effects
@@ -27,7 +27,7 @@
 					)
 				)
 			)
-			(property "Value" "XLR+TRS6.35+SW"
+			(property "Value" "XLR+TRS6.35+3SW"
 				(at -8.89 0 90)
 				(do_not_autoplace)
 				(effects
@@ -56,7 +56,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "XLR TRS6.35mm combo receptacle with all switches"
+			(property "Description" "XLR TRS6.35mm combo receptacle with 3 switches"
 				(at 0 -24.765 0)
 				(do_not_autoplace)
 				(effects
@@ -137,7 +137,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "xlr_trs_combo_0_1"
+			(symbol "xlr3_trs3sw_combo_0_1"
 				(circle
 					(center -3.81 8.89)
 					(radius 1.27)
@@ -281,7 +281,7 @@
 					)
 				)
 			)
-			(symbol "xlr_trs_combo_1_1"
+			(symbol "xlr3_trs3sw_combo_1_1"
 				(rectangle
 					(start -10.16 17.78)
 					(end 12.7 -16.51)
@@ -502,7 +502,7 @@
 		)
 	)
 	(symbol
-		(lib_id "reekilib_con:xlr_trs_combo")
+		(lib_id "reekilib_con:xlr3_trs3sw_combo")
 		(at 50.8 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -511,7 +511,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "093fc0f0-4ba8-4311-b70a-b15d148ba4ea")
-		(property "Reference" "P4"
+		(property "Reference" "J4"
 			(at 50.8 26.67 0)
 			(do_not_autoplace yes)
 			(effects
@@ -520,7 +520,7 @@
 				)
 			)
 		)
-		(property "Value" "XLR+TRS6.35+SW"
+		(property "Value" "XLR+TRS6.35+3SW"
 			(at 41.91 45.72 90)
 			(do_not_autoplace yes)
 			(effects
@@ -549,7 +549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "XLR TRS6.35mm combo receptacle with all switches"
+		(property "Description" "XLR TRS6.35mm combo receptacle with 3 switches"
 			(at 50.8 70.485 0)
 			(do_not_autoplace yes)
 			(effects
@@ -613,46 +613,50 @@
 			)
 		)
 		(pin "SS"
-			(uuid "de0c2192-3b16-4653-bf66-5aa6f99e64a5")
+			(uuid "0243aa7c-7d76-48d5-ad5c-ceb621b4e8f4")
 		)
 		(pin "G"
-			(uuid "675226d3-2fa6-4ff9-83ac-e2fdbea0d079")
+			(uuid "5a202a09-5e7d-4913-82ee-bdca1271c6fe")
 		)
 		(pin "S"
-			(uuid "b084e162-6b39-4af2-a095-c0656a1518b7")
+			(uuid "ee25421e-5f22-4985-a907-3cec3a5a28d7")
 		)
 		(pin "TS"
-			(uuid "87415f8a-9259-44df-ac27-0e204d6b0207")
+			(uuid "acd89f34-ef7a-4d5c-89e0-a9200b38d201")
 		)
 		(pin "2"
-			(uuid "29ceb765-dd1e-4a18-b22a-8c464b679b72")
+			(uuid "3744eed7-ff34-4d39-87d0-40518cdf62df")
 		)
 		(pin "RS"
-			(uuid "4a6a3b2a-bb29-4684-ae08-277ada4c0613")
+			(uuid "8343da0f-396b-4851-99ee-5247fc6dd26e")
 		)
 		(pin "1"
-			(uuid "f0fc5e25-aabc-4460-816f-75e04e903367")
+			(uuid "169d828f-2e87-4daa-8cd9-141ce7677af1")
 		)
 		(pin "R"
-			(uuid "83074b97-ddb6-4299-a5a5-c769d5fbf5d0")
+			(uuid "693cbf83-fa0f-4dad-94d3-cee7a7401cb2")
 		)
 		(pin "T"
-			(uuid "e2de9e68-94db-4a6c-8268-79f6acec9605")
+			(uuid "770aac25-ef9f-4e52-9c90-26902f9a1f18")
 		)
 		(pin "3"
-			(uuid "55f397f7-13d2-43e5-ad28-538a73bc8608")
+			(uuid "830855e7-a82e-4f8d-a765-aafd03d92591")
 		)
 		(instances
 			(project ""
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/505def28-a163-4964-82bd-abe7e8697de4"
-					(reference "P4")
+					(reference "J4")
+					(unit 1)
+				)
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/9a4ddd59-6699-41a4-a382-0b3d520d6256"
+					(reference "P6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "reekilib_con:xlr_trs_combo")
+		(lib_id "reekilib_con:xlr3_trs3sw_combo")
 		(at 52.07 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -661,7 +665,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab17d635-5d6c-4f02-988d-3007e64e1aa9")
-		(property "Reference" "P5"
+		(property "Reference" "J5"
 			(at 52.07 104.14 0)
 			(do_not_autoplace yes)
 			(effects
@@ -670,7 +674,7 @@
 				)
 			)
 		)
-		(property "Value" "XLR+TRS6.35+SW"
+		(property "Value" "XLR+TRS6.35+3SW"
 			(at 43.18 123.19 90)
 			(do_not_autoplace yes)
 			(effects
@@ -699,7 +703,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "XLR TRS6.35mm combo receptacle with all switches"
+		(property "Description" "XLR TRS6.35mm combo receptacle with 3 switches"
 			(at 52.07 147.955 0)
 			(do_not_autoplace yes)
 			(effects
@@ -763,39 +767,43 @@
 			)
 		)
 		(pin "SS"
-			(uuid "31000532-3698-46a4-ad54-8ed6228c3fe0")
+			(uuid "d67be067-0e40-4bc9-b13a-8c0cacdbda90")
 		)
 		(pin "G"
-			(uuid "0dd7bc61-fd27-4d2f-a05c-2eea97248862")
+			(uuid "7f591a7d-890d-4dbd-bac3-35de7cf548aa")
 		)
 		(pin "S"
-			(uuid "2fa223cc-56d6-4a89-a1d9-2691c308eda8")
+			(uuid "2bfc636d-ff3e-4176-a418-8fe26ffcf439")
 		)
 		(pin "TS"
-			(uuid "1264e11a-a532-428a-b450-8012b7bff0f4")
+			(uuid "f8d58d35-555a-489a-97a1-5c8034fb0aee")
 		)
 		(pin "2"
-			(uuid "89317e6c-98c4-42b0-941a-9b87502661ad")
+			(uuid "fb214fc3-d6be-4fac-b014-6b15f0f62b06")
 		)
 		(pin "RS"
-			(uuid "6f231c86-70d2-465e-afa1-e73585488793")
+			(uuid "a49839ab-e4ff-4410-8ccf-6833876605bb")
 		)
 		(pin "1"
-			(uuid "ac4819ae-d959-48eb-9a95-d7e0f95962cd")
+			(uuid "de59b270-850e-4941-b331-821b30d2edd8")
 		)
 		(pin "R"
-			(uuid "20e68e90-7835-4340-bab0-d848f6b3672d")
+			(uuid "1961f2a1-c3dc-4e8c-9f1b-42abffe75aa3")
 		)
 		(pin "T"
-			(uuid "0762194e-c81c-40c0-bf1a-73ad33e8cde4")
+			(uuid "fd45e478-fa9b-4d11-a2c8-ba8f72c0f48d")
 		)
 		(pin "3"
-			(uuid "1ef46576-a77f-4dcc-9a62-bc49ac6f19f9")
+			(uuid "346860bd-b340-4b65-b558-6353b3d84d13")
 		)
 		(instances
 			(project "pandore"
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/505def28-a163-4964-82bd-abe7e8697de4"
-					(reference "P5")
+					(reference "J5")
+					(unit 1)
+				)
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/9a4ddd59-6699-41a4-a382-0b3d520d6256"
+					(reference "P7")
 					(unit 1)
 				)
 			)

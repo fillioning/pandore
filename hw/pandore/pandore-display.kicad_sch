@@ -15,7 +15,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "P?"
+			(property "Reference" "J"
 				(at 0 31.75 0)
 				(do_not_autoplace)
 				(effects
@@ -1014,7 +1014,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ce666a3-e65e-496f-b70d-a8cf13d6a72b")
-		(property "Reference" "P1"
+		(property "Reference" "J1"
 			(at 224.79 58.42 0)
 			(do_not_autoplace yes)
 			(effects
@@ -1032,7 +1032,7 @@
 				)
 			)
 		)
-		(property "Footprint" "reekilib_con:TE_1747981-1"
+		(property "Footprint" "reekilib_con:te_1747981-1"
 			(at 224.79 135.255 0)
 			(do_not_autoplace yes)
 			(effects
@@ -1175,7 +1175,7 @@
 		(instances
 			(project ""
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/db554ed3-9c74-43b8-ae28-746fed02a615"
-					(reference "P1")
+					(reference "J1")
 					(unit 1)
 				)
 			)

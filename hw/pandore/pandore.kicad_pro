@@ -1300,6 +1300,10 @@
     [
       "505def28-a163-4964-82bd-abe7e8697de4",
       "Audio inputs"
+    ],
+    [
+      "9a4ddd59-6699-41a4-a382-0b3d520d6256",
+      "Audio outputs"
     ]
   ],
   "text_variables": {

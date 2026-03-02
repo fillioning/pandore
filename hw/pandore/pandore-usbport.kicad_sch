@@ -15,7 +15,7 @@
 			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "P"
+			(property "Reference" "J"
 				(at 0 12.065 0)
 				(do_not_autoplace)
 				(effects
@@ -383,7 +383,7 @@
 			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "P"
+			(property "Reference" "J"
 				(at 0 13.97 0)
 				(do_not_autoplace)
 				(effects
@@ -427,6 +427,24 @@
 				(effects
 					(font
 						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vmax" "30V"
+				(at -5.715 -26.67 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+					(hide yes)
+				)
+			)
+			(property "Imax" "1.5A"
+				(at 0 -26.67 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
 					)
 					(hide yes)
 				)
@@ -910,7 +928,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d86fbc4-7ec0-420d-b679-8a48c0623987")
-		(property "Reference" "P3"
+		(property "Reference" "J3"
 			(at 266.7 86.36 0)
 			(do_not_autoplace yes)
 			(effects
@@ -990,6 +1008,24 @@
 				(hide yes)
 			)
 		)
+		(property "Vmax" "30V"
+			(at 272.415 127 0)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+				(hide yes)
+			)
+		)
+		(property "Imax" "1.5A"
+			(at 266.7 127 0)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "053643b7-66d9-4aa1-9a5a-889c93edde8d")
 		)
@@ -1050,7 +1086,7 @@
 		(instances
 			(project ""
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/bb2b2e05-965b-41e8-90ff-dc0d1c46f97c"
-					(reference "P3")
+					(reference "J3")
 					(unit 2)
 				)
 			)
@@ -1067,7 +1103,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44604102-a51d-47bd-b422-6cdc45bf78e1")
-		(property "Reference" "P2"
+		(property "Reference" "J2"
 			(at 266.7 20.955 0)
 			(do_not_autoplace yes)
 			(effects
@@ -1262,7 +1298,7 @@
 		(instances
 			(project ""
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/bb2b2e05-965b-41e8-90ff-dc0d1c46f97c"
-					(reference "P2")
+					(reference "J2")
 					(unit 2)
 				)
 			)
@@ -1279,7 +1315,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d621651-26ef-4c4a-b593-488453950654")
-		(property "Reference" "P2"
+		(property "Reference" "J2"
 			(at 266.7 45.085 0)
 			(do_not_autoplace yes)
 			(effects
@@ -1474,7 +1510,7 @@
 		(instances
 			(project ""
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/bb2b2e05-965b-41e8-90ff-dc0d1c46f97c"
-					(reference "P2")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -1491,7 +1527,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd2edf15-479e-4c55-92fe-e1804f286342")
-		(property "Reference" "P3"
+		(property "Reference" "J3"
 			(at 266.7 123.19 0)
 			(do_not_autoplace yes)
 			(effects
@@ -1571,6 +1607,24 @@
 				(hide yes)
 			)
 		)
+		(property "Vmax" "30V"
+			(at 272.415 163.83 0)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+				(hide yes)
+			)
+		)
+		(property "Imax" "1.5A"
+			(at 266.7 163.83 0)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "053643b7-66d9-4aa1-9a5a-889c93edde8e")
 		)
@@ -1631,7 +1685,7 @@
 		(instances
 			(project ""
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/bb2b2e05-965b-41e8-90ff-dc0d1c46f97c"
-					(reference "P3")
+					(reference "J3")
 					(unit 1)
 				)
 			)
