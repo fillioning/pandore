@@ -21,6 +21,16 @@
 		)
 		(uuid "0718e18b-869e-4186-aea1-b6138521c277")
 	)
+	(wire
+		(pts
+			(xy 215.9 124.46) (xy 165.1 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1831d50f-f6da-4249-b762-05e244dc3677")
+	)
 	(bus
 		(pts
 			(xy 92.71 107.95) (xy 121.92 107.95)
@@ -61,6 +71,16 @@
 		)
 		(uuid "5f4e190c-9f6a-4609-8dfe-5050a0d2db7d")
 	)
+	(wire
+		(pts
+			(xy 215.9 121.92) (xy 165.1 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72e785e2-521e-4f14-b801-1c629d3a1d04")
+	)
 	(bus
 		(pts
 			(xy 165.1 93.98) (xy 215.9 93.98)
@@ -70,6 +90,26 @@
 			(type default)
 		)
 		(uuid "7bf59048-1fc8-4c7c-a594-87d3553b18bd")
+	)
+	(wire
+		(pts
+			(xy 215.9 127) (xy 165.1 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86638c6f-e976-4747-91df-fbcabc7f511d")
+	)
+	(bus
+		(pts
+			(xy 92.71 140.97) (xy 121.92 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bc4e9fc-e2f4-46de-bdfb-59d97ddd977d")
 	)
 	(bus
 		(pts
@@ -111,6 +151,16 @@
 		)
 		(uuid "eae634ac-9b83-46d0-a1dc-e9ae1d951181")
 	)
+	(wire
+		(pts
+			(xy 215.9 119.38) (xy 165.1 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed0272e5-e24e-4724-997d-aa315b0387ae")
+	)
 	(bus
 		(pts
 			(xy 215.9 88.9) (xy 165.1 88.9)
@@ -131,6 +181,17 @@
 			(justify left)
 		)
 		(uuid "107879c6-de8c-4073-9f1b-62ad04c6e3a1")
+	)
+	(hierarchical_label "M2E{PCIE1X}"
+		(shape bidirectional)
+		(at 215.9 121.92 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "3a0d45a2-ca3b-401c-bea8-b0d81d79b579")
 	)
 	(hierarchical_label "USB_OC"
 		(shape input)
@@ -176,6 +237,17 @@
 		)
 		(uuid "74c03ddd-4083-473b-ba74-af79d977c33f")
 	)
+	(hierarchical_label "ETHX{PCIE1X}"
+		(shape bidirectional)
+		(at 215.9 124.46 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "7533c201-0036-46a6-89c3-8e58c0ee5112")
+	)
 	(hierarchical_label "DDIB{HDMI}"
 		(shape output)
 		(at 215.9 88.9 0)
@@ -187,6 +259,28 @@
 		)
 		(uuid "783d9d43-0d1f-4902-b483-f970df3b81e8")
 	)
+	(hierarchical_label "MIDI{UART}"
+		(shape bidirectional)
+		(at 92.71 140.97 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "95f696d4-d398-4c25-a56c-3931bb3c5f05")
+	)
+	(hierarchical_label "M2M{PCIE4X}"
+		(shape bidirectional)
+		(at 215.9 127 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "c51e0dd1-8245-48a7-9b3e-e9406684f290")
+	)
 	(hierarchical_label "USBP1{USB3}"
 		(shape bidirectional)
 		(at 215.9 93.98 0)
@@ -197,6 +291,17 @@
 			(justify left)
 		)
 		(uuid "d2c3a879-bc8d-422e-b8f2-e36fef5de461")
+	)
+	(hierarchical_label "ETHI{PCIE1X}"
+		(shape bidirectional)
+		(at 215.9 119.38 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "db5d16ce-966d-45a7-a81d-5762f8c34d46")
 	)
 	(hierarchical_label "USB2P3{USB2}"
 		(shape bidirectional)
@@ -437,6 +542,76 @@
 					(size 1.016 1.016)
 				)
 				(justify left)
+			)
+		)
+		(pin "PCIEP3{PCIE4X}" bidirectional
+			(at 165.1 127 0)
+			(uuid "465aab1c-7d06-4cc3-8844-56427226ad8a")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIEP2{PCIE1X}" bidirectional
+			(at 165.1 124.46 0)
+			(uuid "48c7ba84-0165-4b3a-964e-922a0de46baf")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIEP0{PCIE1X}" bidirectional
+			(at 165.1 119.38 0)
+			(uuid "bfbabaa9-933b-4277-9b57-67c3a245c086")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIEP1{PCIE1X}" bidirectional
+			(at 165.1 121.92 0)
+			(uuid "7a31bba4-563d-4efe-821f-7872acd6591b")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART2{UART}" bidirectional
+			(at 121.92 140.97 180)
+			(uuid "ba54254f-4cef-4d96-880e-8060b5a19506")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART1{UART}" bidirectional
+			(at 165.1 73.66 0)
+			(uuid "d202bdac-3658-462e-b96c-d507ea1f863f")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART0{UART}" bidirectional
+			(at 165.1 71.12 0)
+			(uuid "05d674e7-262b-429a-8629-1bd19246979c")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
 			)
 		)
 		(instances

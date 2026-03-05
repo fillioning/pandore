@@ -740,6 +740,57 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/Audio/Audio inputs/MICLINE1.SIG+": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/MICLINE1.SIG-": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/MICLINE2.SIG+": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/MICLINE2.SIG-": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/LEFT.SIG+": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/LEFT.SIG-": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/RIGHT.SIG+": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/RIGHT.SIG-": [
+        "ANA"
+      ],
+      "/Audio/CODEC/CTL.SCL": [
+        "I2C"
+      ],
+      "/Audio/CODEC/CTL.SDA": [
+        "I2C"
+      ],
+      "/Audio/CODEC/DATA.MCLK": [
+        "I2S"
+      ],
+      "/Audio/CODEC/DATA.RXD0": [
+        "I2S"
+      ],
+      "/Audio/CODEC/DATA.TXCLK": [
+        "I2S"
+      ],
+      "/Audio/CODEC/DATA.TXD0": [
+        "I2S"
+      ],
+      "/Audio/CODEC/DATA.TXFS": [
+        "I2S"
+      ],
+      "/Audio/USB.D+": [
+        "D90Ω"
+      ],
+      "/Audio/USB.D-": [
+        "D90Ω"
+      ],
       "/Computer/BIOS mem/BIOS.IO0": [
         "QSPI"
       ],
@@ -805,6 +856,114 @@
       ],
       "/Computer/DDIB.DDC.DAT": [
         "I2C"
+      ],
+      "/Computer/ETHI.HSI0+": [
+        "D100Ω"
+      ],
+      "/Computer/ETHI.HSI0-": [
+        "D100Ω"
+      ],
+      "/Computer/ETHI.HSO0+": [
+        "D100Ω"
+      ],
+      "/Computer/ETHI.HSO0-": [
+        "D100Ω"
+      ],
+      "/Computer/ETHI.REFCLK+": [
+        "D100Ω"
+      ],
+      "/Computer/ETHI.REFCLK-": [
+        "D100Ω"
+      ],
+      "/Computer/ETHX.HSI0+": [
+        "D100Ω"
+      ],
+      "/Computer/ETHX.HSI0-": [
+        "D100Ω"
+      ],
+      "/Computer/ETHX.HSO0+": [
+        "D100Ω"
+      ],
+      "/Computer/ETHX.HSO0-": [
+        "D100Ω"
+      ],
+      "/Computer/ETHX.REFCLK+": [
+        "D100Ω"
+      ],
+      "/Computer/ETHX.REFCLK-": [
+        "D100Ω"
+      ],
+      "/Computer/M2E.HSI0+": [
+        "D100Ω"
+      ],
+      "/Computer/M2E.HSI0-": [
+        "D100Ω"
+      ],
+      "/Computer/M2E.HSO0+": [
+        "D100Ω"
+      ],
+      "/Computer/M2E.HSO0-": [
+        "D100Ω"
+      ],
+      "/Computer/M2E.REFCLK+": [
+        "D100Ω"
+      ],
+      "/Computer/M2E.REFCLK-": [
+        "D100Ω"
+      ],
+      "/Computer/M2M.HSI0+": [
+        "D100Ω"
+      ],
+      "/Computer/M2M.HSI0-": [
+        "D100Ω"
+      ],
+      "/Computer/M2M.HSI1+": [
+        "D100Ω"
+      ],
+      "/Computer/M2M.HSI1-": [
+        "D100Ω"
+      ],
+      "/Computer/M2M.HSI2+": [
+        "D100Ω"
+      ],
+      "/Computer/M2M.HSI2-": [
+        "D100Ω"
+      ],
+      "/Computer/M2M.HSI3+": [
+        "D100Ω"
+      ],
+      "/Computer/M2M.HSI3-": [
+        "D100Ω"
+      ],
+      "/Computer/M2M.HSO0+": [
+        "D100Ω"
+      ],
+      "/Computer/M2M.HSO0-": [
+        "D100Ω"
+      ],
+      "/Computer/M2M.HSO1+": [
+        "D100Ω"
+      ],
+      "/Computer/M2M.HSO1-": [
+        "D100Ω"
+      ],
+      "/Computer/M2M.HSO2+": [
+        "D100Ω"
+      ],
+      "/Computer/M2M.HSO2-": [
+        "D100Ω"
+      ],
+      "/Computer/M2M.HSO3+": [
+        "D100Ω"
+      ],
+      "/Computer/M2M.HSO3-": [
+        "D100Ω"
+      ],
+      "/Computer/M2M.REFCLK+": [
+        "D100Ω"
+      ],
+      "/Computer/M2M.REFCLK-": [
+        "D100Ω"
       ],
       "/Computer/USB2P3.D+": [
         "D90Ω"
@@ -878,6 +1037,192 @@
       "/Computer/USBP1.SSTX-": [
         "D90Ω"
       ],
+      "/External Ethernet/ETH.VCORE": [
+        "PWR"
+      ],
+      "/External Ethernet/ETH.VIO": [
+        "PWR"
+      ],
+      "/External Ethernet/ETHPCIE.RX+": [
+        "D100Ω"
+      ],
+      "/External Ethernet/ETHPCIE.RX-": [
+        "D100Ω"
+      ],
+      "/External Ethernet/ETHPCIE.TX+": [
+        "D100Ω"
+      ],
+      "/External Ethernet/ETHPCIE.TX-": [
+        "D100Ω"
+      ],
+      "/External Ethernet/MDI0+": [
+        "D100Ω"
+      ],
+      "/External Ethernet/MDI0-": [
+        "D100Ω"
+      ],
+      "/External Ethernet/MDI1+": [
+        "D100Ω"
+      ],
+      "/External Ethernet/MDI1-": [
+        "D100Ω"
+      ],
+      "/External Ethernet/MDI2+": [
+        "D100Ω"
+      ],
+      "/External Ethernet/MDI2-": [
+        "D100Ω"
+      ],
+      "/External Ethernet/MDI3+": [
+        "D100Ω"
+      ],
+      "/External Ethernet/MDI3-": [
+        "D100Ω"
+      ],
+      "/External Ethernet/PAIR0+": [
+        "D100Ω"
+      ],
+      "/External Ethernet/PAIR0-": [
+        "D100Ω"
+      ],
+      "/External Ethernet/PAIR1+": [
+        "D100Ω"
+      ],
+      "/External Ethernet/PAIR1-": [
+        "D100Ω"
+      ],
+      "/External Ethernet/PAIR2+": [
+        "D100Ω"
+      ],
+      "/External Ethernet/PAIR2-": [
+        "D100Ω"
+      ],
+      "/External Ethernet/PAIR3+": [
+        "D100Ω"
+      ],
+      "/External Ethernet/PAIR3-": [
+        "D100Ω"
+      ],
+      "/External Ethernet/_MDI0+": [
+        "D100Ω"
+      ],
+      "/External Ethernet/_MDI0-": [
+        "D100Ω"
+      ],
+      "/External Ethernet/_MDI1+": [
+        "D100Ω"
+      ],
+      "/External Ethernet/_MDI1-": [
+        "D100Ω"
+      ],
+      "/External Ethernet/_MDI2+": [
+        "D100Ω"
+      ],
+      "/External Ethernet/_MDI2-": [
+        "D100Ω"
+      ],
+      "/External Ethernet/_MDI3+": [
+        "D100Ω"
+      ],
+      "/External Ethernet/_MDI3-": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/ETH.VCORE": [
+        "PWR"
+      ],
+      "/Internal Ethernet/ETH.VIO": [
+        "PWR"
+      ],
+      "/Internal Ethernet/ETHPCIE.RX+": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/ETHPCIE.RX-": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/ETHPCIE.TX+": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/ETHPCIE.TX-": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/MDI0+": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/MDI0-": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/MDI1+": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/MDI1-": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/MDI2+": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/MDI2-": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/MDI3+": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/MDI3-": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/PAIR0+": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/PAIR0-": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/PAIR1+": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/PAIR1-": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/PAIR2+": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/PAIR2-": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/PAIR3+": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/PAIR3-": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/_MDI0+": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/_MDI0-": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/_MDI1+": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/_MDI1-": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/_MDI2+": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/_MDI2-": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/_MDI3+": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/_MDI3-": [
+        "D100Ω"
+      ],
+      "/Mgmt MCU/GROVEA.V+": [
+        "PWR"
+      ],
+      "/Mgmt MCU/GROVEB.V+": [
+        "PWR"
+      ],
       "/Mgmt MCU/MCU/QSPI.D0": [
         "QSPI"
       ],
@@ -926,14 +1271,224 @@
       "/Real-Time MCU/MCU/_USB.D-": [
         "D90Ω"
       ],
+      "/Real-Time MCU/RTIO.AIO0": [
+        "ANA"
+      ],
+      "/Real-Time MCU/RTIO.AIO1": [
+        "ANA"
+      ],
+      "/Real-Time MCU/RTIO.AIO2": [
+        "ANA"
+      ],
+      "/Real-Time MCU/RTIO.AIO3": [
+        "ANA"
+      ],
+      "/Real-Time MCU/RTIO.AIO4": [
+        "ANA"
+      ],
+      "/Real-Time MCU/RTIO.AIO5": [
+        "ANA"
+      ],
+      "/Real-Time MCU/RTIO.AIO6": [
+        "ANA"
+      ],
+      "/Real-Time MCU/RTIO.AIO7": [
+        "ANA"
+      ],
+      "/USB ports/_USB3HIGH.SSTX+": [
+        "D90Ω"
+      ],
+      "/USB ports/_USB3HIGH.SSTX-": [
+        "D90Ω"
+      ],
+      "/USB ports/_USB3LOW.SSTX+": [
+        "D90Ω"
+      ],
+      "/USB ports/_USB3LOW.SSTX-": [
+        "D90Ω"
+      ],
+      "AVIO": [
+        "PWR"
+      ],
+      "AVSS": [
+        "GND"
+      ],
       "EARTH": [
         "GND"
+      ],
+      "Net-(C39-Pad2)": [
+        "ANA"
+      ],
+      "Net-(C40-Pad2)": [
+        "ANA"
+      ],
+      "Net-(C49-Pad2)": [
+        "HVFNC"
+      ],
+      "Net-(C50-Pad2)": [
+        "HVFNC"
+      ],
+      "Net-(C51-Pad2)": [
+        "GND"
+      ],
+      "Net-(C52-Pad2)": [
+        "GND"
+      ],
+      "Net-(C94-+)": [
+        "PWR"
+      ],
+      "Net-(D18-C)": [
+        "PWR"
+      ],
+      "Net-(D6-Pad1)": [
+        "ANA"
+      ],
+      "Net-(D6-Pad2)": [
+        "ANA"
+      ],
+      "Net-(D6-Pad4)": [
+        "ANA"
+      ],
+      "Net-(D6-Pad5)": [
+        "ANA"
+      ],
+      "Net-(D7-Pad1)": [
+        "ANA"
+      ],
+      "Net-(D7-Pad2)": [
+        "ANA"
+      ],
+      "Net-(D7-Pad4)": [
+        "ANA"
+      ],
+      "Net-(D7-Pad5)": [
+        "ANA"
+      ],
+      "Net-(J1-DDC.CLK)": [
+        "I2C"
+      ],
+      "Net-(J1-DDC.DATA)": [
+        "I2C"
+      ],
+      "Net-(J1-TMDS.CLK+)": [
+        "D100Ω"
+      ],
+      "Net-(J1-TMDS.CLK-)": [
+        "D100Ω"
+      ],
+      "Net-(J1-TMDS.D0+)": [
+        "D100Ω"
+      ],
+      "Net-(J1-TMDS.D0-)": [
+        "D100Ω"
+      ],
+      "Net-(J1-TMDS.D1+)": [
+        "D100Ω"
+      ],
+      "Net-(J1-TMDS.D1-)": [
+        "D100Ω"
+      ],
+      "Net-(J1-TMDS.D2+)": [
+        "D100Ω"
+      ],
+      "Net-(J1-TMDS.D2-)": [
+        "D100Ω"
+      ],
+      "Net-(J8-SHD)": [
+        "GND"
+      ],
+      "Net-(J9-SHD)": [
+        "GND"
+      ],
+      "Net-(R34-Pad1)": [
+        "HVFNC"
+      ],
+      "Net-(R35-Pad1)": [
+        "HVFNC"
+      ],
+      "Net-(R36-Pad1)": [
+        "HVFNC"
+      ],
+      "Net-(R37-Pad1)": [
+        "HVFNC"
+      ],
+      "Net-(R38-Pad1)": [
+        "HVFNC"
+      ],
+      "Net-(R39-Pad1)": [
+        "HVFNC"
+      ],
+      "Net-(R40-Pad1)": [
+        "HVFNC"
+      ],
+      "Net-(R41-Pad1)": [
+        "HVFNC"
+      ],
+      "Net-(U11-VA)": [
+        "PWR"
+      ],
+      "Net-(U11-VCOM)": [
+        "ANA"
+      ],
+      "Net-(U11-XTI)": [
+        "ANA"
+      ],
+      "Net-(U11-XTO)": [
+        "ANA"
+      ],
+      "Net-(U3B-XIN)": [
+        "ANA"
+      ],
+      "Net-(U3B-XOUT)": [
+        "ANA"
+      ],
+      "Net-(U4B-XIN)": [
+        "ANA"
+      ],
+      "Net-(U4B-XOUT)": [
+        "ANA"
+      ],
+      "Net-(U7-CKXTAL1)": [
+        "ANA"
+      ],
+      "Net-(U7-CKXTAL2)": [
+        "ANA"
+      ],
+      "Net-(U7-RSET)": [
+        "ANA"
+      ],
+      "Net-(U8-CKXTAL1)": [
+        "ANA"
+      ],
+      "Net-(U8-CKXTAL2)": [
+        "ANA"
+      ],
+      "Net-(U8-RSET)": [
+        "ANA"
+      ],
+      "Net-(U9-3.3V-Pad15)": [
+        "PWR"
       ],
       "VDD": [
         "PWR"
       ],
+      "VIO": [
+        "PWR"
+      ],
+      "VM2": [
+        "PWR"
+      ],
+      "VMIDI": [
+        "PWR"
+      ],
+      "VRTIO": [
+        "PWR"
+      ],
       "VSS": [
         "GND"
+      ],
+      "unconnected-(J1-5V-Pad18)": [
+        "PWR"
       ],
       "unconnected-(U1A-HSIO10_RX+-Pad52)": [
         "D100Ω"
@@ -1161,12 +1716,228 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Capacitance",
+          "name": "Capacitance",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Dielectric",
+          "name": "Dielectric",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "F",
+          "name": "F",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Imax",
+          "name": "Imax",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Link",
+          "name": "Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Link2",
+          "name": "Link2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Link3",
+          "name": "Link3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Link4",
+          "name": "Link4",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Link5",
+          "name": "Link5",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Link6",
+          "name": "Link6",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Link7",
+          "name": "Link7",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFG",
+          "name": "MFG",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFG2",
+          "name": "MFG2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFG3",
+          "name": "MFG3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFG4",
+          "name": "MFG4",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFG5",
+          "name": "MFG5",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFG6",
+          "name": "MFG6",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFG7",
+          "name": "MFG7",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN2",
+          "name": "MPN2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN3",
+          "name": "MPN3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN4",
+          "name": "MPN4",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN5",
+          "name": "MPN5",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN6",
+          "name": "MPN6",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN7",
+          "name": "MPN7",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Power",
+          "name": "Power",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Rating",
+          "name": "Rating",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Resistance",
+          "name": "Resistance",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Tolerance",
+          "name": "Tolerance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vmax",
+          "name": "Vmax",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage",
+          "name": "Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "load",
+          "name": "load",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "stab",
+          "name": "stab",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "tol",
+          "name": "tol",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -1304,6 +2075,10 @@
     [
       "9a4ddd59-6699-41a4-a382-0b3d520d6256",
       "Audio outputs"
+    ],
+    [
+      "c7a6c4ca-6083-4b1c-b07a-a9d1f5204bfb",
+      "CODEC"
     ]
   ],
   "text_variables": {

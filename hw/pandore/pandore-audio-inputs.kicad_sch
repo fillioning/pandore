@@ -501,6 +501,184 @@
 			(embedded_fonts no)
 		)
 	)
+	(bus_entry
+		(at 251.46 38.1)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c54fc47-79cf-4098-a634-988048cc0c7c")
+	)
+	(bus_entry
+		(at 251.46 40.64)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f844bd9-2b07-43d9-8b59-c684fa03efbc")
+	)
+	(bus_entry
+		(at 251.46 109.22)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b58d9035-edc6-411c-be22-2d7b745fa48d")
+	)
+	(bus_entry
+		(at 251.46 106.68)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebf24de7-64c2-44de-b5ee-3a18ce13d2b5")
+	)
+	(wire
+		(pts
+			(xy 232.41 109.22) (xy 248.92 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "173dd1ab-c3d3-46ec-ab1e-04b84e01374d")
+	)
+	(wire
+		(pts
+			(xy 232.41 43.18) (xy 248.92 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aa36c5f-8b21-4e5a-a22d-307f29e36b9d")
+	)
+	(bus
+		(pts
+			(xy 254 106.68) (xy 251.46 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c60972f-aa63-4727-aa8f-c8e3da0ad91f")
+	)
+	(wire
+		(pts
+			(xy 232.41 111.76) (xy 248.92 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5443d281-6490-4939-86e6-8ec88577618e")
+	)
+	(bus
+		(pts
+			(xy 251.46 38.1) (xy 251.46 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a02a0a5d-5d55-4f9e-b1e6-4c73feee6808")
+	)
+	(bus
+		(pts
+			(xy 254 38.1) (xy 251.46 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba050858-1ebb-4b4e-af7a-502584d80db1")
+	)
+	(wire
+		(pts
+			(xy 232.41 40.64) (xy 248.92 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2371dad-e1b8-467e-a294-ffa2cace36d8")
+	)
+	(bus
+		(pts
+			(xy 251.46 106.68) (xy 251.46 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb02d658-8493-4291-9466-e42ad414ebc7")
+	)
+	(label "MICLINE2.SIG-"
+		(at 236.22 111.76 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "0fd3dc1b-6841-4c10-8cdc-27ecdb665a45")
+	)
+	(label "MICLINE2.SIG+"
+		(at 236.22 109.22 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "37183f94-74a7-4b47-87ed-9925419f01cd")
+	)
+	(label "MICLINE1.SIG+"
+		(at 236.22 40.64 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "85201360-4b0d-44f0-a835-669588c034ce")
+	)
+	(label "MICLINE1.SIG-"
+		(at 236.22 43.18 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "e7e7e79b-6482-438d-9dde-9f1d43685970")
+	)
+	(hierarchical_label "MICLINE2{ANADIFF}"
+		(shape output)
+		(at 254 106.68 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "66791327-a56b-4b45-8f21-1117bfae12ff")
+	)
+	(hierarchical_label "MICLINE1{ANADIFF}"
+		(shape output)
+		(at 254 38.1 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "f1a0e662-4e07-4860-82e8-7119ae805502")
+	)
 	(symbol
 		(lib_id "reekilib_con:xlr3_trs3sw_combo")
 		(at 50.8 45.72 0)
@@ -613,43 +791,39 @@
 			)
 		)
 		(pin "SS"
-			(uuid "0243aa7c-7d76-48d5-ad5c-ceb621b4e8f4")
+			(uuid "c914d904-0225-4c95-869e-6f9aebf7443d")
 		)
 		(pin "G"
-			(uuid "5a202a09-5e7d-4913-82ee-bdca1271c6fe")
+			(uuid "8f5eecd8-3912-4505-9250-da9cc195efd4")
 		)
 		(pin "S"
-			(uuid "ee25421e-5f22-4985-a907-3cec3a5a28d7")
+			(uuid "ef885a82-98f9-4f52-b604-ec6ccb0f95e8")
 		)
 		(pin "TS"
-			(uuid "acd89f34-ef7a-4d5c-89e0-a9200b38d201")
+			(uuid "287454ff-4f41-46f7-b8b1-5efeaa172b1f")
 		)
 		(pin "2"
-			(uuid "3744eed7-ff34-4d39-87d0-40518cdf62df")
+			(uuid "534236a6-1569-4ab1-9e57-c9c2d4b660ff")
 		)
 		(pin "RS"
-			(uuid "8343da0f-396b-4851-99ee-5247fc6dd26e")
+			(uuid "23b44816-acc4-4912-b901-e023bf79399b")
 		)
 		(pin "1"
-			(uuid "169d828f-2e87-4daa-8cd9-141ce7677af1")
+			(uuid "71cc97e7-9e3f-4a73-b9ce-aa91384b8a2b")
 		)
 		(pin "R"
-			(uuid "693cbf83-fa0f-4dad-94d3-cee7a7401cb2")
+			(uuid "f1e4d369-ba75-4785-a0f6-62c6787bdbf6")
 		)
 		(pin "T"
-			(uuid "770aac25-ef9f-4e52-9c90-26902f9a1f18")
+			(uuid "6b21117b-6160-4f6a-9bfa-530f25a1247a")
 		)
 		(pin "3"
-			(uuid "830855e7-a82e-4f8d-a765-aafd03d92591")
+			(uuid "46853087-3679-45da-9a89-d7c47235c1db")
 		)
 		(instances
 			(project ""
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/505def28-a163-4964-82bd-abe7e8697de4"
 					(reference "J4")
-					(unit 1)
-				)
-				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/9a4ddd59-6699-41a4-a382-0b3d520d6256"
-					(reference "P6")
 					(unit 1)
 				)
 			)
@@ -767,43 +941,39 @@
 			)
 		)
 		(pin "SS"
-			(uuid "d67be067-0e40-4bc9-b13a-8c0cacdbda90")
+			(uuid "5bd70e55-7fe6-486a-aaae-9ee49f602149")
 		)
 		(pin "G"
-			(uuid "7f591a7d-890d-4dbd-bac3-35de7cf548aa")
+			(uuid "b6ed46a7-5a0d-4569-8e3a-c80413d62111")
 		)
 		(pin "S"
-			(uuid "2bfc636d-ff3e-4176-a418-8fe26ffcf439")
+			(uuid "67adaabf-314b-497e-887e-06c7550ae87e")
 		)
 		(pin "TS"
-			(uuid "f8d58d35-555a-489a-97a1-5c8034fb0aee")
+			(uuid "04735e33-0dd4-489d-af34-f44fa3104959")
 		)
 		(pin "2"
-			(uuid "fb214fc3-d6be-4fac-b014-6b15f0f62b06")
+			(uuid "eb601574-7865-4599-bdad-e70c0d37f98e")
 		)
 		(pin "RS"
-			(uuid "a49839ab-e4ff-4410-8ccf-6833876605bb")
+			(uuid "9726cfd0-fd59-42f3-ae98-cfa6526e25a9")
 		)
 		(pin "1"
-			(uuid "de59b270-850e-4941-b331-821b30d2edd8")
+			(uuid "56901036-9739-4638-8ca6-e9379077b3fb")
 		)
 		(pin "R"
-			(uuid "1961f2a1-c3dc-4e8c-9f1b-42abffe75aa3")
+			(uuid "90adb790-778d-48a0-89ab-1fdf41b7bb86")
 		)
 		(pin "T"
-			(uuid "fd45e478-fa9b-4d11-a2c8-ba8f72c0f48d")
+			(uuid "2377ecea-3679-4bf9-8c90-45e8566c268b")
 		)
 		(pin "3"
-			(uuid "346860bd-b340-4b65-b558-6353b3d84d13")
+			(uuid "f6fce413-36e8-4f72-bf62-a0770f33cdaa")
 		)
 		(instances
 			(project "pandore"
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/505def28-a163-4964-82bd-abe7e8697de4"
 					(reference "J5")
-					(unit 1)
-				)
-				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/9a4ddd59-6699-41a4-a382-0b3d520d6256"
-					(reference "P7")
 					(unit 1)
 				)
 			)

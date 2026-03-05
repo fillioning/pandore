@@ -1136,18 +1136,20 @@
 			"HSO10+" "HSO10-" "HSI10+" "HSI10-" "HSO11+" "HSO11-" "HSI11+" "HSI11-"
 			"HSO12+" "HSO12-" "HSI12+" "HSI12-" "HSO13+" "HSO13-" "HSI13+" "HSI13-"
 			"HSO14+" "HSO14-" "HSI14+" "HSI14-" "HSO15+" "HSO15-" "HSI15+" "HSI15-"
+			"~{CLKREQ}" "SUSCLK"
 		)
 	)
 	(bus_alias "PCIE1X"
 		(members "~{PRSNT[1..2]}" "SMCLK" "SMDAT" "~{TRST}" "TCK" "TDI" "TDO" "TMS"
 			"~{PERST}" "~{WAKE}" "REFCLK+" "REFCLK-" "HSO0+" "HSO0-" "HSI0+" "HSI0-"
+			"SUSCLK" "~{CLKREQ}"
 		)
 	)
 	(bus_alias "PCIE4X"
 		(members "~{PRSNT[1..2]}" "SMCLK" "SMDAT" "~{TRST}" "TCK" "TDI" "TDO" "TMS"
 			"~{PERST}" "~{WAKE}" "REFCLK+" "REFCLK-" "HSO0+" "HSO0-" "HSI0+" "HSI0-"
 			"HSO1+" "HSO1-" "HSI1+" "HSI1-" "HSO2+" "HSO2-" "HSI2+" "HSI2-" "HSO3+"
-			"HSO3-" "HSI3+" "HSI3-"
+			"HSO3-" "HSI3+" "HSI3-" "~{CLKREQ}" "SUSCLK"
 		)
 	)
 	(bus_alias "PCIE8X"
@@ -1156,7 +1158,7 @@
 			"HSO1+" "HSO1-" "HSI1+" "HSI1-" "HSO2+" "HSO2-" "HSI2+" "HSI2-" "HSO3+"
 			"HSO3-" "HSI3+" "HSI3-" "HSO4+" "HSO4-" "HSI4+" "HSI4-" "HSO5+" "HSO5-"
 			"HSI5+" "HSI5-" "HSO6+" "HSO6-" "HSI6+" "HSI6-" "HSO7+" "HSO7-" "HSI7+"
-			"HSI7-"
+			"HSI7-" "~{CLKREQ}" "SUSCLK"
 		)
 	)
 	(bus_alias "QSPI"
@@ -1289,6 +1291,26 @@
 	)
 	(bus
 		(pts
+			(xy 76.2 138.43) (xy 118.11 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6153cc6d-cbb4-467b-8e80-3c53b225aeca")
+	)
+	(bus
+		(pts
+			(xy 78.74 149.86) (xy 78.74 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "662189d7-c82b-4860-96e4-f264189831ef")
+	)
+	(bus
+		(pts
 			(xy 177.8 50.8) (xy 200.66 50.8)
 		)
 		(stroke
@@ -1316,6 +1338,16 @@
 			(type default)
 		)
 		(uuid "813c860f-b29b-47b2-844d-cb91fe50e665")
+	)
+	(bus
+		(pts
+			(xy 78.74 162.56) (xy 76.2 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ddd5b50-3c55-429f-9f4f-ab5cd2894ead")
 	)
 	(bus
 		(pts
@@ -1347,6 +1379,26 @@
 		)
 		(uuid "aa441716-7166-44e2-bd00-9c545911e231")
 	)
+	(bus
+		(pts
+			(xy 76.2 165.1) (xy 118.11 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac10e55a-cdfc-427f-869c-5f14a083bae0")
+	)
+	(bus
+		(pts
+			(xy 76.2 58.42) (xy 118.11 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4424ce0-dcc3-4500-9511-53131ff8b0cf")
+	)
 	(wire
 		(pts
 			(xy 255.27 26.67) (xy 255.27 27.94)
@@ -1356,6 +1408,16 @@
 			(type default)
 		)
 		(uuid "bb9240e2-dfb6-4947-9a75-8cc70ddc84a1")
+	)
+	(bus
+		(pts
+			(xy 177.8 34.29) (xy 200.66 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3c2cfa5-7247-43bf-bd11-70e3c15cb675")
 	)
 	(wire
 		(pts
@@ -1377,6 +1439,16 @@
 		)
 		(uuid "d0a9a95d-20fc-4313-bcb7-926dd31c7eb9")
 	)
+	(bus
+		(pts
+			(xy 177.8 106.68) (xy 200.66 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3bf8d62-bf66-4b02-a7c3-a729006a7d67")
+	)
 	(wire
 		(pts
 			(xy 255.27 20.32) (xy 255.27 26.67)
@@ -1396,6 +1468,26 @@
 			(type default)
 		)
 		(uuid "d8d50a8f-289a-4685-935b-ef13f6a8867d")
+	)
+	(bus
+		(pts
+			(xy 76.2 53.34) (xy 118.11 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd392e79-e0ac-4774-ac88-f524cf000edb")
+	)
+	(bus
+		(pts
+			(xy 76.2 149.86) (xy 78.74 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3f33f19-487a-45d6-a0ee-37b1e2eeeb53")
 	)
 	(netclass_flag ""
 		(length 1.27)
@@ -4076,6 +4168,26 @@
 				)
 			)
 		)
+		(pin "MCU{UART}" bidirectional
+			(at 76.2 162.56 0)
+			(uuid "76cfd4c4-d9b6-4dff-bfa9-91518ae00a4f")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "CPU{UART}" bidirectional
+			(at 76.2 165.1 0)
+			(uuid "a05a7c15-bf3b-4f40-8872-512dd9e03592")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "pandore"
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966"
@@ -4190,6 +4302,16 @@
 					(size 1.27 1.27)
 					(thickness 0.1588)
 				)
+			)
+		)
+		(pin "PCIE{PCIE1X}" bidirectional
+			(at 200.66 106.68 180)
+			(uuid "ffb4b34d-426b-40a2-938d-8557c7b79fe0")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -4345,6 +4467,56 @@
 				(justify right)
 			)
 		)
+		(pin "ETHI{PCIE1X}" bidirectional
+			(at 177.8 106.68 0)
+			(uuid "442460bb-95dc-4d91-981c-57d6644f6346")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "M2M{PCIE4X}" bidirectional
+			(at 118.11 53.34 180)
+			(uuid "9c8894c3-40fe-4bb2-8dd2-dd3bafcd13a3")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "ETHX{PCIE1X}" bidirectional
+			(at 177.8 34.29 0)
+			(uuid "b35699de-df20-45fb-8aa7-aaaaa2940407")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "M2E{PCIE1X}" bidirectional
+			(at 118.11 58.42 180)
+			(uuid "812f0867-1792-4173-9847-e4510d6acd10")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "MIDI{UART}" bidirectional
+			(at 118.11 165.1 180)
+			(uuid "43ac45e6-b339-42f6-b60c-d119a0a9b499")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "pandore"
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966"
@@ -4491,6 +4663,26 @@
 				)
 			)
 		)
+		(pin "USB{USB2}" bidirectional
+			(at 76.2 138.43 0)
+			(uuid "65997a82-f637-40c4-9455-8554e58a1eff")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "MIDI{UART}" bidirectional
+			(at 76.2 149.86 0)
+			(uuid "64cb1fd7-58b2-4b9d-b607-5339a0409ba3")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "pandore"
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966"
@@ -4542,6 +4734,16 @@
 					(size 1.27 1.27)
 					(thickness 0.1588)
 				)
+			)
+		)
+		(pin "PCIE{PCIE1X}" bidirectional
+			(at 200.66 34.29 180)
+			(uuid "b111dadf-dfb9-4f15-8254-a1575d717daf")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
 			)
 		)
 		(instances
