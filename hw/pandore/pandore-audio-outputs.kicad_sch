@@ -11,6 +11,272 @@
 		(company "${corp}")
 	)
 	(lib_symbols
+		(symbol "reekilib_cap:cap_pol"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 2.54 2.286 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "${Capacitance}, ${Voltage}, ${Tolerance}"
+				(at 2.54 0.762 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "reekilib_cap:CAPAE630Xxxx"
+				(at 0 -8.636 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/A768EB476M1VLAE042"
+				(at 0 -12.192 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 -10.414 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Link" "https://www.kemet.com/en/us/product/A768EB476M1VLAE042.html"
+				(at 0 -13.97 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Capacitance" "47µF"
+				(at 2.54 0.762 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+				)
+			)
+			(property "Voltage" "25V"
+				(at 2.54 -0.762 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+				)
+			)
+			(property "Tolerance" "20%"
+				(at 2.54 -2.286 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+				)
+			)
+			(property "Temperature" "105°C"
+				(at 2.54 -3.81 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "A768EB476M1VLAE042"
+				(at 0 -17.018 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFG" "KEMET"
+				(at 12.192 -17.018 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN2" "APXG250ARA470MF61G"
+				(at 0 -18.542 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFG2" "Chemi-Con"
+				(at 12.192 -18.542 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN3" "A765EB476M1ELAE040"
+				(at 0 -20.066 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFG3" "KEMET"
+				(at 12.192 -20.066 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "reekilib_cap:CAPAE* reekilib_cap:CAPPR*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "cap_pol_0_0"
+				(text "+"
+					(at -1.27 2.54 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(symbol "cap_pol_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy 1.905 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.905 -1.27)
+					(mid 0 -0.635)
+					(end 1.905 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "cap_pol_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.905)
+					(name "+"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.905)
+					(name "-"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "reekilib_con:trs_3swnc_2stacked"
 			(pin_names
 				(hide yes)
@@ -783,9 +1049,118 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "reekilib_pwr:VSS"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "#PWR"
+				(at 0 -4.445 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VSS"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VSS_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0) (xy 0 -1.27) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VSS_1_1"
+				(pin power_in line
+					(at 0 1.27 270)
+					(length 1.27)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 88.9 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e094dbf-6043-4799-9dda-1e94ef4a8645")
+	)
+	(junction
+		(at 196.85 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16c44a5f-4dfb-4eba-b1ce-232befc40cdb")
+	)
+	(junction
+		(at 196.85 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba09547d-be93-4365-84cc-ee9c824b8fba")
 	)
 	(bus_entry
-		(at 53.34 91.44)
+		(at 49.53 57.15)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -794,25 +1169,7 @@
 		(uuid "30ce72e6-5292-4cd6-88f0-b673c344d624")
 	)
 	(bus_entry
-		(at 52.07 35.56)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "565559f6-d82c-4134-bb27-ba976b506bb3")
-	)
-	(bus_entry
-		(at 52.07 48.26)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "591c639c-51b5-40e1-bfa8-7fd92f8267c6")
-	)
-	(bus_entry
-		(at 53.34 88.9)
+		(at 49.53 54.61)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -820,27 +1177,79 @@
 		)
 		(uuid "6d94b823-fdfc-496e-83d7-c52d0c7ba240")
 	)
-	(bus_entry
-		(at 52.07 50.8)
-		(size 2.54 2.54)
+	(bus
+		(pts
+			(xy 49.53 41.91) (xy 113.03 41.91)
+		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "80ac6ca4-b889-4f6d-8bb1-95a65f22fb06")
-	)
-	(bus_entry
-		(at 52.07 33.02)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d263b94c-dd9d-4360-8f5f-c3f3e79786ca")
+		(uuid "0647c74e-dda9-4ded-8b48-7c1447b11067")
 	)
 	(wire
 		(pts
-			(xy 55.88 93.98) (xy 64.77 93.98)
+			(xy 196.85 52.07) (xy 196.85 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ba66dac-b93f-47e3-8f28-14a5ed821797")
+	)
+	(wire
+		(pts
+			(xy 156.21 46.99) (xy 179.07 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1591657b-8341-498c-91e3-add39e5733a1")
+	)
+	(wire
+		(pts
+			(xy 196.85 100.33) (xy 196.85 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cc26ee8-932d-4bf3-ba77-06600918335b")
+	)
+	(wire
+		(pts
+			(xy 101.6 95.25) (xy 101.6 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f852e6a-6537-4357-9e13-e315431d9dfd")
+	)
+	(wire
+		(pts
+			(xy 184.15 90.17) (xy 203.2 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26ae69bc-ec06-476e-98dc-d7e6ada59b1a")
+	)
+	(wire
+		(pts
+			(xy 88.9 44.45) (xy 88.9 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eb88949-89f7-46ae-b5fc-7462f4bbd4e2")
+	)
+	(wire
+		(pts
+			(xy 52.07 59.69) (xy 101.6 59.69)
 		)
 		(stroke
 			(width 0)
@@ -850,7 +1259,7 @@
 	)
 	(bus
 		(pts
-			(xy 50.8 88.9) (xy 53.34 88.9)
+			(xy 46.99 54.61) (xy 49.53 54.61)
 		)
 		(stroke
 			(width 0)
@@ -860,17 +1269,27 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 50.8) (xy 64.77 50.8)
+			(xy 203.2 58.42) (xy 196.85 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5378e030-1484-474f-8920-abb5d87ac17d")
+		(uuid "4e312cb0-f319-4887-89d6-4dbc0d005089")
+	)
+	(wire
+		(pts
+			(xy 113.03 44.45) (xy 88.9 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51e1f66b-21fe-48e2-b852-f46044403a11")
 	)
 	(bus
 		(pts
-			(xy 53.34 88.9) (xy 53.34 91.44)
+			(xy 49.53 54.61) (xy 49.53 57.15)
 		)
 		(stroke
 			(width 0)
@@ -878,59 +1297,159 @@
 		)
 		(uuid "564068c0-0bcb-450e-b7c3-369cd8f73ed0")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 49.53 48.26) (xy 52.07 48.26)
+			(xy 101.6 57.15) (xy 101.6 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5932ae55-6d9f-4d5c-81a3-61b0ade1ea10")
-	)
-	(bus
-		(pts
-			(xy 49.53 33.02) (xy 52.07 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b8239dc-12b8-4887-b698-dbc5ebfaec06")
+		(uuid "56f18cf1-1d92-4765-823f-d7126188531c")
 	)
 	(wire
 		(pts
-			(xy 54.61 35.56) (xy 64.77 35.56)
+			(xy 113.03 95.25) (xy 101.6 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7bd1e7e0-d3a7-4dd1-902b-c5539073ea01")
+		(uuid "6115c1ab-4eb9-4c04-9554-0935a9d16ade")
 	)
 	(wire
 		(pts
-			(xy 54.61 38.1) (xy 64.77 38.1)
+			(xy 203.2 52.07) (xy 196.85 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8e83218e-639b-4b3d-81a5-559e5f3a2723")
+		(uuid "6b5d8ea2-cd18-40e8-b818-7368c7717c56")
+	)
+	(wire
+		(pts
+			(xy 88.9 46.99) (xy 88.9 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a03bf81-c38e-4527-9b73-317511dcabd5")
+	)
+	(wire
+		(pts
+			(xy 88.9 92.71) (xy 113.03 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f306861-5bca-429e-b25a-c0f55733578c")
 	)
 	(bus
 		(pts
-			(xy 52.07 48.26) (xy 52.07 50.8)
+			(xy 48.26 90.17) (xy 113.03 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ae675cc7-e07f-4edc-9142-2f78a68a1ddf")
+		(uuid "7fff73f2-de09-4b14-8779-b7be668b58bf")
 	)
 	(wire
 		(pts
-			(xy 55.88 91.44) (xy 64.77 91.44)
+			(xy 101.6 46.99) (xy 113.03 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "801a98f0-55c9-4a12-8347-cc7d9687e829")
+	)
+	(wire
+		(pts
+			(xy 46.99 46.99) (xy 88.9 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94e7e45a-5e4a-4bc5-bf1f-7b1674039d21")
+	)
+	(wire
+		(pts
+			(xy 203.2 100.33) (xy 196.85 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c8ad9ed-e588-488c-bd59-d16b6d82ac5e")
+	)
+	(wire
+		(pts
+			(xy 156.21 41.91) (xy 179.07 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d489f47-0d92-44a8-bbea-3c70a4b4a45a")
+	)
+	(wire
+		(pts
+			(xy 196.85 106.68) (xy 196.85 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9c30051-cf4b-4c4f-9301-93d2005f770b")
+	)
+	(wire
+		(pts
+			(xy 184.15 41.91) (xy 203.2 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "befbc4ee-571d-472b-9f3c-febb3f9f0926")
+	)
+	(wire
+		(pts
+			(xy 196.85 58.42) (xy 196.85 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf03602b-d23b-4762-8820-d8e6eafaf60c")
+	)
+	(wire
+		(pts
+			(xy 184.15 95.25) (xy 203.2 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfb6bf05-425e-4ab1-a105-a0ad5a5063ca")
+	)
+	(wire
+		(pts
+			(xy 203.2 106.68) (xy 196.85 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3acb677-f640-4e16-8a02-f82d081a8ff7")
+	)
+	(wire
+		(pts
+			(xy 52.07 57.15) (xy 101.6 57.15)
 		)
 		(stroke
 			(width 0)
@@ -938,28 +1457,48 @@
 		)
 		(uuid "c6c430e8-5631-4f5b-a18e-d59ecd1c802c")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 52.07 33.02) (xy 52.07 35.56)
+			(xy 156.21 95.25) (xy 179.07 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d2108231-4f23-4a74-b616-e1a5cc6bc37e")
+		(uuid "df9ccfe1-0aa7-4a33-b9f0-85717493b1ef")
 	)
 	(wire
 		(pts
-			(xy 54.61 53.34) (xy 64.77 53.34)
+			(xy 184.15 46.99) (xy 203.2 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f3b244e4-db46-4633-86af-d8667c6a969a")
+		(uuid "e74a763b-784e-4665-bc53-1e876468e9fa")
+	)
+	(wire
+		(pts
+			(xy 156.21 90.17) (xy 179.07 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eae6d872-403b-46a9-a39a-ab4c385e1762")
+	)
+	(label "OUTR.SIG-"
+		(at 189.23 95.25 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "1eddd382-e60c-41a2-b7e8-262d48bcff32")
 	)
 	(label "~{MUTE}.R"
-		(at 57.15 93.98 0)
+		(at 53.34 59.69 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -968,28 +1507,28 @@
 		)
 		(uuid "262f1e59-569c-4bc5-b2f3-81a0d97fd2ba")
 	)
-	(label "LEFT.SIG-"
-		(at 55.88 38.1 0)
+	(label "OUTL.SIG+"
+		(at 187.96 41.91 0)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
 			(justify left bottom)
 		)
-		(uuid "80f0dcc2-f011-4fe3-a576-a9cfc2c91e6d")
+		(uuid "519fa94c-b250-41af-9bf7-47a0d0a7ecb9")
 	)
-	(label "LEFT.SIG+"
-		(at 55.88 35.56 0)
+	(label "OUTR.SIG+"
+		(at 189.23 90.17 0)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
 			(justify left bottom)
 		)
-		(uuid "89c0b688-0a04-42a9-9142-c8cddf4ea496")
+		(uuid "87847e80-dd52-4e49-a613-77d28ac79b39")
 	)
 	(label "~{MUTE}.L"
-		(at 57.15 91.44 0)
+		(at 53.34 57.15 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -998,29 +1537,19 @@
 		)
 		(uuid "c651dcb2-b7ba-4721-9a48-c6fe8e9d0a42")
 	)
-	(label "RIGHT.SIG+"
-		(at 55.88 50.8 0)
+	(label "OUTL.SIG-"
+		(at 187.96 46.99 0)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
 			(justify left bottom)
 		)
-		(uuid "c66204a4-c06f-41f5-b40f-6eea6741ace1")
-	)
-	(label "RIGHT.SIG-"
-		(at 55.88 53.34 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "cff62873-f3d1-47a0-bf5d-47b695ce7262")
+		(uuid "fb36700b-5e84-49d8-896f-f35270064b4f")
 	)
 	(hierarchical_label "LEFT{ANADIFF}"
 		(shape input)
-		(at 49.53 33.02 180)
+		(at 49.53 41.91 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1031,7 +1560,7 @@
 	)
 	(hierarchical_label "RIGHT{ANADIFF}"
 		(shape input)
-		(at 49.53 48.26 180)
+		(at 48.26 90.17 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1040,9 +1569,20 @@
 		)
 		(uuid "805a57f1-8770-45ce-879a-ea52e339fcdb")
 	)
+	(hierarchical_label "VCM"
+		(shape input)
+		(at 46.99 46.99 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "c4844104-c88a-4f3c-bb80-95bf4095730f")
+	)
 	(hierarchical_label "~{MUTE}{L R}"
 		(shape input)
-		(at 50.8 88.9 180)
+		(at 46.99 54.61 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1051,9 +1591,472 @@
 		)
 		(uuid "ca5aef46-39ee-4a25-94f7-7e7e70c11ce0")
 	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 186.69 87.63) (xy 201.93 87.63) (xy 201.93 97.79) (xy 186.69 97.79)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 65d29ad5-1ddd-4767-9a4f-3ed24c9709a9)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 186.69 39.37) (xy 201.93 39.37) (xy 201.93 49.53) (xy 186.69 49.53)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 73b0879e-76a3-491d-9b97-547334763113)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape diamond)
+		(at 190.5 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "6bdeef8a-ba86-4475-b91d-127281f2eea5")
+		(property "Netclass" "ANA"
+			(at 191.5973 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 16.51 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape diamond)
+		(at 190.5 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "d67d636e-cf2b-4ad0-8622-abf3ca3105f6")
+		(property "Netclass" "ANA"
+			(at 191.5973 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 16.51 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_cap:cap_pol")
+		(at 181.61 95.25 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00b0b7db-6110-4863-86bd-8b5e7595d882")
+		(property "Reference" "C138"
+			(at 181.61 102.997 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "${Capacitance}, ${Voltage}, ${Tolerance}"
+			(at 180.848 97.79 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "reekilib_cap:CAPAE630Xxxx"
+			(at 190.246 95.25 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_A4088_A768"
+			(at 193.802 95.25 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 192.024 95.25 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "100µF"
+			(at 181.61 101.473 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 181.61 99.949 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 181.61 98.425 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Temperature" "105°C"
+			(at 185.42 97.79 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "A768EB107M1ELAE036"
+			(at 198.628 95.25 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "KEMET"
+			(at 198.628 107.442 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 195.58 95.25 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" "A768EB107M1ELAS036"
+			(at 200.152 95.25 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG2" "KEMET"
+			(at 200.152 107.442 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN3" ""
+			(at 201.676 95.25 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG3" ""
+			(at 201.676 107.442 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e3679bd9-1df6-40bb-991d-21063d09cb75")
+		)
+		(pin "1"
+			(uuid "67910f58-dcbc-4d8a-8d63-826719174d78")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/9a4ddd59-6699-41a4-a382-0b3d520d6256"
+					(reference "C138")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_cap:cap_pol")
+		(at 181.61 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02a82f11-4659-4070-9ec6-055212979bbe")
+		(property "Reference" "C122"
+			(at 181.61 34.163 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "${Capacitance}, ${Voltage}, ${Tolerance}"
+			(at 180.848 39.37 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "reekilib_cap:CAPAE630Xxxx"
+			(at 190.246 41.91 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_A4088_A768"
+			(at 193.802 41.91 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 192.024 41.91 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "100µF"
+			(at 181.61 35.687 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 181.61 37.211 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 181.61 38.735 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Temperature" "105°C"
+			(at 185.42 39.37 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "A768EB107M1ELAE036"
+			(at 198.628 41.91 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "KEMET"
+			(at 198.628 29.718 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 195.58 41.91 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" "A768EB107M1ELAS036"
+			(at 200.152 41.91 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG2" "KEMET"
+			(at 200.152 29.718 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN3" ""
+			(at 201.676 41.91 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG3" ""
+			(at 201.676 29.718 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "33ad4ba9-21ce-4970-8db0-a69574e2b0a5")
+		)
+		(pin "1"
+			(uuid "28758ba5-fa28-4c80-8df4-99d42dc9f534")
+		)
+		(instances
+			(project ""
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/9a4ddd59-6699-41a4-a382-0b3d520d6256"
+					(reference "C122")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "reekilib_con:trs_3swnc_2stacked")
-		(at 234.95 72.39 0)
+		(at 218.44 97.79 0)
 		(mirror y)
 		(unit 2)
 		(exclude_from_sim no)
@@ -1063,7 +2066,7 @@
 		(fields_autoplaced yes)
 		(uuid "25a68d84-512d-4498-bae3-005f24ee398a")
 		(property "Reference" "J12"
-			(at 234.95 61.595 0)
+			(at 218.44 86.995 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1072,7 +2075,7 @@
 			)
 		)
 		(property "Value" "TRS"
-			(at 241.935 69.85 90)
+			(at 225.425 95.25 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1081,7 +2084,7 @@
 			)
 		)
 		(property "Footprint" "reekilib_con:neutrik_nsj12hf-1"
-			(at 234.95 93.98 0)
+			(at 218.44 119.38 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1091,7 +2094,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.neutrik.us/media/8595/download/st-nsj12hf-1.PDF?v=2"
-			(at 234.95 95.885 0)
+			(at 218.44 121.285 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1101,7 +2104,7 @@
 			)
 		)
 		(property "Description" "TRS dual stacked receptacle with 3 NC switches"
-			(at 234.95 92.71 0)
+			(at 218.44 118.11 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1111,7 +2114,7 @@
 			)
 		)
 		(property "Vmax" "50V"
-			(at 240.03 90.805 0)
+			(at 223.52 116.205 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1121,7 +2124,7 @@
 			)
 		)
 		(property "Imax" "0.5A"
-			(at 234.95 90.805 0)
+			(at 218.44 116.205 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1131,7 +2134,7 @@
 			)
 		)
 		(property "MPN" "NSJ12HF-1 "
-			(at 234.95 83.82 0)
+			(at 218.44 109.22 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1141,7 +2144,7 @@
 			)
 		)
 		(property "MFG" "Neutrik"
-			(at 222.885 83.82 0)
+			(at 206.375 109.22 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1152,7 +2155,7 @@
 			)
 		)
 		(property "Link" "https://www.neutrik.us/en-us/product/nsj12hf-1"
-			(at 210.185 83.82 0)
+			(at 193.675 109.22 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1211,8 +2214,443 @@
 		)
 	)
 	(symbol
+		(lib_id "reekilib_cap:cap_pol")
+		(at 181.61 46.99 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30ab14f0-5de8-48c8-b856-955d4b10dd7b")
+		(property "Reference" "C127"
+			(at 181.61 54.737 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "${Capacitance}, ${Voltage}, ${Tolerance}"
+			(at 180.848 49.53 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "reekilib_cap:CAPAE630Xxxx"
+			(at 190.246 46.99 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_A4088_A768"
+			(at 193.802 46.99 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 192.024 46.99 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "100µF"
+			(at 181.61 53.213 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 181.61 51.689 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 181.61 50.165 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Temperature" "105°C"
+			(at 185.42 49.53 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "A768EB107M1ELAE036"
+			(at 198.628 46.99 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "KEMET"
+			(at 198.628 59.182 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 195.58 46.99 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" "A768EB107M1ELAS036"
+			(at 200.152 46.99 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG2" "KEMET"
+			(at 200.152 59.182 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN3" ""
+			(at 201.676 46.99 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG3" ""
+			(at 201.676 59.182 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6ae4df08-e484-4923-b81f-d05c8d07c8f3")
+		)
+		(pin "1"
+			(uuid "2ed14d6b-734f-4f57-bd7d-d26b69749f22")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/9a4ddd59-6699-41a4-a382-0b3d520d6256"
+					(reference "C127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_cap:cap_pol")
+		(at 181.61 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a12e03d-3425-4514-aab3-31b3dbe0515a")
+		(property "Reference" "C137"
+			(at 181.61 82.423 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "${Capacitance}, ${Voltage}, ${Tolerance}"
+			(at 180.848 87.63 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "reekilib_cap:CAPAE630Xxxx"
+			(at 190.246 90.17 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_A4088_A768"
+			(at 193.802 90.17 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 192.024 90.17 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "100µF"
+			(at 181.61 83.947 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 181.61 85.471 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 181.61 86.995 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Temperature" "105°C"
+			(at 185.42 87.63 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "A768EB107M1ELAE036"
+			(at 198.628 90.17 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "KEMET"
+			(at 198.628 77.978 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 195.58 90.17 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" "A768EB107M1ELAS036"
+			(at 200.152 90.17 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG2" "KEMET"
+			(at 200.152 77.978 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN3" ""
+			(at 201.676 90.17 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG3" ""
+			(at 201.676 77.978 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1ce5e261-0049-4272-bf08-f6c03fd2278b")
+		)
+		(pin "1"
+			(uuid "00365496-a614-4fb6-b3e4-53f2cd80de61")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/9a4ddd59-6699-41a4-a382-0b3d520d6256"
+					(reference "C137")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_pwr:VSS")
+		(at 196.85 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "8cb76d49-5019-457c-958d-35fa0f2fe13c")
+		(property "Reference" "#PWR0155"
+			(at 196.85 114.935 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AVSS"
+			(at 196.85 113.03 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 107.95 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "006e3255-4cc6-4262-ab0c-be91dc4991b4")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/9a4ddd59-6699-41a4-a382-0b3d520d6256"
+					(reference "#PWR0155")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "reekilib_con:trs_3swnc_2stacked")
-		(at 234.95 36.83 0)
+		(at 218.44 49.53 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1222,7 +2660,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae4e3078-a1e2-430d-a41f-e1d6a5d85f13")
 		(property "Reference" "J12"
-			(at 234.95 26.035 0)
+			(at 218.44 38.735 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1231,7 +2669,7 @@
 			)
 		)
 		(property "Value" "TRS"
-			(at 241.935 34.29 90)
+			(at 225.425 46.99 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1240,7 +2678,7 @@
 			)
 		)
 		(property "Footprint" "reekilib_con:neutrik_nsj12hf-1"
-			(at 234.95 58.42 0)
+			(at 218.44 71.12 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1250,7 +2688,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.neutrik.us/media/8595/download/st-nsj12hf-1.PDF?v=2"
-			(at 234.95 60.325 0)
+			(at 218.44 73.025 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1260,7 +2698,7 @@
 			)
 		)
 		(property "Description" "TRS dual stacked receptacle with 3 NC switches"
-			(at 234.95 57.15 0)
+			(at 218.44 69.85 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1270,7 +2708,7 @@
 			)
 		)
 		(property "Vmax" "50V"
-			(at 240.03 55.245 0)
+			(at 223.52 67.945 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1280,7 +2718,7 @@
 			)
 		)
 		(property "Imax" "0.5A"
-			(at 234.95 55.245 0)
+			(at 218.44 67.945 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1290,7 +2728,7 @@
 			)
 		)
 		(property "MPN" "NSJ12HF-1 "
-			(at 234.95 48.26 0)
+			(at 218.44 60.96 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1300,7 +2738,7 @@
 			)
 		)
 		(property "MFG" "Neutrik"
-			(at 222.885 48.26 0)
+			(at 206.375 60.96 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1311,7 +2749,7 @@
 			)
 		)
 		(property "Link" "https://www.neutrik.us/en-us/product/nsj12hf-1"
-			(at 210.185 48.26 0)
+			(at 193.675 60.96 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -1364,6 +2802,70 @@
 			(project ""
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/9a4ddd59-6699-41a4-a382-0b3d520d6256"
 					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_pwr:VSS")
+		(at 196.85 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "d65a43a5-32a2-4bb8-8649-f7e733714e5c")
+		(property "Reference" "#PWR0141"
+			(at 196.85 66.675 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AVSS"
+			(at 196.85 64.77 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 62.23 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 59.69 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "816b0466-d6ef-47be-a280-cb0b5ed37978")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/9a4ddd59-6699-41a4-a382-0b3d520d6256"
+					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
@@ -1497,6 +2999,212 @@
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/9a4ddd59-6699-41a4-a382-0b3d520d6256"
 					(reference "J7")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 113.03 27.94)
+		(size 43.18 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4fb68e0a-941d-4208-9504-51093c7ea075")
+		(property "Sheetname" "OUT buffer L"
+			(at 133.35 31.75 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3 3)
+					(thickness 0.6)
+					(bold yes)
+				)
+			)
+		)
+		(property "Sheetfile" "pandore-audio-outbuf.kicad_sch"
+			(at 113.538 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "pageNb" "Page ${#}"
+			(at 132.715 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(pin "~{MUTE}" input
+			(at 113.03 46.99 180)
+			(uuid "18b3ffac-c256-4797-b432-4dc1c27acc8e")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN{ANADIFF}" input
+			(at 113.03 41.91 180)
+			(uuid "7100cdc3-17cd-46d1-8626-0c4a552ec2fd")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCM" input
+			(at 113.03 44.45 180)
+			(uuid "bd35f987-1272-48af-a260-489bde9f711c")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT-" output
+			(at 156.21 46.99 0)
+			(uuid "108672fc-887c-4339-925e-b21c2ddb1b4e")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT+" output
+			(at 156.21 41.91 0)
+			(uuid "fdab3ef1-beea-49f1-9ba1-1e234df94c77")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/9a4ddd59-6699-41a4-a382-0b3d520d6256"
+					(page "23")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 113.03 76.2)
+		(size 43.18 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7f4e67fa-3c07-407d-92c2-385efb421c13")
+		(property "Sheetname" "OUT buffer R"
+			(at 133.35 80.01 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3 3)
+					(thickness 0.6)
+					(bold yes)
+				)
+			)
+		)
+		(property "Sheetfile" "pandore-audio-outbuf.kicad_sch"
+			(at 113.538 113.792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "pageNb" "Page ${#}"
+			(at 132.715 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(pin "~{MUTE}" input
+			(at 113.03 95.25 180)
+			(uuid "333e1025-e429-4998-8551-8c375d03a247")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN{ANADIFF}" input
+			(at 113.03 90.17 180)
+			(uuid "f8582197-5dc1-4f78-8110-d67b9b335be3")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCM" input
+			(at 113.03 92.71 180)
+			(uuid "11fbf8fa-3534-433d-957d-5d04b222c78e")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT-" output
+			(at 156.21 95.25 0)
+			(uuid "17305d1d-50aa-4f00-955b-3d8df5c1eac0")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT+" output
+			(at 156.21 90.17 0)
+			(uuid "3d111338-68c4-4c9a-87f3-ef504e15c780")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/9a4ddd59-6699-41a4-a382-0b3d520d6256"
+					(page "24")
 				)
 			)
 		)

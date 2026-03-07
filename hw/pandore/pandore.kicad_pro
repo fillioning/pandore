@@ -155,8 +155,8 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.254,
         "min_track_width": 0.127,
-        "min_via_annular_width": 0.1016,
-        "min_via_diameter": 0.458,
+        "min_via_annular_width": 0.127,
+        "min_via_diameter": 0.508,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -226,7 +226,7 @@
         "diff_pair_defaults": {
           "corner_radius_percentage": 50,
           "corner_style": 0,
-          "max_amplitude": 1.0,
+          "max_amplitude": 5.0,
           "min_amplitude": 0.2,
           "single_sided": false,
           "spacing": 1.0
@@ -234,7 +234,7 @@
         "diff_pair_skew_defaults": {
           "corner_radius_percentage": 50,
           "corner_style": 0,
-          "max_amplitude": 1.0,
+          "max_amplitude": 5.0,
           "min_amplitude": 0.2,
           "single_sided": false,
           "spacing": 0.6
@@ -242,7 +242,7 @@
         "single_track_defaults": {
           "corner_radius_percentage": 50,
           "corner_style": 0,
-          "max_amplitude": 1.0,
+          "max_amplitude": 5.0,
           "min_amplitude": 0.2,
           "single_sided": false,
           "spacing": 0.6
@@ -254,7 +254,7 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.458,
+          "diameter": 0.508,
           "drill": 0.254
         },
         {
@@ -543,7 +543,7 @@
         "clearance": 0.127,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.4,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -740,6 +740,90 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/Audio/Audio inputs/IN buffer 1/INBUF.FB+": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/IN buffer 1/INBUF.FB-": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/IN buffer 1/INBUF.IN+": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/IN buffer 1/INBUF.IN-": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/IN buffer 1/INBUF.OUT+": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/IN buffer 1/INBUF.OUT-": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/IN buffer 1/LINEIN.SIG+": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/IN buffer 1/LINEIN.SIG-": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/IN buffer 1/MICIN.SIG+": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/IN buffer 1/MICIN.SIG-": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/IN buffer 2/INBUF.FB+": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/IN buffer 2/INBUF.FB-": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/IN buffer 2/INBUF.IN+": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/IN buffer 2/INBUF.IN-": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/IN buffer 2/INBUF.OUT+": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/IN buffer 2/INBUF.OUT-": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/IN buffer 2/LINEIN.SIG+": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/IN buffer 2/LINEIN.SIG-": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/IN buffer 2/MICIN.SIG+": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/IN buffer 2/MICIN.SIG-": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/LINE1IN.SIG+": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/LINE1IN.SIG-": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/LINE2IN.SIG+": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/LINE2IN.SIG-": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/MIC1IN.SIG+": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/MIC1IN.SIG-": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/MIC2IN.SIG+": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/MIC2IN.SIG-": [
+        "ANA"
+      ],
       "/Audio/Audio inputs/MICLINE1.SIG+": [
         "ANA"
       ],
@@ -752,10 +836,112 @@
       "/Audio/Audio inputs/MICLINE2.SIG-": [
         "ANA"
       ],
+      "/Audio/Audio inputs/VCM": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/VPHANTOM": [
+        "PWR"
+      ],
+      "/Audio/Audio inputs/_LINE1IN.SIG+": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/_LINE1IN.SIG-": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/_LINE2IN.SIG+": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/_LINE2IN.SIG-": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/_MIC1IN.SIG+": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/_MIC1IN.SIG-": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/_MIC2IN.SIG+": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/_MIC2IN.SIG-": [
+        "ANA"
+      ],
       "/Audio/Audio outputs/LEFT.SIG+": [
         "ANA"
       ],
       "/Audio/Audio outputs/LEFT.SIG-": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUT buffer L/OUT+": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUT buffer L/OUT-": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUT buffer L/OUT.SIG+": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUT buffer L/OUT.SIG-": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUT buffer L/OUTBUF.FB+": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUT buffer L/OUTBUF.FB-": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUT buffer L/OUTBUF.IN+": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUT buffer L/OUTBUF.IN-": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUT buffer L/OUTBUF.OUT+": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUT buffer L/OUTBUF.OUT-": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUT buffer R/OUT+": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUT buffer R/OUT-": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUT buffer R/OUT.SIG+": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUT buffer R/OUT.SIG-": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUT buffer R/OUTBUF.FB+": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUT buffer R/OUTBUF.FB-": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUT buffer R/OUTBUF.IN+": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUT buffer R/OUTBUF.IN-": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUT buffer R/OUTBUF.OUT+": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUT buffer R/OUTBUF.OUT-": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUTL.SIG+": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUTL.SIG-": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUTR.SIG+": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUTR.SIG-": [
         "ANA"
       ],
       "/Audio/Audio outputs/RIGHT.SIG+": [
@@ -1307,6 +1493,15 @@
       "/USB ports/_USB3LOW.SSTX-": [
         "D90Ω"
       ],
+      "AV3P3": [
+        "PWR"
+      ],
+      "AV5": [
+        "PWR"
+      ],
+      "AVDD": [
+        "PWR"
+      ],
       "AVIO": [
         "PWR"
       ],
@@ -1315,6 +1510,30 @@
       ],
       "EARTH": [
         "GND"
+      ],
+      "Net-(C159-+)": [
+        "ANA"
+      ],
+      "Net-(C160-+)": [
+        "ANA"
+      ],
+      "Net-(C161-+)": [
+        "ANA"
+      ],
+      "Net-(C162-+)": [
+        "ANA"
+      ],
+      "Net-(C163-+)": [
+        "ANA"
+      ],
+      "Net-(C164-+)": [
+        "ANA"
+      ],
+      "Net-(C165-+)": [
+        "ANA"
+      ],
+      "Net-(C166-+)": [
+        "ANA"
       ],
       "Net-(C39-Pad2)": [
         "ANA"
@@ -1400,6 +1619,18 @@
       "Net-(J9-SHD)": [
         "GND"
       ],
+      "Net-(R100-Pad1)": [
+        "ANA"
+      ],
+      "Net-(R101-Pad1)": [
+        "ANA"
+      ],
+      "Net-(R110-Pad2)": [
+        "ANA"
+      ],
+      "Net-(R111-Pad2)": [
+        "ANA"
+      ],
       "Net-(R34-Pad1)": [
         "HVFNC"
       ],
@@ -1436,6 +1667,24 @@
       "Net-(U11-XTO)": [
         "ANA"
       ],
+      "Net-(U12-OUT)": [
+        "PWR"
+      ],
+      "Net-(U12-VIN+)": [
+        "PWR"
+      ],
+      "Net-(U12-VOUT+)": [
+        "PWR"
+      ],
+      "Net-(U13-OUT)": [
+        "PWR"
+      ],
+      "Net-(U13-VIN+)": [
+        "PWR"
+      ],
+      "Net-(U13-VOUT+)": [
+        "PWR"
+      ],
       "Net-(U3B-XIN)": [
         "ANA"
       ],
@@ -1469,6 +1718,18 @@
       "Net-(U9-3.3V-Pad15)": [
         "PWR"
       ],
+      "V12": [
+        "PWR"
+      ],
+      "V12ISO": [
+        "PWR"
+      ],
+      "V3P3": [
+        "PWR"
+      ],
+      "V5": [
+        "PWR"
+      ],
       "VDD": [
         "PWR"
       ],
@@ -1481,10 +1742,16 @@
       "VMIDI": [
         "PWR"
       ],
+      "VPHANTOM": [
+        "PWR"
+      ],
       "VRTIO": [
         "PWR"
       ],
       "VSS": [
+        "GND"
+      ],
+      "VSSISO": [
         "GND"
       ],
       "unconnected-(J1-5V-Pad18)": [
@@ -2079,6 +2346,26 @@
     [
       "c7a6c4ca-6083-4b1c-b07a-a9d1f5204bfb",
       "CODEC"
+    ],
+    [
+      "4fb68e0a-941d-4208-9504-51093c7ea075",
+      "OUT buffer L"
+    ],
+    [
+      "7f4e67fa-3c07-407d-92c2-385efb421c13",
+      "OUT buffer R"
+    ],
+    [
+      "8d59667e-74a9-4b74-9da4-c408ef8d4019",
+      "IN buffer 1"
+    ],
+    [
+      "e109aa32-258e-4e34-aaf7-64bd999bfe07",
+      "IN buffer 2"
+    ],
+    [
+      "26459c94-7a75-4791-b22d-dba060dd3547",
+      "Power"
     ]
   ],
   "text_variables": {
