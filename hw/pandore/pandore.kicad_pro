@@ -971,6 +971,21 @@
       "/Audio/CODEC/DATA.TXFS": [
         "I2S"
       ],
+      "/Audio/CPU.MCLK": [
+        "I2S"
+      ],
+      "/Audio/CPU.RXD0": [
+        "I2S"
+      ],
+      "/Audio/CPU.TXCLK": [
+        "I2S"
+      ],
+      "/Audio/CPU.TXD0": [
+        "I2S"
+      ],
+      "/Audio/CPU.TXFS": [
+        "I2S"
+      ],
       "/Audio/USB.D+": [
         "D90Ω"
       ],
@@ -1535,6 +1550,18 @@
       "Net-(C166-+)": [
         "ANA"
       ],
+      "Net-(C180-Pad2)": [
+        "PWR"
+      ],
+      "Net-(C183-Pad2)": [
+        "ANA"
+      ],
+      "Net-(C190-Pad2)": [
+        "ANA"
+      ],
+      "Net-(C192-Pad2)": [
+        "PWR"
+      ],
       "Net-(C39-Pad2)": [
         "ANA"
       ],
@@ -1683,6 +1710,27 @@
         "PWR"
       ],
       "Net-(U13-VOUT+)": [
+        "PWR"
+      ],
+      "Net-(U14-OUT)": [
+        "PWR"
+      ],
+      "Net-(U19-COMP)": [
+        "ANA"
+      ],
+      "Net-(U19-FB)": [
+        "ANA"
+      ],
+      "Net-(U19-NC(SW))": [
+        "PWR"
+      ],
+      "Net-(U20-COMP)": [
+        "ANA"
+      ],
+      "Net-(U20-FB)": [
+        "ANA"
+      ],
+      "Net-(U20-NC(SW))": [
         "PWR"
       ],
       "Net-(U3B-XIN)": [
@@ -2198,6 +2246,138 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Type",
+          "name": "Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vbr",
+          "name": "Vbr",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vclamp",
+          "name": "Vclamp",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vf",
+          "name": "Vf",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vimax",
+          "name": "Vimax",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vimin",
+          "name": "Vimin",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vo",
+          "name": "Vo",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Library",
+          "name": "Sim.Library",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vr",
+          "name": "Vr",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vrwm",
+          "name": "Vrwm",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "bit",
+          "name": "bit",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "color",
+          "name": "color",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "config",
+          "name": "config",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Name",
+          "name": "Sim.Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "lum",
+          "name": "lum",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "sr",
+          "name": "sr",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Temperature",
+          "name": "Temperature",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "viewangle",
+          "name": "viewangle",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "λdom",
+          "name": "λdom",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Io",
+          "name": "Io",
           "show": false
         }
       ],

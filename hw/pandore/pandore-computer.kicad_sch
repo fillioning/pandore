@@ -103,7 +103,7 @@
 	)
 	(bus
 		(pts
-			(xy 92.71 140.97) (xy 121.92 140.97)
+			(xy 92.71 149.86) (xy 121.92 149.86)
 		)
 		(stroke
 			(width 0)
@@ -123,7 +123,7 @@
 	)
 	(bus
 		(pts
-			(xy 92.71 132.08) (xy 121.92 132.08)
+			(xy 92.71 147.32) (xy 121.92 147.32)
 		)
 		(stroke
 			(width 0)
@@ -150,6 +150,16 @@
 			(type default)
 		)
 		(uuid "eae634ac-9b83-46d0-a1dc-e9ae1d951181")
+	)
+	(bus
+		(pts
+			(xy 92.71 152.4) (xy 121.92 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb26e235-d58f-4c36-9375-1fbe0044ce8a")
 	)
 	(wire
 		(pts
@@ -259,9 +269,9 @@
 		)
 		(uuid "783d9d43-0d1f-4902-b483-f970df3b81e8")
 	)
-	(hierarchical_label "MIDI{UART}"
+	(hierarchical_label "AUDIO.MIDI{UART}"
 		(shape bidirectional)
-		(at 92.71 140.97 180)
+		(at 92.71 149.86 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -291,6 +301,17 @@
 			(justify left)
 		)
 		(uuid "d2c3a879-bc8d-422e-b8f2-e36fef5de461")
+	)
+	(hierarchical_label "AUDIO.I2S{I2S1DPX}"
+		(shape bidirectional)
+		(at 92.71 152.4 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "d9278870-a3cd-44d1-bf8c-e57e48c112d8")
 	)
 	(hierarchical_label "ETHI{PCIE1X}"
 		(shape bidirectional)
@@ -325,9 +346,9 @@
 		)
 		(uuid "fbd3f9aa-ec70-4ce6-b447-669cf44139a5")
 	)
-	(hierarchical_label "USB2P6{USB2}"
+	(hierarchical_label "AUDIO.USB{USB2}"
 		(shape bidirectional)
-		(at 92.71 132.08 180)
+		(at 92.71 147.32 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -535,7 +556,7 @@
 			)
 		)
 		(pin "USBP6{USB2}" bidirectional
-			(at 121.92 132.08 180)
+			(at 121.92 147.32 180)
 			(uuid "b21fcb0a-6dab-4b7c-8063-f08091cda288")
 			(effects
 				(font
@@ -585,7 +606,7 @@
 			)
 		)
 		(pin "UART2{UART}" bidirectional
-			(at 121.92 140.97 180)
+			(at 121.92 149.86 180)
 			(uuid "ba54254f-4cef-4d96-880e-8060b5a19506")
 			(effects
 				(font
@@ -612,6 +633,16 @@
 					(size 1.016 1.016)
 				)
 				(justify right)
+			)
+		)
+		(pin "I2S{I2S1DPX}" bidirectional
+			(at 121.92 152.4 180)
+			(uuid "c709057c-7f41-41ab-877c-661d24d0d8d7")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
 			)
 		)
 		(instances

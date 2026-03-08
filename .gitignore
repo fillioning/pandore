@@ -4,6 +4,7 @@
 
 # Kicad
 *.kicad_*.lck
+*.kicad_*-bak
 *.kicad_prl
 *#auto_saved_files#*
 *-backups/
