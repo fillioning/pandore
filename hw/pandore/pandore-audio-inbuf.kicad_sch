@@ -559,6 +559,151 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "reekilib_con:hdr-1x2"
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Value" "hdr-1x2"
+				(at 0 -5.08 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Footprint" "footprint"
+				(at 0 -8.128 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "url-ds"
+				(at 0 -12.446 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "header 1row 2pin"
+				(at 0 -9.652 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "MPN"
+				(at 0 -6.604 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFG" "MFG"
+				(at 6.604 -6.604 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Link" "url-link"
+				(at 0 -11.176 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "header hdr"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "hdr-1x2_0_1"
+				(rectangle
+					(start -3.81 3.81)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "hdr-1x2_1_1"
+				(pin passive line
+					(at -7.62 1.27 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -1.27 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "reekilib_dio:diode_2_serie"
 			(pin_names
 				(hide yes)
@@ -1576,16 +1721,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 107.95) (xy 86.36 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "229fefcd-7e26-4561-8f36-82016f0b81b5")
-	)
-	(wire
-		(pts
 			(xy 156.21 77.47) (xy 156.21 62.23)
 		)
 		(stroke
@@ -2276,6 +2411,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 105.41) (xy 86.36 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf1c34c2-6fc2-4ae1-ad26-0a184090c8a8")
+	)
+	(wire
+		(pts
 			(xy 190.5 81.28) (xy 190.5 82.55)
 		)
 		(stroke
@@ -2366,6 +2511,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 99.06) (xy 86.36 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee52d662-eece-4ce5-8dd3-83f7efc710b4")
+	)
+	(wire
+		(pts
 			(xy 193.04 45.72) (xy 193.04 52.07)
 		)
 		(stroke
@@ -2373,6 +2528,26 @@
 			(type default)
 		)
 		(uuid "ee623f2c-8732-4b81-a333-9e641b819bec")
+	)
+	(wire
+		(pts
+			(xy 86.36 102.87) (xy 93.98 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4941156-1a25-45b0-9af5-834af3373cb1")
+	)
+	(wire
+		(pts
+			(xy 86.36 105.41) (xy 86.36 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f74c149e-4da9-4ba7-b07b-32f4cae91dbe")
 	)
 	(wire
 		(pts
@@ -2660,6 +2835,37 @@
 		)
 		(property "Component Class" ""
 			(at 46.99 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape diamond)
+		(at 87.63 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd6e3b38-b02f-43d2-9600-7131b605f254")
+		(property "Netclass" "PWR"
+			(at 88.7273 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -86.36 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4451,6 +4657,114 @@
 		)
 	)
 	(symbol
+		(lib_id "reekilib_con:hdr-1x2")
+		(at 101.6 104.14 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "612cdf34-dbac-43de-9287-9df858d6f125")
+		(property "Reference" "JMP3"
+			(at 101.6 99.06 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "PPWR"
+			(at 101.6 109.22 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "reekilib_con:HDR254P1X02-TH"
+			(at 101.6 112.268 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "url-ds"
+			(at 101.6 116.586 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "header 1row 2pin"
+			(at 101.6 113.792 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MPN"
+			(at 101.6 110.744 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "MFG"
+			(at 108.204 110.744 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Link" "url-link"
+			(at 101.6 115.316 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "979f49e1-6e35-4e49-b097-652fbe2e71c4")
+		)
+		(pin "1"
+			(uuid "bebc96b0-54b1-4f46-b51f-1862e70e010b")
+		)
+		(instances
+			(project ""
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/505def28-a163-4964-82bd-abe7e8697de4/8d59667e-74a9-4b74-9da4-c408ef8d4019"
+					(reference "JMP3")
+					(unit 1)
+				)
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/505def28-a163-4964-82bd-abe7e8697de4/e109aa32-258e-4e34-aaf7-64bd999bfe07"
+					(reference "J26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "reekilib_res:res")
 		(at 127 68.58 180)
 		(unit 1)
@@ -5555,7 +5869,7 @@
 	)
 	(symbol
 		(lib_id "reekilib_pwr:VDD")
-		(at 86.36 106.68 0)
+		(at 86.36 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5563,7 +5877,7 @@
 		(dnp no)
 		(uuid "7cd7cf55-7695-41a7-9935-b659eef4b1f9")
 		(property "Reference" "#PWR0148"
-			(at 86.36 103.505 0)
+			(at 86.36 94.615 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5573,7 +5887,7 @@
 			)
 		)
 		(property "Value" "VPHANTOM"
-			(at 86.36 105.41 0)
+			(at 86.36 96.52 0)
 			(effects
 				(font
 					(size 1 1)
@@ -5581,7 +5895,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 106.68 0)
+			(at 86.36 97.79 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5589,7 +5903,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 106.68 0)
+			(at 86.36 97.79 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5597,7 +5911,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.36 106.68 0)
+			(at 86.36 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)

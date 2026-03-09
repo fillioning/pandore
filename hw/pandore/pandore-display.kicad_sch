@@ -2313,7 +2313,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "reekilib_dfn:DFN50P100X250X55-10"
+			(property "Footprint" "reekilib_dfn:DFN50P100X250X55-10_ESD204"
 				(at 0 -15.24 0)
 				(do_not_autoplace)
 				(effects
@@ -2403,6 +2403,15 @@
 						(size 1 1)
 					)
 					(justify right)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "reekilib_dfn:DFN50P100X250X55-10_ESD204"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 					(hide yes)
 				)
 			)
@@ -4624,6 +4633,16 @@
 		)
 		(uuid "5f75ae63-082f-4054-965a-2ecf1e9e1b26")
 	)
+	(label "_HDMI.CLK+"
+		(at 191.77 92.71 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "6807799d-7c69-41c7-916b-6653b5fd4248")
+	)
 	(label "DISP.D2+"
 		(at 39.37 82.55 0)
 		(effects
@@ -4664,6 +4683,66 @@
 		)
 		(uuid "82e90cb7-ac1d-4b37-980b-319a7a02c775")
 	)
+	(label "_HDMI.CLK-"
+		(at 191.77 95.25 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "970b7f25-2228-46f8-88e1-e46f579d6765")
+	)
+	(label "_HDMI.D1-"
+		(at 191.77 74.93 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "99d15b86-71a1-4128-8e83-5ec1f04c32da")
+	)
+	(label "_HDMI.D0+"
+		(at 191.77 62.23 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d2fa616-8211-404d-8afc-312c036d41ba")
+	)
+	(label "_HDMI.D1+"
+		(at 191.77 72.39 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f296c12-3a8f-45a5-8d30-5ee12a10383e")
+	)
+	(label "_HDMI.D2-"
+		(at 191.77 85.09 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "c5e65431-49b4-4fc9-b132-a1474c8422f4")
+	)
+	(label "_HDMI.D0-"
+		(at 191.77 64.77 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf869521-dd9b-4520-82e5-4fbe9bfdb9f8")
+	)
 	(label "DISP.DDC.CLK"
 		(at 39.37 111.76 0)
 		(effects
@@ -4703,6 +4782,16 @@
 			(justify left bottom)
 		)
 		(uuid "f749ba71-71ac-4a5f-94cf-fc548b53cbca")
+	)
+	(label "_HDMI.D2+"
+		(at 191.77 82.55 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "fd94816d-2150-40e2-900b-6929b14eba43")
 	)
 	(hierarchical_label "DISP{HDMI}"
 		(shape input)
@@ -5114,7 +5203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "reekilib_dfn:DFN50P100X250X55-10"
+		(property "Footprint" "reekilib_dfn:DFN50P100X250X55-10_ESD204"
 			(at 186.69 139.7 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5440,7 +5529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "reekilib_dfn:DFN50P100X250X55-10"
+		(property "Footprint" "reekilib_dfn:DFN50P100X250X55-10_ESD204"
 			(at 144.78 139.7 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7802,7 +7891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "reekilib_dfn:DFN50P100X250X55-10"
+		(property "Footprint" "reekilib_dfn:DFN50P100X250X55-10_ESD204"
 			(at 166.37 139.7 0)
 			(do_not_autoplace yes)
 			(effects

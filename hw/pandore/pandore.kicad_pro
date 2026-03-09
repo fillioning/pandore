@@ -986,6 +986,9 @@
       "/Audio/CPU.TXFS": [
         "I2S"
       ],
+      "/Audio/Power/REGV48.OUT": [
+        "PWR"
+      ],
       "/Audio/USB.D+": [
         "D90Ω"
       ],
@@ -1238,6 +1241,30 @@
       "/Computer/USBP1.SSTX-": [
         "D90Ω"
       ],
+      "/Display/_HDMI.CLK+": [
+        "D100Ω"
+      ],
+      "/Display/_HDMI.CLK-": [
+        "D100Ω"
+      ],
+      "/Display/_HDMI.D0+": [
+        "D100Ω"
+      ],
+      "/Display/_HDMI.D0-": [
+        "D100Ω"
+      ],
+      "/Display/_HDMI.D1+": [
+        "D100Ω"
+      ],
+      "/Display/_HDMI.D1-": [
+        "D100Ω"
+      ],
+      "/Display/_HDMI.D2+": [
+        "D100Ω"
+      ],
+      "/Display/_HDMI.D2-": [
+        "D100Ω"
+      ],
       "/External Ethernet/ETH.VCORE": [
         "PWR"
       ],
@@ -1442,6 +1469,12 @@
       "/Mgmt MCU/MCU/QSPI.~{CS}": [
         "QSPI"
       ],
+      "/Mgmt MCU/MCU/VCORE": [
+        "PWR"
+      ],
+      "/Mgmt MCU/MCU/VIO": [
+        "PWR"
+      ],
       "/Mgmt MCU/MCU/_USB.D+": [
         "D90Ω"
       ],
@@ -1465,6 +1498,12 @@
       ],
       "/Real-Time MCU/MCU/QSPI.~{CS}": [
         "QSPI"
+      ],
+      "/Real-Time MCU/MCU/VCORE": [
+        "PWR"
+      ],
+      "/Real-Time MCU/MCU/VIO": [
+        "PWR"
       ],
       "/Real-Time MCU/MCU/_USB.D+": [
         "D90Ω"
@@ -1586,6 +1625,9 @@
       "Net-(D18-C)": [
         "PWR"
       ],
+      "Net-(D25-A)": [
+        "PWR"
+      ],
       "Net-(D6-Pad1)": [
         "ANA"
       ],
@@ -1640,11 +1682,17 @@
       "Net-(J1-TMDS.D2-)": [
         "D100Ω"
       ],
+      "Net-(J26-Pad2)": [
+        "PWR"
+      ],
       "Net-(J8-SHD)": [
         "GND"
       ],
       "Net-(J9-SHD)": [
         "GND"
+      ],
+      "Net-(JMP3-Pad2)": [
+        "PWR"
       ],
       "Net-(R100-Pad1)": [
         "ANA"
@@ -1703,6 +1751,9 @@
       "Net-(U12-VOUT+)": [
         "PWR"
       ],
+      "Net-(U13-FB)": [
+        "ANA"
+      ],
       "Net-(U13-OUT)": [
         "PWR"
       ],
@@ -1711,6 +1762,9 @@
       ],
       "Net-(U13-VOUT+)": [
         "PWR"
+      ],
+      "Net-(U14-FB)": [
+        "ANA"
       ],
       "Net-(U14-OUT)": [
         "PWR"
@@ -1733,11 +1787,41 @@
       "Net-(U20-NC(SW))": [
         "PWR"
       ],
+      "Net-(U21-COMP)": [
+        "ANA"
+      ],
+      "Net-(U21-FB)": [
+        "ANA"
+      ],
+      "Net-(U21-RT)": [
+        "ANA"
+      ],
+      "Net-(U21-SS)": [
+        "ANA"
+      ],
+      "Net-(U21-VCC)": [
+        "PWR"
+      ],
+      "Net-(U22-FB)": [
+        "ANA"
+      ],
+      "Net-(U3A-VREG.AVDD)": [
+        "PWR"
+      ],
+      "Net-(U3A-VREG.LX)": [
+        "PWR"
+      ],
       "Net-(U3B-XIN)": [
         "ANA"
       ],
       "Net-(U3B-XOUT)": [
         "ANA"
+      ],
+      "Net-(U4A-VREG.AVDD)": [
+        "PWR"
+      ],
+      "Net-(U4A-VREG.LX)": [
+        "PWR"
       ],
       "Net-(U4B-XIN)": [
         "ANA"
@@ -1776,6 +1860,9 @@
         "PWR"
       ],
       "V5": [
+        "PWR"
+      ],
+      "V50": [
         "PWR"
       ],
       "VDD": [

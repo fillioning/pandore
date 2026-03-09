@@ -77,14 +77,14 @@
 	(condition "(A.hasNetClass('D90Ω') || A.hasNetClass('D100Ω') || A.hasNetClass('D120Ω')) && A.insideArea('*') && B.type == 'zone'"))
 
 # Diffpair to diffpair clearance
-(rule "🧬 diff to diff clearance"
-	(constraint clearance (min 0.4mm))
-	(condition "A.inDiffPair('*') && B.inDiffPair('*') && !AB.isCoupledDiffPair()"))
+#(rule "🧬 diff to diff clearance"
+#	(constraint clearance (min 0.4mm))
+#	(condition "A.inDiffPair('*') && B.inDiffPair('*') && !AB.isCoupledDiffPair() && A.type != 'Pad'"))
 
 # Diffpair to other clearance
-(rule "🧬 diff to other clearance"
-    (constraint clearance (min 1.0mm))
-	(condition "A.Type == 'Track' && A.inDiffPair('*') && !B.inDiffPair('*') && !AB.isCoupledDiffPair() && !B.intersectsCourtyard('*')"))
+#(rule "🧬 diff to other clearance"
+#    (constraint clearance (min 1.0mm))
+#	(condition "A.Type == 'Track' && A.inDiffPair('*') && !B.inDiffPair('*') && !AB.isCoupledDiffPair() && !B.intersectsCourtyard('*')"))
 
 # Differential signal skew
 (rule "🧬 diff signal skew"
