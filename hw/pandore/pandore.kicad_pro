@@ -740,6 +740,12 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/Audio/AUDMST.SCL": [
+        "I2C"
+      ],
+      "/Audio/AUDMST.SDA": [
+        "I2C"
+      ],
       "/Audio/Audio inputs/IN buffer 1/INBUF.FB+": [
         "ANA"
       ],
@@ -974,7 +980,13 @@
       "/Audio/CPU.MCLK": [
         "I2S"
       ],
+      "/Audio/CPU.RXCLK": [
+        "I2S"
+      ],
       "/Audio/CPU.RXD0": [
+        "I2S"
+      ],
+      "/Audio/CPU.RXFS": [
         "I2S"
       ],
       "/Audio/CPU.TXCLK": [
@@ -984,6 +996,39 @@
         "I2S"
       ],
       "/Audio/CPU.TXFS": [
+        "I2S"
+      ],
+      "/Audio/CPU.~{RST}": [
+        "I2S"
+      ],
+      "/Audio/CPU{I2S1DPX ~{RST}}": [
+        "I2S"
+      ],
+      "/Audio/Isolation/MCU.MCLK": [
+        "I2S"
+      ],
+      "/Audio/Isolation/MCU.RXCLK": [
+        "I2S"
+      ],
+      "/Audio/Isolation/MCU.RXD0": [
+        "I2S"
+      ],
+      "/Audio/Isolation/MCU.RXFS": [
+        "I2S"
+      ],
+      "/Audio/Isolation/MCU.TXCLK": [
+        "I2S"
+      ],
+      "/Audio/Isolation/MCU.TXD0": [
+        "I2S"
+      ],
+      "/Audio/Isolation/MCU.TXFS": [
+        "I2S"
+      ],
+      "/Audio/Isolation/MCU.~{RST}": [
+        "I2S"
+      ],
+      "/Audio/Isolation/MCU{I2S1DPX ~{RST}}": [
         "I2S"
       ],
       "/Audio/Power/REGV48.OUT": [
@@ -1804,6 +1849,21 @@
       ],
       "Net-(U22-FB)": [
         "ANA"
+      ],
+      "Net-(U23-INA)": [
+        "I2S"
+      ],
+      "Net-(U23-INB)": [
+        "I2S"
+      ],
+      "Net-(U23-INC)": [
+        "I2S"
+      ],
+      "Net-(U23-IND)": [
+        "I2S"
+      ],
+      "Net-(U23-OUTE)": [
+        "I2S"
       ],
       "Net-(U3A-VREG.AVDD)": [
         "PWR"
@@ -2633,6 +2693,10 @@
     [
       "26459c94-7a75-4791-b22d-dba060dd3547",
       "Power"
+    ],
+    [
+      "07e56b51-9be1-414d-8c59-faa1629d64d5",
+      "Isolation"
     ]
   ],
   "text_variables": {

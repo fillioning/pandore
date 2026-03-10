@@ -2390,15 +2390,6 @@
 		(uuid "c7ff0b0d-94de-48ee-a5a5-de8d14618213")
 	)
 	(bus_entry
-		(at 59.69 63.5)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d432b507-c558-4c7e-8e7f-40dcbe07aff1")
-	)
-	(bus_entry
 		(at 59.69 52.07)
 		(size 2.54 2.54)
 		(stroke
@@ -2894,6 +2885,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 66.04) (xy 140.97 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e57058d-3c10-4359-bbca-a2b8219fbe92")
+	)
+	(wire
+		(pts
 			(xy 140.97 118.11) (xy 139.7 118.11)
 		)
 		(stroke
@@ -2954,7 +2955,7 @@
 	)
 	(bus
 		(pts
-			(xy 57.15 63.5) (xy 59.69 63.5)
+			(xy 57.15 72.39) (xy 59.69 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3111,16 +3112,6 @@
 			(type default)
 		)
 		(uuid "d01397ec-3465-4934-8fed-737c6d280d47")
-	)
-	(wire
-		(pts
-			(xy 62.23 66.04) (xy 140.97 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d145f383-c4f1-4348-8f84-30a56d838a6e")
 	)
 	(wire
 		(pts
@@ -3292,16 +3283,6 @@
 		)
 		(uuid "f194bf29-e03f-42c4-816b-c1b2ed2078eb")
 	)
-	(bus
-		(pts
-			(xy 59.69 63.5) (xy 59.69 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1cee8a0-a075-4c5b-b09e-4928026ce89c")
-	)
 	(wire
 		(pts
 			(xy 62.23 57.15) (xy 140.97 57.15)
@@ -3401,16 +3382,6 @@
 			(justify left bottom)
 		)
 		(uuid "718aa6c5-66d8-4aa5-af38-9da2b09b0da1")
-	)
-	(label "CTL.~{RST}"
-		(at 64.77 66.04 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "8bad21c0-e50a-450e-9d01-1a1bba03357d")
 	)
 	(label "MICLINE1.SIG-"
 		(at 179.07 80.01 0)
@@ -3522,9 +3493,9 @@
 		)
 		(uuid "ffc6177d-e7a7-4991-98e7-52127d809643")
 	)
-	(hierarchical_label "CTL{I2C ~{RST}}"
+	(hierarchical_label "CTL{I2C}"
 		(shape bidirectional)
-		(at 57.15 63.5 180)
+		(at 57.15 72.39 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -3598,6 +3569,17 @@
 			(justify right)
 		)
 		(uuid "c9ff1bb1-49ad-43c1-8e17-147e6ebfbde0")
+	)
+	(hierarchical_label "~{RST}"
+		(shape input)
+		(at 57.15 66.04 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "edee4ee4-e73d-403f-8abc-531eb9667e9c")
 	)
 	(hierarchical_label "VCM"
 		(shape output)
@@ -6625,6 +6607,70 @@
 		)
 	)
 	(symbol
+		(lib_id "reekilib_pwr:VDD")
+		(at 85.09 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "7a5e6e95-d46a-4aaf-89c1-416f7e22de5d")
+		(property "Reference" "#PWR0111"
+			(at 85.09 88.265 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AV3P3"
+			(at 85.09 90.17 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 91.44 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 91.44 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d1f0770-f57f-47f3-a2cb-acf52bb52979")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/c7a6c4ca-6083-4b1c-b07a-a9d1f5204bfb"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "reekilib_pwr:VSS")
 		(at 139.7 134.62 0)
 		(unit 1)
@@ -7400,70 +7446,6 @@
 			(project "pandore"
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/c7a6c4ca-6083-4b1c-b07a-a9d1f5204bfb"
 					(reference "#PWR0151")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "reekilib_pwr:VDD")
-		(at 85.09 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "b9df2007-ac38-432c-adc0-c9e7d1f9d700")
-		(property "Reference" "#PWR0111"
-			(at 85.09 88.265 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AVIO"
-			(at 85.09 90.17 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.09 91.44 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 91.44 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 85.09 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "71c1232c-cfdd-450e-b25c-1689f0525c2c")
-		)
-		(instances
-			(project "pandore"
-				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/c7a6c4ca-6083-4b1c-b07a-a9d1f5204bfb"
-					(reference "#PWR0111")
 					(unit 1)
 				)
 			)

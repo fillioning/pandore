@@ -302,7 +302,7 @@
 		)
 		(uuid "d2c3a879-bc8d-422e-b8f2-e36fef5de461")
 	)
-	(hierarchical_label "AUDIO.I2S{I2S1DPX}"
+	(hierarchical_label "AUDIO.I2S{I2S1DPX ~{RST}}"
 		(shape bidirectional)
 		(at 92.71 152.4 180)
 		(effects
@@ -635,9 +635,9 @@
 				(justify right)
 			)
 		)
-		(pin "I2S{I2S1DPX}" bidirectional
+		(pin "I2S{I2S1DPX ~{RST}}" bidirectional
 			(at 121.92 152.4 180)
-			(uuid "c709057c-7f41-41ab-877c-661d24d0d8d7")
+			(uuid "0e336371-ce06-4a16-b24c-3963bda74161")
 			(effects
 				(font
 					(size 1.016 1.016)
