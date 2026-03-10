@@ -1736,7 +1736,7 @@
 		(uuid "ff7fc30d-142a-4e7a-bc30-071879fe9011")
 	)
 	(bus_entry
-		(at 107.95 110.49)
+		(at 107.95 128.27)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -1915,16 +1915,6 @@
 	)
 	(bus
 		(pts
-			(xy 110.49 107.95) (xy 110.49 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "133fc19c-b01a-4106-a8e5-bab4cc962940")
-	)
-	(bus
-		(pts
 			(xy 31.75 60.96) (xy 127 60.96)
 		)
 		(stroke
@@ -2035,7 +2025,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 110.49) (xy 107.95 110.49)
+			(xy 83.82 128.27) (xy 107.95 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2092,6 +2082,16 @@
 			(type default)
 		)
 		(uuid "7e73de92-ecb4-4097-947f-92eadd460399")
+	)
+	(bus
+		(pts
+			(xy 110.49 125.73) (xy 110.49 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "809515a6-5482-4996-afff-12ba4b1476c9")
 	)
 	(bus
 		(pts
@@ -2235,7 +2235,7 @@
 	)
 	(bus
 		(pts
-			(xy 110.49 87.63) (xy 110.49 107.95)
+			(xy 110.49 87.63) (xy 110.49 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2275,7 +2275,7 @@
 	)
 	(bus
 		(pts
-			(xy 110.49 123.19) (xy 110.49 128.27)
+			(xy 110.49 123.19) (xy 110.49 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2444,7 +2444,7 @@
 		(uuid "79e35c32-1f3b-4a5c-9d89-60fcf59881e3")
 	)
 	(label "MCU.~{RST}"
-		(at 86.36 110.49 0)
+		(at 86.36 128.27 0)
 		(effects
 			(font
 				(size 1.016 1.016)

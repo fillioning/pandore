@@ -1381,6 +1381,16 @@
 	)
 	(bus
 		(pts
+			(xy 76.2 63.5) (xy 118.11 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a91bf36c-2e5e-48f1-86c8-3d60f34c7f50")
+	)
+	(bus
+		(pts
 			(xy 76.2 60.96) (xy 118.11 60.96)
 		)
 		(stroke
@@ -1418,6 +1428,16 @@
 			(type default)
 		)
 		(uuid "bb9240e2-dfb6-4947-9a75-8cc70ddc84a1")
+	)
+	(bus
+		(pts
+			(xy 76.2 143.51) (xy 118.11 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2314962-e6a5-4ad3-9f97-2ac4ae459656")
 	)
 	(bus
 		(pts
@@ -4388,13 +4408,13 @@
 			)
 		)
 		(pin "USB2P8{USB2}" bidirectional
-			(at 177.8 121.92 0)
+			(at 118.11 92.71 180)
 			(uuid "0f4f13f0-7d13-44fa-88d2-ca76eea28fba")
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "USB2P7{USB2}" bidirectional
@@ -4428,13 +4448,13 @@
 			)
 		)
 		(pin "USB2P4{USB2}" bidirectional
-			(at 118.11 92.71 180)
+			(at 177.8 121.92 0)
 			(uuid "058c2092-5fac-47c4-976a-a8317267f293")
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "USBP1{USB3}" bidirectional
@@ -4530,6 +4550,26 @@
 		(pin "AUDIO.I2S{I2S1DPX ~{RST}}" bidirectional
 			(at 118.11 140.97 180)
 			(uuid "b8a95acb-8c5a-4363-9f50-26502da1fb52")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "AUDIO{I2C}" bidirectional
+			(at 118.11 143.51 180)
+			(uuid "4cbdfe78-5259-4f5c-b86b-a60c9d104296")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "M2E{I2C}" bidirectional
+			(at 118.11 63.5 180)
+			(uuid "8bd6dd7e-7a33-4a67-9367-f13eaec3a216")
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -4706,6 +4746,16 @@
 		(pin "CPU{I2S1DPX ~{RST}}" bidirectional
 			(at 76.2 140.97 0)
 			(uuid "b78fced4-0f7b-4f82-8174-840521118c22")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "AUDMST{I2C}" bidirectional
+			(at 76.2 143.51 0)
+			(uuid "8086b89f-188e-4897-924a-2002595fbb7d")
 			(effects
 				(font
 					(size 1.016 1.016)

@@ -51,6 +51,26 @@
 		)
 		(uuid "44226bc1-19bc-4e8a-aae9-093e7dde83a7")
 	)
+	(bus
+		(pts
+			(xy 165.1 146.05) (xy 215.9 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44e5f75b-9991-404c-9804-5ecf66821329")
+	)
+	(bus
+		(pts
+			(xy 92.71 154.94) (xy 121.92 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ad022e1-3138-470d-81dc-0f0e943f144e")
+	)
 	(wire
 		(pts
 			(xy 165.1 105.41) (xy 215.9 105.41)
@@ -73,7 +93,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 121.92) (xy 165.1 121.92)
+			(xy 215.9 143.51) (xy 165.1 143.51)
 		)
 		(stroke
 			(width 0)
@@ -194,7 +214,7 @@
 	)
 	(hierarchical_label "M2E{PCIE1X}"
 		(shape bidirectional)
-		(at 215.9 121.92 0)
+		(at 215.9 143.51 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -236,6 +256,17 @@
 		)
 		(uuid "54ed75d4-0b53-41db-b2c7-df31580758c3")
 	)
+	(hierarchical_label "AUDIO{I2C}"
+		(shape bidirectional)
+		(at 92.71 154.94 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "6f9d4cbd-dabe-449f-808b-ae2be8114db6")
+	)
 	(hierarchical_label "USB2P5{USB2}"
 		(shape bidirectional)
 		(at 215.9 102.87 0)
@@ -268,6 +299,17 @@
 			(justify left)
 		)
 		(uuid "783d9d43-0d1f-4902-b483-f970df3b81e8")
+	)
+	(hierarchical_label "M2E{I2C}"
+		(shape bidirectional)
+		(at 215.9 146.05 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "7f553148-9709-4c19-afe2-9899b519a8d2")
 	)
 	(hierarchical_label "AUDIO.MIDI{UART}"
 		(shape bidirectional)
@@ -596,7 +638,7 @@
 			)
 		)
 		(pin "PCIEP1{PCIE1X}" bidirectional
-			(at 165.1 121.92 0)
+			(at 165.1 143.51 0)
 			(uuid "7a31bba4-563d-4efe-821f-7872acd6591b")
 			(effects
 				(font
@@ -616,7 +658,7 @@
 			)
 		)
 		(pin "UART1{UART}" bidirectional
-			(at 165.1 73.66 0)
+			(at 165.1 67.31 0)
 			(uuid "d202bdac-3658-462e-b96c-d507ea1f863f")
 			(effects
 				(font
@@ -626,7 +668,7 @@
 			)
 		)
 		(pin "UART0{UART}" bidirectional
-			(at 165.1 71.12 0)
+			(at 165.1 64.77 0)
 			(uuid "05d674e7-262b-429a-8629-1bd19246979c")
 			(effects
 				(font
@@ -643,6 +685,46 @@
 					(size 1.016 1.016)
 				)
 				(justify left)
+			)
+		)
+		(pin "I2C2{I2C}" bidirectional
+			(at 121.92 154.94 180)
+			(uuid "c98f3a7a-ee85-47b0-a335-c711c6e91245")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C5{I2C}" bidirectional
+			(at 165.1 146.05 0)
+			(uuid "48e3a9be-014f-4435-b3a5-352acbc4c720")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C3{I2C}" bidirectional
+			(at 165.1 71.12 0)
+			(uuid "2403e6b8-5e4b-49dc-b4ff-0fa7ecfb9bdb")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C4{I2C}" bidirectional
+			(at 165.1 73.66 0)
+			(uuid "c49cb587-1809-4e26-8844-584758b93a73")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
 			)
 		)
 		(instances

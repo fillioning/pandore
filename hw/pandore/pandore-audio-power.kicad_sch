@@ -3845,10 +3845,10 @@
 		(uuid "01cbc61c-86c9-4c29-913e-01abdb803327")
 	)
 	(junction
-		(at 204.47 127)
+		(at 209.55 127)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "065e46cf-9986-41f0-8649-72809a310a37")
+		(uuid "05af3ec1-528d-41e0-a45e-68d7bb77c6c4")
 	)
 	(junction
 		(at 184.15 132.08)
@@ -3965,7 +3965,7 @@
 		(uuid "2f21a728-4549-4eb7-bf2d-d19f0e83f5ed")
 	)
 	(junction
-		(at 204.47 138.43)
+		(at 203.2 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3625e791-b376-43f2-be11-d6e2a744cef6")
@@ -4313,6 +4313,12 @@
 		(uuid "f1bc62f3-aa3f-4a15-aed4-35c2e8a21627")
 	)
 	(junction
+		(at 203.2 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f379b516-f8e0-44d2-8250-0ebc49a2d576")
+	)
+	(junction
 		(at 219.71 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4476,6 +4482,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 127) (xy 215.9 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e33d0b4-a554-42a3-8c87-679bfb5e3cae")
+	)
+	(wire
+		(pts
 			(xy 64.77 104.14) (xy 76.2 104.14)
 		)
 		(stroke
@@ -4586,6 +4602,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 127) (xy 209.55 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2110f954-527f-46d3-b0da-c3bbdf95411f")
+	)
+	(wire
+		(pts
 			(xy 156.21 154.94) (xy 157.48 154.94)
 		)
 		(stroke
@@ -4686,7 +4712,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 138.43) (xy 212.09 138.43)
+			(xy 203.2 138.43) (xy 212.09 138.43)
 		)
 		(stroke
 			(width 0)
@@ -4806,7 +4832,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 127) (xy 204.47 130.81)
+			(xy 203.2 127) (xy 203.2 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4863,16 +4889,6 @@
 			(type default)
 		)
 		(uuid "3cf57a58-7684-45ca-ad5e-ed7a65e2c6b2")
-	)
-	(wire
-		(pts
-			(xy 204.47 127) (xy 215.9 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cf75d25-cde4-4093-aeca-b1ac47231ddb")
 	)
 	(wire
 		(pts
@@ -6176,7 +6192,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 127) (xy 204.47 127)
+			(xy 199.39 127) (xy 203.2 127)
 		)
 		(stroke
 			(width 0)
@@ -6621,7 +6637,7 @@
 	(netclass_flag ""
 		(length 1.27)
 		(shape diamond)
-		(at 207.01 127 0)
+		(at 201.93 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6631,7 +6647,7 @@
 		)
 		(uuid "9ac910b1-5e25-43db-b6c1-3f923d7fd890")
 		(property "Netclass" "PWR"
-			(at 208.1073 125.73 0)
+			(at 203.0273 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6640,7 +6656,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 33.02 90.17 0)
+			(at 27.94 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8093,6 +8109,202 @@
 		)
 	)
 	(symbol
+		(lib_id "reekilib_cap:cap")
+		(at 209.55 129.54 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1242511f-35aa-4cc5-9e2f-ba2d7fddc760")
+		(property "Reference" "C224"
+			(at 209.55 121.158 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "${Capacitance}, ${Voltage}, ${Dielectric}"
+			(at 207.01 128.778 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "reekilib_cap:CAPC2012"
+			(at 209.55 139.192 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 144.018 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Non polarized capacitor"
+			(at 209.55 140.97 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 209.55 142.494 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "100nF"
+			(at 209.55 122.682 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Voltage" "100V"
+			(at 209.55 124.206 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 209.55 125.73 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 209.55 148.336 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 197.612 148.336 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN2" ""
+			(at 209.55 149.86 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG2" ""
+			(at 197.612 149.86 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN3" ""
+			(at 209.55 151.384 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG3" ""
+			(at 197.612 151.384 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN4" ""
+			(at 209.55 152.908 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG4" ""
+			(at 197.358 152.908 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "85088d4d-6e45-4499-adfe-324ca9f8c8eb")
+		)
+		(pin "1"
+			(uuid "c3b2fd42-d26f-4344-8f4c-460d443ce469")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/26459c94-7a75-4791-b22d-dba060dd3547"
+					(reference "C224")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "reekilib_ind:ind")
 		(at 226.06 44.45 0)
 		(unit 1)
@@ -9448,7 +9660,7 @@
 	)
 	(symbol
 		(lib_id "reekilib_res:res")
-		(at 204.47 142.24 0)
+		(at 203.2 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9456,7 +9668,7 @@
 		(dnp no)
 		(uuid "30b3e9e2-4f9f-4df9-88ca-fa04252c29c4")
 		(property "Reference" "R144"
-			(at 202.565 138.938 0)
+			(at 201.295 138.938 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9466,7 +9678,7 @@
 			)
 		)
 		(property "Value" "${Resistance}, ${Tolerance}, ${Power}"
-			(at 206.502 141.478 0)
+			(at 205.232 141.478 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9477,7 +9689,7 @@
 			)
 		)
 		(property "Footprint" "reekilib_res:RESC1005"
-			(at 204.724 153.416 0)
+			(at 203.454 153.416 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9487,7 +9699,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/data/global/pdfs/CR.pdf"
-			(at 204.47 156.464 0)
+			(at 203.2 156.464 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9497,7 +9709,7 @@
 			)
 		)
 		(property "Description" "Resistor single 2 pad"
-			(at 204.47 154.94 0)
+			(at 203.2 154.94 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9507,7 +9719,7 @@
 			)
 		)
 		(property "Link" "https://www.bourns.com/search?indexCatalogue=psindex&searchQuery=CR0402-FX-1002GLF*"
-			(at 204.724 157.988 0)
+			(at 203.454 157.988 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9517,7 +9729,7 @@
 			)
 		)
 		(property "Resistance" "10kΩ"
-			(at 202.565 140.462 0)
+			(at 201.295 140.462 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9527,7 +9739,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 202.565 141.986 0)
+			(at 201.295 141.986 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9537,7 +9749,7 @@
 			)
 		)
 		(property "Power" "63mW"
-			(at 202.565 143.51 0)
+			(at 201.295 143.51 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9547,7 +9759,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-1002GLF"
-			(at 204.47 160.02 0)
+			(at 203.2 160.02 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9557,7 +9769,7 @@
 			)
 		)
 		(property "MFG" "Bourns Inc"
-			(at 218.44 159.766 0)
+			(at 217.17 159.766 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9568,7 +9780,7 @@
 			)
 		)
 		(property "MPN2" "WR04X1002FTL"
-			(at 203.962 161.798 0)
+			(at 202.692 161.798 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9578,7 +9790,7 @@
 			)
 		)
 		(property "MFG2" "Walsin Technology Corporation"
-			(at 218.694 161.798 0)
+			(at 217.424 161.798 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9589,7 +9801,7 @@
 			)
 		)
 		(property "MPN3" "RC0402FR-0710KL"
-			(at 204.47 163.576 0)
+			(at 203.2 163.576 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9599,7 +9811,7 @@
 			)
 		)
 		(property "MFG3" "Yageo"
-			(at 218.694 163.576 0)
+			(at 217.424 163.576 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -16027,6 +16239,70 @@
 	)
 	(symbol
 		(lib_id "reekilib_pwr:VSS")
+		(at 209.55 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "95206ffb-796c-41bf-b8f9-7790006dd95b")
+		(property "Reference" "#PWR0250"
+			(at 209.55 137.795 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSSISO"
+			(at 209.55 135.89 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 133.35 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 130.81 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 209.55 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06230690-18f9-4076-99c3-ef2419638166")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/26459c94-7a75-4791-b22d-dba060dd3547"
+					(reference "#PWR0250")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_pwr:VSS")
 		(at 88.9 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17336,7 +17612,7 @@
 	)
 	(symbol
 		(lib_id "reekilib_pwr:VSS")
-		(at 204.47 147.32 0)
+		(at 203.2 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -17344,7 +17620,7 @@
 		(dnp no)
 		(uuid "b0f4ad7e-31fb-4cbc-9b24-197f79e1688a")
 		(property "Reference" "#PWR0218"
-			(at 204.47 151.765 0)
+			(at 203.2 151.765 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -17354,7 +17630,7 @@
 			)
 		)
 		(property "Value" "VSSISO"
-			(at 204.47 149.86 0)
+			(at 203.2 149.86 0)
 			(effects
 				(font
 					(size 1 1)
@@ -17362,7 +17638,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 147.32 0)
+			(at 203.2 147.32 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -17370,7 +17646,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 144.78 0)
+			(at 203.2 144.78 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -17378,7 +17654,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 204.47 147.32 0)
+			(at 203.2 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18727,72 +19003,8 @@
 		)
 	)
 	(symbol
-		(lib_id "reekilib_pwr:VSS")
-		(at 279.4 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "c9e8d687-d703-4f74-bd6c-90b1e1aec7bd")
-		(property "Reference" "#PWR0224"
-			(at 279.4 182.245 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VSS"
-			(at 279.4 180.34 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 279.4 177.8 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 279.4 175.26 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 279.4 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "30ca3161-730c-4159-97e3-062e92eed6e6")
-		)
-		(instances
-			(project "pandore"
-				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/26459c94-7a75-4791-b22d-dba060dd3547"
-					(reference "#PWR0224")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "reekilib_res:res")
-		(at 204.47 134.62 0)
+		(at 203.2 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18800,7 +19012,7 @@
 		(dnp no)
 		(uuid "cb78ee0f-d181-48e6-a078-91813aedcdaf")
 		(property "Reference" "R143"
-			(at 202.565 131.318 0)
+			(at 201.295 131.318 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -18810,7 +19022,7 @@
 			)
 		)
 		(property "Value" "${Resistance}, ${Tolerance}, ${Power}"
-			(at 206.502 133.858 0)
+			(at 205.232 133.858 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -18821,7 +19033,7 @@
 			)
 		)
 		(property "Footprint" "reekilib_res:RESC1005"
-			(at 204.724 145.796 0)
+			(at 203.454 145.796 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -18831,7 +19043,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/data/global/pdfs/CR.pdf"
-			(at 204.47 148.844 0)
+			(at 203.2 148.844 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -18841,7 +19053,7 @@
 			)
 		)
 		(property "Description" "Resistor single 2 pad"
-			(at 204.47 147.32 0)
+			(at 203.2 147.32 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -18851,7 +19063,7 @@
 			)
 		)
 		(property "Link" "https://www.bourns.com/search?indexCatalogue=psindex&searchQuery=CR0402-FX-1002GLF*"
-			(at 204.724 150.368 0)
+			(at 203.454 150.368 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -18861,7 +19073,7 @@
 			)
 		)
 		(property "Resistance" "10kΩ"
-			(at 202.565 132.842 0)
+			(at 201.295 132.842 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -18871,7 +19083,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 202.565 134.366 0)
+			(at 201.295 134.366 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -18881,7 +19093,7 @@
 			)
 		)
 		(property "Power" "63mW"
-			(at 202.565 135.89 0)
+			(at 201.295 135.89 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -18891,7 +19103,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-1002GLF"
-			(at 204.47 152.4 0)
+			(at 203.2 152.4 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -18901,7 +19113,7 @@
 			)
 		)
 		(property "MFG" "Bourns Inc"
-			(at 218.44 152.146 0)
+			(at 217.17 152.146 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -18912,7 +19124,7 @@
 			)
 		)
 		(property "MPN2" "WR04X1002FTL"
-			(at 203.962 154.178 0)
+			(at 202.692 154.178 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -18922,7 +19134,7 @@
 			)
 		)
 		(property "MFG2" "Walsin Technology Corporation"
-			(at 218.694 154.178 0)
+			(at 217.424 154.178 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -18933,7 +19145,7 @@
 			)
 		)
 		(property "MPN3" "RC0402FR-0710KL"
-			(at 204.47 155.956 0)
+			(at 203.2 155.956 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -18943,7 +19155,7 @@
 			)
 		)
 		(property "MFG3" "Yageo"
-			(at 218.694 155.956 0)
+			(at 217.424 155.956 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -21943,6 +22155,70 @@
 			(project "pandore"
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/26459c94-7a75-4791-b22d-dba060dd3547"
 					(reference "C196")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_pwr:VSS")
+		(at 279.4 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "ed1a869a-481b-4cce-9534-ac6f9d5449e6")
+		(property "Reference" "#PWR0224"
+			(at 279.4 182.245 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSSISO"
+			(at 279.4 180.34 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 279.4 177.8 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 175.26 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 279.4 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62173d6f-348e-41d7-94af-3b2862d2a9ac")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/26459c94-7a75-4791-b22d-dba060dd3547"
+					(reference "#PWR0224")
 					(unit 1)
 				)
 			)

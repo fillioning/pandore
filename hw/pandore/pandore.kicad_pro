@@ -1076,6 +1076,18 @@
       "/Computer/BIOS mem/BIOSMEM.~{SS}": [
         "QSPI"
       ],
+      "/Computer/Computer module/I2C3.SCL": [
+        "I2C"
+      ],
+      "/Computer/Computer module/I2C3.SDA": [
+        "I2C"
+      ],
+      "/Computer/Computer module/I2C4.SCL": [
+        "I2C"
+      ],
+      "/Computer/Computer module/I2C4.SDA": [
+        "I2C"
+      ],
       "/Computer/DDIB.CLK+": [
         "D100Ω"
       ],
@@ -1159,6 +1171,12 @@
       ],
       "/Computer/M2E.REFCLK-": [
         "D100Ω"
+      ],
+      "/Computer/M2E.SCL": [
+        "I2C"
+      ],
+      "/Computer/M2E.SDA": [
+        "I2C"
       ],
       "/Computer/M2M.HSI0+": [
         "D100Ω"
@@ -1860,6 +1878,21 @@
         "I2S"
       ],
       "Net-(U23-IND)": [
+        "I2S"
+      ],
+      "Net-(U23-INE)": [
+        "I2S"
+      ],
+      "Net-(U23-OUTA)": [
+        "I2S"
+      ],
+      "Net-(U23-OUTB)": [
+        "I2S"
+      ],
+      "Net-(U23-OUTC)": [
+        "I2S"
+      ],
+      "Net-(U23-OUTD)": [
         "I2S"
       ],
       "Net-(U23-OUTE)": [
