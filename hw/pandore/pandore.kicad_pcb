@@ -27517,7 +27517,6 @@
 			)
 		)
 		(model "${REEKILIB}/3dmodel/cbl/cbl_hdmi.step"
-			(hide yes)
 			(offset
 				(xyz -2.5 -9.4 -2.45)
 			)
