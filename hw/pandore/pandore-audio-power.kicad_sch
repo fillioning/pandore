@@ -8440,7 +8440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "reekilib_cap:CAPC1005"
+		(property "Footprint" "reekilib_cap:CAPC1608"
 			(at 264.16 144.272 0)
 			(do_not_autoplace yes)
 			(effects

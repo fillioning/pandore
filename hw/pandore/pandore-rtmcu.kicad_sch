@@ -1691,6 +1691,182 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "ADC1"
+		(exclude_from_sim no)
+		(at 121.92 147.32 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "17002663-8f7b-42cf-94c1-c591722bb7b1")
+	)
+	(text "SPI0.~{CS} / UART1.RX / I2C0.SCL / PWM2.B / CLOCK.GPOUT0"
+		(exclude_from_sim no)
+		(at 121.285 96.52 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "51db0222-9fff-46d9-b784-ce87f0c1e264")
+	)
+	(text "ADC6"
+		(exclude_from_sim no)
+		(at 121.92 160.02 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "74b9218c-d7e7-43e3-a14f-128ef4d90ac1")
+	)
+	(text "SPI0.RX / UART1.TX / I2C0.SDA / PWM2.A / CLOCK.GPIN0"
+		(exclude_from_sim no)
+		(at 121.285 93.98 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "75745cb3-9383-43e1-b6aa-b0eb53eae016")
+	)
+	(text "SPI1.SCK / UART0.CTS / UART0.TX / I2C1.SDA / PWM7.A / CLOCK.GPIN1"
+		(exclude_from_sim no)
+		(at 121.92 78.74 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "8e2521dd-9c3e-4796-834c-5c63bc7bba15")
+	)
+	(text "SPI0.TX / UART1.RTS / UART1.RX / I2C1.SCL / PWM3.B / CLOCK.GPOUT1"
+		(exclude_from_sim no)
+		(at 121.285 101.6 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "b329ec3a-c11e-447d-9cc9-af1b88a9c106")
+	)
+	(text "SPI1.~{CS} / UART0.RX / I2C0.SCL / PWM6.B / CLOCK.GPOUT0"
+		(exclude_from_sim no)
+		(at 121.92 76.2 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "c09ed9e9-5cd5-443f-98b4-bd92f1b5c75c")
+	)
+	(text "SPI0.SCK / UART1.CTS / UART1.TX / I2C1.SDA / PWM3.A / CLOCK.GPIN1"
+		(exclude_from_sim no)
+		(at 121.285 99.06 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "c3b28e95-d513-47f9-b61e-4470fd6d8349")
+	)
+	(text "SPI1.RX / UART0.TX / I2C0.SDA / PWM6.A / CLOCK.GPIN0"
+		(exclude_from_sim no)
+		(at 121.92 73.66 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "cf41f3bc-a635-4f24-ac4d-884b447a79fa")
+	)
+	(text "SPI1.TX / UART0.RTS / UART0.RX / I2C1.SCL / PWM7.B / CLOCK.GPOUT1"
+		(exclude_from_sim no)
+		(at 121.92 81.28 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "e2f89506-d49a-40e5-9651-dec1c2013917")
+	)
+	(text "ADC3"
+		(exclude_from_sim no)
+		(at 121.92 152.4 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "e588460e-089f-4407-b2dd-5def2107515a")
+	)
+	(text "ADC0"
+		(exclude_from_sim no)
+		(at 121.92 144.78 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "e7848a13-7aa4-4d88-ac34-4ec023aecbdc")
+	)
+	(text "ADC4"
+		(exclude_from_sim no)
+		(at 121.92 154.94 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "ecb13cf5-e608-4719-98fc-cf3a634f227c")
+	)
+	(text "ADC2"
+		(exclude_from_sim no)
+		(at 121.92 149.86 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "edb50425-6a89-4f36-a072-f3a712cfbbbb")
+	)
+	(text "ADC5"
+		(exclude_from_sim no)
+		(at 121.92 157.48 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "f354aa73-5cbc-4c40-a7da-0bd1bdbc746e")
+	)
+	(text "ADC7"
+		(exclude_from_sim no)
+		(at 121.92 162.56 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "f57b1802-a745-4b85-b4c0-cef368f7636a")
+	)
 	(junction
 		(at 254 109.22)
 		(diameter 0)
@@ -2623,6 +2799,16 @@
 		)
 		(uuid "3a293e1d-9078-426b-ab03-07fb8d95ffc6")
 	)
+	(bus
+		(pts
+			(xy 53.34 53.34) (xy 63.5 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a42755e-4389-484c-bfb8-138528f058fa")
+	)
 	(wire
 		(pts
 			(xy 254 140.97) (xy 255.27 140.97)
@@ -2705,7 +2891,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 43.18) (xy 83.82 45.72)
+			(xy 60.96 43.18) (xy 60.96 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2955,16 +3141,6 @@
 	)
 	(bus
 		(pts
-			(xy 53.7563 53.34) (xy 86.36 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60355cfb-aec5-41c3-9c29-eeaa64631d59")
-	)
-	(bus
-		(pts
 			(xy 143.9263 96.52) (xy 143.9263 99.06)
 		)
 		(stroke
@@ -3115,7 +3291,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 41.91) (xy 78.74 41.91)
+			(xy 64.77 24.13) (xy 73.66 24.13)
 		)
 		(stroke
 			(width 0)
@@ -3285,7 +3461,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 40.64) (xy 78.74 41.91)
+			(xy 73.66 22.86) (xy 73.66 24.13)
 		)
 		(stroke
 			(width 0)
@@ -3715,7 +3891,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 45.72) (xy 83.82 45.72)
+			(xy 63.5 45.72) (xy 60.96 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4385,7 +4561,7 @@
 	)
 	(hierarchical_label "USB{USB2}"
 		(shape bidirectional)
-		(at 53.7563 53.34 180)
+		(at 53.34 53.34 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -4459,7 +4635,7 @@
 	(netclass_flag ""
 		(length 1.27)
 		(shape diamond)
-		(at 72.39 41.91 0)
+		(at 67.31 24.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4469,7 +4645,7 @@
 		)
 		(uuid "78ea96ac-0d80-42bc-8a1d-c04ca004080f")
 		(property "Netclass" "PWR"
-			(at 73.4873 40.64 0)
+			(at 68.4073 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4478,7 +4654,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at -101.6 5.08 0)
+			(at -106.68 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7584,7 +7760,7 @@
 	)
 	(symbol
 		(lib_id "reekilib_pwr:VDD")
-		(at 78.74 39.37 0)
+		(at 73.66 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -7592,7 +7768,7 @@
 		(dnp no)
 		(uuid "f989a4c6-36f5-4310-b5dc-54206051f22f")
 		(property "Reference" "#PWR063"
-			(at 78.74 36.195 0)
+			(at 73.66 18.415 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7602,7 +7778,7 @@
 			)
 		)
 		(property "Value" "VRTIO"
-			(at 78.74 38.1 0)
+			(at 73.66 20.32 0)
 			(effects
 				(font
 					(size 1 1)
@@ -7610,7 +7786,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 39.37 0)
+			(at 73.66 21.59 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7618,7 +7794,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 39.37 0)
+			(at 73.66 21.59 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7626,7 +7802,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.74 39.37 0)
+			(at 73.66 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7711,8 +7887,8 @@
 		)
 	)
 	(sheet
-		(at 86.36 38.1)
-		(size 43.18 128.27)
+		(at 63.5 38.1)
+		(size 66.04 128.27)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7726,7 +7902,7 @@
 		)
 		(uuid "8e05de8b-3536-4686-b4df-144081dee611")
 		(property "Sheetname" "MCU"
-			(at 107.315 41.91 0)
+			(at 84.455 41.91 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7737,7 +7913,7 @@
 			)
 		)
 		(property "Sheetfile" "pandore-mcu.kicad_sch"
-			(at 86.868 75.692 0)
+			(at 64.008 75.692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7747,7 +7923,7 @@
 			)
 		)
 		(property "pageNb" "Page ${#}"
-			(at 107.315 45.72 0)
+			(at 84.455 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7756,7 +7932,7 @@
 			)
 		)
 		(pin "USB{USB2}" bidirectional
-			(at 86.36 53.34 180)
+			(at 63.5 53.34 180)
 			(uuid "c9fe3466-f86c-4ce4-be09-05bffe5297d3")
 			(effects
 				(font
@@ -8246,7 +8422,7 @@
 			)
 		)
 		(pin "VIO" input
-			(at 86.36 45.72 180)
+			(at 63.5 45.72 180)
 			(uuid "5916e0d0-f741-4c51-bf97-05435ea545a9")
 			(effects
 				(font
