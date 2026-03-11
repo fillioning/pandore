@@ -6141,6 +6141,15 @@
 		(uuid "273d8978-d3a2-48ff-88af-ba3394680e3d")
 	)
 	(bus_entry
+		(at 246.38 21.59)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dc86bee-a185-4f26-abd3-e64f81b40058")
+	)
+	(bus_entry
 		(at 104.14 111.76)
 		(size -2.54 2.54)
 		(stroke
@@ -6681,6 +6690,15 @@
 		(uuid "b8695d80-4eb2-4aef-b82f-1dbbb6df196d")
 	)
 	(bus_entry
+		(at 246.38 19.05)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba32ca02-fb7b-49d3-877c-9ebde7b0aa4a")
+	)
+	(bus_entry
 		(at 256.54 204.47)
 		(size -2.54 2.54)
 		(stroke
@@ -7095,6 +7113,16 @@
 			(type default)
 		)
 		(uuid "195f2261-869e-4292-a384-668280806fa5")
+	)
+	(wire
+		(pts
+			(xy 220.98 21.59) (xy 243.84 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19a5439c-c8ff-45be-aa40-a8b6219425f4")
 	)
 	(wire
 		(pts
@@ -8106,6 +8134,16 @@
 		)
 		(uuid "84607817-a40c-4d0c-ad18-82e9c1f61b66")
 	)
+	(bus
+		(pts
+			(xy 248.92 17.78) (xy 246.38 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "888c4686-021f-404e-9766-9af80d316b32")
+	)
 	(wire
 		(pts
 			(xy 359.41 251.46) (xy 359.41 248.92)
@@ -8578,6 +8616,16 @@
 	)
 	(bus
 		(pts
+			(xy 246.38 19.05) (xy 246.38 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac616c13-3612-4203-bb02-9fd2724c2a62")
+	)
+	(bus
+		(pts
 			(xy 104.14 114.3) (xy 104.14 115.57)
 		)
 		(stroke
@@ -8938,6 +8986,16 @@
 	)
 	(bus
 		(pts
+			(xy 246.38 17.78) (xy 246.38 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cff09547-a742-414b-af5c-e0757daad6e7")
+	)
+	(bus
+		(pts
 			(xy 104.14 95.25) (xy 104.14 97.79)
 		)
 		(stroke
@@ -9255,6 +9313,16 @@
 			(type default)
 		)
 		(uuid "e699c339-4a4b-46ee-8d65-b5c512d4783a")
+	)
+	(wire
+		(pts
+			(xy 220.98 24.13) (xy 243.84 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e92d0d62-a62a-4e48-af3d-ab57c6ef8b83")
 	)
 	(wire
 		(pts
@@ -9946,6 +10014,16 @@
 		)
 		(uuid "4256935c-07f2-45c2-ad4b-429f64a4c377")
 	)
+	(label "FANCPU.TAC"
+		(at 242.57 24.13 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "4281e6a1-3af1-4812-b669-2a90d829349d")
+	)
 	(label "USBP7.D-"
 		(at 134.62 156.21 180)
 		(effects
@@ -10416,6 +10494,16 @@
 		)
 		(uuid "af506ef6-fb88-48d1-86b1-d999b915db96")
 	)
+	(label "FANCPU.PWM"
+		(at 242.57 21.59 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "b2e791b3-724d-4a8b-bbe9-054277568509")
+	)
 	(label "USBP3.D-"
 		(at 134.62 146.05 180)
 		(effects
@@ -10871,6 +10959,17 @@
 			(justify right)
 		)
 		(uuid "4912e9f9-22d1-436f-9690-6fe9c9604543")
+	)
+	(hierarchical_label "FANCPU{TAC PWM}"
+		(shape bidirectional)
+		(at 248.92 17.78 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "4def80e2-c4f8-4eab-a51c-37984a0cca39")
 	)
 	(hierarchical_label "PCIEP3{PCIE4X}"
 		(shape bidirectional)

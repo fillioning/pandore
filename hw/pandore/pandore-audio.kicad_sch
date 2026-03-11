@@ -2165,6 +2165,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 119.38) (xy 40.64 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f5f3381-726f-41e0-964d-06261523d258")
+	)
+	(wire
+		(pts
 			(xy 234.95 69.85) (xy 238.76 69.85)
 		)
 		(stroke
@@ -2363,6 +2373,16 @@
 		)
 		(uuid "f698406b-8df7-420e-b0e6-f234db8f20e7")
 	)
+	(wire
+		(pts
+			(xy 22.86 116.84) (xy 40.64 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fad27e49-277d-4cb0-81a8-a244c1cd64c9")
+	)
 	(label "AUDMST.SCL"
 		(at 86.36 120.65 0)
 		(effects
@@ -2526,6 +2546,28 @@
 			(justify right)
 		)
 		(uuid "e43a94b5-41eb-4b1b-9034-b7db4cffd680")
+	)
+	(hierarchical_label "~{RST}"
+		(shape input)
+		(at 22.86 116.84 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "fa3d8648-6918-4669-867c-e7bac2b0391d")
+	)
+	(hierarchical_label "~{PROGRAM}"
+		(shape input)
+		(at 22.86 119.38 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "fc223786-bfa6-40f4-9207-6cb7c28217c2")
 	)
 	(netclass_flag ""
 		(length 1.27)

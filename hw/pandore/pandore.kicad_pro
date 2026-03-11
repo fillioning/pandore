@@ -562,7 +562,7 @@
         "line_style": 0,
         "name": "50Ω",
         "pcb_color": "rgb(107, 23, 255)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgb(107, 23, 255)",
         "track_width": 0.42,
         "via_diameter": 0.6,
@@ -574,7 +574,7 @@
         "line_style": 0,
         "name": "ANA",
         "pcb_color": "rgb(255, 211, 0)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(255, 211, 0)",
         "wire_width": 5
       },
@@ -585,7 +585,7 @@
         "line_style": 0,
         "name": "D100Ω",
         "pcb_color": "rgb(194, 0, 194)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(194, 0, 194)",
         "track_width": 0.2,
         "via_diameter": 0.458,
@@ -599,7 +599,7 @@
         "line_style": 0,
         "name": "D120Ω",
         "pcb_color": "rgb(255, 0, 255)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgb(255, 0, 255)",
         "track_width": 0.26,
         "via_diameter": 0.458,
@@ -613,7 +613,7 @@
         "line_style": 0,
         "name": "D90Ω",
         "pcb_color": "rgb(132, 0, 132)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgb(132, 0, 132)",
         "track_width": 0.25,
         "via_diameter": 0.458,
@@ -625,7 +625,7 @@
         "line_style": 0,
         "name": "DBG",
         "pcb_color": "rgb(96, 59, 37)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgb(96, 59, 37)",
         "wire_width": 5
       },
@@ -635,7 +635,7 @@
         "line_style": 0,
         "name": "GND",
         "pcb_color": "rgb(72, 72, 72)",
-        "priority": 6,
+        "priority": 7,
         "schematic_color": "rgb(72, 72, 72)",
         "track_width": 0.25,
         "wire_width": 12
@@ -646,7 +646,7 @@
         "line_style": 0,
         "name": "HVFNC",
         "pcb_color": "rgb(255, 153, 0)",
-        "priority": 7,
+        "priority": 8,
         "schematic_color": "rgb(255, 153, 0)",
         "wire_width": 5
       },
@@ -656,7 +656,7 @@
         "line_style": 0,
         "name": "HVRFD",
         "pcb_color": "rgba(255, 153, 0, 0.851)",
-        "priority": 8,
+        "priority": 9,
         "schematic_color": "rgb(221, 133, 0)",
         "wire_width": 5
       },
@@ -665,7 +665,7 @@
         "line_style": 0,
         "name": "I2C",
         "pcb_color": "rgb(0, 220, 4)",
-        "priority": 9,
+        "priority": 10,
         "schematic_color": "rgb(0, 220, 4)",
         "wire_width": 5
       },
@@ -674,7 +674,7 @@
         "line_style": 0,
         "name": "I2S",
         "pcb_color": "rgb(1, 134, 53)",
-        "priority": 10,
+        "priority": 11,
         "schematic_color": "rgb(1, 134, 53)",
         "wire_width": 5
       },
@@ -683,8 +683,17 @@
         "line_style": 0,
         "name": "MMC",
         "pcb_color": "rgb(174, 141, 67)",
-        "priority": 11,
+        "priority": 12,
         "schematic_color": "rgb(174, 141, 67)",
+        "wire_width": 5
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "PWM",
+        "pcb_color": "rgb(152, 197, 255)",
+        "priority": 0,
+        "schematic_color": "rgb(152, 197, 255)",
         "wire_width": 5
       },
       {
@@ -693,7 +702,7 @@
         "line_style": 0,
         "name": "PWR",
         "pcb_color": "rgb(255, 1, 18)",
-        "priority": 12,
+        "priority": 13,
         "schematic_color": "rgb(255, 1, 18)",
         "track_width": 0.25,
         "wire_width": 12
@@ -703,7 +712,7 @@
         "line_style": 0,
         "name": "QSPI",
         "pcb_color": "rgb(62, 191, 255)",
-        "priority": 13,
+        "priority": 14,
         "schematic_color": "rgb(62, 191, 255)",
         "wire_width": 5
       },
@@ -712,7 +721,7 @@
         "line_style": 0,
         "name": "RGMII",
         "pcb_color": "rgb(18, 122, 255)",
-        "priority": 14,
+        "priority": 15,
         "schematic_color": "rgb(18, 122, 255)",
         "wire_width": 5
       },
@@ -721,7 +730,7 @@
         "line_style": 0,
         "name": "SDIO",
         "pcb_color": "rgb(154, 174, 121)",
-        "priority": 15,
+        "priority": 16,
         "schematic_color": "rgb(154, 174, 121)",
         "wire_width": 5
       },
@@ -730,7 +739,7 @@
         "line_style": 0,
         "name": "SPI",
         "pcb_color": "rgb(0, 0, 255)",
-        "priority": 16,
+        "priority": 17,
         "schematic_color": "rgb(0, 0, 255)",
         "wire_width": 5
       }
@@ -1075,6 +1084,12 @@
       ],
       "/Computer/BIOS mem/BIOSMEM.~{SS}": [
         "QSPI"
+      ],
+      "/Computer/Computer module/FANCPU.PWM": [
+        "PWM"
+      ],
+      "/Computer/Computer module/FANCPU.TAC": [
+        "PWM"
       ],
       "/Computer/Computer module/I2C3.SCL": [
         "I2C"
@@ -1508,6 +1523,15 @@
       "/Internal Ethernet/_MDI3-": [
         "D100Ω"
       ],
+      "/Mgmt MCU/ENC.BLUE": [
+        "PWM"
+      ],
+      "/Mgmt MCU/ENC.GREEN": [
+        "PWM"
+      ],
+      "/Mgmt MCU/ENC.RED": [
+        "PWM"
+      ],
       "/Mgmt MCU/GROVEA.V+": [
         "PWR"
       ],
@@ -1543,6 +1567,15 @@
       ],
       "/Mgmt MCU/MCU/_USB.D-": [
         "D90Ω"
+      ],
+      "/Mgmt MCU/SDISP.MOSI": [
+        "SPI"
+      ],
+      "/Mgmt MCU/SDISP.SCK": [
+        "SPI"
+      ],
+      "/Mgmt MCU/SDISP.~{SS}": [
+        "SPI"
       ],
       "/Real-Time MCU/MCU/QSPI.D0": [
         "QSPI"
@@ -1664,6 +1697,9 @@
       "Net-(C192-Pad2)": [
         "PWR"
       ],
+      "Net-(C233-Pad2)": [
+        "PWR"
+      ],
       "Net-(C39-Pad2)": [
         "ANA"
       ],
@@ -1691,6 +1727,9 @@
       "Net-(D25-A)": [
         "PWR"
       ],
+      "Net-(D28-A)": [
+        "PWM"
+      ],
       "Net-(D6-Pad1)": [
         "ANA"
       ],
@@ -1714,6 +1753,15 @@
       ],
       "Net-(D7-Pad5)": [
         "ANA"
+      ],
+      "Net-(E1-LB)": [
+        "PWM"
+      ],
+      "Net-(E1-LG)": [
+        "PWM"
+      ],
+      "Net-(E1-LR)": [
+        "PWM"
       ],
       "Net-(J1-DDC.CLK)": [
         "I2C"
@@ -1745,8 +1793,17 @@
       "Net-(J1-TMDS.D2-)": [
         "D100Ω"
       ],
+      "Net-(J25-IREF)": [
+        "ANA"
+      ],
+      "Net-(J25-VCOMH)": [
+        "PWR"
+      ],
       "Net-(J26-Pad2)": [
         "PWR"
+      ],
+      "Net-(J27-Pad4)": [
+        "PWM"
       ],
       "Net-(J8-SHD)": [
         "GND"
@@ -1756,6 +1813,18 @@
       ],
       "Net-(JMP3-Pad2)": [
         "PWR"
+      ],
+      "Net-(JMP4-Pad2)": [
+        "PWR"
+      ],
+      "Net-(Q10-D)": [
+        "PWM"
+      ],
+      "Net-(Q8-D)": [
+        "PWM"
+      ],
+      "Net-(Q9-D)": [
+        "PWM"
       ],
       "Net-(R100-Pad1)": [
         "ANA"
