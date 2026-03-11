@@ -11577,76 +11577,6 @@
 		)
 	)
 	(symbol
-		(lib_id "reekilib_pwr:VDD")
-		(at 238.76 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "b5e2a8b9-8f4a-420c-9ef8-3fb92e16b514")
-		(property "Reference" "#PWR0102"
-			(at 238.76 116.205 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "V3P3"
-			(at 238.76 118.11 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 238.76 119.38 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 238.76 119.38 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 238.76 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6f416ebf-ca8f-4c69-8eb3-79f6745690e5")
-		)
-		(instances
-			(project "pandore"
-				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/13357c90-191e-461b-8733-0658b5b931ff"
-					(reference "#PWR0102")
-					(unit 1)
-				)
-			)
-			(project "pandore-power"
-				(path "/fd0f5a6b-d064-4bb4-969c-eb4ec668bef4"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "reekilib_led:led")
 		(at 238.76 63.5 270)
 		(unit 1)
@@ -13716,6 +13646,76 @@
 			(project "pandore"
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/13357c90-191e-461b-8733-0658b5b931ff"
 					(reference "R137")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_pwr:VDD")
+		(at 238.76 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "de6949db-3f24-4591-a6af-f4c1c4564ea1")
+		(property "Reference" "#PWR0102"
+			(at 238.76 116.205 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V3P3"
+			(at 238.76 118.11 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 119.38 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 119.38 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f416ebf-ca8f-4c69-8eb3-79f6745690e5")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/13357c90-191e-461b-8733-0658b5b931ff"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+			(project "pandore-power"
+				(path "/fd0f5a6b-d064-4bb4-969c-eb4ec668bef4"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
