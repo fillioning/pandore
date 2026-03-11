@@ -4764,7 +4764,7 @@
 				)
 			)
 		)
-		(property "Footprint" "reekilib_con:gct_FFC2A32-xx-T"
+		(property "Footprint" "reekilib_con:gct_FFC2A32-24-T"
 			(at 186.69 182.118 0)
 			(do_not_autoplace yes)
 			(effects
