@@ -3740,6 +3740,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "TODO: Grove power: 3.3V"
+		(exclude_from_sim no)
+		(at 234.95 66.294 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "13826caf-1d44-4ae3-87ba-dd748d724f3b")
+	)
 	(text "SPI0.TX"
 		(exclude_from_sim no)
 		(at 80.01 143.51 0)
@@ -3849,6 +3859,16 @@
 		)
 		(uuid "bfb4d081-5da5-4702-add8-6c8cce2d4f31")
 	)
+	(text "TODO: load switch"
+		(exclude_from_sim no)
+		(at 232.664 68.58 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "c3e9ed51-b810-462b-a035-73b5ed68e7d2")
+	)
 	(text "PWM11.B"
 		(exclude_from_sim no)
 		(at 80.01 173.99 0)
@@ -3881,6 +3901,16 @@
 			(justify right)
 		)
 		(uuid "f2ac9665-8bde-4db4-b2c2-bd730dee4355")
+	)
+	(text "TODO: connect to I2C pins too"
+		(exclude_from_sim no)
+		(at 146.558 155.702 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "ff00989b-9a90-46e5-b4e5-56fb56f79070")
 	)
 	(junction
 		(at 172.72 172.72)
@@ -10435,16 +10465,16 @@
 			)
 		)
 		(pin "2"
-			(uuid "26ced949-8da0-48e6-a3cf-72ea3f46742e")
+			(uuid "26ced949-8da0-48e6-a3cf-72ea3f46742f")
 		)
 		(pin "4"
-			(uuid "f795202b-2d14-41a2-a7c0-fa8e6de37f0c")
+			(uuid "f795202b-2d14-41a2-a7c0-fa8e6de37f0d")
 		)
 		(pin "5"
-			(uuid "a56b8a07-c084-419e-adda-43505585b6b2")
+			(uuid "a56b8a07-c084-419e-adda-43505585b6b3")
 		)
 		(pin "3"
-			(uuid "382b8d30-aaab-4752-a417-e547502e1510")
+			(uuid "382b8d30-aaab-4752-a417-e547502e1511")
 		)
 		(instances
 			(project ""

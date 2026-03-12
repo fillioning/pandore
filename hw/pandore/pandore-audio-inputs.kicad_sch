@@ -1591,6 +1591,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "TODO: report if jack is connected check if XLR is doable easy"
+		(exclude_from_sim no)
+		(at 56.642 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "276f5d5e-9b76-4da5-9c2c-f3345fc664cb")
+	)
 	(junction
 		(at 52.07 128.27)
 		(diameter 0)

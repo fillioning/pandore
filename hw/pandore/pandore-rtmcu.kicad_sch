@@ -1702,6 +1702,16 @@
 		)
 		(uuid "17002663-8f7b-42cf-94c1-c591722bb7b1")
 	)
+	(text "TODO: RTIO Voltage choice: 3.3V"
+		(exclude_from_sim no)
+		(at 243.586 82.55 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "4c62f36b-e27a-4407-8c35-579d1393b60d")
+	)
 	(text "SPI0.~{CS} / UART1.RX / I2C0.SCL / PWM2.B / CLOCK.GPOUT0"
 		(exclude_from_sim no)
 		(at 121.285 96.52 0)

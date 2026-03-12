@@ -5973,7 +5973,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "502e62c5-cb3f-4f2b-a7da-20a8c3a9d2df")
 		(property "Reference" "R171"
 			(at 80.645 105.41 90)
@@ -6382,7 +6382,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "645ff6f4-e3a8-41d3-8872-3b99aa2fe34b")
 		(property "Reference" "R170"
 			(at 80.645 77.597 90)

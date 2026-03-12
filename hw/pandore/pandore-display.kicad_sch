@@ -8217,7 +8217,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8a181179-dfe7-4b00-933e-7eae51735f9f")
 		(property "Reference" "R56"
 			(at 128.905 122.428 0)
@@ -8814,7 +8814,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "bae11c1a-64fd-4b7e-bb36-c3c491a8f272")
 		(property "Reference" "R55"
 			(at 106.68 122.555 0)
