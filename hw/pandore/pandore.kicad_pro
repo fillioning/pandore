@@ -49,7 +49,7 @@
         "silk_text_upright": true,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -965,6 +965,9 @@
       "/Audio/Audio outputs/RIGHT.SIG-": [
         "ANA"
       ],
+      "/Audio/Audio outputs/VCM": [
+        "ANA"
+      ],
       "/Audio/CODEC/CTL.SCL": [
         "I2C"
       ],
@@ -1047,6 +1050,12 @@
         "D90Ω"
       ],
       "/Audio/USB.D-": [
+        "D90Ω"
+      ],
+      "/Audio/_USB.D+": [
+        "D90Ω"
+      ],
+      "/Audio/_USB.D-": [
         "D90Ω"
       ],
       "/Computer/BIOS mem/BIOS.IO0": [
@@ -1133,6 +1142,36 @@
       "/Computer/DDIB.DDC.DAT": [
         "I2C"
       ],
+      "/Computer/DISP.CLK+": [
+        "D100Ω"
+      ],
+      "/Computer/DISP.CLK-": [
+        "D100Ω"
+      ],
+      "/Computer/DISP.D0+": [
+        "D100Ω"
+      ],
+      "/Computer/DISP.D0-": [
+        "D100Ω"
+      ],
+      "/Computer/DISP.D1+": [
+        "D100Ω"
+      ],
+      "/Computer/DISP.D1-": [
+        "D100Ω"
+      ],
+      "/Computer/DISP.D2+": [
+        "D100Ω"
+      ],
+      "/Computer/DISP.D2-": [
+        "D100Ω"
+      ],
+      "/Computer/DISP.DDC.CLK": [
+        "I2C"
+      ],
+      "/Computer/DISP.DDC.DAT": [
+        "I2C"
+      ],
       "/Computer/ETHI.HSI0+": [
         "D100Ω"
       ],
@@ -1168,6 +1207,12 @@
       ],
       "/Computer/ETHX.REFCLK-": [
         "D100Ω"
+      ],
+      "/Computer/M2E.D+": [
+        "D90Ω"
+      ],
+      "/Computer/M2E.D-": [
+        "D90Ω"
       ],
       "/Computer/M2E.HSI0+": [
         "D100Ω"
@@ -1246,6 +1291,18 @@
       ],
       "/Computer/M2M.REFCLK-": [
         "D100Ω"
+      ],
+      "/Computer/MGMTMCU.D+": [
+        "D90Ω"
+      ],
+      "/Computer/MGMTMCU.D-": [
+        "D90Ω"
+      ],
+      "/Computer/RTIOMCU.D+": [
+        "D90Ω"
+      ],
+      "/Computer/RTIOMCU.D-": [
+        "D90Ω"
       ],
       "/Computer/USB2P3.D+": [
         "D90Ω"
@@ -1523,6 +1580,36 @@
       "/Internal Ethernet/_MDI3-": [
         "D100Ω"
       ],
+      "/M.2/AE.PET0+": [
+        "D100Ω"
+      ],
+      "/M.2/AE.PET0-": [
+        "D100Ω"
+      ],
+      "/M.2/M.PET0+": [
+        "D100Ω"
+      ],
+      "/M.2/M.PET0-": [
+        "D100Ω"
+      ],
+      "/M.2/M.PET1+": [
+        "D100Ω"
+      ],
+      "/M.2/M.PET1-": [
+        "D100Ω"
+      ],
+      "/M.2/M.PET2+": [
+        "D100Ω"
+      ],
+      "/M.2/M.PET2-": [
+        "D100Ω"
+      ],
+      "/M.2/M.PET3+": [
+        "D100Ω"
+      ],
+      "/M.2/M.PET3-": [
+        "D100Ω"
+      ],
       "/Mgmt MCU/ENC.BLUE": [
         "PWM"
       ],
@@ -1568,6 +1655,12 @@
       "/Mgmt MCU/MCU/_USB.D-": [
         "D90Ω"
       ],
+      "/Mgmt MCU/MCU/__USB.D+": [
+        "D90Ω"
+      ],
+      "/Mgmt MCU/MCU/__USB.D-": [
+        "D90Ω"
+      ],
       "/Mgmt MCU/SDISP.MOSI": [
         "SPI"
       ],
@@ -1605,6 +1698,12 @@
         "D90Ω"
       ],
       "/Real-Time MCU/MCU/_USB.D-": [
+        "D90Ω"
+      ],
+      "/Real-Time MCU/MCU/__USB.D+": [
+        "D90Ω"
+      ],
+      "/Real-Time MCU/MCU/__USB.D-": [
         "D90Ω"
       ],
       "/Real-Time MCU/RTIO.AIO0": [
@@ -1967,11 +2066,20 @@
       "Net-(U23-OUTE)": [
         "I2S"
       ],
+      "Net-(U27-FB)": [
+        "ANA"
+      ],
+      "Net-(U27-OUT)": [
+        "PWR"
+      ],
       "Net-(U3A-VREG.AVDD)": [
         "PWR"
       ],
       "Net-(U3A-VREG.LX)": [
         "PWR"
+      ],
+      "Net-(U3B-QSPI.~{SS}²(PU)|F0:QMI.~{CS0})": [
+        "QSPI"
       ],
       "Net-(U3B-XIN)": [
         "ANA"
@@ -1984,6 +2092,9 @@
       ],
       "Net-(U4A-VREG.LX)": [
         "PWR"
+      ],
+      "Net-(U4B-QSPI.~{SS}²(PU)|F0:QMI.~{CS0})": [
+        "QSPI"
       ],
       "Net-(U4B-XIN)": [
         "ANA"
@@ -2050,6 +2161,9 @@
       ],
       "VSSISO": [
         "GND"
+      ],
+      "VSTBY": [
+        "PWR"
       ],
       "unconnected-(J1-5V-Pad18)": [
         "PWR"
@@ -2252,7 +2366,7 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -2264,7 +2378,7 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -2288,7 +2402,7 @@
           "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Capacitance",
           "name": "Capacitance",
           "show": true
@@ -2450,7 +2564,7 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Resistance",
           "name": "Resistance",
           "show": true
@@ -2646,8 +2760,8 @@
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Value"
+      "sort_asc": false,
+      "sort_field": "Resistance"
     },
     "connection_grid_size": 50.0,
     "drawing": {

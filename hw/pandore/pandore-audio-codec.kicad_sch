@@ -11,6 +11,284 @@
 		(company "${corp}")
 	)
 	(lib_symbols
+		(symbol "reekilib_amp:OPAMP_2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 7.62 -3.175 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "OPAMP_2"
+				(at 7.62 -5.08 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "reekilib_soic:SOIC127P600X150-8"
+				(at 15.875 -16.51 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "?"
+				(at 15.875 -12.7 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "dual generic opamp"
+				(at 15.875 -14.605 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "?"
+				(at 15.875 -6.985 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFG" "?"
+				(at 15.875 -8.89 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Link" "?"
+				(at 15.875 -10.795 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "opamp 8pin"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "reekilib_dip:DIP127P762X508-8 reekilib_soic:SOIC127P600X150-8 reekilib_sop:SOP65P640X300-8 reekilib_sop:SOP65P490X300-8 reekilib_sop:SOP50P310X200-8 reekilib_sot:SOT65P280X100-8 reekilib_dfn:DFN50P200X200X55-9"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "OPAMP_2_1_1"
+				(polyline
+					(pts
+						(xy -6.35 8.89) (xy -6.35 -8.89) (xy 11.43 0) (xy -6.35 8.89)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 3.81)
+					(name "IN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 3.81)
+					(name "IN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 4.42)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 4.42)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 0 180)
+					(length 3.81)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "OPAMP_2_2_1"
+				(polyline
+					(pts
+						(xy -6.35 8.89) (xy -6.35 -8.89) (xy 11.43 0) (xy -6.35 8.89)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 3.81)
+					(name "IN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 3.81)
+					(name "IN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 0 180)
+					(length 3.81)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "reekilib_cap:cap"
 			(pin_numbers
 				(hide yes)
@@ -2207,6 +2485,12 @@
 		(uuid "536b5132-8589-40f9-8b6b-2c488329b051")
 	)
 	(junction
+		(at 231.14 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "595a514e-65b5-403d-929d-dabb8abe3acc")
+	)
+	(junction
 		(at 129.54 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2231,6 +2515,12 @@
 		(uuid "78cd70fc-6d8c-4fe1-89dd-577b1097083f")
 	)
 	(junction
+		(at 236.22 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7925698e-9df2-4e10-bd19-b90f5b24f7e7")
+	)
+	(junction
 		(at 175.26 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2249,6 +2539,12 @@
 		(uuid "86629d8e-6db9-422d-a480-13f374bf161d")
 	)
 	(junction
+		(at 175.26 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "872b6986-f876-4203-a6ea-05ea0873f1bd")
+	)
+	(junction
 		(at 175.26 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2261,16 +2557,46 @@
 		(uuid "93923e3b-da6e-48de-8ad8-3efd49f15b31")
 	)
 	(junction
+		(at 245.11 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a4efc77-02ab-4919-8651-19f7429773b6")
+	)
+	(junction
+		(at 245.11 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9db831e7-6411-436d-8c03-24871313b76e")
+	)
+	(junction
+		(at 180.34 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2d769ff-5565-4ab6-b1ce-cc9a0bc4e4e1")
+	)
+	(junction
 		(at 121.92 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8e9d836-7dff-4b9c-9f38-1b3453709b66")
 	)
 	(junction
+		(at 227.33 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c457e7a5-959e-4e40-a0a5-2472715931f8")
+	)
+	(junction
 		(at 185.42 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6d7650f-556e-4e2b-9aa3-e4301e89c828")
+	)
+	(junction
+		(at 207.01 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d78c3397-92a7-4de3-878a-b2bb653bebe0")
 	)
 	(junction
 		(at 189.23 25.4)
@@ -2455,6 +2781,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 125.73) (xy 242.57 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02cc5e89-b4b0-41b9-90e5-22d8fff204d0")
+	)
+	(wire
+		(pts
 			(xy 121.92 91.44) (xy 140.97 91.44)
 		)
 		(stroke
@@ -2472,6 +2808,16 @@
 			(type default)
 		)
 		(uuid "041746d1-a3d6-49d6-95b2-b1cc5980148c")
+	)
+	(wire
+		(pts
+			(xy 227.33 111.76) (xy 227.33 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0526736e-e648-4dc0-9fec-8dfdb60230bc")
 	)
 	(wire
 		(pts
@@ -2515,6 +2861,26 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 143.51) (xy 245.11 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1edbace5-b246-46b9-8e2c-42d0358190c7")
+	)
+	(wire
+		(pts
+			(xy 245.11 154.94) (xy 250.19 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2412cf7d-db87-4f6f-9dfd-a9a6699842ae")
+	)
+	(wire
+		(pts
 			(xy 123.19 119.38) (xy 123.19 120.65)
 		)
 		(stroke
@@ -2522,6 +2888,16 @@
 			(type default)
 		)
 		(uuid "2515c611-d853-4303-a431-5587e29617de")
+	)
+	(wire
+		(pts
+			(xy 217.17 120.65) (xy 214.63 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26d61c67-019f-4c5c-9916-373142fe565d")
 	)
 	(wire
 		(pts
@@ -2542,6 +2918,26 @@
 			(type default)
 		)
 		(uuid "2c79a6a3-4e4b-446b-a795-b691afa71e3c")
+	)
+	(wire
+		(pts
+			(xy 175.26 105.41) (xy 180.34 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d8debb8-0076-43a4-81fe-b81a6b728af1")
+	)
+	(wire
+		(pts
+			(xy 231.14 113.03) (xy 227.33 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31550a2d-6e1d-4eb7-97b3-f5d2c6364270")
 	)
 	(wire
 		(pts
@@ -2585,7 +2981,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 100.33) (xy 200.66 100.33)
+			(xy 175.26 100.33) (xy 180.34 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2665,6 +3061,26 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 154.94) (xy 242.57 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5648c5fe-d5e4-40f6-ad70-5877ed143b91")
+	)
+	(wire
+		(pts
+			(xy 207.01 130.81) (xy 217.17 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57e2a8b0-37ae-43c5-b18d-cabf0ebb907f")
+	)
+	(wire
+		(pts
 			(xy 121.92 96.52) (xy 120.65 96.52)
 		)
 		(stroke
@@ -2672,6 +3088,16 @@
 			(type default)
 		)
 		(uuid "5802ce83-fbc3-4064-8311-2c6ef756b313")
+	)
+	(wire
+		(pts
+			(xy 257.81 125.73) (xy 267.97 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b08cdd2-f821-4649-9738-cef13f78ebdb")
 	)
 	(wire
 		(pts
@@ -2702,6 +3128,16 @@
 			(type default)
 		)
 		(uuid "625d227b-97d0-4314-a962-899988f1cf3c")
+	)
+	(wire
+		(pts
+			(xy 231.14 118.11) (xy 236.22 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "678ad75c-ce73-4da6-969e-af7e59c7ac80")
 	)
 	(wire
 		(pts
@@ -2785,6 +3221,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 100.33) (xy 207.01 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bb57f53-2257-4a64-8503-c8509c5c5442")
+	)
+	(wire
+		(pts
 			(xy 176.53 25.4) (xy 184.15 25.4)
 		)
 		(stroke
@@ -2805,6 +3251,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 143.51) (xy 245.11 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8afceacb-868a-4796-8f43-7f07e1089e8e")
+	)
+	(wire
+		(pts
 			(xy 107.95 101.6) (xy 109.22 101.6)
 		)
 		(stroke
@@ -2815,6 +3271,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 160.02) (xy 207.01 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90d3522a-5d75-490c-b366-2b0c901f0a62")
+	)
+	(wire
+		(pts
 			(xy 184.15 25.4) (xy 184.15 46.99)
 		)
 		(stroke
@@ -2822,6 +3288,16 @@
 			(type default)
 		)
 		(uuid "916810d4-0c2a-440f-b94a-b825d690286a")
+	)
+	(wire
+		(pts
+			(xy 214.63 120.65) (xy 214.63 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "919684d0-2a51-4187-ae22-cbfec29f1340")
 	)
 	(wire
 		(pts
@@ -2852,6 +3328,16 @@
 			(type default)
 		)
 		(uuid "94ea6a7a-c96a-451d-949d-9e17988c8041")
+	)
+	(wire
+		(pts
+			(xy 245.11 104.14) (xy 245.11 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9884a017-a617-4e24-91b7-315cabb4e347")
 	)
 	(wire
 		(pts
@@ -2892,6 +3378,16 @@
 			(type default)
 		)
 		(uuid "9e57058d-3c10-4359-bbca-a2b8219fbe92")
+	)
+	(wire
+		(pts
+			(xy 257.81 154.94) (xy 267.97 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a036f47f-3b5e-4031-a4d2-c72442f25733")
 	)
 	(wire
 		(pts
@@ -2995,6 +3491,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 113.03) (xy 227.33 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4cb96ea-ded4-4b45-95dc-61f75ff54386")
+	)
+	(wire
+		(pts
 			(xy 173.99 74.93) (xy 194.31 74.93)
 		)
 		(stroke
@@ -3025,6 +3531,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 149.86) (xy 214.63 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbcd2a50-40c5-4fd3-9c09-53e618671f5f")
+	)
+	(wire
+		(pts
 			(xy 62.23 77.47) (xy 140.97 77.47)
 		)
 		(stroke
@@ -3032,6 +3548,26 @@
 			(type default)
 		)
 		(uuid "c20f70ce-4e01-4a04-8033-f92ad3db4308")
+	)
+	(wire
+		(pts
+			(xy 214.63 104.14) (xy 245.11 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3405b81-0ffb-413b-be92-145c2d010a26")
+	)
+	(wire
+		(pts
+			(xy 214.63 149.86) (xy 214.63 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4c0ec45-8242-4b9c-81f1-6b75d76d99d1")
 	)
 	(wire
 		(pts
@@ -3062,6 +3598,16 @@
 			(type default)
 		)
 		(uuid "ccbfe6f7-15a5-4491-abdc-dc4c06afb1fb")
+	)
+	(wire
+		(pts
+			(xy 207.01 100.33) (xy 207.01 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccda16d1-0616-4c48-964e-f969eaf28b10")
 	)
 	(bus
 		(pts
@@ -3112,6 +3658,16 @@
 			(type default)
 		)
 		(uuid "d01397ec-3465-4934-8fed-737c6d280d47")
+	)
+	(wire
+		(pts
+			(xy 236.22 113.03) (xy 231.14 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d21c560d-77ed-4605-ab63-a10f78a1f3e5")
 	)
 	(wire
 		(pts
@@ -3172,6 +3728,16 @@
 			(type default)
 		)
 		(uuid "d702d7a8-92ed-4591-b835-6beed59bc89f")
+	)
+	(wire
+		(pts
+			(xy 217.17 160.02) (xy 207.01 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d792478e-e66c-4895-a2d5-f0687c7c9968")
 	)
 	(wire
 		(pts
@@ -3252,6 +3818,16 @@
 			(type default)
 		)
 		(uuid "e7758862-2806-4e8f-8b35-53fd4a72d828")
+	)
+	(wire
+		(pts
+			(xy 245.11 125.73) (xy 250.19 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8b27331-9f69-47d9-848f-fda6164c3045")
 	)
 	(bus
 		(pts
@@ -3526,6 +4102,17 @@
 		)
 		(uuid "75a20404-0864-46d3-aba0-7b00aa536a84")
 	)
+	(hierarchical_label "VCM2"
+		(shape output)
+		(at 267.97 154.94 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "78110562-dea4-408e-808b-d84cc669f30f")
+	)
 	(hierarchical_label "~{MUTE}{L R}"
 		(shape output)
 		(at 205.74 44.45 0)
@@ -3581,9 +4168,9 @@
 		)
 		(uuid "edee4ee4-e73d-403f-8abc-531eb9667e9c")
 	)
-	(hierarchical_label "VCM"
+	(hierarchical_label "VCM1"
 		(shape output)
-		(at 200.66 100.33 0)
+		(at 267.97 125.73 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -3810,7 +4397,7 @@
 	(netclass_flag ""
 		(length 1.27)
 		(shape diamond)
-		(at 179.07 100.33 0)
+		(at 184.15 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3820,7 +4407,7 @@
 		)
 		(uuid "7c0e3d2d-5ed3-489c-b890-8b0f5e5ddff4")
 		(property "Netclass" "ANA"
-			(at 180.1673 99.06 0)
+			(at 185.2473 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3829,7 +4416,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 5.08 63.5 0)
+			(at 10.16 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3927,6 +4514,123 @@
 				(font
 					(size 1.27 1.27)
 					(italic yes)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_amp:OPAMP_2")
+		(at 227.33 154.94 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07c072dc-f548-4ba0-b10c-707b96155674")
+		(property "Reference" "U26"
+			(at 234.95 158.115 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OPAMP_2"
+			(at 234.95 160.02 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "reekilib_soic:SOIC127P600X150-8"
+			(at 243.205 171.45 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "?"
+			(at 243.205 167.64 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "dual generic opamp"
+			(at 243.205 169.545 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "?"
+			(at 243.205 161.925 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "?"
+			(at 243.205 163.83 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "?"
+			(at 243.205 165.735 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "3cd4bfbe-dd9f-411c-8477-c6b19fae9545")
+		)
+		(pin "2"
+			(uuid "a4fc4d1d-47a3-4bf7-ad66-835281d2576d")
+		)
+		(pin "8"
+			(uuid "f35bb371-1095-4a77-a1cd-57940a100099")
+		)
+		(pin "3"
+			(uuid "89a8696c-7dda-4ec0-97e2-451aaf2f02b5")
+		)
+		(pin "4"
+			(uuid "b6104e57-abe7-46c7-9c01-a437cecaae7a")
+		)
+		(pin "5"
+			(uuid "a66715bf-fddc-40fa-b623-9e81d238a1a3")
+		)
+		(pin "1"
+			(uuid "24e68258-5ff1-4cf2-a9c2-e0b9d734ce7b")
+		)
+		(pin "6"
+			(uuid "0840a8bd-3fd3-415c-83ab-2eac9a0cc02f")
+		)
+		(instances
+			(project ""
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/c7a6c4ca-6083-4b1c-b07a-a9d1f5204bfb"
+					(reference "U26")
+					(unit 2)
 				)
 			)
 		)
@@ -4956,6 +5660,201 @@
 	)
 	(symbol
 		(lib_id "reekilib_cap:cap")
+		(at 231.14 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2bdd5b10-ba82-4084-b486-edc47b0a6c14")
+		(property "Reference" "C235"
+			(at 231.14 107.061 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "${Capacitance}, ${Voltage}, ${Dielectric}"
+			(at 233.68 114.808 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "reekilib_cap:CAPC1005"
+			(at 231.14 125.222 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
+			(at 231.14 130.048 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Non polarized capacitor"
+			(at 231.14 127 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.passivecomponent.com/product-search/MLCC/?partnumber=0402B104K160CT"
+			(at 231.14 128.524 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "100nF"
+			(at 231.14 108.585 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 231.14 110.109 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 231.14 111.633 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "MPN" "0402B104K160CT"
+			(at 231.14 134.366 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Walsin Technology Corporation"
+			(at 243.078 134.366 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN2" "CL05B104KA5NNNC"
+			(at 231.14 135.89 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG2" "Samsung Electro-Mechanics"
+			(at 243.078 135.89 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN3" "EMK105B7104KV-F"
+			(at 231.14 137.414 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG3" "Taiyo Yuden"
+			(at 243.078 137.414 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN4" "CC0402KRX7R7BB104"
+			(at 231.14 138.938 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG4" "YAGEO"
+			(at 243.332 138.938 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2595f2bd-87f8-4b89-b6ad-e715dd1253b7")
+		)
+		(pin "1"
+			(uuid "62278c5b-8f45-408f-86a8-1046a1e7e357")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/c7a6c4ca-6083-4b1c-b07a-a9d1f5204bfb"
+					(reference "C235")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_cap:cap")
 		(at 175.26 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5537,6 +6436,201 @@
 		)
 	)
 	(symbol
+		(lib_id "reekilib_cap:cap")
+		(at 236.22 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a414b7c-8d6e-42e2-ad74-7f4c8129f3f8")
+		(property "Reference" "C236"
+			(at 236.22 107.061 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "${Capacitance}, ${Voltage}, ${Dielectric}"
+			(at 238.76 114.808 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "reekilib_cap:CAPC2012"
+			(at 236.22 125.222 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 130.048 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Non polarized capacitor"
+			(at 236.22 127 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 236.22 128.524 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "10µF"
+			(at 236.22 108.585 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 236.22 110.109 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 236.22 111.633 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 236.22 134.366 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 248.158 134.366 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN2" ""
+			(at 236.22 135.89 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG2" ""
+			(at 248.158 135.89 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN3" ""
+			(at 236.22 137.414 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG3" ""
+			(at 248.158 137.414 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN4" ""
+			(at 236.22 138.938 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG4" ""
+			(at 248.412 138.938 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a5d54320-40ec-4317-91e6-35b888972d0e")
+		)
+		(pin "1"
+			(uuid "f860a62f-e4bb-4f13-ba59-30186a67423c")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/c7a6c4ca-6083-4b1c-b07a-a9d1f5204bfb"
+					(reference "C236")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "reekilib_res:res")
 		(at 157.48 132.08 270)
 		(unit 1)
@@ -5773,6 +6867,70 @@
 			(project "pandore"
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/c7a6c4ca-6083-4b1c-b07a-a9d1f5204bfb"
 					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_pwr:VSS")
+		(at 227.33 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "649d0f01-ead5-4475-858d-484f37683777")
+		(property "Reference" "#PWR0280"
+			(at 227.33 141.605 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AVSS"
+			(at 227.33 139.7 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 137.16 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 134.62 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da1a9e5a-3492-4add-ac90-6d78d90d358e")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/c7a6c4ca-6083-4b1c-b07a-a9d1f5204bfb"
+					(reference "#PWR0280")
 					(unit 1)
 				)
 			)
@@ -6671,6 +7829,70 @@
 		)
 	)
 	(symbol
+		(lib_id "reekilib_pwr:VDD")
+		(at 227.33 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "7bb3b32b-f17d-4223-bc97-a21479b59d0b")
+		(property "Reference" "#PWR0279"
+			(at 227.33 107.315 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AV5"
+			(at 227.33 109.22 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b486cf14-099a-42f4-a8cc-5df6724cc954")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/c7a6c4ca-6083-4b1c-b07a-a9d1f5204bfb"
+					(reference "#PWR0279")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "reekilib_pwr:VSS")
 		(at 139.7 134.62 0)
 		(unit 1)
@@ -6793,6 +8015,123 @@
 			(project "pandore"
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/c7a6c4ca-6083-4b1c-b07a-a9d1f5204bfb"
 					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_amp:OPAMP_2")
+		(at 227.33 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92fcceb1-d847-4e54-97ff-e97851915a13")
+		(property "Reference" "U26"
+			(at 234.95 128.905 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OPAMP_2"
+			(at 234.95 130.81 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "reekilib_soic:SOIC127P600X150-8"
+			(at 243.205 142.24 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "?"
+			(at 243.205 138.43 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "dual generic opamp"
+			(at 243.205 140.335 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "?"
+			(at 243.205 132.715 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "?"
+			(at 243.205 134.62 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "?"
+			(at 243.205 136.525 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "3cd4bfbe-dd9f-411c-8477-c6b19fae9546")
+		)
+		(pin "2"
+			(uuid "a4fc4d1d-47a3-4bf7-ad66-835281d2576e")
+		)
+		(pin "8"
+			(uuid "f35bb371-1095-4a77-a1cd-57940a10009a")
+		)
+		(pin "3"
+			(uuid "89a8696c-7dda-4ec0-97e2-451aaf2f02b6")
+		)
+		(pin "4"
+			(uuid "b6104e57-abe7-46c7-9c01-a437cecaae7b")
+		)
+		(pin "5"
+			(uuid "a66715bf-fddc-40fa-b623-9e81d238a1a4")
+		)
+		(pin "1"
+			(uuid "24e68258-5ff1-4cf2-a9c2-e0b9d734ce7c")
+		)
+		(pin "6"
+			(uuid "0840a8bd-3fd3-415c-83ab-2eac9a0cc030")
+		)
+		(instances
+			(project ""
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/c7a6c4ca-6083-4b1c-b07a-a9d1f5204bfb"
+					(reference "U26")
 					(unit 1)
 				)
 			)
@@ -7759,6 +9098,201 @@
 	)
 	(symbol
 		(lib_id "reekilib_cap:cap")
+		(at 180.34 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d48f274e-94b8-4fb5-81e0-fc252f6ef4bf")
+		(property "Reference" "C237"
+			(at 180.34 94.615 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "${Capacitance}, ${Voltage}, ${Dielectric}"
+			(at 182.88 102.108 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "reekilib_cap:CAPC1608"
+			(at 180.34 112.522 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 117.348 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Non polarized capacitor"
+			(at 180.34 114.3 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 180.34 115.824 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "1µF"
+			(at 180.34 96.139 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 180.34 97.663 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 180.34 99.187 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 180.34 121.666 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 192.278 121.666 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN2" ""
+			(at 180.34 123.19 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG2" ""
+			(at 192.278 123.19 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN3" ""
+			(at 180.34 124.714 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG3" ""
+			(at 192.278 124.714 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN4" ""
+			(at 180.34 126.238 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG4" ""
+			(at 192.532 126.238 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5ffdcfdf-ed7c-435e-99c9-80e5fb2903e5")
+		)
+		(pin "1"
+			(uuid "50a8457f-f9c6-40f7-88f1-646a75a84505")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/c7a6c4ca-6083-4b1c-b07a-a9d1f5204bfb"
+					(reference "C237")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_cap:cap")
 		(at 175.26 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8131,6 +9665,382 @@
 		)
 	)
 	(symbol
+		(lib_id "reekilib_res:res")
+		(at 254 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df6a4b02-6b80-471b-8879-766c538a9c9d")
+		(property "Reference" "R205"
+			(at 254 151.765 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "${Resistance}, ${Tolerance}, ${Type}"
+			(at 253.238 152.908 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "reekilib_res:RESC2012"
+			(at 265.176 154.686 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 268.224 154.94 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor single 2 pad - thin film"
+			(at 266.7 154.94 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "10Ω"
+			(at 254.635 151.765 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 254.635 153.035 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Power" "0.25W"
+			(at 254 153.035 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 271.78 154.94 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 271.526 140.97 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 269.748 154.686 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" ""
+			(at 273.558 155.448 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG2" ""
+			(at 273.558 140.716 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN3" ""
+			(at 275.336 154.94 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG3" ""
+			(at 275.336 140.716 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Type" "thin film"
+			(at 254 153.035 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "c9464ca9-4194-4182-9712-54d078af16eb")
+		)
+		(pin "1"
+			(uuid "b69bde80-7a17-4fae-bd6d-460e308afe95")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/c7a6c4ca-6083-4b1c-b07a-a9d1f5204bfb"
+					(reference "R205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_res:res")
+		(at 254 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e7c77944-d5e2-45d7-a800-33a9736c281c")
+		(property "Reference" "R204"
+			(at 254 122.555 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "${Resistance}, ${Tolerance}, ${Type}"
+			(at 253.238 123.698 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "reekilib_res:RESC2012"
+			(at 265.176 125.476 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 268.224 125.73 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor single 2 pad - thin film"
+			(at 266.7 125.73 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "10Ω"
+			(at 254.635 122.555 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 254.635 123.825 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Power" "0.25W"
+			(at 254 123.825 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 271.78 125.73 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 271.526 111.76 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 269.748 125.476 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" ""
+			(at 273.558 126.238 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG2" ""
+			(at 273.558 111.506 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN3" ""
+			(at 275.336 125.73 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG3" ""
+			(at 275.336 111.506 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Type" "thin film"
+			(at 254 123.825 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "f48d2a39-7529-4c27-99b1-360039badbc6")
+		)
+		(pin "1"
+			(uuid "9b109fbe-c889-4303-bffa-c155d9cf7640")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/c7a6c4ca-6083-4b1c-b07a-a9d1f5204bfb"
+					(reference "R204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "reekilib_cap:cap")
 		(at 109.22 99.06 0)
 		(mirror y)
@@ -8389,6 +10299,70 @@
 			(project "pandore"
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/c7a6c4ca-6083-4b1c-b07a-a9d1f5204bfb"
 					(reference "#PWR0166")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_pwr:VSS")
+		(at 236.22 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "fad4fee7-db33-4d55-859d-2bcd05fb6e76")
+		(property "Reference" "#PWR0281"
+			(at 236.22 123.825 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AVSS"
+			(at 236.22 121.92 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 119.38 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 116.84 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 236.22 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e95965e-fc28-49fe-932d-e87055d7f00e")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/c7a6c4ca-6083-4b1c-b07a-a9d1f5204bfb"
+					(reference "#PWR0281")
 					(unit 1)
 				)
 			)

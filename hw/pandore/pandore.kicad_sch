@@ -1261,7 +1261,7 @@
 	)
 	(bus
 		(pts
-			(xy 76.2 92.71) (xy 118.11 92.71)
+			(xy 76.2 88.9) (xy 118.11 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1321,6 +1321,16 @@
 	)
 	(bus
 		(pts
+			(xy 177.8 124.46) (xy 200.66 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f31ddaf-0c7b-42f2-8a6b-7e86f3070317")
+	)
+	(bus
+		(pts
 			(xy 177.8 50.8) (xy 200.66 50.8)
 		)
 		(stroke
@@ -1348,6 +1358,16 @@
 			(type default)
 		)
 		(uuid "813c860f-b29b-47b2-844d-cb91fe50e665")
+	)
+	(wire
+		(pts
+			(xy 76.2 144.78) (xy 118.11 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8177d306-70b2-4416-857c-a62ccbb8a1fc")
 	)
 	(bus
 		(pts
@@ -1389,6 +1409,16 @@
 		)
 		(uuid "a91bf36c-2e5e-48f1-86c8-3d60f34c7f50")
 	)
+	(wire
+		(pts
+			(xy 76.2 97.79) (xy 118.11 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9e9767c-9af6-473d-b2ba-4c206fe38989")
+	)
 	(bus
 		(pts
 			(xy 76.2 60.96) (xy 118.11 60.96)
@@ -1429,6 +1459,16 @@
 		)
 		(uuid "bb9240e2-dfb6-4947-9a75-8cc70ddc84a1")
 	)
+	(wire
+		(pts
+			(xy 76.2 147.32) (xy 118.11 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc95cc78-191e-4dc5-ab92-f802bdc0514c")
+	)
 	(bus
 		(pts
 			(xy 76.2 142.24) (xy 118.11 142.24)
@@ -1458,6 +1498,26 @@
 			(type default)
 		)
 		(uuid "cb4db7fd-12be-447a-9953-85fddef06526")
+	)
+	(wire
+		(pts
+			(xy 76.2 49.53) (xy 118.11 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd667ebd-ad68-4c53-a1a8-e7d08a7e50a7")
+	)
+	(bus
+		(pts
+			(xy 76.2 91.44) (xy 118.11 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf3506bd-857f-4a1b-ab1f-5cb34ca52e6d")
 	)
 	(wire
 		(pts
@@ -4272,8 +4332,28 @@
 			)
 		)
 		(pin "USB{USB2}" bidirectional
-			(at 76.2 92.71 0)
+			(at 76.2 88.9 0)
 			(uuid "8c1d8226-a474-44fa-90b9-5d03ee633361")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "CTL{~{RST} ~{USBBOOT}}" input
+			(at 76.2 91.44 0)
+			(uuid "8c723a5d-e7a7-4b2c-a12e-1ece3e83a5fd")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "MGMT.PWRBTN" bidirectional
+			(at 76.2 97.79 0)
+			(uuid "dcd2f748-ae68-4ac0-b387-59f495b9b342")
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -4407,49 +4487,9 @@
 				(justify right)
 			)
 		)
-		(pin "USB2P8{USB2}" bidirectional
-			(at 118.11 92.71 180)
-			(uuid "0f4f13f0-7d13-44fa-88d2-ca76eea28fba")
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(pin "USB2P7{USB2}" bidirectional
-			(at 118.11 60.96 180)
-			(uuid "045909ef-f21c-4126-97fd-f219c8a021cc")
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
 		(pin "USB2P3{USB2}" bidirectional
 			(at 177.8 50.8 0)
 			(uuid "a481f90a-bd1e-4ebb-ad92-20852addc172")
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-		)
-		(pin "DDIB{HDMI}" output
-			(at 177.8 72.39 0)
-			(uuid "fc18aa0a-3c94-4c1d-9b05-fb72df0d92b0")
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-		)
-		(pin "USB2P4{USB2}" bidirectional
-			(at 177.8 121.92 0)
-			(uuid "058c2092-5fac-47c4-976a-a8317267f293")
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -4577,6 +4617,106 @@
 				(justify left)
 			)
 		)
+		(pin "AUDIO.~{PROG}" output
+			(at 118.11 147.32 180)
+			(uuid "26f5e1c1-5058-4ec0-85ce-518c54765bd5")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "AUDIO.~{RST}" output
+			(at 118.11 144.78 180)
+			(uuid "7052faae-fa72-430a-8e4c-7a78dc9416ba")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "SUSCLK" output
+			(at 118.11 49.53 180)
+			(uuid "2aca914c-8e97-445a-b388-f3e1a9fe3683")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "MGMTMCU{USB2}" bidirectional
+			(at 118.11 88.9 180)
+			(uuid "2d1b4785-bc4b-4a4c-92c0-fb2bbf8018ba")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "RTIOMCU{USB2}" bidirectional
+			(at 177.8 121.92 0)
+			(uuid "52617940-98a8-4846-8cbc-05b4bbc0e703")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "DISP{HDMI}" output
+			(at 177.8 72.39 0)
+			(uuid "22738073-cab1-4065-a470-13939ed371f5")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "M2E{USB2}" bidirectional
+			(at 118.11 60.96 180)
+			(uuid "265e70b9-ca49-4093-bdb8-ca73887b6f0d")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "RTIOMCU{~{RST} ~{USBBOOT}}" output
+			(at 177.8 124.46 0)
+			(uuid "3ea24b44-bd72-4bf6-8ba9-0c3f8ad7feb9")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "MGMTMCU{~{RST} ~{USBBOOT}}" output
+			(at 118.11 91.44 180)
+			(uuid "b6811b5f-1dbe-4a00-8475-93d473167f79")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWRBTN" bidirectional
+			(at 118.11 97.79 180)
+			(uuid "1bd180e1-fb58-4115-bfc6-920e19837662")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "pandore"
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966"
@@ -4663,6 +4803,16 @@
 		(pin "SLOT_E{PCIE1X}" bidirectional
 			(at 76.2 58.42 0)
 			(uuid "1db01838-3589-4ca0-988b-0725680e5046")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "SUSCLK" input
+			(at 76.2 49.53 0)
+			(uuid "b76c6c4d-c6fb-441d-8a18-4c0bcba2ee3d")
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5068,6 +5218,16 @@
 		(pin "USB{USB2}" bidirectional
 			(at 200.66 121.92 180)
 			(uuid "1d609a32-98c1-4154-a0c9-03e00c3d4a48")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "CTL{~{RST} ~{USBBOOT}}" input
+			(at 200.66 124.46 180)
+			(uuid "762dc397-e1e5-4b7c-81b8-00fbe32b4a48")
 			(effects
 				(font
 					(size 1.016 1.016)

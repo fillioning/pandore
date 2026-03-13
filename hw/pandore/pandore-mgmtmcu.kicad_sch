@@ -3919,6 +3919,12 @@
 		(uuid "04b92d20-9503-4f3e-978d-fe0b5a4cf9c5")
 	)
 	(junction
+		(at 213.36 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ec7f69a-facf-4b03-acee-a46ffee96da3")
+	)
+	(junction
 		(at 177.8 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4270,6 +4276,15 @@
 		(uuid "35c5db5c-3268-4a3a-91ce-6e920e0daf2b")
 	)
 	(bus_entry
+		(at 29.21 66.04)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "373e52e8-942b-434f-8676-809743fa5844")
+	)
+	(bus_entry
 		(at 109.22 163.83)
 		(size -2.54 2.54)
 		(stroke
@@ -4331,6 +4346,15 @@
 			(type default)
 		)
 		(uuid "66dd824d-bd99-468c-8642-3692c250c603")
+	)
+	(bus_entry
+		(at 29.21 68.58)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69c9613c-1fb4-4a1f-b485-86759173fee6")
 	)
 	(bus_entry
 		(at 119.38 148.59)
@@ -4623,6 +4647,16 @@
 			(type default)
 		)
 		(uuid "155e559c-94e7-4be5-9354-98032ffc6734")
+	)
+	(wire
+		(pts
+			(xy 31.75 68.58) (xy 44.45 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15ed98b8-ded5-4fe1-9087-5561630e9990")
 	)
 	(wire
 		(pts
@@ -4976,6 +5010,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 43.18) (xy 104.14 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39e8dee4-932a-497a-89c2-c845ea78ab7e")
+	)
+	(wire
+		(pts
 			(xy 264.16 107.95) (xy 251.46 107.95)
 		)
 		(stroke
@@ -5216,6 +5260,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 74.93) (xy 87.63 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57b64caf-20d6-4bc3-baf7-74fc92efdc33")
+	)
+	(wire
+		(pts
 			(xy 157.48 71.12) (xy 158.75 71.12)
 		)
 		(stroke
@@ -5323,6 +5377,16 @@
 			(type default)
 		)
 		(uuid "62ef4835-40a4-44e6-84c2-939aaa093664")
+	)
+	(wire
+		(pts
+			(xy 31.75 71.12) (xy 44.45 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63833c50-6960-4985-9a62-c6f74b56d831")
 	)
 	(wire
 		(pts
@@ -5593,6 +5657,16 @@
 			(type default)
 		)
 		(uuid "86db0a8b-ef43-4d9f-b625-000eaed54f83")
+	)
+	(wire
+		(pts
+			(xy 26.67 43.18) (xy 104.14 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "896a3c09-8e24-4efc-ba0e-753d8315e80c")
 	)
 	(bus
 		(pts
@@ -6106,7 +6180,7 @@
 	)
 	(bus
 		(pts
-			(xy 30.48 63.5) (xy 44.45 63.5)
+			(xy 27.94 63.5) (xy 44.45 63.5)
 		)
 		(stroke
 			(width 0)
@@ -6213,6 +6287,16 @@
 			(type default)
 		)
 		(uuid "c397041d-c9f4-4eba-847b-12361a4c2680")
+	)
+	(bus
+		(pts
+			(xy 29.21 66.04) (xy 29.21 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5a12b68-8406-4839-8459-a1aff0d5a057")
 	)
 	(wire
 		(pts
@@ -6644,6 +6728,16 @@
 		)
 		(uuid "f2980c15-cc0a-4cb3-a925-d5c8423e9e9e")
 	)
+	(bus
+		(pts
+			(xy 27.94 66.04) (xy 29.21 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4351d6b-8eb2-4de0-8789-0488e9adafe9")
+	)
 	(wire
 		(pts
 			(xy 232.41 82.55) (xy 251.46 82.55)
@@ -6683,6 +6777,16 @@
 			(type default)
 		)
 		(uuid "f6d086c8-2a00-4b97-9c85-8205352b16cb")
+	)
+	(wire
+		(pts
+			(xy 210.82 142.24) (xy 213.36 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f94df8d9-f303-44c5-b3de-919ad1a9b7e8")
 	)
 	(wire
 		(pts
@@ -6971,6 +7075,16 @@
 		)
 		(uuid "05b6f3e9-4e47-4b7e-a375-16ca75aa8ee6")
 	)
+	(label "CTL.~{RST}"
+		(at 33.02 68.58 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "0b962bc8-feb8-4831-b816-be57eb5eb318")
+	)
 	(label "ENC.GREEN"
 		(at 116.84 86.36 0)
 		(effects
@@ -7241,6 +7355,16 @@
 		)
 		(uuid "c1b1475e-4d66-4d91-b059-e99b4ff3bbaf")
 	)
+	(label "CTL.~{USBBOOT}"
+		(at 33.02 71.12 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2e9d5bc-be7e-4104-a073-e27753402514")
+	)
 	(label "GROVEB.V+"
 		(at 88.9 36.83 0)
 		(effects
@@ -7331,9 +7455,20 @@
 		)
 		(uuid "ea13bb62-2243-436e-b21e-e3d79a7dbc7e")
 	)
+	(hierarchical_label "MGMT.PWRBTN"
+		(shape bidirectional)
+		(at 26.67 43.18 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "46de3b67-8e2d-443e-a2e3-929b01a73269")
+	)
 	(hierarchical_label "USB{USB2}"
 		(shape bidirectional)
-		(at 30.48 63.5 180)
+		(at 27.94 63.5 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -7341,6 +7476,17 @@
 			(justify right)
 		)
 		(uuid "b9b58e09-3339-49b3-8248-50f612488fe8")
+	)
+	(hierarchical_label "CTL{~{RST} ~{USBBOOT}}"
+		(shape input)
+		(at 27.94 66.04 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "d0d2d37d-107e-45c0-ad6e-eecd8bf5d25e")
 	)
 	(rule_area
 		(polyline
@@ -7586,6 +7732,70 @@
 				(font
 					(size 1.27 1.27)
 					(italic yes)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_pwr:VSS")
+		(at 213.36 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "0165bc02-acfb-4f03-8921-698cb9f8523e")
+		(property "Reference" "#PWR0317"
+			(at 213.36 155.575 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSS"
+			(at 213.36 153.67 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 151.13 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 148.59 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6929b15b-834a-47f8-9506-f176f54fcfda")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/57ec90ce-deb5-4a52-b1c0-0a997012959b"
+					(reference "#PWR0317")
+					(unit 1)
 				)
 			)
 		)
@@ -15465,6 +15675,185 @@
 	)
 	(symbol
 		(lib_id "reekilib_res:res")
+		(at 213.36 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5d90dfa-d2bc-43b3-b59a-2a0fd1cd8ad3")
+		(property "Reference" "R233"
+			(at 215.392 143.764 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "${Resistance}, ${Tolerance}, ${Power}"
+			(at 215.392 145.288 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "reekilib_res:RESC1005"
+			(at 213.614 157.226 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/data/global/pdfs/CR.pdf"
+			(at 213.36 160.274 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor single 2 pad"
+			(at 213.36 158.75 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.bourns.com/search?indexCatalogue=psindex&searchQuery=CR0402-FX-1002GLF*"
+			(at 213.614 161.798 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "10kΩ"
+			(at 215.392 145.288 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 215.392 146.812 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Power" "63mW"
+			(at 215.392 148.336 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "CR0402-FX-1002GLF"
+			(at 213.36 163.83 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Bourns Inc"
+			(at 227.33 163.576 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN2" "WR04X1002FTL"
+			(at 212.852 165.608 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG2" "Walsin Technology Corporation"
+			(at 227.584 165.608 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN3" "RC0402FR-0710KL"
+			(at 213.36 167.386 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG3" "Yageo"
+			(at 227.584 167.386 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6493f691-6a0c-4380-afd7-707bf34efb75")
+		)
+		(pin "1"
+			(uuid "ba2e9cf8-0376-4957-8e1d-7ceae563cd94")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/57ec90ce-deb5-4a52-b1c0-0a997012959b"
+					(reference "R233")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_res:res")
 		(at 133.35 137.16 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16599,6 +16988,26 @@
 		(pin "VIO" input
 			(at 44.45 57.15 180)
 			(uuid "650a6b0a-f376-4967-9936-33969f4991dc")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{USBBOOT}" input
+			(at 44.45 71.12 180)
+			(uuid "4a4a5341-58cf-4c6a-96e3-f9b2f2442acb")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{RST}" input
+			(at 44.45 68.58 180)
+			(uuid "ab66d317-6ff5-4eff-aa07-19d08ce75ccf")
 			(effects
 				(font
 					(size 1.016 1.016)

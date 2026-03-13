@@ -3168,6 +3168,205 @@
 		)
 	)
 	(symbol
+		(lib_id "reekilib_cap:cap")
+		(at 76.2 52.07 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c52eb9d-c455-4b0c-bac1-cddd897a393a")
+		(property "Reference" "C86"
+			(at 78.74 49.53 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "${Capacitance}, ${Voltage}, ${Dielectric}"
+			(at 73.66 52.832 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "reekilib_cap:CAPC3216"
+			(at 76.2 42.418 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 37.592 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Non polarized capacitor"
+			(at 76.2 40.64 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 76.2 39.116 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "100pF"
+			(at 78.74 51.054 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" "1kV"
+			(at 78.74 52.705 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 78.74 54.229 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "MPN" ""
+			(at 76.2 33.274 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 64.262 33.274 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN2" ""
+			(at 76.2 31.75 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG2" ""
+			(at 64.262 31.75 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN3" ""
+			(at 76.2 30.226 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG3" ""
+			(at 64.262 30.226 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN4" ""
+			(at 76.2 28.702 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG4" ""
+			(at 64.008 28.702 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2e3899e1-58e9-48e6-8332-1420d14d1a3b")
+		)
+		(pin "1"
+			(uuid "7641e30e-676b-4e49-a298-cde209a501ac")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/22b3123e-4770-49db-9ca3-fb0ae5205bb3"
+					(reference "C86")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "reekilib_con:hdr-1x3")
 		(at 233.68 41.91 0)
 		(unit 1)
@@ -3447,206 +3646,6 @@
 			(project "pandore"
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/22b3123e-4770-49db-9ca3-fb0ae5205bb3"
 					(reference "R53")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "reekilib_cap:cap")
-		(at 67.31 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6db4e97d-1ed3-4ad1-9035-75265a67f2c5")
-		(property "Reference" "C85"
-			(at 69.85 53.594 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "${Capacitance}, ${Voltage}, ${Dielectric}"
-			(at 69.85 55.118 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "reekilib_cap:CAPC1005"
-			(at 67.31 65.532 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
-			(at 67.31 70.358 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Non polarized capacitor"
-			(at 67.31 67.31 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.passivecomponent.com/product-search/MLCC/?partnumber=0402B104K160CT"
-			(at 67.31 68.834 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Capacitance" "100nF"
-			(at 69.85 55.118 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "16V"
-			(at 69.85 56.642 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 69.85 58.166 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "0402B104K160CT"
-			(at 67.31 74.676 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "Walsin Technology Corporation"
-			(at 79.248 74.676 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN2" "CL05B104KA5NNNC"
-			(at 67.31 76.2 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG2" "Samsung Electro-Mechanics"
-			(at 79.248 76.2 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN3" "EMK105B7104KV-F"
-			(at 67.31 77.724 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG3" "Taiyo Yuden"
-			(at 79.248 77.724 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN4" "CC0402KRX7R7BB104"
-			(at 67.31 79.248 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG4" "YAGEO"
-			(at 79.502 79.248 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "44c9f32f-d2e7-49d7-a78e-56649c66dbad")
-		)
-		(pin "1"
-			(uuid "c345bf4f-e4e2-4c6c-8b87-1463b41994c3")
-		)
-		(instances
-			(project "pandore"
-				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/22b3123e-4770-49db-9ca3-fb0ae5205bb3"
-					(reference "C85")
 					(unit 1)
 				)
 			)
@@ -4481,6 +4480,205 @@
 		)
 	)
 	(symbol
+		(lib_id "reekilib_cap:cap")
+		(at 67.31 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b000bb88-1b88-4831-9331-05a581f25a99")
+		(property "Reference" "C85"
+			(at 69.85 53.34 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "${Capacitance}, ${Voltage}, ${Dielectric}"
+			(at 64.77 56.642 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "reekilib_cap:CAPC3216"
+			(at 67.31 46.228 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 41.402 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Non polarized capacitor"
+			(at 67.31 44.45 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 67.31 42.926 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "100pF"
+			(at 69.85 54.864 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" "1kV"
+			(at 69.85 56.515 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 69.85 58.039 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "MPN" ""
+			(at 67.31 37.084 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 55.372 37.084 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN2" ""
+			(at 67.31 35.56 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG2" ""
+			(at 55.372 35.56 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN3" ""
+			(at 67.31 34.036 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG3" ""
+			(at 55.372 34.036 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN4" ""
+			(at 67.31 32.512 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG4" ""
+			(at 55.118 32.512 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "598eef5e-7f7b-4fbc-901a-038b1c0d2563")
+		)
+		(pin "1"
+			(uuid "d93d0fb5-ab82-44f4-9932-13fc8dd62f70")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/22b3123e-4770-49db-9ca3-fb0ae5205bb3"
+					(reference "C85")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "reekilib_dio:diode")
 		(at 110.49 41.91 90)
 		(unit 1)
@@ -4945,206 +5143,6 @@
 			(project "pandore"
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/22b3123e-4770-49db-9ca3-fb0ae5205bb3"
 					(reference "#PWR096")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "reekilib_cap:cap")
-		(at 76.2 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec73a5f2-ce11-4a27-9f43-2af3c181f86b")
-		(property "Reference" "C86"
-			(at 78.74 49.784 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "${Capacitance}, ${Voltage}, ${Dielectric}"
-			(at 78.74 51.308 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "reekilib_cap:CAPC1005"
-			(at 76.2 61.722 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
-			(at 76.2 66.548 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Non polarized capacitor"
-			(at 76.2 63.5 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.passivecomponent.com/product-search/MLCC/?partnumber=0402B104K160CT"
-			(at 76.2 65.024 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Capacitance" "100nF"
-			(at 78.74 51.308 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "16V"
-			(at 78.74 52.832 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 78.74 54.356 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "0402B104K160CT"
-			(at 76.2 70.866 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "Walsin Technology Corporation"
-			(at 88.138 70.866 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN2" "CL05B104KA5NNNC"
-			(at 76.2 72.39 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG2" "Samsung Electro-Mechanics"
-			(at 88.138 72.39 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN3" "EMK105B7104KV-F"
-			(at 76.2 73.914 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG3" "Taiyo Yuden"
-			(at 88.138 73.914 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN4" "CC0402KRX7R7BB104"
-			(at 76.2 75.438 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG4" "YAGEO"
-			(at 88.392 75.438 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "95225d77-0444-47aa-8185-840bf81c4c1c")
-		)
-		(pin "1"
-			(uuid "1185c27c-d84b-4b75-a7cd-6a6cf79c7e60")
-		)
-		(instances
-			(project "pandore"
-				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/22b3123e-4770-49db-9ca3-fb0ae5205bb3"
-					(reference "C86")
 					(unit 1)
 				)
 			)

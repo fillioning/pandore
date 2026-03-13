@@ -11,6 +11,96 @@
 		(company "${corp}")
 	)
 	(lib_symbols
+		(symbol "megaxone_power:VSTBY"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VSTBY"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VSTBY_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VSTBY_1_1"
+				(pin power_in line
+					(at 0 -1.27 90)
+					(length 1.27)
+					(name "VSTBY"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "reekilib_cap:cap"
 			(pin_numbers
 				(hide yes)
@@ -881,6 +971,12 @@
 		(uuid "66d1f2a4-f1a7-4b68-ae48-bad925dcf6f4")
 	)
 	(junction
+		(at 74.93 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67750ca0-f539-43ee-9482-3b9db704cddf")
+	)
+	(junction
 		(at 74.93 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1483,6 +1579,69 @@
 				(font
 					(size 1.27 1.27)
 					(italic yes)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megaxone_power:VSTBY")
+		(at 74.93 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e1465e3-53f0-4c38-ba0a-970605c7a799")
+		(property "Reference" "#PWR0314"
+			(at 74.93 52.07 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSTBY"
+			(at 74.93 48.26 0)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 49.53 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 49.53 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d114c2cc-c7f1-4c58-8356-4275ad7ad74f")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/88bddcf3-091d-4999-8622-d323c703fd74/b0d5502d-1c9e-460a-aaa4-6a1fd0bb26fe"
+					(reference "#PWR0314")
+					(unit 1)
 				)
 			)
 		)
