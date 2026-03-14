@@ -691,6 +691,169 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "reekilib_con:hdr-1x3"
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "P"
+				(at 0 6.35 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Value" "hdr-1x3"
+				(at 0 -6.35 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Footprint" "footprint"
+				(at 0 -9.398 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "url-ds"
+				(at 0 -13.716 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "header 1row 3pin"
+				(at 0 -10.922 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Link" "url-link"
+				(at 0 -12.446 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "MPN"
+				(at 0 -7.874 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFG" "MFG"
+				(at 6.604 -7.874 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "header hdr"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "hdr-1x3_0_1"
+				(rectangle
+					(start -3.81 5.08)
+					(end 3.81 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "hdr-1x3_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "reekilib_con:xlr3_trs3sw_combo"
 			(pin_names
 				(hide yes)
@@ -1614,6 +1777,12 @@
 		(uuid "2b7e356b-c57d-4975-b7d8-e86401809094")
 	)
 	(junction
+		(at 87.63 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "370aa23a-4c99-49f3-b58e-d5a6348686fd")
+	)
+	(junction
 		(at 44.45 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1650,10 +1819,40 @@
 		(uuid "64960118-e32d-4716-b6b8-ef35e2b19bde")
 	)
 	(junction
+		(at 91.44 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67e6094d-b770-422f-952a-28d72b93f143")
+	)
+	(junction
+		(at 90.17 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68a1baeb-8509-4e67-a5a0-b1f7296c660c")
+	)
+	(junction
+		(at 91.44 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73bb4f98-bf53-4aeb-bd5c-a5a47b4d7662")
+	)
+	(junction
 		(at 52.07 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7529ec10-bb93-4a15-ad59-0e8a5f6a351e")
+	)
+	(junction
+		(at 90.17 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d8a9af7-7c39-4e4a-ae73-058e2ee40da4")
+	)
+	(junction
+		(at 87.63 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7fac228e-2434-4680-b650-de8fddc00a52")
 	)
 	(junction
 		(at 67.31 97.79)
@@ -1672,6 +1871,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "93dbf264-2d47-4809-b8f8-bbdaba0d7835")
+	)
+	(junction
+		(at 88.9 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c346f15-521e-415d-a03f-ebb8e364f85e")
+	)
+	(junction
+		(at 88.9 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4a56206-3040-40a4-b545-b6578eeea7c0")
 	)
 	(junction
 		(at 52.07 44.45)
@@ -1783,6 +1994,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 44.45) (xy 91.44 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "021c4c89-943a-42d0-9cc6-06bcc9841432")
+	)
+	(wire
+		(pts
 			(xy 91.44 41.91) (xy 66.04 41.91)
 		)
 		(stroke
@@ -1870,6 +2091,26 @@
 			(type default)
 		)
 		(uuid "1443b8f7-6868-4434-89f4-fdde0636ea09")
+	)
+	(wire
+		(pts
+			(xy 90.17 72.39) (xy 90.17 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15593754-ebe9-4064-b255-9c4356457330")
+	)
+	(wire
+		(pts
+			(xy 92.71 26.67) (xy 91.44 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1596097e-8919-48ce-a51e-83ba9081663d")
 	)
 	(wire
 		(pts
@@ -2073,6 +2314,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 72.39) (xy 90.17 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44f83bf3-289e-42fe-b9dd-509e4c3581f6")
+	)
+	(wire
+		(pts
 			(xy 44.45 107.95) (xy 43.18 107.95)
 		)
 		(stroke
@@ -2140,6 +2391,16 @@
 			(type default)
 		)
 		(uuid "4c60972f-aa63-4727-aa8f-c8e3da0ad91f")
+	)
+	(wire
+		(pts
+			(xy 88.9 90.17) (xy 88.9 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d6b0fde-bcb9-431c-ac08-e17035b0eef3")
 	)
 	(wire
 		(pts
@@ -2213,6 +2474,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 146.05) (xy 87.63 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bccf581-8081-448e-816b-146598928725")
+	)
+	(wire
+		(pts
 			(xy 43.18 113.03) (xy 52.07 113.03)
 		)
 		(stroke
@@ -2223,7 +2494,27 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 59.69) (xy 91.44 59.69)
+			(xy 88.9 113.03) (xy 91.44 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "616193cd-4331-40b1-ba2c-2c560867803c")
+	)
+	(wire
+		(pts
+			(xy 90.17 59.69) (xy 91.44 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6202a67e-25dd-468a-bb7e-39f31e171e2c")
+	)
+	(wire
+		(pts
+			(xy 52.07 59.69) (xy 90.17 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2300,6 +2591,16 @@
 			(type default)
 		)
 		(uuid "6cb65be8-256d-4912-85ac-befc0f8748f9")
+	)
+	(wire
+		(pts
+			(xy 87.63 77.47) (xy 87.63 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eedd589-f135-4fd2-9fa9-e7740a368f8c")
 	)
 	(wire
 		(pts
@@ -2383,6 +2684,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 26.67) (xy 91.44 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84b9a87b-213c-4fa5-8916-f6e8a6dca89a")
+	)
+	(wire
+		(pts
 			(xy 54.61 67.31) (xy 57.15 67.31)
 		)
 		(stroke
@@ -2390,6 +2701,16 @@
 			(type default)
 		)
 		(uuid "88c0134d-7db3-4853-ba69-2afa22fd0222")
+	)
+	(wire
+		(pts
+			(xy 91.44 95.25) (xy 91.44 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dd2e1d8-c2d7-4612-aaaf-9d15f20e8f76")
 	)
 	(wire
 		(pts
@@ -2410,6 +2731,16 @@
 			(type default)
 		)
 		(uuid "9269cbce-6b74-4881-980c-e0b14207b780")
+	)
+	(wire
+		(pts
+			(xy 92.71 21.59) (xy 88.9 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93dcf096-c817-4d7a-9132-8eea1c8b1d36")
 	)
 	(wire
 		(pts
@@ -2483,6 +2814,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 140.97) (xy 90.17 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8b3a5f3-690b-4796-82c2-c0bc9da28e7c")
+	)
+	(wire
+		(pts
 			(xy 246.38 77.47) (xy 196.85 77.47)
 		)
 		(stroke
@@ -2500,6 +2841,16 @@
 			(type default)
 		)
 		(uuid "ac30b843-cb57-48c8-9dac-ed22db6ba46c")
+	)
+	(wire
+		(pts
+			(xy 90.17 128.27) (xy 91.44 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0472d56-052f-41e9-900f-04ea8527c0be")
 	)
 	(wire
 		(pts
@@ -2623,7 +2974,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 44.45) (xy 91.44 44.45)
+			(xy 68.58 44.45) (xy 88.9 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2663,7 +3014,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 128.27) (xy 91.44 128.27)
+			(xy 52.07 128.27) (xy 90.17 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2673,7 +3024,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 113.03) (xy 91.44 113.03)
+			(xy 68.58 113.03) (xy 88.9 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2690,6 +3041,16 @@
 			(type default)
 		)
 		(uuid "d78e90c6-0731-4f11-bde8-710de45caf59")
+	)
+	(wire
+		(pts
+			(xy 90.17 140.97) (xy 90.17 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7beac81-b935-4daf-912a-100cedb59b26")
 	)
 	(wire
 		(pts
@@ -2723,6 +3084,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 95.25) (xy 91.44 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddf6f03a-efe5-4026-80da-5486b02637c9")
+	)
+	(wire
+		(pts
 			(xy 43.18 39.37) (xy 44.45 39.37)
 		)
 		(stroke
@@ -2750,6 +3121,16 @@
 			(type default)
 		)
 		(uuid "e8bf2497-6627-4389-b02b-1af6a468481c")
+	)
+	(wire
+		(pts
+			(xy 92.71 77.47) (xy 87.63 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e958f185-960f-4779-a1a2-f379c950b8aa")
 	)
 	(wire
 		(pts
@@ -2790,6 +3171,36 @@
 			(type default)
 		)
 		(uuid "f18d5407-e752-4faa-8c21-15a44bffed2a")
+	)
+	(wire
+		(pts
+			(xy 92.71 90.17) (xy 88.9 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f18d75cd-d507-4b3a-af6d-09e05ff087d2")
+	)
+	(wire
+		(pts
+			(xy 92.71 146.05) (xy 87.63 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f30a5869-aacf-4a84-8f69-33a2d077cdcc")
+	)
+	(wire
+		(pts
+			(xy 88.9 21.59) (xy 88.9 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5ace7c5-2ba1-4f72-99a5-eedda86625d0")
 	)
 	(wire
 		(pts
@@ -4766,6 +5177,113 @@
 		)
 	)
 	(symbol
+		(lib_id "reekilib_con:hdr-1x3")
+		(at 100.33 24.13 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59f3d2ab-5617-460c-bf72-09d82c424896")
+		(property "Reference" "EXP1"
+			(at 100.33 17.78 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "MIC1"
+			(at 100.33 30.48 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "reekilib_con:HDR254P1X03-TH"
+			(at 100.33 33.528 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "url-ds"
+			(at 100.33 37.846 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "header 1row 3pin"
+			(at 100.33 35.052 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "url-link"
+			(at 100.33 36.576 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MPN"
+			(at 100.33 32.004 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "MFG"
+			(at 106.934 32.004 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64b932b6-9ea8-43ac-80c9-35ade9ece958")
+		)
+		(pin "3"
+			(uuid "ad65a888-fc31-412c-ab91-e5cc8fefb442")
+		)
+		(pin "2"
+			(uuid "d0d283f8-c412-4bbc-843d-91930f8155b6")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/505def28-a163-4964-82bd-abe7e8697de4"
+					(reference "EXP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "reekilib_con:hdr-1x2")
 		(at 82.55 92.71 0)
 		(unit 1)
@@ -5484,6 +6002,70 @@
 			(project "pandore"
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/505def28-a163-4964-82bd-abe7e8697de4"
 					(reference "R123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_pwr:VSS")
+		(at 91.44 143.51 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "6b441904-9824-45f0-9772-e36cef0daa49")
+		(property "Reference" "#PWR0326"
+			(at 86.995 143.51 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AVSS"
+			(at 88.9 143.51 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 143.51 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 143.51 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e030be18-02f8-4413-b9cd-29c8dedbac24")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/505def28-a163-4964-82bd-abe7e8697de4"
+					(reference "#PWR0326")
 					(unit 1)
 				)
 			)
@@ -6727,6 +7309,70 @@
 		)
 	)
 	(symbol
+		(lib_id "reekilib_pwr:VSS")
+		(at 91.44 74.93 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "9d4f0ebc-d439-49c9-9778-7a2602660484")
+		(property "Reference" "#PWR0324"
+			(at 86.995 74.93 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AVSS"
+			(at 88.9 74.93 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3e69ce3-ddf2-4a04-8c21-b2f0b4ca4a36")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/505def28-a163-4964-82bd-abe7e8697de4"
+					(reference "#PWR0324")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "reekilib_con:xlr3_trs3sw_combo")
 		(at 26.67 120.65 0)
 		(unit 1)
@@ -7964,6 +8610,113 @@
 		)
 	)
 	(symbol
+		(lib_id "reekilib_con:hdr-1x3")
+		(at 100.33 143.51 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d962b064-153c-42ce-8e52-e06c24b941b3")
+		(property "Reference" "EXP4"
+			(at 100.33 137.16 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "LINE2"
+			(at 100.33 149.86 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "reekilib_con:HDR254P1X03-TH"
+			(at 100.33 152.908 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "url-ds"
+			(at 100.33 157.226 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "header 1row 3pin"
+			(at 100.33 154.432 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "url-link"
+			(at 100.33 155.956 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MPN"
+			(at 100.33 151.384 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "MFG"
+			(at 106.934 151.384 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7eec6d12-91c7-4cd3-bb3c-e8d13e73152c")
+		)
+		(pin "3"
+			(uuid "61d0798b-3d0c-45a5-958b-9715b510703e")
+		)
+		(pin "2"
+			(uuid "63abcc03-7610-46c3-a2fb-6defe296dc8d")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/505def28-a163-4964-82bd-abe7e8697de4"
+					(reference "EXP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "reekilib_res:res")
 		(at 66.04 102.87 180)
 		(unit 1)
@@ -8146,6 +8899,113 @@
 			(project "pandore"
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/505def28-a163-4964-82bd-abe7e8697de4"
 					(reference "R124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_con:hdr-1x3")
+		(at 100.33 92.71 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e01fdb69-ae6f-4492-bfbe-60131aed44cb")
+		(property "Reference" "EXP3"
+			(at 100.33 86.36 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "MIC2"
+			(at 100.33 99.06 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "reekilib_con:HDR254P1X03-TH"
+			(at 100.33 102.108 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "url-ds"
+			(at 100.33 106.426 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "header 1row 3pin"
+			(at 100.33 103.632 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "url-link"
+			(at 100.33 105.156 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MPN"
+			(at 100.33 100.584 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "MFG"
+			(at 106.934 100.584 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d772ba76-7a82-41fe-8bbe-f3e8ad3008fb")
+		)
+		(pin "3"
+			(uuid "a3859d36-226c-43e1-afa3-11cea93d237b")
+		)
+		(pin "2"
+			(uuid "497d8ab0-7295-49b5-b2d1-b10df6e5c510")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/505def28-a163-4964-82bd-abe7e8697de4"
+					(reference "EXP3")
 					(unit 1)
 				)
 			)
@@ -8338,6 +9198,177 @@
 		)
 	)
 	(symbol
+		(lib_id "reekilib_con:hdr-1x3")
+		(at 100.33 74.93 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb08af0e-f683-4946-92f6-4279c93f40bd")
+		(property "Reference" "EXP2"
+			(at 100.33 68.58 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "LINE1"
+			(at 100.33 81.28 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "reekilib_con:HDR254P1X03-TH"
+			(at 100.33 84.328 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "url-ds"
+			(at 100.33 88.646 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "header 1row 3pin"
+			(at 100.33 85.852 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "url-link"
+			(at 100.33 87.376 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MPN"
+			(at 100.33 82.804 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "MFG"
+			(at 106.934 82.804 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11054919-7acc-4dbd-8946-f4439d19a880")
+		)
+		(pin "3"
+			(uuid "cd1d2243-a599-48ae-9260-e370c28f4afb")
+		)
+		(pin "2"
+			(uuid "66995bb7-7a49-48bb-838f-162536917aeb")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/505def28-a163-4964-82bd-abe7e8697de4"
+					(reference "EXP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_pwr:VSS")
+		(at 91.44 24.13 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "ec5d6068-6c46-49e2-a8c8-5ae08ec64303")
+		(property "Reference" "#PWR0323"
+			(at 86.995 24.13 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AVSS"
+			(at 87.63 24.13 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 24.13 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 24.13 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "610d12ea-dfc7-490b-a677-57d2a25a3c4c")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/505def28-a163-4964-82bd-abe7e8697de4"
+					(reference "#PWR0323")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "reekilib_pwr:VSS")
 		(at 54.61 143.51 0)
 		(unit 1)
@@ -8396,6 +9427,70 @@
 			(project "pandore"
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/505def28-a163-4964-82bd-abe7e8697de4"
 					(reference "#PWR0175")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_pwr:VSS")
+		(at 91.44 92.71 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "f5265aee-c7de-45da-bf90-c87775967644")
+		(property "Reference" "#PWR0325"
+			(at 86.995 92.71 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AVSS"
+			(at 87.63 92.71 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 92.71 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 92.71 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fac693e1-ab12-4999-af51-5091730b6b21")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/505def28-a163-4964-82bd-abe7e8697de4"
+					(reference "#PWR0325")
 					(unit 1)
 				)
 			)

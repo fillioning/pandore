@@ -1269,6 +1269,16 @@
 		)
 		(uuid "306181e4-21f4-4c33-82e8-eeb8a22d84b4")
 	)
+	(bus
+		(pts
+			(xy 76.2 97.79) (xy 118.11 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d1bac97-647e-45da-9959-99d0a9ed8bd9")
+	)
 	(wire
 		(pts
 			(xy 255.27 34.29) (xy 255.27 35.56)
@@ -1408,16 +1418,6 @@
 			(type default)
 		)
 		(uuid "a91bf36c-2e5e-48f1-86c8-3d60f34c7f50")
-	)
-	(wire
-		(pts
-			(xy 76.2 97.79) (xy 118.11 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9e9767c-9af6-473d-b2ba-4c206fe38989")
 	)
 	(bus
 		(pts
@@ -4351,9 +4351,9 @@
 				(justify right)
 			)
 		)
-		(pin "MGMT.PWRBTN" bidirectional
+		(pin "CPUMON{PWRB PWR S0 S3}" bidirectional
 			(at 76.2 97.79 0)
-			(uuid "dcd2f748-ae68-4ac0-b387-59f495b9b342")
+			(uuid "1829f916-58af-423e-b673-14bd60f199fa")
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -4707,9 +4707,9 @@
 				(justify left)
 			)
 		)
-		(pin "PWRBTN" bidirectional
+		(pin "MGMTMON{PWRB PWR S0 S3}" bidirectional
 			(at 118.11 97.79 180)
-			(uuid "1bd180e1-fb58-4115-bfc6-920e19837662")
+			(uuid "75318b3c-c183-4edd-aaa9-53d665b4ad7f")
 			(effects
 				(font
 					(size 1.016 1.016)

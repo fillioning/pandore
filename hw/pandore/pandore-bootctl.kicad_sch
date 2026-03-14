@@ -11,174 +11,6 @@
 		(company "${corp}")
 	)
 	(lib_symbols
-		(symbol "megaxone_mechanical:Tact_NO"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "B"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Value" "Tact_NO"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "megaxone_mechanical:TACT_PTS810"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ckswitches.com/products/switches/product-details/Tactile/PTS810/"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "PTS810 SJM 250 SMTR LFS"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "DNP" "0"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Tact_NO_0_1"
-				(polyline
-					(pts
-						(xy -2.032 1.778) (xy 2.032 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 2.794) (xy 0.762 2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy 0 2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Tact_NO_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "megaxone_power:VSTBY"
 			(power)
 			(pin_numbers
@@ -1700,6 +1532,241 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "reekilib_msw:mom_tact_no"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "B"
+				(at 0 3.81 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Value" "mom_tact_no"
+				(at 0 5.715 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "reekilib_msw:tact_460X320X250"
+				(at 0 -6.35 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ckswitches.com/media/1476/pts810.pdf"
+				(at 0 -7.62 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Momentary tactile button, normally-open"
+				(at 0 -5.08 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "PTS810 SJM 250 SMTR LFS"
+				(at 0 -2.54 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFG" "C&K Switches"
+				(at 19.05 -2.54 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Link" "https://www.ckswitches.com/products/switches/product-details/Tactile/PTS810/"
+				(at 34.925 -2.54 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "reekilib_msw:tact_460X320X250 reekilib_msw:tact_350X355X135_horz"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "mom_tact_no_0_1"
+				(polyline
+					(pts
+						(xy -2.032 1.778) (xy 2.032 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 2.794) (xy 0.762 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "mom_tact_no_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(hide yes)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "reekilib_pwr:VSS"
 			(power)
 			(pin_numbers
@@ -2024,7 +2091,7 @@
 		(at 76.2 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "382650a2-9fb2-4a4b-8f67-87bb8b885f9e")
+		(uuid "0c87db8f-dfe8-411c-b60c-e052aafdfb05")
 	)
 	(junction
 		(at 62.23 91.44)
@@ -2036,7 +2103,7 @@
 		(at 76.2 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "535e4df5-2188-4a79-a5f4-cdde5519d84e")
+		(uuid "6281eb68-bea8-447b-b4be-4f6ae44a37cf")
 	)
 	(junction
 		(at 104.14 121.92)
@@ -2130,16 +2197,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 121.92) (xy 76.2 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e88d8d0-cddc-48fe-aa0e-87e3af9da25b")
-	)
-	(wire
-		(pts
 			(xy 67.31 124.46) (xy 66.04 124.46)
 		)
 		(stroke
@@ -2170,23 +2227,13 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 121.92) (xy 67.31 121.92)
+			(xy 67.31 121.92) (xy 76.2 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2a3d0dc5-e651-405f-ab10-8715b4a734ba")
-	)
-	(wire
-		(pts
-			(xy 86.36 146.05) (xy 76.2 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a538c69-515d-4d39-b4fc-6e14e7a70905")
 	)
 	(wire
 		(pts
@@ -2217,6 +2264,16 @@
 			(type default)
 		)
 		(uuid "3442f44c-4386-4b3c-a4a4-7c4f5b6408b4")
+	)
+	(wire
+		(pts
+			(xy 76.2 146.05) (xy 86.36 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d25e0a8-d1ba-4e78-b738-669eff0bd3e3")
 	)
 	(wire
 		(pts
@@ -2390,6 +2447,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 121.92) (xy 86.36 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f6b780d-21bc-430b-bc62-21c2d429545c")
+	)
+	(wire
+		(pts
 			(xy 96.52 60.96) (xy 105.41 60.96)
 		)
 		(stroke
@@ -2480,7 +2547,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 146.05) (xy 67.31 146.05)
+			(xy 67.31 146.05) (xy 76.2 146.05)
 		)
 		(stroke
 			(width 0)
@@ -2658,6 +2725,17 @@
 			(justify left)
 		)
 		(uuid "6d0d2e66-92be-44ab-bafd-918bd6b970cb")
+	)
+	(hierarchical_label "PWREN"
+		(shape output)
+		(at 157.48 82.55 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "90fe1946-29d4-4640-925b-91987d798b40")
 	)
 	(hierarchical_label "STATE3"
 		(shape input)
@@ -4316,6 +4394,118 @@
 		)
 	)
 	(symbol
+		(lib_id "reekilib_msw:mom_tact_no")
+		(at 76.2 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "536ab8e4-c353-4fbf-810e-c46815952e22")
+		(property "Reference" "B1"
+			(at 72.39 127 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "mom_tact_no"
+			(at 70.485 127 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "reekilib_msw:tact_460X320X250"
+			(at 82.55 127 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ckswitches.com/media/1476/pts810.pdf"
+			(at 83.82 127 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Momentary tactile button, normally-open"
+			(at 81.28 127 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PTS810 SJM 250 SMTR LFS"
+			(at 78.74 127 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "C&K Switches"
+			(at 78.74 107.95 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.ckswitches.com/products/switches/product-details/Tactile/PTS810/"
+			(at 78.74 92.075 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "99cfc51f-795d-4f0e-a426-bb4e2d4ea91e")
+		)
+		(pin "4"
+			(uuid "2bdb2db5-af9e-463a-ba1a-c9ac66241334")
+		)
+		(pin "1"
+			(uuid "0bab12e8-e9d6-446e-972f-f92c0247584f")
+		)
+		(pin "3"
+			(uuid "96076250-6aa8-45ab-84c2-20be73304f76")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/88bddcf3-091d-4999-8622-d323c703fd74/9cf15687-6528-4b32-9653-59c05414133f"
+					(reference "B1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "reekilib_pwr:VSS")
 		(at 67.31 153.67 0)
 		(unit 1)
@@ -4438,93 +4628,6 @@
 			(project "pandore"
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/88bddcf3-091d-4999-8622-d323c703fd74/9cf15687-6528-4b32-9653-59c05414133f"
 					(reference "#PWR0300")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "megaxone_mechanical:Tact_NO")
-		(at 76.2 127 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6f5e8bae-9a4e-4fc1-90f7-67e3f814f12b")
-		(property "Reference" "B1"
-			(at 77.47 125.73 90)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PWR"
-			(at 77.47 127 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "megaxone_mechanical:TACT_PTS810"
-			(at 80.01 127 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ckswitches.com/products/switches/product-details/Tactile/PTS810/"
-			(at 69.85 127 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 76.2 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "PTS810 SJM 250 SMTR LFS"
-			(at 80.645 122.555 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-		)
-		(property "DNP" "0"
-			(at 76.2 127 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c869399e-5403-404a-8e5d-6f13fde60f6e")
-		)
-		(pin "4"
-			(uuid "5ddc2541-a14b-49e3-8da8-72323d964c1e")
-		)
-		(instances
-			(project ""
-				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/88bddcf3-091d-4999-8622-d323c703fd74/9cf15687-6528-4b32-9653-59c05414133f"
-					(reference "B1")
 					(unit 1)
 				)
 			)
@@ -6361,6 +6464,118 @@
 		)
 	)
 	(symbol
+		(lib_id "reekilib_msw:mom_tact_no")
+		(at 76.2 151.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8ff4677-9bad-4a6a-a943-5d288a4a6514")
+		(property "Reference" "B2"
+			(at 72.39 151.13 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "mom_tact_no"
+			(at 70.485 151.13 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "reekilib_msw:tact_460X320X250"
+			(at 82.55 151.13 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ckswitches.com/media/1476/pts810.pdf"
+			(at 83.82 151.13 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Momentary tactile button, normally-open"
+			(at 81.28 151.13 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PTS810 SJM 250 SMTR LFS"
+			(at 78.74 151.13 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "C&K Switches"
+			(at 78.74 132.08 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.ckswitches.com/products/switches/product-details/Tactile/PTS810/"
+			(at 78.74 116.205 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "34dcf7a2-f707-492b-a7f7-d17b7fde6ccb")
+		)
+		(pin "4"
+			(uuid "8ed86a45-293f-4c6d-8d17-82ae5ed9a722")
+		)
+		(pin "1"
+			(uuid "fe0077fd-d062-47b6-899c-e60e3f41d3e4")
+		)
+		(pin "3"
+			(uuid "f4d3c0fb-3154-486b-bc78-d88c876df145")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/88bddcf3-091d-4999-8622-d323c703fd74/9cf15687-6528-4b32-9653-59c05414133f"
+					(reference "B2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "reekilib_res:res")
 		(at 64.77 63.5 0)
 		(unit 1)
@@ -7278,93 +7493,6 @@
 			(project "pandore"
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/88bddcf3-091d-4999-8622-d323c703fd74/9cf15687-6528-4b32-9653-59c05414133f"
 					(reference "R210")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "megaxone_mechanical:Tact_NO")
-		(at 76.2 151.13 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dd2817d3-7e35-41c3-bd51-b498d95f37ba")
-		(property "Reference" "B2"
-			(at 77.47 149.86 90)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "RST"
-			(at 77.47 151.13 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "megaxone_mechanical:TACT_PTS810"
-			(at 80.01 151.13 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ckswitches.com/products/switches/product-details/Tactile/PTS810/"
-			(at 69.85 151.13 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 76.2 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "PTS810 SJM 250 SMTR LFS"
-			(at 80.645 146.685 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-		)
-		(property "DNP" "0"
-			(at 76.2 151.13 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "183707e3-7c6a-4624-8ec5-f88e0eadc39e")
-		)
-		(pin "4"
-			(uuid "65df8c6c-09b5-4e01-8a03-56bc8dbc74ec")
-		)
-		(instances
-			(project "pandore"
-				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/88bddcf3-091d-4999-8622-d323c703fd74/9cf15687-6528-4b32-9653-59c05414133f"
-					(reference "B2")
 					(unit 1)
 				)
 			)

@@ -11,6 +11,151 @@
 		(company "${corp}")
 	)
 	(lib_symbols
+		(symbol "reekilib_con:hdr-1x2"
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Value" "hdr-1x2"
+				(at 0 -5.08 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Footprint" "footprint"
+				(at 0 -8.128 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "url-ds"
+				(at 0 -12.446 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "header 1row 2pin"
+				(at 0 -9.652 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "MPN"
+				(at 0 -6.604 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFG" "MFG"
+				(at 6.604 -6.604 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Link" "url-link"
+				(at 0 -11.176 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "header hdr"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "hdr-1x2_0_1"
+				(rectangle
+					(start -3.81 3.81)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "hdr-1x2_1_1"
+				(pin passive line
+					(at -7.62 1.27 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -1.27 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "reekilib_con:hdr-3x8"
 			(exclude_from_sim yes)
 			(in_bom yes)
@@ -577,6 +722,241 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "reekilib_msw:mom_tact_no"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "B"
+				(at 0 3.81 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Value" "mom_tact_no"
+				(at 0 5.715 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "reekilib_msw:tact_460X320X250"
+				(at 0 -6.35 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ckswitches.com/media/1476/pts810.pdf"
+				(at 0 -7.62 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Momentary tactile button, normally-open"
+				(at 0 -5.08 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "PTS810 SJM 250 SMTR LFS"
+				(at 0 -2.54 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFG" "C&K Switches"
+				(at 19.05 -2.54 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Link" "https://www.ckswitches.com/products/switches/product-details/Tactile/PTS810/"
+				(at 34.925 -2.54 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "reekilib_msw:tact_460X320X250 reekilib_msw:tact_350X355X135_horz"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "mom_tact_no_0_1"
+				(polyline
+					(pts
+						(xy -2.032 1.778) (xy 2.032 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 2.794) (xy 0.762 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "mom_tact_no_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(hide yes)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "reekilib_pwr:VDD"
 			(power)
 			(pin_numbers
@@ -749,6 +1129,234 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "reekilib_res:res"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 2.286 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "${Resistance}, ${Tolerance}, ${Power}"
+				(at 2.032 0.762 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "reekilib_res:RESC1005"
+				(at 0.254 -11.176 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.bourns.com/data/global/pdfs/CR.pdf"
+				(at 0 -14.224 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor single 2 pad"
+				(at 0 -12.7 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Link" "https://www.bourns.com/search?indexCatalogue=psindex&searchQuery=CR0402-FX-1002GLF*"
+				(at 0.254 -15.748 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Resistance" "10kΩ"
+				(at 2.032 0.762 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+				)
+			)
+			(property "Tolerance" "1%"
+				(at 2.032 -0.762 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+				)
+			)
+			(property "Power" "63mW"
+				(at 2.032 -2.286 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+				)
+			)
+			(property "MPN" "CR0402-FX-1002GLF"
+				(at 0 -17.78 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFG" "Bourns Inc"
+				(at 13.97 -17.526 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN2" "WR04X1002FTL"
+				(at -0.508 -19.558 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFG2" "Walsin Technology Corporation"
+				(at 14.224 -19.558 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN3" "RC0402FR-0710KL"
+				(at 0 -21.336 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFG3" "Yageo"
+				(at 14.224 -21.336 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor single"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "res_0_1"
+				(polyline
+					(pts
+						(xy 0 2.032) (xy -1.27 1.651) (xy 1.27 1.016) (xy -1.27 0.381) (xy 1.27 -0.254) (xy -1.27 -0.889)
+						(xy 1.27 -1.524) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "res_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.778)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.778)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1908,6 +2516,12 @@
 		(uuid "0fb8fb58-f6a5-45fc-8dda-fa8126933186")
 	)
 	(junction
+		(at 62.23 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1afdf317-b22a-42af-9488-facad7dfd2f5")
+	)
+	(junction
 		(at 269.24 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2052,6 +2666,12 @@
 		(uuid "a575b793-176d-4e80-a91d-7c5e6d3a29ed")
 	)
 	(junction
+		(at 60.96 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a92fdd06-dae5-4f6a-9b79-39071be2be52")
+	)
+	(junction
 		(at 269.24 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2169,7 +2789,7 @@
 		(uuid "1aa87b01-cbbe-4546-a660-ded97c32d6d4")
 	)
 	(bus_entry
-		(at 48.26 54.61)
+		(at 44.45 54.61)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -2385,7 +3005,7 @@
 		(uuid "b720d3e5-586e-41e2-8323-79bc03bea6e9")
 	)
 	(bus_entry
-		(at 48.26 57.15)
+		(at 44.45 57.15)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -2507,6 +3127,26 @@
 		)
 		(uuid "0981a46f-ec9e-4400-aa01-bd05114b9816")
 	)
+	(wire
+		(pts
+			(xy 62.23 59.69) (xy 62.23 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a74ae31-f1b0-4625-b23a-5054674334c3")
+	)
+	(wire
+		(pts
+			(xy 60.96 57.15) (xy 63.5 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0af076ba-3e31-44ef-bcf3-62f3000ff345")
+	)
 	(bus
 		(pts
 			(xy 157.8963 135.89) (xy 157.8963 138.43)
@@ -2586,6 +3226,16 @@
 			(type default)
 		)
 		(uuid "1579c6c9-c128-4557-956c-e34cfa02ea9a")
+	)
+	(wire
+		(pts
+			(xy 60.96 66.04) (xy 57.15 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "164496c8-5ff6-4610-956d-d9cfb57d4a6e")
 	)
 	(wire
 		(pts
@@ -2829,7 +3479,7 @@
 	)
 	(bus
 		(pts
-			(xy 46.99 52.07) (xy 63.5 52.07)
+			(xy 43.18 52.07) (xy 63.5 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3239,7 +3889,7 @@
 	)
 	(bus
 		(pts
-			(xy 48.26 54.61) (xy 48.26 57.15)
+			(xy 44.45 54.61) (xy 44.45 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3519,6 +4169,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 81.28) (xy 59.69 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e6a12cd-3d50-470e-aa56-da1e3e8ab795")
+	)
+	(wire
+		(pts
 			(xy 160.4363 111.76) (xy 171.45 111.76)
 		)
 		(stroke
@@ -3597,9 +4257,19 @@
 		)
 		(uuid "a0673a1e-7fed-406a-bdd1-07d72cc7a858")
 	)
+	(wire
+		(pts
+			(xy 62.23 59.69) (xy 63.5 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1327b06-2626-4ca0-b804-cd3165112aac")
+	)
 	(bus
 		(pts
-			(xy 46.99 54.61) (xy 48.26 54.61)
+			(xy 43.18 54.61) (xy 44.45 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3709,7 +4379,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 59.69) (xy 63.5 59.69)
+			(xy 46.99 59.69) (xy 62.23 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3859,13 +4529,23 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 57.15) (xy 63.5 57.15)
+			(xy 46.99 57.15) (xy 60.96 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bde65ae5-26ac-4fac-b01f-cebfe2c026df")
+	)
+	(wire
+		(pts
+			(xy 60.96 57.15) (xy 60.96 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf0a669e-14c2-419e-9472-b247d08efb94")
 	)
 	(bus
 		(pts
@@ -4089,6 +4769,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 66.04) (xy 46.99 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da09d799-9c80-4b9b-aefe-4dbab0614279")
+	)
+	(wire
+		(pts
 			(xy 269.24 106.68) (xy 269.24 109.22)
 		)
 		(stroke
@@ -4247,6 +4937,16 @@
 		)
 		(uuid "eb7ceb27-527f-4d2c-8e8b-2de1c53cf2be")
 	)
+	(wire
+		(pts
+			(xy 36.83 66.04) (xy 36.83 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed5dfe62-4c64-464b-ab4b-0b2fd84cca14")
+	)
 	(bus
 		(pts
 			(xy 157.8963 130.81) (xy 157.8963 133.35)
@@ -4306,6 +5006,16 @@
 			(type default)
 		)
 		(uuid "fe30a43b-5ec9-4a74-9fea-ffbc2b9d2bf4")
+	)
+	(wire
+		(pts
+			(xy 52.07 81.28) (xy 46.99 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe8b04d3-c91a-4124-a75a-a7f68df9bfc2")
 	)
 	(label "RTIO.DIO6"
 		(at 161.7063 125.73 0)
@@ -4418,7 +5128,7 @@
 		(uuid "3e348a11-1219-4cb2-9727-ff018678f292")
 	)
 	(label "CTL.~{USBBOOT}"
-		(at 52.07 59.69 0)
+		(at 48.26 59.69 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -4498,7 +5208,7 @@
 		(uuid "a382fbc3-e026-4df7-ac40-6bcee9125878")
 	)
 	(label "CTL.~{RST}"
-		(at 52.07 57.15 0)
+		(at 48.26 57.15 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -4649,7 +5359,7 @@
 	)
 	(hierarchical_label "USB{USB2}"
 		(shape bidirectional)
-		(at 46.99 52.07 180)
+		(at 43.18 52.07 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -4660,7 +5370,7 @@
 	)
 	(hierarchical_label "CTL{~{RST} ~{USBBOOT}}"
 		(shape input)
-		(at 46.99 54.61 180)
+		(at 43.18 54.61 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -5971,6 +6681,173 @@
 		)
 	)
 	(symbol
+		(lib_id "reekilib_pwr:VSS")
+		(at 36.83 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "3bcf1ed7-a2a7-4da2-bb5a-e992ddd3c122")
+		(property "Reference" "#PWR0321"
+			(at 36.83 73.025 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSS"
+			(at 36.83 71.12 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 68.58 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 66.04 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 36.83 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c0e2b74-3fa2-48e3-a763-35fe3bf8e35b")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/f774142b-755f-468a-93e0-eecae9257f8f"
+					(reference "#PWR0321")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_con:hdr-1x2")
+		(at 45.72 73.66 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "423153ad-8765-4ed4-9575-43fbc6ac7092")
+		(property "Reference" "JMP14"
+			(at 45.72 68.58 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "USBBOOT"
+			(at 45.72 71.12 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "reekilib_con:HDR254P1X02-TH"
+			(at 53.848 73.66 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.166 73.66 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "header 1row 2pin"
+			(at 55.372 73.66 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 52.324 73.66 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 52.324 67.056 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 56.896 73.66 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af03b592-022e-4f7f-9fea-7dff0aa5a55d")
+		)
+		(pin "2"
+			(uuid "e7be592b-08a2-454b-86e9-1633e3f63fac")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/f774142b-755f-468a-93e0-eecae9257f8f"
+					(reference "JMP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "reekilib_res:res_4")
 		(at 175.26 100.33 90)
 		(unit 1)
@@ -6599,6 +7476,184 @@
 		)
 	)
 	(symbol
+		(lib_id "reekilib_res:res")
+		(at 55.88 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "592e66c4-247c-47f4-adc3-a01af77f770a")
+		(property "Reference" "R244"
+			(at 55.245 78.994 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "${Resistance}, ${Tolerance}, ${Power}"
+			(at 55.118 79.248 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "reekilib_res:RESC1005"
+			(at 67.056 81.026 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 70.104 81.28 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor single 2 pad"
+			(at 68.58 81.28 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 71.628 81.026 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "1kΩ"
+			(at 55.245 77.47 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 55.88 78.994 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Power" "63mW"
+			(at 55.88 77.47 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "MPN" ""
+			(at 73.66 81.28 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 73.406 67.31 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN2" ""
+			(at 75.438 81.788 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG2" ""
+			(at 75.438 67.056 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN3" ""
+			(at 77.216 81.28 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG3" ""
+			(at 77.216 67.056 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "66198cb1-8cc5-43be-9306-18cd7b041011")
+		)
+		(pin "1"
+			(uuid "d10e47e7-2f78-44bb-a621-58ef471b214f")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/f774142b-755f-468a-93e0-eecae9257f8f"
+					(reference "R244")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "reekilib_res:res_4")
 		(at 175.26 127 90)
 		(unit 1)
@@ -6947,6 +8002,118 @@
 		)
 	)
 	(symbol
+		(lib_id "reekilib_msw:mom_tact_no")
+		(at 41.91 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b0993f3-b2b1-414e-9c14-3a4d61b08842")
+		(property "Reference" "B4"
+			(at 41.91 62.23 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "mom_tact_no"
+			(at 41.91 60.325 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "reekilib_msw:tact_460X320X250"
+			(at 41.91 72.39 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ckswitches.com/media/1476/pts810.pdf"
+			(at 41.91 73.66 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Momentary tactile button, normally-open"
+			(at 41.91 71.12 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PTS810 SJM 250 SMTR LFS"
+			(at 41.91 68.58 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "C&K Switches"
+			(at 60.96 68.58 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.ckswitches.com/products/switches/product-details/Tactile/PTS810/"
+			(at 76.835 68.58 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1655fde1-fddb-4b3f-abf5-a8d5742809aa")
+		)
+		(pin "4"
+			(uuid "517fea63-daf9-41ff-a764-ef089a66c7e1")
+		)
+		(pin "1"
+			(uuid "de44e350-90ec-489b-b54e-744a4b8dacfa")
+		)
+		(pin "3"
+			(uuid "983f2edd-4309-47a8-82ef-5877071a8a26")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/f774142b-755f-468a-93e0-eecae9257f8f"
+					(reference "B4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "reekilib_tvs:diode_tvsbi_4")
 		(at 190.5 152.4 0)
 		(unit 1)
@@ -7089,6 +8256,248 @@
 			(project "pandore"
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/f774142b-755f-468a-93e0-eecae9257f8f"
 					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_pwr:VSS")
+		(at 44.45 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "ad5940d2-1c60-4283-ba2b-fb2ff8b05180")
+		(property "Reference" "#PWR0322"
+			(at 44.45 86.995 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSS"
+			(at 44.45 85.09 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 82.55 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 80.01 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b1992d6-ea76-44e9-96cd-14a4ae9aa8b5")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/f774142b-755f-468a-93e0-eecae9257f8f"
+					(reference "#PWR0322")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_res:res")
+		(at 53.34 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bda141ed-b602-47c1-8997-2e0e7d78f205")
+		(property "Reference" "R243"
+			(at 52.705 63.754 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "${Resistance}, ${Tolerance}, ${Power}"
+			(at 52.578 64.008 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "reekilib_res:RESC1005"
+			(at 64.516 65.786 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.564 66.04 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor single 2 pad"
+			(at 66.04 66.04 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 69.088 65.786 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "1kΩ"
+			(at 52.705 62.23 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 53.34 63.754 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Power" "63mW"
+			(at 53.34 62.23 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "MPN" ""
+			(at 71.12 66.04 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 70.866 52.07 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN2" ""
+			(at 72.898 66.548 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG2" ""
+			(at 72.898 51.816 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN3" ""
+			(at 74.676 66.04 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG3" ""
+			(at 74.676 51.816 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e6aafb10-ecf8-4d69-a9c3-c89764ca9bdf")
+		)
+		(pin "1"
+			(uuid "a8786853-a1e7-4229-ae56-a220ed7d787e")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/f774142b-755f-468a-93e0-eecae9257f8f"
+					(reference "R243")
 					(unit 1)
 				)
 			)
