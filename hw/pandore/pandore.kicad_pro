@@ -580,8 +580,8 @@
       },
       {
         "bus_width": 12,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.25,
         "line_style": 0,
         "name": "D100Ω",
         "pcb_color": "rgb(194, 0, 194)",
@@ -594,8 +594,8 @@
       },
       {
         "bus_width": 12,
-        "diff_pair_gap": 0.127,
-        "diff_pair_width": 0.127,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.185,
         "line_style": 0,
         "name": "D120Ω",
         "pcb_color": "rgb(255, 0, 255)",
@@ -608,8 +608,8 @@
       },
       {
         "bus_width": 12,
-        "diff_pair_gap": 0.3,
-        "diff_pair_width": 0.127,
+        "diff_pair_gap": 0.15,
+        "diff_pair_width": 0.28,
         "line_style": 0,
         "name": "D90Ω",
         "pcb_color": "rgb(132, 0, 132)",
@@ -1111,6 +1111,12 @@
       ],
       "/Computer/Computer module/I2C4.SDA": [
         "I2C"
+      ],
+      "/Computer/Computer module/SYSCPU.PWM": [
+        "PWM"
+      ],
+      "/Computer/Computer module/SYSCPU.TAC": [
+        "PWM"
       ],
       "/Computer/DDIB.CLK+": [
         "D100Ω"
@@ -1730,6 +1736,18 @@
       "/Real-Time MCU/RTIO.AIO7": [
         "ANA"
       ],
+      "/USB ports/USB2H.VUSB": [
+        "PWR"
+      ],
+      "/USB ports/USB2L.VUSB": [
+        "PWR"
+      ],
+      "/USB ports/USB3H.VUSB": [
+        "PWR"
+      ],
+      "/USB ports/USB3L.VUSB": [
+        "PWR"
+      ],
       "/USB ports/_USB3HIGH.SSTX+": [
         "D90Ω"
       ],
@@ -1832,6 +1850,9 @@
       "Net-(D36-C)": [
         "PWR"
       ],
+      "Net-(D42-A)": [
+        "PWM"
+      ],
       "Net-(D6-Pad1)": [
         "ANA"
       ],
@@ -1905,6 +1926,9 @@
         "PWR"
       ],
       "Net-(J27-Pad4)": [
+        "PWM"
+      ],
+      "Net-(J38-Pad4)": [
         "PWM"
       ],
       "Net-(J8-SHD)": [
@@ -2069,10 +2093,19 @@
       "Net-(U23-OUTE)": [
         "I2S"
       ],
+      "Net-(U26A-IN-)": [
+        "ANA"
+      ],
+      "Net-(U26B-IN-)": [
+        "ANA"
+      ],
       "Net-(U27-FB)": [
         "ANA"
       ],
       "Net-(U27-OUT)": [
+        "PWR"
+      ],
+      "Net-(U33-OUT)": [
         "PWR"
       ],
       "Net-(U3A-VREG.AVDD)": [
@@ -2133,6 +2166,9 @@
         "PWR"
       ],
       "V3P3": [
+        "PWR"
+      ],
+      "V3P3AUD": [
         "PWR"
       ],
       "V5": [

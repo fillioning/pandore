@@ -2878,6 +2878,12 @@
 		(uuid "494c5b79-0e67-4ee8-b216-d9eb5143ca57")
 	)
 	(junction
+		(at 109.22 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50270532-a34c-4520-a5b6-2cece3e02a44")
+	)
+	(junction
 		(at 107.95 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2954,12 +2960,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b6c78d18-1d91-46df-abfe-05073a1ed85c")
-	)
-	(junction
-		(at 109.22 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d4f6eb92-ac04-4db2-b708-ffdfa6614dbd")
 	)
 	(junction
 		(at 110.49 125.73)
@@ -4262,16 +4262,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 111.76) (xy 109.22 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1aefac0-da2f-45bf-9ec1-61256a577fbc")
-	)
-	(wire
-		(pts
 			(xy 162.56 50.8) (xy 184.15 50.8)
 		)
 		(stroke
@@ -4289,6 +4279,16 @@
 			(type default)
 		)
 		(uuid "d3ebe7c7-a40f-4e21-87d0-499b841b38cd")
+	)
+	(wire
+		(pts
+			(xy 109.22 111.76) (xy 110.49 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4df309a-99bc-483d-89fb-bbda2c58b18f")
 	)
 	(wire
 		(pts
@@ -5731,6 +5731,70 @@
 		)
 	)
 	(symbol
+		(lib_id "reekilib_pwr:VDD")
+		(at 119.38 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "11354bf2-0d2c-4981-9252-8b54961062b3")
+		(property "Reference" "#PWR0243"
+			(at 119.38 62.865 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V3P3AUD"
+			(at 119.38 64.77 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 66.04 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 66.04 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39735505-f267-46bb-ae7a-a2656ea2f33c")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/07e56b51-9be1-414d-8c59-faa1629d64d5"
+					(reference "#PWR0243")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "reekilib_cap:cap")
 		(at 119.38 135.89 0)
 		(mirror y)
@@ -6952,70 +7016,6 @@
 		)
 	)
 	(symbol
-		(lib_id "reekilib_pwr:VDD")
-		(at 119.38 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "5c483817-9d4d-4b40-a099-cbfe321bf270")
-		(property "Reference" "#PWR0244"
-			(at 119.38 127.635 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "V3P3"
-			(at 119.38 129.54 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 130.81 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 130.81 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 119.38 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "61c7bff5-05a1-4d5a-ba86-2a8c55ae2669")
-		)
-		(instances
-			(project "pandore"
-				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/07e56b51-9be1-414d-8c59-faa1629d64d5"
-					(reference "#PWR0244")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "reekilib_res:res_4")
 		(at 82.55 88.9 90)
 		(unit 1)
@@ -7893,6 +7893,70 @@
 		)
 	)
 	(symbol
+		(lib_id "reekilib_pwr:VDD")
+		(at 109.22 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "99a2dc17-b907-49e8-a37f-e5f8b85f9a21")
+		(property "Reference" "#PWR0248"
+			(at 109.22 107.315 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V3P3AUD"
+			(at 109.22 109.22 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "804e2ace-3165-4486-a798-b8cb7f75ba74")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/07e56b51-9be1-414d-8c59-faa1629d64d5"
+					(reference "#PWR0248")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "reekilib_con:hdr-1x8")
 		(at 222.25 54.61 0)
 		(unit 1)
@@ -8364,15 +8428,15 @@
 	)
 	(symbol
 		(lib_id "reekilib_pwr:VDD")
-		(at 119.38 66.04 0)
+		(at 119.38 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
 		(dnp no)
-		(uuid "b5e2a8b9-8f4a-420c-9ef8-3fb92e16b514")
-		(property "Reference" "#PWR0243"
-			(at 119.38 62.865 0)
+		(uuid "b5632fc1-92fe-4fac-b19a-33af5db0055b")
+		(property "Reference" "#PWR0244"
+			(at 119.38 127.635 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8381,8 +8445,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "V3P3"
-			(at 119.38 64.77 0)
+		(property "Value" "V3P3AUD"
+			(at 119.38 129.54 0)
 			(effects
 				(font
 					(size 1 1)
@@ -8390,7 +8454,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 66.04 0)
+			(at 119.38 130.81 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8398,7 +8462,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 66.04 0)
+			(at 119.38 130.81 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8406,7 +8470,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 119.38 66.04 0)
+			(at 119.38 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8415,12 +8479,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "6f416ebf-ca8f-4c69-8eb3-79f6745690e5")
+			(uuid "3ee7de54-30f2-4235-b57f-29e35d79078d")
 		)
 		(instances
 			(project "pandore"
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/07e56b51-9be1-414d-8c59-faa1629d64d5"
-					(reference "#PWR0243")
+					(reference "#PWR0244")
 					(unit 1)
 				)
 			)
@@ -8485,70 +8549,6 @@
 			(project "pandore"
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/07e56b51-9be1-414d-8c59-faa1629d64d5"
 					(reference "#PWR0246")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "reekilib_pwr:VDD")
-		(at 109.22 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "bbab1ff3-9da7-423a-a8eb-8d32d8bb434c")
-		(property "Reference" "#PWR0248"
-			(at 109.22 107.315 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "V3P3"
-			(at 109.22 109.22 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 110.49 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 110.49 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 109.22 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e3f0e147-c7b0-4bc5-a26d-96fad53b8f60")
-		)
-		(instances
-			(project "pandore"
-				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/07e56b51-9be1-414d-8c59-faa1629d64d5"
-					(reference "#PWR0248")
 					(unit 1)
 				)
 			)

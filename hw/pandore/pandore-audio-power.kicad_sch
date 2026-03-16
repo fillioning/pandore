@@ -3371,6 +3371,44 @@
 						)
 					)
 				)
+				(pin no_connect non_logic
+					(at 0 22.86 270)
+					(length 3.81)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect non_logic
+					(at 2.54 22.86 270)
+					(length 3.81)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_out line
 					(at 16.51 16.51 180)
 					(length 3.81)
@@ -20627,6 +20665,12 @@
 		)
 		(pin "2"
 			(uuid "4b412b48-c72f-4b2f-8c93-c9bbe413d094")
+		)
+		(pin "12"
+			(uuid "45ab5e6b-0e40-45fa-a0a6-e268b59e141c")
+		)
+		(pin "15"
+			(uuid "97a70886-c038-4c9f-9576-fa6ea724370d")
 		)
 		(instances
 			(project ""

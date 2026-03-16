@@ -2288,7 +2288,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "reekilib_log:x4xxxx1G04"
+		(symbol "reekilib_log:x4xxxx1G17"
 			(pin_names
 				(offset 1.016)
 			)
@@ -2305,7 +2305,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "x4xxxx1G04"
+			(property "Value" "x4xxxx1G17"
 				(at -3.81 6.35 0)
 				(do_not_autoplace)
 				(effects
@@ -2325,7 +2325,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74auc1g04.pdf?ts=1723562622535&ref_url=https%253A%252F%252Fwww.mouser.tw%252F"
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC1G17.pdf"
 				(at 0 -12.7 0)
 				(do_not_autoplace)
 				(effects
@@ -2335,7 +2335,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "logic buffer high-speed sot"
+			(property "Description" "logic buffer schmitt-trigger"
 				(at 0 -11.43 0)
 				(do_not_autoplace)
 				(effects
@@ -2345,7 +2345,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "SN74AUC1G04DCKR"
+			(property "MPN" "74LVC1G17GV,125"
 				(at 0 -6.35 0)
 				(do_not_autoplace)
 				(effects
@@ -2355,7 +2355,7 @@
 					(hide yes)
 				)
 			)
-			(property "MFG" "TI"
+			(property "MFG" "Nexperia USA Inc."
 				(at 15.24 -6.35 0)
 				(do_not_autoplace)
 				(effects
@@ -2366,7 +2366,7 @@
 					(hide yes)
 				)
 			)
-			(property "Link" "https://www.ti.com/product/SN74AUC1G04"
+			(property "Link" "https://www.nexperia.com/product/74LVC1G17GV"
 				(at 31.75 -6.35 0)
 				(do_not_autoplace)
 				(effects
@@ -2385,7 +2385,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "logic buffer high-speed sot"
+			(property "ki_keywords" "logic buffer schmitt-trigger"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2394,7 +2394,64 @@
 					(hide yes)
 				)
 			)
-			(symbol "x4xxxx1G04_1_1"
+			(property "ki_fp_filters" "reekilib_sot:SOT65P210X90-5 reekilib_sot:SOT95P280X100-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "x4xxxx1G17_1_1"
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -4.572 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 -1.27) (xy -1.524 -1.27) (xy -1.016 1.27) (xy -0.254 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -1.27) (xy -2.032 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -1.27) (xy -0.762 -1.27) (xy -0.254 1.27) (xy 0.508 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 3.81 0) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0)
@@ -2408,8 +2465,8 @@
 					)
 				)
 				(pin input line
-					(at -7.62 0 0)
-					(length 3.81)
+					(at -10.16 0 0)
+					(length 5.715)
 					(name "A"
 						(effects
 							(font
@@ -2426,8 +2483,8 @@
 					)
 				)
 				(pin output line
-					(at 7.62 0 180)
-					(length 3.81)
+					(at 10.16 0 180)
+					(length 6.35)
 					(name "Y"
 						(effects
 							(font
@@ -2444,7 +2501,7 @@
 					)
 				)
 			)
-			(symbol "x4xxxx1G04_2_1"
+			(symbol "x4xxxx1G17_2_1"
 				(rectangle
 					(start -5.08 5.08)
 					(end 5.08 -5.08)
@@ -2454,6 +2511,25 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(pin no_connect non_logic
+					(at -8.89 0 0)
+					(length 3.81)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 				(pin power_in line
@@ -5807,6 +5883,16 @@
 		)
 		(uuid "2f78e973-9d34-4a8a-b219-0e9cead8f079")
 	)
+	(wire
+		(pts
+			(xy 238.76 142.24) (xy 256.54 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fee74e4-da06-4f02-a560-442df123386a")
+	)
 	(bus
 		(pts
 			(xy 149.86 139.7) (xy 149.86 142.24)
@@ -6659,7 +6745,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 142.24) (xy 220.98 142.24)
+			(xy 213.36 142.24) (xy 218.44 142.24)
 		)
 		(stroke
 			(width 0)
@@ -7316,16 +7402,6 @@
 			(type default)
 		)
 		(uuid "c5a12b68-8406-4839-8459-a1aff0d5a057")
-	)
-	(wire
-		(pts
-			(xy 236.22 142.24) (xy 256.54 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5d6aa5b-9d40-4324-af8f-c428da0018b3")
 	)
 	(bus
 		(pts
@@ -8345,7 +8421,7 @@
 		(uuid "92fcaae1-b299-4a20-9f0a-bccf30707e38")
 	)
 	(label "RGBA.O"
-		(at 238.76 142.24 0)
+		(at 240.03 142.24 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -8385,7 +8461,7 @@
 		(uuid "aa840f79-e43e-49a6-b68e-651ce3f87255")
 	)
 	(label "RGBA.D"
-		(at 219.71 142.24 180)
+		(at 217.17 142.24 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -9480,119 +9556,6 @@
 			(project "pandore"
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/57ec90ce-deb5-4a52-b1c0-0a997012959b"
 					(reference "R187")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "reekilib_log:x4xxxx1G04")
-		(at 228.6 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "18de16f8-d292-4644-be57-9b81c25c52cb")
-		(property "Reference" "U25"
-			(at 224.79 134.62 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "x4xxxx1G04"
-			(at 224.79 135.89 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "reekilib_sot:SOT65P210X90-5"
-			(at 228.6 152.4 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74auc1g04.pdf?ts=1723562622535&ref_url=https%253A%252F%252Fwww.mouser.tw%252F"
-			(at 228.6 154.94 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "logic buffer high-speed sot"
-			(at 228.6 153.67 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SN74AUC1G04DCKR"
-			(at 228.6 148.59 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "TI"
-			(at 243.84 148.59 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.ti.com/product/SN74AUC1G04"
-			(at 260.35 148.59 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "26ced949-8da0-48e6-a3cf-72ea3f46742e")
-		)
-		(pin "4"
-			(uuid "f795202b-2d14-41a2-a7c0-fa8e6de37f0c")
-		)
-		(pin "5"
-			(uuid "a56b8a07-c084-419e-adda-43505585b6b2")
-		)
-		(pin "3"
-			(uuid "382b8d30-aaab-4752-a417-e547502e1510")
-		)
-		(instances
-			(project ""
-				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/57ec90ce-deb5-4a52-b1c0-0a997012959b"
-					(reference "U25")
 					(unit 1)
 				)
 			)
@@ -12094,119 +12057,6 @@
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/57ec90ce-deb5-4a52-b1c0-0a997012959b"
 					(reference "R189")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "reekilib_log:x4xxxx1G04")
-		(at 224.79 154.94 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "53f4f926-a14a-434f-a161-1e685f2198c1")
-		(property "Reference" "U25"
-			(at 220.98 147.32 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "x4xxxx1G04"
-			(at 220.98 148.59 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "reekilib_sot:SOT65P210X90-5"
-			(at 224.79 165.1 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74auc1g04.pdf?ts=1723562622535&ref_url=https%253A%252F%252Fwww.mouser.tw%252F"
-			(at 224.79 167.64 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "logic buffer high-speed sot"
-			(at 224.79 166.37 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SN74AUC1G04DCKR"
-			(at 224.79 161.29 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "TI"
-			(at 240.03 161.29 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.ti.com/product/SN74AUC1G04"
-			(at 256.54 161.29 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "26ced949-8da0-48e6-a3cf-72ea3f46742f")
-		)
-		(pin "4"
-			(uuid "f795202b-2d14-41a2-a7c0-fa8e6de37f0d")
-		)
-		(pin "5"
-			(uuid "a56b8a07-c084-419e-adda-43505585b6b3")
-		)
-		(pin "3"
-			(uuid "382b8d30-aaab-4752-a417-e547502e1511")
-		)
-		(instances
-			(project ""
-				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/57ec90ce-deb5-4a52-b1c0-0a997012959b"
-					(reference "U25")
-					(unit 2)
 				)
 			)
 		)
@@ -14739,6 +14589,122 @@
 			(project "pandore"
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/57ec90ce-deb5-4a52-b1c0-0a997012959b"
 					(reference "C225")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_log:x4xxxx1G17")
+		(at 228.6 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9fe83e74-a6bc-4b84-a737-749d9fbcd48a")
+		(property "Reference" "U25"
+			(at 224.79 134.62 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "x4xxxx1G17"
+			(at 224.79 135.89 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "reekilib_sot:SOT65P210X90-5"
+			(at 228.6 152.4 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC1G17.pdf"
+			(at 228.6 154.94 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "logic buffer schmitt-trigger"
+			(at 228.6 153.67 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "74LVC1G17GV,125"
+			(at 228.6 148.59 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Nexperia USA Inc."
+			(at 243.84 148.59 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.nexperia.com/product/74LVC1G17GV"
+			(at 260.35 148.59 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "ed56e428-ff72-43ac-b5af-459bee5c6ab3")
+		)
+		(pin "2"
+			(uuid "967e2bbd-dedb-4edf-a2c9-8bde76acaf56")
+		)
+		(pin "3"
+			(uuid "2279c94a-dbbf-4f9a-95e7-99e56ee8e54d")
+		)
+		(pin "5"
+			(uuid "332f18b9-e3cb-4120-9e6a-c331c5ad25d0")
+		)
+		(pin "1"
+			(uuid "ed709366-85c5-4e2a-96c1-352c6f37f01b")
+		)
+		(instances
+			(project ""
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/57ec90ce-deb5-4a52-b1c0-0a997012959b"
+					(reference "U25")
 					(unit 1)
 				)
 			)
@@ -17832,6 +17798,122 @@
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/57ec90ce-deb5-4a52-b1c0-0a997012959b"
 					(reference "D27")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_log:x4xxxx1G17")
+		(at 224.79 154.94 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f369fb41-fbe0-4361-b3a9-fac9f5f75ec2")
+		(property "Reference" "U25"
+			(at 220.98 147.32 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "x4xxxx1G17"
+			(at 220.98 148.59 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "reekilib_sot:SOT65P210X90-5"
+			(at 224.79 165.1 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC1G17.pdf"
+			(at 224.79 167.64 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "logic buffer schmitt-trigger"
+			(at 224.79 166.37 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "74LVC1G17GV,125"
+			(at 224.79 161.29 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Nexperia USA Inc."
+			(at 240.03 161.29 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.nexperia.com/product/74LVC1G17GV"
+			(at 256.54 161.29 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "ed56e428-ff72-43ac-b5af-459bee5c6ab4")
+		)
+		(pin "2"
+			(uuid "967e2bbd-dedb-4edf-a2c9-8bde76acaf57")
+		)
+		(pin "3"
+			(uuid "2279c94a-dbbf-4f9a-95e7-99e56ee8e54e")
+		)
+		(pin "5"
+			(uuid "332f18b9-e3cb-4120-9e6a-c331c5ad25d1")
+		)
+		(pin "1"
+			(uuid "534b9b31-cd0a-4099-9bc2-d79bb2b10a29")
+		)
+		(instances
+			(project ""
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/57ec90ce-deb5-4a52-b1c0-0a997012959b"
+					(reference "U25")
+					(unit 2)
 				)
 			)
 		)

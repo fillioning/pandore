@@ -494,6 +494,44 @@
 						(type none)
 					)
 				)
+				(pin no_connect non_logic
+					(at -12.7 -5.08 0)
+					(length 3.81)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect non_logic
+					(at -12.7 -7.62 0)
+					(length 3.81)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin output line
 					(at 12.7 5.08 180)
 					(length 3.81)
@@ -780,6 +818,44 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(pin no_connect non_logic
+					(at -12.7 -5.08 0)
+					(length 3.81)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect non_logic
+					(at -12.7 -7.62 0)
+					(length 3.81)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 				(pin output line
@@ -1740,6 +1816,289 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "reekilib_log:x4xxxx1G17"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 7.62 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "x4xxxx1G17"
+				(at -3.81 6.35 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "reekilib_sot:SOT65P210X90-5"
+				(at 0 -10.16 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC1G17.pdf"
+				(at 0 -12.7 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "logic buffer schmitt-trigger"
+				(at 0 -11.43 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "74LVC1G17GV,125"
+				(at 0 -6.35 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFG" "Nexperia USA Inc."
+				(at 15.24 -6.35 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Link" "https://www.nexperia.com/product/74LVC1G17GV"
+				(at 31.75 -6.35 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "logic buffer schmitt-trigger"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "reekilib_sot:SOT65P210X90-5 reekilib_sot:SOT95P280X100-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "x4xxxx1G17_1_1"
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -4.572 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 -1.27) (xy -1.524 -1.27) (xy -1.016 1.27) (xy -0.254 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -1.27) (xy -2.032 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -1.27) (xy -0.762 -1.27) (xy -0.254 1.27) (xy 0.508 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 5.715)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 6.35)
+					(name "Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "x4xxxx1G17_2_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin no_connect non_logic
+					(at -8.89 0 0)
+					(length 3.81)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 8.89 2.54 180)
+					(length 3.81)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 8.89 -2.54 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "reekilib_pwr:VDD"
 			(power)
 			(pin_numbers
@@ -2158,13 +2517,31 @@
 		(uuid "156fbf95-3780-4421-a7f4-1b14e1846f6d")
 	)
 	(junction
+		(at 147.32 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17590d85-8b3f-41c8-bc2b-21e820019ffa")
+	)
+	(junction
 		(at 152.4 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "350b40bf-a66a-4c8d-ac01-fa222a90356b")
 	)
 	(junction
-		(at 67.31 76.2)
+		(at 127 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f79b502-a45d-4e8c-88ff-58998d35b838")
+	)
+	(junction
+		(at 121.92 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "610be542-bca9-4b59-9156-1db8a88bdbcc")
+	)
+	(junction
+		(at 67.31 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "665fa87b-3177-45ec-b1a4-afbd80760aca")
@@ -2174,6 +2551,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6d9adaae-380b-468e-b028-b6577fbf2f40")
+	)
+	(junction
+		(at 127 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf460986-a5a9-439b-ad4c-e27f00e089e7")
 	)
 	(bus_entry
 		(at 241.3 30.48)
@@ -2185,7 +2568,7 @@
 		(uuid "09939e9e-0873-45e5-8e02-d7e8981d2e3b")
 	)
 	(bus_entry
-		(at 256.54 71.12)
+		(at 256.54 85.09)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -2203,7 +2586,7 @@
 		(uuid "7ec5993f-f654-45bb-b956-242f1676d0a3")
 	)
 	(bus_entry
-		(at 241.3 53.34)
+		(at 241.3 67.31)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -2213,7 +2596,27 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 74.93) (xy 67.31 74.93)
+			(xy 127 87.63) (xy 127 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02fc2c63-d3f2-4783-9dd7-cf265f644f58")
+	)
+	(wire
+		(pts
+			(xy 138.43 68.58) (xy 121.92 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09dd8545-92c6-4c6b-9959-3a0144ae9e7c")
+	)
+	(wire
+		(pts
+			(xy 66.04 88.9) (xy 67.31 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2273,7 +2676,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 77.47) (xy 67.31 77.47)
+			(xy 66.04 91.44) (xy 67.31 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2283,7 +2686,17 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 22.86) (xy 246.38 22.86)
+			(xy 143.51 78.74) (xy 147.32 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3339dd49-c6b5-43ad-922a-dcbebc570a37")
+	)
+	(wire
+		(pts
+			(xy 218.44 22.86) (xy 227.33 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2303,7 +2716,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 55.88) (xy 223.52 62.23)
+			(xy 223.52 69.85) (xy 223.52 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2323,7 +2736,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 22.86) (xy 260.35 22.86)
+			(xy 234.95 22.86) (xy 241.3 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2351,6 +2764,16 @@
 		)
 		(uuid "488c7dd2-03d1-428d-a95c-e6c58f74eefc")
 	)
+	(wire
+		(pts
+			(xy 147.32 78.74) (xy 226.06 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a4accca-4807-41f0-a22d-6385c2932c6d")
+	)
 	(bus
 		(pts
 			(xy 241.3 29.21) (xy 241.3 30.48)
@@ -2360,6 +2783,16 @@
 			(type default)
 		)
 		(uuid "4b1cdaac-d377-47d7-b05a-1185e7818c76")
+	)
+	(wire
+		(pts
+			(xy 121.92 78.74) (xy 123.19 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fcec79a-094e-4e54-b13a-370e8465802d")
 	)
 	(wire
 		(pts
@@ -2383,7 +2816,17 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 76.2) (xy 68.58 76.2)
+			(xy 127 93.98) (xy 128.27 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63232a62-47ac-41ea-b61b-1e760962ac60")
+	)
+	(wire
+		(pts
+			(xy 67.31 90.17) (xy 68.58 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2393,7 +2836,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 74.93) (xy 67.31 76.2)
+			(xy 67.31 88.9) (xy 67.31 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2403,7 +2846,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 76.2) (xy 67.31 77.47)
+			(xy 67.31 90.17) (xy 67.31 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2420,6 +2863,26 @@
 			(type default)
 		)
 		(uuid "6beaf799-d9b6-4717-876b-0dfe2f3c3c11")
+	)
+	(wire
+		(pts
+			(xy 146.05 68.58) (xy 147.32 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7208b78e-e924-4cd9-8212-afd8b2190cb2")
+	)
+	(wire
+		(pts
+			(xy 127 95.25) (xy 127 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "729db8d1-386a-422b-a385-f8e2f7104d4f")
 	)
 	(wire
 		(pts
@@ -2453,13 +2916,33 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 69.85) (xy 92.71 69.85)
+			(xy 127 88.9) (xy 128.27 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cb62a7d-5f91-4789-8b4f-06160eec0480")
+	)
+	(wire
+		(pts
+			(xy 66.04 83.82) (xy 92.71 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8360a038-f15c-4d40-8638-8cc4663160ca")
+	)
+	(wire
+		(pts
+			(xy 121.92 68.58) (xy 121.92 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b3b1ea9-1ea2-4c19-b938-6443743128ca")
 	)
 	(wire
 		(pts
@@ -2473,7 +2956,7 @@
 	)
 	(bus
 		(pts
-			(xy 256.54 48.26) (xy 256.54 71.12)
+			(xy 256.54 48.26) (xy 256.54 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2503,7 +2986,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 21.59) (xy 237.49 22.86)
+			(xy 218.44 21.59) (xy 218.44 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2513,7 +2996,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 73.66) (xy 223.52 67.31)
+			(xy 223.52 87.63) (xy 223.52 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2523,7 +3006,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 55.88) (xy 238.76 55.88)
+			(xy 223.52 69.85) (xy 238.76 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2543,7 +3026,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 60.96) (xy 92.71 69.85)
+			(xy 92.71 74.93) (xy 92.71 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2553,7 +3036,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 21.59) (xy 260.35 22.86)
+			(xy 241.3 21.59) (xy 241.3 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2563,7 +3046,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 76.2) (xy 77.47 76.2)
+			(xy 76.2 90.17) (xy 77.47 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2573,7 +3056,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 64.77) (xy 226.06 64.77)
+			(xy 85.09 78.74) (xy 121.92 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2583,7 +3066,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 73.66) (xy 254 73.66)
+			(xy 223.52 87.63) (xy 254 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2603,7 +3086,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 67.31) (xy 226.06 67.31)
+			(xy 223.52 81.28) (xy 226.06 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2613,7 +3096,7 @@
 	)
 	(bus
 		(pts
-			(xy 241.3 30.48) (xy 241.3 53.34)
+			(xy 241.3 30.48) (xy 241.3 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2623,7 +3106,17 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 76.2) (xy 77.47 81.28)
+			(xy 147.32 68.58) (xy 147.32 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6a30998-ee75-4fbf-b89c-96bbbf419674")
+	)
+	(wire
+		(pts
+			(xy 77.47 90.17) (xy 77.47 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2683,7 +3176,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 62.23) (xy 226.06 62.23)
+			(xy 223.52 76.2) (xy 226.06 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2723,7 +3216,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 64.77) (xy 77.47 64.77)
+			(xy 66.04 78.74) (xy 77.47 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2732,7 +3225,7 @@
 		(uuid "f4871518-b5c9-469e-9ef6-4aadd9cd6872")
 	)
 	(label "MCU.TX"
-		(at 236.22 55.88 180)
+		(at 236.22 69.85 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -2742,7 +3235,7 @@
 		(uuid "326c3bea-c3c9-41d1-9dc7-7b737f7eb6d7")
 	)
 	(label "MIDI.TX"
-		(at 224.79 64.77 180)
+		(at 224.79 78.74 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -2782,7 +3275,7 @@
 		(uuid "62d20bc4-6169-471a-9648-52811e33825c")
 	)
 	(label "CPU.TX"
-		(at 251.46 73.66 180)
+		(at 251.46 87.63 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -2816,7 +3309,7 @@
 	(netclass_flag ""
 		(length 1.27)
 		(shape diamond)
-		(at 241.3 22.86 0)
+		(at 222.25 22.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2826,7 +3319,7 @@
 		)
 		(uuid "1867a8db-cacd-445f-a8a3-fd07d69bd9a9")
 		(property "Netclass" "PWR"
-			(at 242.3973 21.59 0)
+			(at 223.3473 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2835,7 +3328,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 67.31 -13.97 0)
+			(at 48.26 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2845,8 +3338,190 @@
 		)
 	)
 	(symbol
+		(lib_id "reekilib_pwr:VSS")
+		(at 127 96.52 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "1187482f-e356-4bf8-af07-fb220fddedb6")
+		(property "Reference" "#PWR0335"
+			(at 127 100.965 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSS"
+			(at 127 99.06 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 96.52 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 93.98 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 127 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d410a4a8-ae87-4997-bb86-8eb7da662b15")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/22b3123e-4770-49db-9ca3-fb0ae5205bb3"
+					(reference "#PWR0335")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_log:x4xxxx1G17")
+		(at 133.35 78.74 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a00b723-4d89-4dce-8ce6-e63c2388fdc8")
+		(property "Reference" "U28"
+			(at 137.16 71.12 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "x4xxxx1G17"
+			(at 137.16 72.39 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "reekilib_sot:SOT65P210X90-5"
+			(at 133.35 88.9 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC1G17.pdf"
+			(at 133.35 91.44 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "logic buffer schmitt-trigger"
+			(at 133.35 90.17 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "74LVC1G17GV,125"
+			(at 133.35 85.09 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Nexperia USA Inc."
+			(at 118.11 85.09 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.nexperia.com/product/74LVC1G17GV"
+			(at 101.6 85.09 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "a4806745-ad6a-433d-90b5-06f7279c872a")
+		)
+		(pin "2"
+			(uuid "6682183a-66a1-44e5-9395-62bcc16ea825")
+		)
+		(pin "3"
+			(uuid "2279c94a-dbbf-4f9a-95e7-99e56ee8e54e")
+		)
+		(pin "5"
+			(uuid "332f18b9-e3cb-4120-9e6a-c331c5ad25d1")
+		)
+		(pin "1"
+			(uuid "6d9bf5ce-4870-487a-87c5-17e35d44d5e6")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/22b3123e-4770-49db-9ca3-fb0ae5205bb3"
+					(reference "U28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "reekilib_pwr:VDD")
-		(at 92.71 52.07 0)
+		(at 92.71 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2854,7 +3529,7 @@
 		(dnp no)
 		(uuid "1bdfb064-d522-4a1d-99ca-f92161bc9642")
 		(property "Reference" "#PWR095"
-			(at 92.71 48.895 0)
+			(at 92.71 62.865 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2864,7 +3539,7 @@
 			)
 		)
 		(property "Value" "VMIDI"
-			(at 92.71 50.8 0)
+			(at 92.71 64.77 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2872,7 +3547,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 52.07 0)
+			(at 92.71 66.04 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2880,7 +3555,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 52.07 0)
+			(at 92.71 66.04 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2888,7 +3563,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 92.71 52.07 0)
+			(at 92.71 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2974,7 +3649,7 @@
 	)
 	(symbol
 		(lib_id "reekilib_pwr:VSS")
-		(at 77.47 82.55 0)
+		(at 77.47 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2982,7 +3657,7 @@
 		(dnp no)
 		(uuid "2ed5fa5d-ee08-46a3-9d00-90d9cc1470fc")
 		(property "Reference" "#PWR090"
-			(at 77.47 86.995 0)
+			(at 77.47 100.965 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2992,7 +3667,7 @@
 			)
 		)
 		(property "Value" "VSS"
-			(at 77.47 85.09 0)
+			(at 77.47 99.06 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3000,7 +3675,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 82.55 0)
+			(at 77.47 96.52 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3008,7 +3683,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 80.01 0)
+			(at 77.47 93.98 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3016,7 +3691,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.47 82.55 0)
+			(at 77.47 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3031,6 +3706,207 @@
 			(project "pandore"
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/22b3123e-4770-49db-9ca3-fb0ae5205bb3"
 					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_cap:cap")
+		(at 127 91.44 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f804545-3075-4d25-9a26-7e79f1dfca5b")
+		(property "Reference" "C262"
+			(at 124.46 89.154 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "${Capacitance}, ${Voltage}, ${Dielectric}"
+			(at 124.46 90.678 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "reekilib_cap:CAPC1005"
+			(at 127 101.092 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
+			(at 127 105.918 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Non polarized capacitor"
+			(at 127 102.87 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.passivecomponent.com/product-search/MLCC/?partnumber=0402B104K160CT"
+			(at 127 104.394 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "100nF"
+			(at 124.46 90.678 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 124.46 92.202 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 124.46 93.726 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "0402B104K160CT"
+			(at 127 110.236 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Walsin Technology Corporation"
+			(at 115.062 110.236 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN2" "CL05B104KA5NNNC"
+			(at 127 111.76 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG2" "Samsung Electro-Mechanics"
+			(at 115.062 111.76 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN3" "EMK105B7104KV-F"
+			(at 127 113.284 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG3" "Taiyo Yuden"
+			(at 115.062 113.284 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN4" "CC0402KRX7R7BB104"
+			(at 127 114.808 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG4" "YAGEO"
+			(at 114.808 114.808 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cf276374-b199-41fa-95c4-775c95d8c946")
+		)
+		(pin "1"
+			(uuid "6b39bb93-8ca4-4ff9-be72-83b4b5185d63")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/22b3123e-4770-49db-9ca3-fb0ae5205bb3"
+					(reference "C262")
 					(unit 1)
 				)
 			)
@@ -3157,6 +4033,12 @@
 		)
 		(pin "2"
 			(uuid "7b886eb8-8dea-458e-9e69-5e739f3ae052")
+		)
+		(pin "3"
+			(uuid "634d8ef9-89d7-4bb5-b29a-b7cd05c066ef")
+		)
+		(pin "1"
+			(uuid "99368adb-853f-4b01-a1a9-f0c4fab7c7c4")
 		)
 		(instances
 			(project ""
@@ -3475,7 +4357,7 @@
 	)
 	(symbol
 		(lib_id "reekilib_res:res")
-		(at 92.71 57.15 180)
+		(at 92.71 71.12 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3483,7 +4365,7 @@
 		(dnp no)
 		(uuid "602b254a-4828-4281-be65-34be2aa6bc51")
 		(property "Reference" "R53"
-			(at 95.25 54.483 0)
+			(at 95.25 68.453 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3493,7 +4375,7 @@
 			)
 		)
 		(property "Value" "${Resistance}, ${Tolerance}, ${Power}"
-			(at 90.678 57.912 0)
+			(at 90.678 71.882 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3504,7 +4386,7 @@
 			)
 		)
 		(property "Footprint" "reekilib_res:RESC2012"
-			(at 92.456 45.974 0)
+			(at 92.456 59.944 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3514,7 +4396,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 42.926 0)
+			(at 92.71 56.896 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3524,7 +4406,7 @@
 			)
 		)
 		(property "Description" "Resistor single 2 pad"
-			(at 92.71 44.45 0)
+			(at 92.71 58.42 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3534,7 +4416,7 @@
 			)
 		)
 		(property "Resistance" "33Ω"
-			(at 95.25 56.007 0)
+			(at 95.25 69.977 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3544,7 +4426,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 95.25 57.531 0)
+			(at 95.25 71.501 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3554,7 +4436,7 @@
 			)
 		)
 		(property "Power" "250mW"
-			(at 95.25 59.055 0)
+			(at 95.25 73.025 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3564,7 +4446,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 92.71 39.37 0)
+			(at 92.71 53.34 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3574,7 +4456,7 @@
 			)
 		)
 		(property "MFG" ""
-			(at 78.74 39.624 0)
+			(at 78.74 53.594 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3585,7 +4467,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 92.456 41.402 0)
+			(at 92.456 55.372 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3595,7 +4477,7 @@
 			)
 		)
 		(property "MPN2" ""
-			(at 93.218 37.592 0)
+			(at 93.218 51.562 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3605,7 +4487,7 @@
 			)
 		)
 		(property "MFG2" ""
-			(at 78.486 37.592 0)
+			(at 78.486 51.562 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3616,7 +4498,7 @@
 			)
 		)
 		(property "MPN3" ""
-			(at 92.71 35.814 0)
+			(at 92.71 49.784 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3626,7 +4508,7 @@
 			)
 		)
 		(property "MFG3" ""
-			(at 78.486 35.814 0)
+			(at 78.486 49.784 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3646,6 +4528,70 @@
 			(project "pandore"
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/22b3123e-4770-49db-9ca3-fb0ae5205bb3"
 					(reference "R53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_pwr:VDD")
+		(at 127 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "75ce3683-d535-4c7e-aeb3-302655cdeaee")
+		(property "Reference" "#PWR0336"
+			(at 127 83.185 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VMIDI"
+			(at 127 85.09 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 86.36 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 86.36 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 127 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3976e680-8bd6-47a5-afa5-a4c466ba8468")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/22b3123e-4770-49db-9ca3-fb0ae5205bb3"
+					(reference "#PWR0336")
 					(unit 1)
 				)
 			)
@@ -3853,7 +4799,7 @@
 	)
 	(symbol
 		(lib_id "reekilib_res:res")
-		(at 81.28 64.77 90)
+		(at 81.28 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3861,7 +4807,7 @@
 		(dnp no)
 		(uuid "7aa65fb0-1c95-41fd-9bec-74eb0e622061")
 		(property "Reference" "R52"
-			(at 78.74 57.531 90)
+			(at 78.74 71.501 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3871,7 +4817,7 @@
 			)
 		)
 		(property "Value" "${Resistance}, ${Tolerance}, ${Power}"
-			(at 80.518 62.738 0)
+			(at 80.518 76.708 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3882,7 +4828,7 @@
 			)
 		)
 		(property "Footprint" "reekilib_res:RESC2012"
-			(at 92.456 64.516 0)
+			(at 92.456 78.486 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3892,7 +4838,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.504 64.77 0)
+			(at 95.504 78.74 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3902,7 +4848,7 @@
 			)
 		)
 		(property "Description" "Resistor single 2 pad"
-			(at 93.98 64.77 0)
+			(at 93.98 78.74 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3912,7 +4858,7 @@
 			)
 		)
 		(property "Resistance" "10Ω"
-			(at 78.74 59.055 90)
+			(at 78.74 73.025 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3922,7 +4868,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 78.74 60.579 90)
+			(at 78.74 74.549 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3932,7 +4878,7 @@
 			)
 		)
 		(property "Power" "250mW"
-			(at 78.74 62.103 90)
+			(at 78.74 76.073 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3942,7 +4888,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 99.06 64.77 0)
+			(at 99.06 78.74 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3952,7 +4898,7 @@
 			)
 		)
 		(property "MFG" ""
-			(at 98.806 50.8 0)
+			(at 98.806 64.77 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3963,7 +4909,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 97.028 64.516 0)
+			(at 97.028 78.486 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3973,7 +4919,7 @@
 			)
 		)
 		(property "MPN2" ""
-			(at 100.838 65.278 0)
+			(at 100.838 79.248 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3983,7 +4929,7 @@
 			)
 		)
 		(property "MFG2" ""
-			(at 100.838 50.546 0)
+			(at 100.838 64.516 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3994,7 +4940,7 @@
 			)
 		)
 		(property "MPN3" ""
-			(at 102.616 64.77 0)
+			(at 102.616 78.74 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4004,7 +4950,7 @@
 			)
 		)
 		(property "MFG3" ""
-			(at 102.616 50.546 0)
+			(at 102.616 64.516 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4159,7 +5105,7 @@
 	)
 	(symbol
 		(lib_id "reekilib_pwr:VDD")
-		(at 237.49 20.32 0)
+		(at 218.44 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4167,7 +5113,7 @@
 		(dnp no)
 		(uuid "8586521f-b022-42bd-a121-878aa1a50de6")
 		(property "Reference" "#PWR098"
-			(at 237.49 17.145 0)
+			(at 218.44 17.145 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4177,7 +5123,7 @@
 			)
 		)
 		(property "Value" "VMIDI"
-			(at 237.49 19.05 0)
+			(at 218.44 19.05 0)
 			(effects
 				(font
 					(size 1 1)
@@ -4185,7 +5131,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 20.32 0)
+			(at 218.44 20.32 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4193,7 +5139,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 20.32 0)
+			(at 218.44 20.32 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4201,7 +5147,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 237.49 20.32 0)
+			(at 218.44 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4223,7 +5169,7 @@
 	)
 	(symbol
 		(lib_id "reekilib_con:MIDI_out")
-		(at 53.34 69.85 0)
+		(at 53.34 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4232,7 +5178,7 @@
 		(fields_autoplaced yes)
 		(uuid "a082dba0-ede5-4182-b244-e2bd9a4f48bb")
 		(property "Reference" "J11"
-			(at 53.34 60.96 0)
+			(at 53.34 74.93 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4241,7 +5187,7 @@
 			)
 		)
 		(property "Value" "MIDI_out"
-			(at 45.72 69.85 90)
+			(at 45.72 83.82 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4250,7 +5196,7 @@
 			)
 		)
 		(property "Footprint" "reekilib_con:samesky_SDS-50J"
-			(at 53.34 88.265 0)
+			(at 53.34 102.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4259,7 +5205,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.sameskydevices.com/product/resource/sds-j.pdf"
-			(at 53.34 86.995 0)
+			(at 53.34 100.965 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4269,7 +5215,7 @@
 			)
 		)
 		(property "Description" "MIDI output connector"
-			(at 53.34 85.725 0)
+			(at 53.34 99.695 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4279,7 +5225,7 @@
 			)
 		)
 		(property "Vmax" "24V"
-			(at 47.625 84.455 0)
+			(at 47.625 98.425 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4289,7 +5235,7 @@
 			)
 		)
 		(property "Imax" "1A"
-			(at 53.34 84.455 0)
+			(at 53.34 98.425 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4299,7 +5245,7 @@
 			)
 		)
 		(property "MPN" "SDS-50J"
-			(at 53.34 81.28 0)
+			(at 53.34 95.25 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4309,7 +5255,7 @@
 			)
 		)
 		(property "MFG" "Same Sky"
-			(at 66.04 81.28 0)
+			(at 66.04 95.25 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4320,7 +5266,7 @@
 			)
 		)
 		(property "Link" "https://www.sameskydevices.com/product/interconnect/connectors/din-connectors/sds-50j"
-			(at 85.09 81.28 0)
+			(at 85.09 95.25 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4342,6 +5288,12 @@
 		(pin "5"
 			(uuid "191181aa-fd7d-4886-b9e3-2d76563e8c84")
 		)
+		(pin "1"
+			(uuid "5c7ded0c-d3c8-421c-87db-1b13b871026a")
+		)
+		(pin "3"
+			(uuid "70935990-60f4-4c69-b725-05594408f484")
+		)
 		(instances
 			(project ""
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/22b3123e-4770-49db-9ca3-fb0ae5205bb3"
@@ -4353,7 +5305,7 @@
 	)
 	(symbol
 		(lib_id "reekilib_pwr:VDD")
-		(at 260.35 20.32 0)
+		(at 241.3 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4361,7 +5313,7 @@
 		(dnp no)
 		(uuid "aa8e90eb-f4c9-4460-911e-c9156b58eb9c")
 		(property "Reference" "#PWR0103"
-			(at 260.35 17.145 0)
+			(at 241.3 17.145 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4371,7 +5323,7 @@
 			)
 		)
 		(property "Value" "VIO"
-			(at 260.35 19.05 0)
+			(at 241.3 19.05 0)
 			(effects
 				(font
 					(size 1 1)
@@ -4379,7 +5331,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 260.35 20.32 0)
+			(at 241.3 20.32 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4387,7 +5339,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 20.32 0)
+			(at 241.3 20.32 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4395,7 +5347,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 260.35 20.32 0)
+			(at 241.3 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5085,6 +6037,184 @@
 		)
 	)
 	(symbol
+		(lib_id "reekilib_res:res")
+		(at 142.24 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "d990db7b-bdfd-4373-8fea-61b28d70cc55")
+		(property "Reference" "R245"
+			(at 144.145 71.374 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "${Resistance}, ${Tolerance}, ${Power}"
+			(at 143.002 70.612 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "reekilib_res:RESC1005"
+			(at 131.064 68.834 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.016 68.58 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor single 2 pad"
+			(at 129.54 68.58 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "0Ω"
+			(at 144.145 73.025 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 144.145 74.549 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Power" "63mW"
+			(at 144.145 76.073 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "MPN" ""
+			(at 124.46 68.58 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 124.714 82.55 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 126.492 68.834 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" ""
+			(at 122.682 68.072 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG2" ""
+			(at 122.682 82.804 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN3" ""
+			(at 120.904 68.58 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG3" ""
+			(at 120.904 82.804 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b6c3aec7-d52f-44b2-b5da-e2a17a38dae6")
+		)
+		(pin "1"
+			(uuid "239c261f-99a5-4435-90f9-db0bf3e7b3fc")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/22b3123e-4770-49db-9ca3-fb0ae5205bb3"
+					(reference "R245")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "reekilib_pwr:VDD")
 		(at 152.4 29.21 0)
 		(unit 1)
@@ -5266,7 +6396,7 @@
 	)
 	(symbol
 		(lib_id "reekilib_res:res")
-		(at 72.39 76.2 270)
+		(at 72.39 90.17 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5274,7 +6404,7 @@
 		(dnp no)
 		(uuid "f9ee48e8-0f94-45fb-a61d-7fa6b4b1a071")
 		(property "Reference" "R54"
-			(at 74.295 78.994 90)
+			(at 74.295 92.964 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5284,7 +6414,7 @@
 			)
 		)
 		(property "Value" "${Resistance}, ${Tolerance}, ${Power}"
-			(at 73.152 78.232 0)
+			(at 73.152 92.202 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5295,7 +6425,7 @@
 			)
 		)
 		(property "Footprint" "reekilib_res:RESC1005"
-			(at 61.214 76.454 0)
+			(at 61.214 90.424 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5305,7 +6435,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.166 76.2 0)
+			(at 58.166 90.17 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5315,7 +6445,7 @@
 			)
 		)
 		(property "Description" "Resistor single 2 pad"
-			(at 59.69 76.2 0)
+			(at 59.69 90.17 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5325,7 +6455,7 @@
 			)
 		)
 		(property "Resistance" "0Ω"
-			(at 74.295 80.645 90)
+			(at 74.295 94.615 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5335,7 +6465,7 @@
 			)
 		)
 		(property "Tolerance" "5%"
-			(at 74.295 82.169 90)
+			(at 74.295 96.139 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5345,7 +6475,7 @@
 			)
 		)
 		(property "Power" "63mW"
-			(at 74.295 83.693 90)
+			(at 74.295 97.663 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5355,7 +6485,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 54.61 76.2 0)
+			(at 54.61 90.17 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5365,7 +6495,7 @@
 			)
 		)
 		(property "MFG" ""
-			(at 54.864 90.17 0)
+			(at 54.864 104.14 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5376,7 +6506,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 56.642 76.454 0)
+			(at 56.642 90.424 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5386,7 +6516,7 @@
 			)
 		)
 		(property "MPN2" ""
-			(at 52.832 75.692 0)
+			(at 52.832 89.662 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5396,7 +6526,7 @@
 			)
 		)
 		(property "MFG2" ""
-			(at 52.832 90.424 0)
+			(at 52.832 104.394 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5407,7 +6537,7 @@
 			)
 		)
 		(property "MPN3" ""
-			(at 51.054 76.2 0)
+			(at 51.054 90.17 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5417,7 +6547,7 @@
 			)
 		)
 		(property "MFG3" ""
-			(at 51.054 90.424 0)
+			(at 51.054 104.394 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5443,8 +6573,125 @@
 		)
 	)
 	(symbol
+		(lib_id "reekilib_log:x4xxxx1G17")
+		(at 137.16 91.44 0)
+		(mirror y)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd97446c-6fe3-46e3-8737-124eb136f1b2")
+		(property "Reference" "U28"
+			(at 140.97 83.82 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "x4xxxx1G17"
+			(at 140.97 85.09 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "reekilib_sot:SOT65P210X90-5"
+			(at 137.16 101.6 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC1G17.pdf"
+			(at 137.16 104.14 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "logic buffer schmitt-trigger"
+			(at 137.16 102.87 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "74LVC1G17GV,125"
+			(at 137.16 97.79 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Nexperia USA Inc."
+			(at 121.92 97.79 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.nexperia.com/product/74LVC1G17GV"
+			(at 105.41 97.79 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "ed56e428-ff72-43ac-b5af-459bee5c6ab3")
+		)
+		(pin "2"
+			(uuid "967e2bbd-dedb-4edf-a2c9-8bde76acaf56")
+		)
+		(pin "3"
+			(uuid "7ded3f66-cfa1-4a50-93f8-ef2291459497")
+		)
+		(pin "5"
+			(uuid "43a05492-f86b-44d2-8a2c-186132770932")
+		)
+		(pin "1"
+			(uuid "ad12c367-995a-4749-8afe-6a5ef5bd6fb7")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/22b3123e-4770-49db-9ca3-fb0ae5205bb3"
+					(reference "U28")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "reekilib_con:hdr-1x3")
-		(at 233.68 64.77 0)
+		(at 233.68 78.74 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -5453,7 +6700,7 @@
 		(fields_autoplaced yes)
 		(uuid "fffdff67-0029-4cfa-8601-b613cf93ba5c")
 		(property "Reference" "JMP2"
-			(at 233.68 58.42 0)
+			(at 233.68 72.39 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5462,7 +6709,7 @@
 			)
 		)
 		(property "Value" "MIDITX"
-			(at 233.68 71.12 0)
+			(at 233.68 85.09 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5471,7 +6718,7 @@
 			)
 		)
 		(property "Footprint" "reekilib_con:HDR254P1X03-TH"
-			(at 233.68 74.168 0)
+			(at 233.68 88.138 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5481,7 +6728,7 @@
 			)
 		)
 		(property "Datasheet" "url-ds"
-			(at 233.68 78.486 0)
+			(at 233.68 92.456 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5491,7 +6738,7 @@
 			)
 		)
 		(property "Description" "header 1row 3pin"
-			(at 233.68 75.692 0)
+			(at 233.68 89.662 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5501,7 +6748,7 @@
 			)
 		)
 		(property "Link" "url-link"
-			(at 233.68 77.216 0)
+			(at 233.68 91.186 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5511,7 +6758,7 @@
 			)
 		)
 		(property "MPN" "MPN"
-			(at 233.68 72.644 0)
+			(at 233.68 86.614 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5521,7 +6768,7 @@
 			)
 		)
 		(property "MFG" "MFG"
-			(at 240.284 72.644 0)
+			(at 240.284 86.614 0)
 			(do_not_autoplace yes)
 			(effects
 				(font

@@ -858,6 +858,16 @@
 	)
 	(bus
 		(pts
+			(xy 92.71 93.98) (xy 121.92 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5e55aa1-ca5f-4c53-92be-ebc6da17ad6e")
+	)
+	(bus
+		(pts
 			(xy 215.9 88.9) (xy 165.1 88.9)
 		)
 		(stroke
@@ -1965,6 +1975,16 @@
 				(justify left)
 			)
 		)
+		(pin "SYSCPU{TAC PWM}" bidirectional
+			(at 121.92 93.98 180)
+			(uuid "7512e1af-cf31-46be-939e-1c1abaf9f289")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "pandore"
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/88bddcf3-091d-4999-8622-d323c703fd74"
@@ -2187,6 +2207,16 @@
 		(pin "FANCPU{TAC PWM}" bidirectional
 			(at 92.71 91.44 0)
 			(uuid "41ced9ef-eae5-4956-8113-f2b53788fb17")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "SYSCPU{TAC PWM}" bidirectional
+			(at 92.71 93.98 0)
+			(uuid "c81a053c-af2e-45db-b6be-0c89759fa8d3")
 			(effects
 				(font
 					(size 1.016 1.016)

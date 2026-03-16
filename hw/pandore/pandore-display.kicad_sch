@@ -408,6 +408,25 @@
 				)
 			)
 			(symbol "HDMI_1_1"
+				(pin no_connect non_logic
+					(at -13.97 -25.4 0)
+					(length 3.81)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at 15.24 27.94 180)
 					(length 3.81)
@@ -7315,6 +7334,9 @@
 		)
 		(pin "5"
 			(uuid "ea31d5f3-5035-4df4-9b17-22c204839111")
+		)
+		(pin "14"
+			(uuid "c2e56b6c-11d5-4d9c-aad9-557d77ee4297")
 		)
 		(instances
 			(project ""

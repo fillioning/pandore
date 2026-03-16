@@ -5384,6 +5384,169 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "reekilib_con:hdr-1x3"
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 6.35 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Value" "hdr-1x3"
+				(at 0 -6.35 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Footprint" "footprint"
+				(at 0 -9.398 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "url-ds"
+				(at 0 -13.716 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "header 1row 3pin"
+				(at 0 -10.922 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "MPN"
+				(at 0 -7.874 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFG" "MFG"
+				(at 6.604 -7.874 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Link" "url-link"
+				(at 0 -12.446 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "header hdr"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "hdr-1x3_0_1"
+				(rectangle
+					(start -3.81 5.08)
+					(end 3.81 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "hdr-1x3_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "reekilib_pwr:VDD"
 			(power)
 			(pin_numbers
@@ -6141,6 +6304,15 @@
 		(uuid "273d8978-d3a2-48ff-88af-ba3394680e3d")
 	)
 	(bus_entry
+		(at 246.38 26.67)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ccb38c3-b49b-4841-950a-f5f2765b5e41")
+	)
+	(bus_entry
 		(at 246.38 21.59)
 		(size -2.54 2.54)
 		(stroke
@@ -6582,6 +6754,15 @@
 		(uuid "9e27b645-f9ac-462b-a116-26e88d55713a")
 	)
 	(bus_entry
+		(at 246.38 24.13)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0cc0f41-ca0c-4f36-bffc-af79cf094077")
+	)
+	(bus_entry
 		(at 299.72 189.23)
 		(size -2.54 2.54)
 		(stroke
@@ -6966,6 +7147,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 31.75) (xy 78.74 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08a18100-ec50-4489-9436-db626f29e503")
+	)
+	(wire
+		(pts
 			(xy 220.98 204.47) (xy 254 204.47)
 		)
 		(stroke
@@ -6993,6 +7184,16 @@
 			(type default)
 		)
 		(uuid "0ac6310c-5d36-4397-9a57-d3ddf18a7ed2")
+	)
+	(wire
+		(pts
+			(xy 220.98 26.67) (xy 243.84 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0afe4ad7-8a81-42f7-83ef-8b4c262a255e")
 	)
 	(bus
 		(pts
@@ -7113,6 +7314,16 @@
 			(type default)
 		)
 		(uuid "13f968d4-7530-476a-bf3b-34d9cfb85524")
+	)
+	(wire
+		(pts
+			(xy 78.74 33.02) (xy 72.39 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17a14501-e0b3-457c-a53f-94ae7ee83dab")
 	)
 	(wire
 		(pts
@@ -7574,6 +7785,16 @@
 		)
 		(uuid "3499af2b-e8df-4e6a-a8cc-199612e14540")
 	)
+	(wire
+		(pts
+			(xy 78.74 29.21) (xy 78.74 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35166380-2199-4fb6-88a5-67f39d125213")
+	)
 	(bus
 		(pts
 			(xy 104.14 60.96) (xy 104.14 62.23)
@@ -7736,6 +7957,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 31.75) (xy 137.16 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46d0b9bd-7665-4fe6-b753-f7a1660b8c8f")
+	)
+	(wire
+		(pts
 			(xy 350.52 201.93) (xy 350.52 200.66)
 		)
 		(stroke
@@ -7763,6 +7994,16 @@
 			(type default)
 		)
 		(uuid "4cb6703f-e1c9-4c93-9cdb-0a92b16b25f6")
+	)
+	(bus
+		(pts
+			(xy 246.38 24.13) (xy 246.38 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dac46d3-4114-43eb-91ac-8cd114778fc2")
 	)
 	(wire
 		(pts
@@ -8044,6 +8285,16 @@
 		)
 		(uuid "6bf5ba71-6321-4c33-96f7-a1e7c16eab5a")
 	)
+	(wire
+		(pts
+			(xy 73.66 35.56) (xy 73.66 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cfb55da-c0f5-4b2b-84f2-608ad2797cd2")
+	)
 	(bus
 		(pts
 			(xy 104.14 186.69) (xy 104.14 189.23)
@@ -8053,6 +8304,16 @@
 			(type default)
 		)
 		(uuid "6d4f9537-9dce-43f2-8342-766159477461")
+	)
+	(wire
+		(pts
+			(xy 73.66 30.48) (xy 72.39 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f9678dc-ce18-49e5-ab43-c00e376181fe")
 	)
 	(bus
 		(pts
@@ -8183,16 +8444,6 @@
 			(type default)
 		)
 		(uuid "7ddc1450-1648-4e51-9fac-e208b701a4e1")
-	)
-	(wire
-		(pts
-			(xy 85.09 29.21) (xy 137.16 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e4d102d-5910-40f9-b3bd-0b5671410788")
 	)
 	(wire
 		(pts
@@ -8996,16 +9247,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 31.75) (xy 137.16 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be6643f5-6a9f-4df6-a500-4c756176aa7a")
-	)
-	(wire
-		(pts
 			(xy 259.08 163.83) (xy 259.08 162.56)
 		)
 		(stroke
@@ -9286,6 +9527,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 29.21) (xy 137.16 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d75e4479-85c1-4cf3-9341-5096691e3224")
+	)
+	(wire
+		(pts
 			(xy 106.68 41.91) (xy 137.16 41.91)
 		)
 		(stroke
@@ -9514,6 +9765,16 @@
 		)
 		(uuid "e599c7e3-252d-40af-93e2-137cf4ae1727")
 	)
+	(bus
+		(pts
+			(xy 246.38 22.86) (xy 246.38 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5a225e8-8d96-4c3f-a61a-ab055dfa9bc2")
+	)
 	(wire
 		(pts
 			(xy 220.98 77.47) (xy 254 77.47)
@@ -9646,6 +9907,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 27.94) (xy 72.39 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeae76ce-2bec-4b55-8d1a-e93fc19fcce7")
+	)
+	(wire
+		(pts
 			(xy 220.98 74.93) (xy 254 74.93)
 		)
 		(stroke
@@ -9766,6 +10037,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 29.21) (xy 243.84 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8475210-9dba-4e64-baa7-91f8c4c90ba7")
+	)
+	(wire
+		(pts
 			(xy 44.45 116.84) (xy 58.42 116.84)
 		)
 		(stroke
@@ -9813,6 +10094,16 @@
 			(type default)
 		)
 		(uuid "fc400258-40e1-4ddf-9ed0-c11f290b2358")
+	)
+	(bus
+		(pts
+			(xy 248.92 22.86) (xy 246.38 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd0ccc97-2e84-4d87-8477-75629c3d0279")
 	)
 	(bus
 		(pts
@@ -10164,6 +10455,16 @@
 		)
 		(uuid "31c7d7e3-d0e3-4a83-b3ae-f7ec972fa814")
 	)
+	(label "DEBUG.RX"
+		(at 134.62 31.75 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "3286aa99-9777-40da-8b0a-ffaa64ea55bb")
+	)
 	(label "USBP1.SSTX+"
 		(at 134.62 46.99 180)
 		(effects
@@ -10313,6 +10614,16 @@
 			(justify right bottom)
 		)
 		(uuid "50721fa0-8240-4627-b773-17330001eb20")
+	)
+	(label "DEBUG.TX"
+		(at 134.62 29.21 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "510cdd81-6f81-4b45-899f-baf2617edb36")
 	)
 	(label "BIOS.IO0"
 		(at 223.52 199.39 0)
@@ -10904,6 +11215,16 @@
 		)
 		(uuid "cef1ad64-f603-4e69-a164-6643b15bd0de")
 	)
+	(label "SYSCPU.PWM"
+		(at 242.57 26.67 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "d1919971-213d-4b28-82a8-d3bd2a2cc6aa")
+	)
 	(label "PCIEP0.HSO0-"
 		(at 134.62 59.69 180)
 		(effects
@@ -11053,6 +11374,16 @@
 			(justify left bottom)
 		)
 		(uuid "ec282e1c-c787-4f2e-bd5d-7745bab30157")
+	)
+	(label "SYSCPU.TAC"
+		(at 242.57 29.21 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "efec08b5-0947-44f9-b029-c129f4c158fd")
 	)
 	(label "PCIEP0.SUSCLK"
 		(at 100.33 63.5 180)
@@ -11333,6 +11664,17 @@
 			(justify right)
 		)
 		(uuid "906e2159-0ea8-4968-a49e-99602ce4deaa")
+	)
+	(hierarchical_label "SYSCPU{TAC PWM}"
+		(shape bidirectional)
+		(at 248.92 22.86 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "92421174-d09b-459f-b366-a72ec8c50900")
 	)
 	(hierarchical_label "PCIEP1{PCIE1X}"
 		(shape bidirectional)
@@ -13916,6 +14258,114 @@
 		)
 	)
 	(symbol
+		(lib_id "reekilib_con:hdr-1x3")
+		(at 64.77 30.48 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73bac2d1-0b5f-4433-9608-8ddae2f45802")
+		(property "Reference" "J37"
+			(at 64.77 24.13 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "UARTDBG"
+			(at 64.77 36.83 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "reekilib_con:HDR254P1X03-TH"
+			(at 64.77 39.878 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "url-ds"
+			(at 64.77 44.196 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "header 1row 3pin"
+			(at 64.77 41.402 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MPN"
+			(at 64.77 38.354 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "MFG"
+			(at 58.166 38.354 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Link" "url-link"
+			(at 64.77 42.926 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e386145b-e387-4907-8230-c8cb5e91423b")
+		)
+		(pin "3"
+			(uuid "0a0d1119-368c-4c70-b569-1697227ce9ef")
+		)
+		(pin "2"
+			(uuid "81f1e29b-e377-4076-9f1b-9db0e3cdf100")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/88bddcf3-091d-4999-8622-d323c703fd74/5f490059-030e-46be-8d18-c6ad7eadfe53"
+					(reference "J37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "reekilib_con:hdr-1x1")
 		(at 370.84 248.92 0)
 		(unit 1)
@@ -14010,6 +14460,71 @@
 			(project "pandore"
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/88bddcf3-091d-4999-8622-d323c703fd74/5f490059-030e-46be-8d18-c6ad7eadfe53"
 					(reference "SBCMNT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_pwr:VSS")
+		(at 73.66 36.83 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "9dd5e98d-c876-402b-b849-fd51cba3e310")
+		(property "Reference" "#PWR0365"
+			(at 73.66 41.275 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSS"
+			(at 73.66 39.37 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 36.83 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 34.29 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0450b326-f939-4064-bf23-979c38b2d638")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/88bddcf3-091d-4999-8622-d323c703fd74/5f490059-030e-46be-8d18-c6ad7eadfe53"
+					(reference "#PWR0365")
 					(unit 1)
 				)
 			)

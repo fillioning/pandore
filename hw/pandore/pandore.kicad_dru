@@ -73,7 +73,7 @@
 #############################
 # Diff pair need clearance from zones
 (rule "🧬 diff to zone clearance"
-	(constraint clearance (min 0.5mm))
+	(constraint clearance (min 0.25mm))
 	(condition "(A.hasNetClass('D90Ω') || A.hasNetClass('D100Ω') || A.hasNetClass('D120Ω')) && A.insideArea('*') && B.type == 'zone'"))
 
 # Diffpair to diffpair clearance
