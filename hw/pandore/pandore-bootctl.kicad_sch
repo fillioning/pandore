@@ -3532,7 +3532,7 @@
 		)
 		(uuid "6d0d2e66-92be-44ab-bafd-918bd6b970cb")
 	)
-	(hierarchical_label "PSTATE"
+	(hierarchical_label "PWRON"
 		(shape output)
 		(at 196.85 46.99 0)
 		(effects

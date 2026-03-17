@@ -4786,7 +4786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Resistance" "9.09kΩ"
+		(property "Resistance" "9.01kΩ"
 			(at 103.505 48.895 90)
 			(do_not_autoplace yes)
 			(effects

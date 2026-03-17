@@ -253,6 +253,12 @@
 		(uuid "6566430e-6bf3-4735-8f8a-20c80d2b0356")
 	)
 	(junction
+		(at 96.52 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a334d80a-35de-484d-98fd-e5d6441987d3")
+	)
+	(junction
 		(at 101.6 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -366,6 +372,16 @@
 		)
 		(uuid "0af96d2e-de31-4038-97cf-511097400aad")
 	)
+	(wire
+		(pts
+			(xy 82.55 44.45) (xy 96.52 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e4b81ab-f5b1-468d-98e1-744f9c21ad91")
+	)
 	(bus
 		(pts
 			(xy 99.06 69.85) (xy 99.06 72.39)
@@ -438,7 +454,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 74.93) (xy 101.6 74.93)
+			(xy 92.71 74.93) (xy 96.52 74.93)
 		)
 		(stroke
 			(width 0)
@@ -756,6 +772,16 @@
 		)
 		(uuid "cb62907c-cdc1-4941-b56f-857692173eda")
 	)
+	(wire
+		(pts
+			(xy 96.52 74.93) (xy 101.6 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbf98b49-fc95-4f91-9411-57510c8d931a")
+	)
 	(bus
 		(pts
 			(xy 101.6 119.38) (xy 101.6 121.92)
@@ -845,6 +871,16 @@
 			(type default)
 		)
 		(uuid "eea053e3-bc19-46aa-9abd-4027e2fb1abd")
+	)
+	(wire
+		(pts
+			(xy 96.52 44.45) (xy 96.52 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0336bf1-606d-45ab-b7ab-7a2ca907fe5a")
 	)
 	(bus
 		(pts
@@ -977,6 +1013,17 @@
 			(justify left)
 		)
 		(uuid "3a0d45a2-ca3b-401c-bea8-b0d81d79b579")
+	)
+	(hierarchical_label "PWRON"
+		(shape output)
+		(at 82.55 44.45 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "3a327515-7058-443b-aba6-f971e279d2c9")
 	)
 	(hierarchical_label "AUDIO.~{RST}"
 		(shape output)
@@ -2078,9 +2125,9 @@
 				(justify right)
 			)
 		)
-		(pin "PWREN" output
+		(pin "PWRON" output
 			(at 92.71 74.93 0)
-			(uuid "17592569-38f0-421c-b5db-145914150aac")
+			(uuid "86df0917-cf00-4f1d-a472-a530857e06c8")
 			(effects
 				(font
 					(size 1.016 1.016)

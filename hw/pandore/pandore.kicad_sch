@@ -1351,6 +1351,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 35.56) (xy 118.11 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7373816f-c71c-48e3-bba6-5e0604e22272")
+	)
+	(wire
+		(pts
 			(xy 255.27 34.29) (xy 259.08 34.29)
 		)
 		(stroke
@@ -4205,6 +4215,16 @@
 				)
 			)
 		)
+		(pin "PWRON" input
+			(at 76.2 35.56 0)
+			(uuid "bd8dbf68-ad0c-49b5-aa89-42e758643c4a")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "pandore"
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966"
@@ -4710,6 +4730,16 @@
 		(pin "MGMTMON{PWRB PWR S0 S3}" bidirectional
 			(at 118.11 97.79 180)
 			(uuid "75318b3c-c183-4edd-aaa9-53d665b4ad7f")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWRON" output
+			(at 118.11 35.56 180)
+			(uuid "d74e8bb1-85c8-4b51-a354-a0b20767e34b")
 			(effects
 				(font
 					(size 1.016 1.016)

@@ -4600,7 +4600,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "OPAMP_2"
+		(property "Value" "OPA1656"
 			(at 234.95 160.02 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4619,7 +4619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "?"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa1656.pdf"
 			(at 243.205 167.64 0)
 			(effects
 				(font
@@ -4637,7 +4637,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "?"
+		(property "MPN" "OPA1656IDR"
 			(at 243.205 161.925 0)
 			(effects
 				(font
@@ -4646,7 +4646,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "?"
+		(property "MFG" "TI"
 			(at 243.205 163.83 0)
 			(effects
 				(font
@@ -4655,7 +4655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "?"
+		(property "Link" "https://www.ti.com/product/OPA1656"
 			(at 243.205 165.735 0)
 			(effects
 				(font
@@ -8102,7 +8102,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "OPAMP_2"
+		(property "Value" "OPA1656"
 			(at 234.95 130.81 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8121,7 +8121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "?"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa1656.pdf"
 			(at 243.205 138.43 0)
 			(effects
 				(font
@@ -8139,7 +8139,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "?"
+		(property "MPN" "OPA1656IDR"
 			(at 243.205 132.715 0)
 			(effects
 				(font
@@ -8148,7 +8148,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "?"
+		(property "MFG" "TI"
 			(at 243.205 134.62 0)
 			(effects
 				(font
@@ -8157,7 +8157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "?"
+		(property "Link" "https://www.ti.com/product/OPA1656"
 			(at 243.205 136.525 0)
 			(effects
 				(font

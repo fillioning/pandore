@@ -887,6 +887,12 @@
       "/Audio/Audio outputs/LEFT.SIG-": [
         "ANA"
       ],
+      "/Audio/Audio outputs/MONL.SIG-": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/MONR.SIG+": [
+        "ANA"
+      ],
       "/Audio/Audio outputs/OUT buffer L/OUT+": [
         "ANA"
       ],
@@ -945,6 +951,12 @@
         "ANA"
       ],
       "/Audio/Audio outputs/OUT buffer R/OUTBUF.OUT-": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUT monitor/LEFT": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUT monitor/RIGHT": [
         "ANA"
       ],
       "/Audio/Audio outputs/OUTL.SIG+": [
@@ -1964,6 +1976,12 @@
       "Net-(R111-Pad2)": [
         "ANA"
       ],
+      "Net-(R264-Pad1)": [
+        "ANA"
+      ],
+      "Net-(R269-Pad1)": [
+        "ANA"
+      ],
       "Net-(R34-Pad1)": [
         "HVFNC"
       ],
@@ -2107,6 +2125,57 @@
       ],
       "Net-(U33-OUT)": [
         "PWR"
+      ],
+      "Net-(U34A-IN+)": [
+        "ANA"
+      ],
+      "Net-(U34A-IN-)": [
+        "ANA"
+      ],
+      "Net-(U34A-OUT)": [
+        "ANA"
+      ],
+      "Net-(U34A-V+)": [
+        "PWR"
+      ],
+      "Net-(U34B-IN+)": [
+        "ANA"
+      ],
+      "Net-(U34B-IN-)": [
+        "ANA"
+      ],
+      "Net-(U34B-OUT)": [
+        "ANA"
+      ],
+      "Net-(U35A-IN+)": [
+        "ANA"
+      ],
+      "Net-(U35A-IN-)": [
+        "ANA"
+      ],
+      "Net-(U35A-OUT)": [
+        "ANA"
+      ],
+      "Net-(U35B-IN+)": [
+        "ANA"
+      ],
+      "Net-(U35B-IN-)": [
+        "ANA"
+      ],
+      "Net-(U35B-OUT)": [
+        "ANA"
+      ],
+      "Net-(U36A-IN-)": [
+        "ANA"
+      ],
+      "Net-(U36A-OUT)": [
+        "ANA"
+      ],
+      "Net-(U36B-IN-)": [
+        "ANA"
+      ],
+      "Net-(U36B-OUT)": [
+        "ANA"
       ],
       "Net-(U3A-VREG.AVDD)": [
         "PWR"
@@ -2964,6 +3033,10 @@
     [
       "07e56b51-9be1-414d-8c59-faa1629d64d5",
       "Isolation"
+    ],
+    [
+      "d2b85c26-0f6a-489f-849d-8c679c4f1d00",
+      "OUT monitor"
     ]
   ],
   "text_variables": {
