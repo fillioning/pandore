@@ -1351,16 +1351,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 35.56) (xy 118.11 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7373816f-c71c-48e3-bba6-5e0604e22272")
-	)
-	(wire
-		(pts
 			(xy 255.27 34.29) (xy 259.08 34.29)
 		)
 		(stroke
@@ -1461,6 +1451,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 35.56) (xy 118.11 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b645f457-48dd-430b-a03a-1de84e888ac0")
+	)
+	(wire
+		(pts
 			(xy 255.27 26.67) (xy 255.27 27.94)
 		)
 		(stroke
@@ -1508,16 +1508,6 @@
 			(type default)
 		)
 		(uuid "cb4db7fd-12be-447a-9953-85fddef06526")
-	)
-	(wire
-		(pts
-			(xy 76.2 49.53) (xy 118.11 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd667ebd-ad68-4c53-a1a8-e7d08a7e50a7")
 	)
 	(bus
 		(pts
@@ -4657,16 +4647,6 @@
 				(justify left)
 			)
 		)
-		(pin "SUSCLK" output
-			(at 118.11 49.53 180)
-			(uuid "2aca914c-8e97-445a-b388-f3e1a9fe3683")
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
 		(pin "MGMTMCU{USB2}" bidirectional
 			(at 118.11 88.9 180)
 			(uuid "2d1b4785-bc4b-4a4c-92c0-fb2bbf8018ba")
@@ -4833,16 +4813,6 @@
 		(pin "SLOT_E{PCIE1X}" bidirectional
 			(at 76.2 58.42 0)
 			(uuid "1db01838-3589-4ca0-988b-0725680e5046")
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-		)
-		(pin "SUSCLK" input
-			(at 76.2 49.53 0)
-			(uuid "b76c6c4d-c6fb-441d-8a18-4c0bcba2ee3d")
 			(effects
 				(font
 					(size 1.016 1.016)

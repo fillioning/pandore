@@ -2611,6 +2611,12 @@
 		(uuid "e161c580-bd4d-4da6-a9e9-9f42daf62781")
 	)
 	(junction
+		(at 207.01 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9d1faf1-4b5d-4837-8013-4bb1e1794690")
+	)
+	(junction
 		(at 191.77 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3111,16 +3117,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 132.08) (xy 175.26 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "603780fd-5a28-4444-a0fb-055ccb230075")
-	)
-	(wire
-		(pts
 			(xy 185.42 116.84) (xy 191.77 116.84)
 		)
 		(stroke
@@ -3248,6 +3244,16 @@
 			(type default)
 		)
 		(uuid "83d46d06-16ca-4882-a6ef-c5909f98c66c")
+	)
+	(wire
+		(pts
+			(xy 207.01 100.33) (xy 266.7 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "876a82f4-7f6c-447b-927e-79c2123d6c16")
 	)
 	(wire
 		(pts
@@ -3881,7 +3887,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 132.08) (xy 153.67 132.08)
+			(xy 139.7 132.08) (xy 175.26 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4068,6 +4074,17 @@
 			(justify left bottom)
 		)
 		(uuid "ffc6177d-e7a7-4991-98e7-52127d809643")
+	)
+	(hierarchical_label "VCM0"
+		(shape output)
+		(at 266.7 100.33 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "25de7f3a-0cdd-481f-8041-b6fa5e0a0e53")
 	)
 	(hierarchical_label "CTL{I2C}"
 		(shape bidirectional)
@@ -6687,184 +6704,6 @@
 			(project "pandore"
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/c7a6c4ca-6083-4b1c-b07a-a9d1f5204bfb"
 					(reference "C236")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "reekilib_res:res")
-		(at 157.48 132.08 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4b2268cb-ec04-42fc-8a89-b5e6cc5c71b0")
-		(property "Reference" "R63"
-			(at 159.385 134.62 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "${Resistance}, ${Tolerance}, ${Power}"
-			(at 158.242 134.112 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "reekilib_res:RESC1005"
-			(at 146.304 132.334 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.256 132.08 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor single 2 pad"
-			(at 144.78 132.08 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" "0Ω"
-			(at 159.385 136.271 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 159.385 137.795 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-		)
-		(property "Power" "63mW"
-			(at 159.385 139.319 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-		)
-		(property "MPN" ""
-			(at 139.7 132.08 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" ""
-			(at 139.954 146.05 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Link" ""
-			(at 141.732 132.334 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN2" ""
-			(at 137.922 131.572 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG2" ""
-			(at 137.922 146.304 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN3" ""
-			(at 136.144 132.08 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG3" ""
-			(at 136.144 146.304 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "605c8073-7b40-4f33-aca8-9889ab9f512f")
-		)
-		(pin "1"
-			(uuid "654b320b-cc30-46e6-82ee-c191054e351d")
-		)
-		(instances
-			(project "pandore"
-				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/c7a6c4ca-6083-4b1c-b07a-a9d1f5204bfb"
-					(reference "R63")
 					(unit 1)
 				)
 			)

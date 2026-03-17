@@ -634,16 +634,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 82.55) (xy 215.9 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8624c695-589b-420a-bd07-a9769f225486")
-	)
-	(wire
-		(pts
 			(xy 215.9 127) (xy 165.1 127)
 		)
 		(stroke
@@ -1200,17 +1190,6 @@
 			(justify left)
 		)
 		(uuid "db5d16ce-966d-45a7-a81d-5762f8c34d46")
-	)
-	(hierarchical_label "SUSCLK"
-		(shape output)
-		(at 215.9 82.55 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left)
-		)
-		(uuid "dce85e73-3c36-41c4-bc3c-b67fcd2b96fe")
 	)
 	(hierarchical_label "USB2P3{USB2}"
 		(shape bidirectional)
@@ -1860,16 +1839,6 @@
 					(size 1.016 1.016)
 				)
 				(justify left)
-			)
-		)
-		(pin "SUSCLK" output
-			(at 165.1 82.55 0)
-			(uuid "d91f0318-2ea1-47c9-972a-f287d47e2e5d")
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
 			)
 		)
 		(pin "GPP_F12" bidirectional

@@ -49,7 +49,7 @@
         "silk_text_upright": true,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.0
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -698,7 +698,7 @@
       },
       {
         "bus_width": 24,
-        "clearance": 0.2,
+        "clearance": 0.18,
         "line_style": 0,
         "name": "PWR",
         "pcb_color": "rgb(255, 1, 18)",
@@ -978,6 +978,9 @@
         "ANA"
       ],
       "/Audio/Audio outputs/VCM": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/VCMMON": [
         "ANA"
       ],
       "/Audio/CODEC/CTL.SCL": [
@@ -2004,6 +2007,36 @@
         "HVFNC"
       ],
       "Net-(R41-Pad1)": [
+        "HVFNC"
+      ],
+      "Net-(T1A-TCT)": [
+        "GND"
+      ],
+      "Net-(T1A-TXCT)": [
+        "HVFNC"
+      ],
+      "Net-(T1B-RXCT)": [
+        "HVFNC"
+      ],
+      "Net-(T1C-TXCT)": [
+        "HVFNC"
+      ],
+      "Net-(T1D-RXCT)": [
+        "HVFNC"
+      ],
+      "Net-(T2A-TCT)": [
+        "GND"
+      ],
+      "Net-(T2A-TXCT)": [
+        "HVFNC"
+      ],
+      "Net-(T2B-RXCT)": [
+        "HVFNC"
+      ],
+      "Net-(T2C-TXCT)": [
+        "HVFNC"
+      ],
+      "Net-(T2D-RXCT)": [
         "HVFNC"
       ],
       "Net-(U11-VA)": [

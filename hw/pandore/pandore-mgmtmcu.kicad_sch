@@ -8321,7 +8321,7 @@
 		(uuid "2ee7d5fd-9ac9-4a55-8f3a-8cef98f730a6")
 	)
 	(label "CPUMON.S0"
-		(at 88.9 62.23 0)
+		(at 88.9 64.77 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -8401,7 +8401,7 @@
 		(uuid "7c687340-13d5-4481-8406-06c22913a3bd")
 	)
 	(label "CPUMON.S3"
-		(at 88.9 64.77 0)
+		(at 88.9 62.23 0)
 		(effects
 			(font
 				(size 1.016 1.016)
