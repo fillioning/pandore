@@ -1299,6 +1299,16 @@
 		)
 		(uuid "474265cd-c6f5-4271-bb47-369254420a7f")
 	)
+	(wire
+		(pts
+			(xy 177.8 60.96) (xy 200.66 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "541cc81b-53ba-4b1c-84f2-d57928fac1eb")
+	)
 	(bus
 		(pts
 			(xy 76.2 139.7) (xy 118.11 139.7)
@@ -1438,6 +1448,16 @@
 			(type default)
 		)
 		(uuid "ac10e55a-cdfc-427f-869c-5f14a083bae0")
+	)
+	(wire
+		(pts
+			(xy 76.2 130.81) (xy 118.11 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b23ed4dd-2c9a-443d-ad62-ce69c8eae810")
 	)
 	(bus
 		(pts
@@ -4727,6 +4747,26 @@
 				(justify left)
 			)
 		)
+		(pin "VUSB.EN" output
+			(at 177.8 60.96 0)
+			(uuid "dab9e1cf-c3d7-41ad-b7e4-07d8e567dcf4")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "AUDIO.EN" output
+			(at 118.11 130.81 180)
+			(uuid "0a3b768a-b593-4cfa-b802-e9665fe88e36")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "pandore"
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966"
@@ -4829,8 +4869,8 @@
 		)
 	)
 	(sheet
-		(at 33.02 133.35)
-		(size 43.18 19.05)
+		(at 33.02 128.27)
+		(size 43.18 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4844,7 +4884,7 @@
 		)
 		(uuid "b4e2772d-7748-46ec-bd38-bc8e72cebcb8")
 		(property "Sheetname" "Audio"
-			(at 53.975 137.16 0)
+			(at 53.975 132.08 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4855,7 +4895,7 @@
 			)
 		)
 		(property "Sheetfile" "pandore-audio.kicad_sch"
-			(at 33.528 170.942 0)
+			(at 33.528 165.862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4865,7 +4905,7 @@
 			)
 		)
 		(property "pageNb" "Page ${#}"
-			(at 53.975 140.97 0)
+			(at 53.975 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4926,6 +4966,16 @@
 		(pin "~{PROGRAM}" input
 			(at 76.2 147.32 0)
 			(uuid "126f270b-36dc-4560-b92c-bf7b62dd8a7b")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "EN" input
+			(at 76.2 130.81 0)
+			(uuid "46b43336-4d45-42f7-a501-063c45b09993")
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5006,7 +5056,7 @@
 	)
 	(sheet
 		(at 200.66 39.37)
-		(size 43.18 21.59)
+		(size 43.18 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5099,6 +5149,16 @@
 				(justify left)
 			)
 		)
+		(pin "VUSB.EN" input
+			(at 200.66 60.96 180)
+			(uuid "3ea0ce60-c090-4bb4-93b1-095cd1864652")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "pandore"
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966"
@@ -5108,8 +5168,8 @@
 		)
 	)
 	(sheet
-		(at 200.66 62.23)
-		(size 43.18 16.51)
+		(at 200.66 64.77)
+		(size 43.18 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5123,7 +5183,7 @@
 		)
 		(uuid "db554ed3-9c74-43b8-ae28-746fed02a615")
 		(property "Sheetname" "Display"
-			(at 221.615 66.04 0)
+			(at 221.615 68.58 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5134,7 +5194,7 @@
 			)
 		)
 		(property "Sheetfile" "pandore-display.kicad_sch"
-			(at 201.168 99.822 0)
+			(at 201.168 102.362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5144,7 +5204,7 @@
 			)
 		)
 		(property "pageNb" "Page ${#}"
-			(at 221.615 69.85 0)
+			(at 221.615 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)

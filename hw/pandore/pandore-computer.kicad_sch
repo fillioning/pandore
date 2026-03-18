@@ -352,6 +352,16 @@
 		)
 		(uuid "022292d5-c135-4020-bec5-2f13d3b2d136")
 	)
+	(wire
+		(pts
+			(xy 165.1 107.95) (xy 215.9 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0624ef87-9020-4dd6-b308-2d99963541a7")
+	)
 	(bus
 		(pts
 			(xy 165.1 96.52) (xy 215.9 96.52)
@@ -461,6 +471,16 @@
 			(type default)
 		)
 		(uuid "35126949-3fd7-4e51-a06b-4714441dab0b")
+	)
+	(wire
+		(pts
+			(xy 92.71 144.78) (xy 121.92 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37aff349-71b7-4269-a3bd-69cf471aa5a5")
 	)
 	(bus
 		(pts
@@ -1048,6 +1068,17 @@
 		)
 		(uuid "4390166d-cc05-47b3-a843-37aaabfe27de")
 	)
+	(hierarchical_label "AUDIO.EN"
+		(shape output)
+		(at 92.71 144.78 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "46fea4f0-d1bc-4ca0-afeb-f9fe6ce2a3fa")
+	)
 	(hierarchical_label "M2E{USB2}"
 		(shape bidirectional)
 		(at 215.9 148.59 0)
@@ -1201,6 +1232,17 @@
 			(justify left)
 		)
 		(uuid "e0c8e04c-8936-49c2-a3ea-3f1a313ca3fc")
+	)
+	(hierarchical_label "VUSB.EN"
+		(shape output)
+		(at 215.9 107.95 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "e1a6d59c-76b0-480e-9694-3a766cbdbb94")
 	)
 	(hierarchical_label "AUDIO.~{PROG}"
 		(shape output)
@@ -1842,7 +1884,7 @@
 			)
 		)
 		(pin "GPP_F12" bidirectional
-			(at 144.78 175.26 270)
+			(at 121.92 144.78 180)
 			(uuid "1b1d5dbc-d0a4-4e2c-8030-d6ffbbf94916")
 			(effects
 				(font
@@ -1902,13 +1944,13 @@
 			)
 		)
 		(pin "GPP_D0" bidirectional
-			(at 138.43 175.26 270)
+			(at 165.1 107.95 0)
 			(uuid "80b77f0e-e96f-497c-8665-8bd81b74f292")
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "GPP_F16" bidirectional
