@@ -1390,6 +1390,25 @@
 						)
 					)
 				)
+				(pin no_connect non_logic
+					(at 12.7 0 180)
+					(length 3.81)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_out line
 					(at 12.7 -5.08 180)
 					(length 3.81)
@@ -16942,6 +16961,9 @@
 		)
 		(pin "3"
 			(uuid "67b98ded-504d-4ca8-be11-78a4dde25dbd")
+		)
+		(pin "14"
+			(uuid "7319f951-3eef-478e-8b56-526ac58070d9")
 		)
 		(instances
 			(project "pandore"

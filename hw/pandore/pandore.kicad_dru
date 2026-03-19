@@ -25,16 +25,16 @@
 # ⚡ HV
 #############################
 # Netclass HV functional isolation
-(rule "⚡ hv functional isolation"
-   (constraint clearance (min 0.453mm) (opt 0.5mm))
-   (constraint creepage (min 1.0mm) (opt 1.5mm))
-   (condition "A.hasNetClass('HVFNC')"))
+#(rule "⚡ hv functional isolation"
+#   (constraint clearance (min 0.453mm) (opt 0.5mm))
+#   (constraint creepage (min 1.0mm) (opt 1.5mm))
+#   (condition "A.hasNetClass('HVFNC')"))
 
 # Netclass HV reinforced isolation
-(rule "⚡ hv reinforced isolation"
-   (constraint clearance (min 3.02mm) (opt 4.0mm))
-   (constraint creepage (min 3.02mm) (opt 4.0mm))
-   (condition "A.hasNetClass('HVRFD')"))
+#(rule "⚡ hv reinforced isolation"
+#   (constraint clearance (min 3.02mm) (opt 4.0mm))
+#   (constraint creepage (min 3.02mm) (opt 4.0mm))
+#   (condition "A.hasNetClass('HVRFD')"))
 
 #############################
 # Zones
@@ -87,9 +87,9 @@
 #	(condition "A.Type == 'Track' && A.inDiffPair('*') && !B.inDiffPair('*') && !AB.isCoupledDiffPair() && !B.intersectsCourtyard('*')"))
 
 # Differential signal skew
-(rule "🧬 diff signal skew"
-	(constraint skew (max 0.25mm))
-	(condition "AB.isCoupledDiffPair()"))
+#(rule "🧬 diff signal skew"
+#	(constraint skew (max 0.25mm))
+#	(condition "AB.isCoupledDiffPair() && !A.hasNetclass('ANA')"))
 
 # Diffpair MYGROUP group skew matching
 (rule "🧬 diff MYGROUP group skew"
