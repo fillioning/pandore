@@ -3806,65 +3806,15 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "TODO: actual vout calc"
+	(text "VOUT = [47.35 - 49.23]V"
 		(exclude_from_sim no)
-		(at 226.06 60.325 0)
+		(at 246.38 147.955 0)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
 		)
-		(uuid "5259422f-8536-4155-89ad-14ae07029979")
-	)
-	(text "TODO: enable setting"
-		(exclude_from_sim no)
-		(at 156.1718 69.85 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-		)
-		(uuid "728691bd-3b1f-45b3-940d-77d7b377c028")
-	)
-	(text "TODO: enable setting"
-		(exclude_from_sim no)
-		(at 217.17 149.225 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-		)
-		(uuid "a6d59bd6-1e53-4aa3-84dd-5cf8a3a280b3")
-	)
-	(text "TODO: actual vout calc"
-		(exclude_from_sim no)
-		(at 224.155 86.36 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-		)
-		(uuid "ab4ed811-fe05-4632-a594-c2e8f71d4aab")
-	)
-	(text "TODO: enable setting"
-		(exclude_from_sim no)
-		(at 155.575 39.37 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-		)
-		(uuid "aeedb20a-259a-45c8-811b-0fa8a76f0501")
-	)
-	(text "TODO: actual vout calc"
-		(exclude_from_sim no)
-		(at 253.365 152.4 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-		)
-		(uuid "c86278a6-d253-4de6-a19e-3aa094dcf75b")
+		(uuid "ca27d153-f42c-43fc-a09b-a065c3391b26")
 	)
 	(junction
 		(at 113.03 44.45)
@@ -3877,6 +3827,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "01cbc61c-86c9-4c29-913e-01abdb803327")
+	)
+	(junction
+		(at 99.06 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0414f3e4-cde8-48a3-8625-57626bad8ab8")
 	)
 	(junction
 		(at 209.55 127)
@@ -3901,12 +3857,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ad537f1-6584-40f4-9587-e502d83a732e")
-	)
-	(junction
-		(at 86.36 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0b1f120b-331e-4872-b637-ac93face43d4")
 	)
 	(junction
 		(at 142.24 44.45)
@@ -3943,6 +3893,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "180046e5-1f7e-414f-b849-4d213d49f348")
+	)
+	(junction
+		(at 107.95 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "215023ed-2132-4f6f-bcb5-837e47640a2b")
 	)
 	(junction
 		(at 76.2 91.44)
@@ -4029,7 +3985,7 @@
 		(uuid "3a4c9bc8-8195-4850-a9a2-c029c525c394")
 	)
 	(junction
-		(at 77.47 185.42)
+		(at 99.06 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "43454eba-3dfe-4203-86d5-4315a6728fae")
@@ -4107,6 +4063,12 @@
 		(uuid "76e4572e-1d67-4a6f-8e9a-0e832b48a61d")
 	)
 	(junction
+		(at 107.95 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78842752-4315-4aad-9698-7336288065e1")
+	)
+	(junction
 		(at 120.65 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4155,12 +4117,6 @@
 		(uuid "8c2f79d4-5226-469e-9240-944f9bfb1cba")
 	)
 	(junction
-		(at 86.36 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8fa5915f-5855-4a23-a194-13892aba2c44")
-	)
-	(junction
 		(at 194.31 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4171,12 +4127,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "945aadd6-7054-4d95-a02c-c40f5339228a")
-	)
-	(junction
-		(at 63.5 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "98a486d2-8b86-49ef-8b36-7da2cc85c6d3")
 	)
 	(junction
 		(at 87.63 44.45)
@@ -4195,12 +4145,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9fd2cdbe-df1b-400f-8ac0-2b59f481aad5")
-	)
-	(junction
-		(at 86.36 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9ff65fd7-d0dd-43a8-aca0-c1ec0f1a1ed1")
 	)
 	(junction
 		(at 48.26 91.44)
@@ -4474,13 +4418,13 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 138.43) (xy 86.36 137.16)
+			(xy 99.06 139.7) (xy 91.44 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "08fe7d65-ece5-46d4-a646-0fa40715532b")
+		(uuid "08c282ae-b011-410d-b64f-fdcde02b0d2d")
 	)
 	(wire
 		(pts
@@ -4504,16 +4448,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 114.3) (xy 116.84 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ceffe4d-4e3a-404f-a2f1-758c7dfae670")
-	)
-	(wire
-		(pts
 			(xy 76.2 77.47) (xy 76.2 86.36)
 		)
 		(stroke
@@ -4521,16 +4455,6 @@
 			(type default)
 		)
 		(uuid "0d68bdfb-f295-43aa-bdf7-94f4f394fbee")
-	)
-	(wire
-		(pts
-			(xy 90.17 139.7) (xy 90.17 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0da72dec-b3ef-4b0b-a9ab-e26c378ecdac")
 	)
 	(wire
 		(pts
@@ -4594,7 +4518,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 161.29) (xy 77.47 173.99)
+			(xy 99.06 114.3) (xy 99.06 128.27)
 		)
 		(stroke
 			(width 0)
@@ -4664,16 +4588,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 185.42) (xy 77.47 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20e16c00-98a2-43ac-a41b-d1fd95827b4c")
-	)
-	(wire
-		(pts
 			(xy 161.29 49.53) (xy 154.94 49.53)
 		)
 		(stroke
@@ -4701,16 +4615,6 @@
 			(type default)
 		)
 		(uuid "22b20d03-dc6f-408d-b2b5-56c215a68869")
-	)
-	(wire
-		(pts
-			(xy 86.36 73.66) (xy 86.36 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "237cf9a2-b781-4e12-9ee4-2e7814e02b50")
 	)
 	(wire
 		(pts
@@ -4744,7 +4648,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 135.89) (xy 86.36 137.16)
+			(xy 107.95 121.92) (xy 107.95 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4944,7 +4848,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 139.7) (xy 90.17 139.7)
+			(xy 123.19 139.7) (xy 99.06 139.7)
 		)
 		(stroke
 			(width 0)
@@ -5034,7 +4938,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 181.61) (xy 77.47 185.42)
+			(xy 99.06 135.89) (xy 99.06 139.7)
 		)
 		(stroke
 			(width 0)
@@ -5124,6 +5028,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 123.19) (xy 111.76 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cd74c6c-c873-4142-b6c4-33e55c6390be")
+	)
+	(wire
+		(pts
 			(xy 157.48 154.94) (xy 157.48 157.48)
 		)
 		(stroke
@@ -5141,16 +5055,6 @@
 			(type default)
 		)
 		(uuid "5b51b779-d662-40db-ae09-f22c5522be3d")
-	)
-	(wire
-		(pts
-			(xy 77.47 185.42) (xy 69.85 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fedb956-6a20-4769-ab03-f569873e868d")
 	)
 	(wire
 		(pts
@@ -5224,7 +5128,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 161.29) (xy 63.5 161.29)
+			(xy 99.06 114.3) (xy 85.09 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5271,16 +5175,6 @@
 			(type default)
 		)
 		(uuid "69114926-4c1a-4346-955c-3da541e0b319")
-	)
-	(wire
-		(pts
-			(xy 107.95 73.66) (xy 107.95 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ba555c0-516c-4561-af2a-d719e653d51b")
 	)
 	(wire
 		(pts
@@ -5374,17 +5268,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 114.3) (xy 86.36 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77fa2275-d507-453a-82d6-bd62a51c87a1")
-	)
-	(wire
-		(pts
-			(xy 86.36 125.73) (xy 86.36 128.27)
+			(xy 107.95 44.45) (xy 107.95 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5494,16 +5378,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 125.73) (xy 63.5 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "864587be-1fe3-4831-8133-214d4ecc7fd7")
-	)
-	(wire
-		(pts
 			(xy 161.29 78.74) (xy 154.94 78.74)
 		)
 		(stroke
@@ -5534,7 +5408,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 161.29) (xy 63.5 162.56)
+			(xy 85.09 114.3) (xy 85.09 116.84)
 		)
 		(stroke
 			(width 0)
@@ -5644,7 +5518,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 114.3) (xy 143.51 114.3)
+			(xy 157.48 114.3) (xy 144.78 114.3)
 		)
 		(stroke
 			(width 0)
@@ -6114,6 +5988,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 123.19) (xy 111.76 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4a9157b-f7c9-42ad-95c3-0853659653cd")
+	)
+	(wire
+		(pts
 			(xy 76.2 72.39) (xy 76.2 60.96)
 		)
 		(stroke
@@ -6184,7 +6068,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 114.3) (xy 130.81 114.3)
+			(xy 134.62 114.3) (xy 130.81 114.3)
 		)
 		(stroke
 			(width 0)
@@ -6254,6 +6138,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 114.3) (xy 116.84 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2111710-6abc-4836-945b-6c43d6908086")
+	)
+	(wire
+		(pts
 			(xy 194.31 127) (xy 199.39 127)
 		)
 		(stroke
@@ -6304,16 +6198,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 137.16) (xy 123.19 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb087ddc-8f57-4480-8208-908374ef2fc1")
-	)
-	(wire
-		(pts
 			(xy 199.39 127) (xy 203.2 127)
 		)
 		(stroke
@@ -6331,6 +6215,16 @@
 			(type default)
 		)
 		(uuid "eca6d5fd-dca4-44ee-b2cf-931dabce6ee3")
+	)
+	(wire
+		(pts
+			(xy 107.95 123.19) (xy 107.95 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed66a0bf-7afe-4c06-a927-1cc2e72be64c")
 	)
 	(wire
 		(pts
@@ -6374,6 +6268,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 137.16) (xy 123.19 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1f606e6-1651-455e-bda8-1aa4a51fac4c")
+	)
+	(wire
+		(pts
 			(xy 194.31 137.16) (xy 194.31 138.43)
 		)
 		(stroke
@@ -6381,16 +6285,6 @@
 			(type default)
 		)
 		(uuid "f31b2cac-ec78-4093-8737-a92da00fd51c")
-	)
-	(wire
-		(pts
-			(xy 86.36 73.66) (xy 107.95 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3daa0fd-95c7-473e-a024-57c302741b2f")
 	)
 	(wire
 		(pts
@@ -6404,7 +6298,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 125.73) (xy 63.5 125.73)
+			(xy 107.95 114.3) (xy 99.06 114.3)
 		)
 		(stroke
 			(width 0)
@@ -6635,7 +6529,7 @@
 	(netclass_flag ""
 		(length 1.27)
 		(shape diamond)
-		(at 152.4 114.3 0)
+		(at 149.86 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6645,7 +6539,7 @@
 		)
 		(uuid "64a8682a-130e-4842-a9d4-110a31b58f9b")
 		(property "Netclass" "PWR"
-			(at 153.4973 113.03 0)
+			(at 150.9573 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6654,7 +6548,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at -21.59 77.47 0)
+			(at -24.13 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7070,7 +6964,7 @@
 	)
 	(symbol
 		(lib_id "reekilib_res:res")
-		(at 86.36 142.24 0)
+		(at 107.95 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7078,7 +6972,7 @@
 		(dnp no)
 		(uuid "02ac9f48-d8b9-410c-887c-2ccc05f1840c")
 		(property "Reference" "R149"
-			(at 84.455 138.938 0)
+			(at 106.045 124.968 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7088,7 +6982,7 @@
 			)
 		)
 		(property "Value" "${Resistance}, ${Tolerance}, ${Power}"
-			(at 88.392 141.478 0)
+			(at 109.982 127.508 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7099,7 +6993,7 @@
 			)
 		)
 		(property "Footprint" "reekilib_res:RESC1005"
-			(at 86.614 153.416 0)
+			(at 108.204 139.446 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7108,8 +7002,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 86.36 156.464 0)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 107.95 142.494 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7119,7 +7013,7 @@
 			)
 		)
 		(property "Description" "Resistor single 2 pad"
-			(at 86.36 154.94 0)
+			(at 107.95 140.97 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7128,8 +7022,8 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
-			(at 86.614 157.988 0)
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-0753K6L"
+			(at 108.204 144.018 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7139,7 +7033,7 @@
 			)
 		)
 		(property "Resistance" "53.6kΩ"
-			(at 84.455 140.462 0)
+			(at 106.045 126.492 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7149,7 +7043,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 84.455 141.986 0)
+			(at 106.045 128.016 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7159,7 +7053,7 @@
 			)
 		)
 		(property "Power" "63mW"
-			(at 84.455 143.51 0)
+			(at 106.045 129.54 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7168,8 +7062,8 @@
 				(justify right)
 			)
 		)
-		(property "MPN" "CR0402-FX-1002GL"
-			(at 86.36 160.02 0)
+		(property "MPN" "RC0402FR-0753K6L"
+			(at 107.95 146.05 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7178,8 +7072,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
-			(at 100.33 159.766 0)
+		(property "MFG" "YAGEO"
+			(at 121.92 145.796 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7190,7 +7084,7 @@
 			)
 		)
 		(property "MPN2" ""
-			(at 85.852 161.798 0)
+			(at 107.442 147.828 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7200,7 +7094,7 @@
 			)
 		)
 		(property "MFG2" ""
-			(at 100.584 161.798 0)
+			(at 122.174 147.828 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7211,7 +7105,7 @@
 			)
 		)
 		(property "MPN3" ""
-			(at 86.36 163.576 0)
+			(at 107.95 149.606 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7221,7 +7115,7 @@
 			)
 		)
 		(property "MFG3" ""
-			(at 100.584 163.576 0)
+			(at 122.174 149.606 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7859,7 +7753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/data/global/pdfs/CR.pdf"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 214.63 72.644 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7879,7 +7773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.bourns.com/search?indexCatalogue=psindex&searchQuery=CR0402-FX-1002GLF*"
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-073K09L"
 			(at 214.884 74.168 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7889,7 +7783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Resistance" "10kΩ"
+		(property "Resistance" "3.09kΩ"
 			(at 212.725 57.785 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7919,7 +7813,7 @@
 				(justify right)
 			)
 		)
-		(property "MPN" "CR0402-FX-1002GLF"
+		(property "MPN" "RC0402FR-073K09L"
 			(at 214.63 76.2 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7929,7 +7823,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Bourns Inc"
+		(property "MFG" "YAGEO"
 			(at 228.6 75.946 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7940,7 +7834,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "WR04X1002FTL"
+		(property "MPN2" ""
 			(at 214.122 77.978 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7950,7 +7844,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG2" "Walsin Technology Corporation"
+		(property "MFG2" ""
 			(at 228.854 77.978 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7961,7 +7855,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN3" "RC0402FR-0710KL"
+		(property "MPN3" ""
 			(at 214.63 79.756 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7971,7 +7865,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG3" "Yageo"
+		(property "MFG3" ""
 			(at 228.854 79.756 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8264,7 +8158,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
 			(at 240.284 73.66 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8304,7 +8198,7 @@
 				(justify right)
 			)
 		)
-		(property "Power" "0.25W"
+		(property "Power" "250mW"
 			(at 226.06 71.755 90)
 			(do_not_autoplace yes)
 			(effects
@@ -8314,7 +8208,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0805JR-070RL"
 			(at 243.84 73.66 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8324,7 +8218,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "YAGEO"
 			(at 243.586 59.69 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8335,7 +8229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RT0805DRE0747KL"
 			(at 241.808 73.406 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8452,7 +8346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/893/CL21B104KCFNNNE_Spec.pdf"
 			(at 209.55 144.018 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8509,7 +8403,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL21B104KCFNNNE"
 			(at 209.55 148.336 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8519,7 +8413,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Samsung Electro-Mechanics"
 			(at 197.612 148.336 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8754,7 +8648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM188R72A103KA37-01.pdf"
 			(at 264.16 149.098 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8814,7 +8708,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GCM188R72A103KA37D"
 			(at 264.16 153.416 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8824,7 +8718,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Murata"
 			(at 276.098 153.416 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9544,7 +9438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
 			(at 113.03 182.118 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9564,7 +9458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Capacitors/part/CC0402KRX7R9BB102"
 			(at 113.03 180.594 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9604,7 +9498,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CC0402KRX7R9BB102"
 			(at 113.03 186.436 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9614,7 +9508,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Yageo"
 			(at 124.968 186.436 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9808,7 +9702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 245.11 44.196 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9828,7 +9722,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-131KL"
 			(at 245.364 42.672 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9868,7 +9762,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-131KL"
 			(at 245.11 40.64 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9878,7 +9772,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "YAGEO"
 			(at 259.08 40.894 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9985,7 +9879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/28580/vjw1hvmlcccommseries.pdf"
 			(at 76.708 72.39 0)
 			(do_not_autoplace yes)
 			(effects
@@ -10042,7 +9936,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "VJ1206A101JXGCW1HV"
 			(at 81.026 72.39 0)
 			(do_not_autoplace yes)
 			(effects
@@ -10052,7 +9946,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Vishay Vitramon"
 			(at 81.026 60.452 0)
 			(do_not_autoplace yes)
 			(effects
@@ -10143,7 +10037,7 @@
 	)
 	(symbol
 		(lib_id "reekilib_res:res")
-		(at 63.5 173.99 180)
+		(at 85.09 128.27 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10151,7 +10045,7 @@
 		(dnp no)
 		(uuid "305dc16b-701f-4b7c-bc99-6f42a6ac1407")
 		(property "Reference" "R156"
-			(at 65.405 171.45 0)
+			(at 86.995 125.73 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10161,7 +10055,7 @@
 			)
 		)
 		(property "Value" "${Resistance}, ${Tolerance}, ${Power}"
-			(at 61.468 174.752 0)
+			(at 83.058 129.032 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10172,7 +10066,7 @@
 			)
 		)
 		(property "Footprint" "reekilib_res:RESC1005"
-			(at 63.246 162.814 0)
+			(at 84.836 117.094 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10181,8 +10075,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 63.5 159.766 0)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 85.09 114.046 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10192,7 +10086,7 @@
 			)
 		)
 		(property "Description" "Resistor single 2 pad"
-			(at 63.5 161.29 0)
+			(at 85.09 115.57 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10202,7 +10096,7 @@
 			)
 		)
 		(property "Resistance" "2.49kΩ"
-			(at 65.405 173.101 0)
+			(at 86.995 127.381 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10212,7 +10106,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 65.405 174.625 0)
+			(at 86.995 128.905 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10222,7 +10116,7 @@
 			)
 		)
 		(property "Power" "63mW"
-			(at 65.405 176.149 0)
+			(at 86.995 130.429 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10231,8 +10125,8 @@
 				(justify right)
 			)
 		)
-		(property "MPN" ""
-			(at 63.5 156.21 0)
+		(property "MPN" "RC0402FR-132K49L"
+			(at 85.09 110.49 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10241,8 +10135,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
-			(at 49.53 156.464 0)
+		(property "MFG" "YAGEO"
+			(at 71.12 110.744 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10252,8 +10146,8 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
-			(at 63.246 158.242 0)
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-132K49L"
+			(at 84.836 112.522 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10263,7 +10157,7 @@
 			)
 		)
 		(property "MPN2" ""
-			(at 64.008 154.432 0)
+			(at 85.598 108.712 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10273,7 +10167,7 @@
 			)
 		)
 		(property "MFG2" ""
-			(at 49.276 154.432 0)
+			(at 70.866 108.712 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10284,7 +10178,7 @@
 			)
 		)
 		(property "MPN3" ""
-			(at 63.5 152.654 0)
+			(at 85.09 106.934 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10294,7 +10188,7 @@
 			)
 		)
 		(property "MFG3" ""
-			(at 49.276 152.654 0)
+			(at 70.866 106.934 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10326,7 +10220,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "30b3e9e2-4f9f-4df9-88ca-fa04252c29c4")
 		(property "Reference" "R144"
 			(at 201.295 138.938 0)
@@ -10568,7 +10462,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "31b05bcd-ca82-44db-b169-14e04b13f77b")
 		(property "Reference" "R67"
 			(at 149.225 52.578 0)
@@ -11023,7 +10917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf"
 			(at 265.43 33.274 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11043,7 +10937,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "PH1-02-UA"
 			(at 265.43 39.116 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11053,7 +10947,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Adam Tech"
 			(at 272.034 39.116 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11128,7 +11022,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/28580/vjw1hvmlcccommseries.pdf"
 			(at 76.708 99.06 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11185,7 +11079,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "VJ1206A101JXGCW1HV"
 			(at 81.026 99.06 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11195,7 +11089,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Vishay Vitramon"
 			(at 81.026 87.122 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11388,7 +11282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 240.03 73.406 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11408,7 +11302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-07560RL"
 			(at 239.776 71.882 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11448,7 +11342,7 @@
 				(justify right)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-07560RL"
 			(at 240.03 69.85 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11458,7 +11352,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "YAGEO"
 			(at 226.06 70.104 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12173,7 +12067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/28580/vjw1hvmlcccommseries.pdf"
 			(at 76.708 104.14 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12233,7 +12127,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "VJ1206A101JXGCW1HV"
 			(at 81.026 104.14 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12243,7 +12137,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Vishay Vitramon"
 			(at 81.026 92.202 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12436,7 +12330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 194.31 146.304 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12456,7 +12350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-07316KL"
 			(at 194.564 147.828 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12496,7 +12390,7 @@
 				(justify right)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-07316KL"
 			(at 194.31 149.86 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12506,7 +12400,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Bourns I"
+		(property "MFG" "YAGEO"
 			(at 208.28 149.606 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12613,7 +12507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/28580/vjw1hvmlcccommseries.pdf"
 			(at 76.708 91.44 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12673,7 +12567,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "VJ1206A101JXGCW1HV"
 			(at 81.026 91.44 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12683,7 +12577,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Vishay Vitramon"
 			(at 81.026 79.502 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12875,7 +12769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E106KA73-01.pdf"
 			(at 142.24 61.468 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12932,7 +12826,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM21BR61E106KA73K"
 			(at 142.24 65.786 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12942,7 +12836,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Murata"
 			(at 154.178 65.786 0)
 			(do_not_autoplace yes)
 			(effects
@@ -13198,7 +13092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E106KA73-01.pdf"
 			(at 219.71 61.468 0)
 			(do_not_autoplace yes)
 			(effects
@@ -13255,7 +13149,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM21BR61E106KA73K"
 			(at 219.71 65.786 0)
 			(do_not_autoplace yes)
 			(effects
@@ -13265,7 +13159,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Murata"
 			(at 231.648 65.786 0)
 			(do_not_autoplace yes)
 			(effects
@@ -13692,7 +13586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 194.31 156.464 0)
 			(do_not_autoplace yes)
 			(effects
@@ -13712,7 +13606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-0753K6L"
 			(at 194.564 157.988 0)
 			(do_not_autoplace yes)
 			(effects
@@ -13752,7 +13646,7 @@
 				(justify right)
 			)
 		)
-		(property "MPN" "CR0402-FX-1002GL"
+		(property "MPN" "RC0402FR-0753K6L"
 			(at 194.31 160.02 0)
 			(do_not_autoplace yes)
 			(effects
@@ -13762,7 +13656,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "YAGEO"
 			(at 208.28 159.766 0)
 			(do_not_autoplace yes)
 			(effects
@@ -14112,7 +14006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 118.11 41.656 0)
 			(do_not_autoplace yes)
 			(effects
@@ -14162,7 +14056,7 @@
 				(justify right)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-132K49L"
 			(at 118.11 38.1 0)
 			(do_not_autoplace yes)
 			(effects
@@ -14172,7 +14066,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "YAGEO"
 			(at 104.14 38.354 0)
 			(do_not_autoplace yes)
 			(effects
@@ -14183,7 +14077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-132K49L"
 			(at 117.856 40.132 0)
 			(do_not_autoplace yes)
 			(effects
@@ -14473,7 +14367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
 			(at 120.65 144.018 0)
 			(do_not_autoplace yes)
 			(effects
@@ -14493,7 +14387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://www.passivecomponent.com/product-search/MLCC/?partnumber=0402B104K160CT"
 			(at 120.65 142.494 0)
 			(do_not_autoplace yes)
 			(effects
@@ -14533,7 +14427,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0402B104K160CT"
 			(at 120.65 148.336 0)
 			(do_not_autoplace yes)
 			(effects
@@ -14543,7 +14437,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Walsin Technology Corporation"
 			(at 108.712 148.336 0)
 			(do_not_autoplace yes)
 			(effects
@@ -14926,7 +14820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/data/global/pdfs/CR.pdf"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 260.35 148.844 0)
 			(do_not_autoplace yes)
 			(effects
@@ -14946,7 +14840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.bourns.com/search?indexCatalogue=psindex&searchQuery=CR0402-FX-1002GLF*"
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-0793K1L"
 			(at 260.604 150.368 0)
 			(do_not_autoplace yes)
 			(effects
@@ -14956,7 +14850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Resistance" "10kΩ"
+		(property "Resistance" "100kΩ"
 			(at 258.445 134.112 0)
 			(do_not_autoplace yes)
 			(effects
@@ -14986,7 +14880,7 @@
 				(justify right)
 			)
 		)
-		(property "MPN" "CR0402-FX-1002GLF"
+		(property "MPN" "RC0402FR-07100KL"
 			(at 260.35 152.4 0)
 			(do_not_autoplace yes)
 			(effects
@@ -14996,7 +14890,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Bourns Inc"
+		(property "MFG" "YAGEO"
 			(at 274.32 152.146 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15007,7 +14901,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "WR04X1002FTL"
+		(property "MPN2" ""
 			(at 259.842 154.178 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15017,7 +14911,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG2" "Walsin Technology Corporation"
+		(property "MFG2" ""
 			(at 274.574 154.178 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15028,7 +14922,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN3" "RC0402FR-0710KL"
+		(property "MPN3" ""
 			(at 260.35 155.956 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15038,7 +14932,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG3" "Yageo"
+		(property "MFG3" ""
 			(at 274.574 155.956 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15168,7 +15062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
 			(at 76.2 61.468 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15188,7 +15082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://www.passivecomponent.com/product-search/MLCC/?partnumber=0402B104K160CT"
 			(at 76.2 59.944 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15228,7 +15122,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0402B104K160CT"
 			(at 76.2 65.786 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15238,7 +15132,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Walsin Technology Corporation"
 			(at 88.138 65.786 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15597,7 +15491,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "25V"
 			(at 198.12 70.739 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15636,7 +15530,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "CL05B104KA5NNNC"
+		(property "MPN2" ""
 			(at 198.12 96.52 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15646,7 +15540,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG2" "Samsung Electro-Mechanics"
+		(property "MFG2" ""
 			(at 210.058 96.52 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15657,7 +15551,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN3" "EMK105B7104KV-F"
+		(property "MPN3" ""
 			(at 198.12 98.044 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15667,7 +15561,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG3" "Taiyo Yuden"
+		(property "MFG3" ""
 			(at 210.058 98.044 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15753,7 +15647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/28580/vjw1hvmlcccommseries.pdf"
 			(at 76.708 118.11 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15813,7 +15707,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "VJ1206A101JXGCW1HV"
 			(at 81.026 118.11 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15823,7 +15717,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Vishay Vitramon"
 			(at 81.026 106.172 0)
 			(do_not_autoplace yes)
 			(effects
@@ -16081,7 +15975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
 			(at 283.464 127 0)
 			(do_not_autoplace yes)
 			(effects
@@ -16121,7 +16015,7 @@
 				(justify right)
 			)
 		)
-		(property "Power" "0.25W"
+		(property "Power" "250mW"
 			(at 269.24 125.095 90)
 			(do_not_autoplace yes)
 			(effects
@@ -16131,7 +16025,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0805JR-070RL"
 			(at 287.02 127 0)
 			(do_not_autoplace yes)
 			(effects
@@ -16141,7 +16035,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "YAGEO"
 			(at 286.766 113.03 0)
 			(do_not_autoplace yes)
 			(effects
@@ -16152,7 +16046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RT0805DRE0747KL"
 			(at 284.988 126.746 0)
 			(do_not_autoplace yes)
 			(effects
@@ -16236,7 +16130,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "85359a94-671d-4add-a8c7-61a66467ea4a")
 		(property "Reference" "R71"
 			(at 149.225 81.788 0)
@@ -16613,7 +16507,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "25V"
 			(at 198.12 41.529 0)
 			(do_not_autoplace yes)
 			(effects
@@ -16652,7 +16546,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "CL05B104KA5NNNC"
+		(property "MPN2" ""
 			(at 198.12 67.31 0)
 			(do_not_autoplace yes)
 			(effects
@@ -16662,7 +16556,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG2" "Samsung Electro-Mechanics"
+		(property "MFG2" ""
 			(at 210.058 67.31 0)
 			(do_not_autoplace yes)
 			(effects
@@ -16673,7 +16567,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN3" "EMK105B7104KV-F"
+		(property "MPN3" ""
 			(at 198.12 68.834 0)
 			(do_not_autoplace yes)
 			(effects
@@ -16683,7 +16577,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG3" "Taiyo Yuden"
+		(property "MFG3" ""
 			(at 210.058 68.834 0)
 			(do_not_autoplace yes)
 			(effects
@@ -16770,7 +16664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 113.03 175.514 0)
 			(do_not_autoplace yes)
 			(effects
@@ -16790,7 +16684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-0793K1L"
 			(at 113.284 177.038 0)
 			(do_not_autoplace yes)
 			(effects
@@ -16800,7 +16694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Resistance" "105kΩ"
+		(property "Resistance" "100kΩ"
 			(at 115.57 159.766 0)
 			(do_not_autoplace yes)
 			(effects
@@ -16830,7 +16724,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-07100KL"
 			(at 113.03 179.07 0)
 			(do_not_autoplace yes)
 			(effects
@@ -16840,7 +16734,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "YAGEO"
 			(at 127 178.816 0)
 			(do_not_autoplace yes)
 			(effects
@@ -17061,7 +16955,7 @@
 	(symbol
 		(lib_name "res_1")
 		(lib_id "reekilib_res:res")
-		(at 77.47 177.8 0)
+		(at 99.06 132.08 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17071,7 +16965,7 @@
 		(fields_autoplaced yes)
 		(uuid "90198dcb-8336-4759-bd9a-d252eced7636")
 		(property "Reference" "R155"
-			(at 75.438 175.514 0)
+			(at 97.028 129.794 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -17081,7 +16975,7 @@
 			)
 		)
 		(property "Value" "${Resistance}, ${Tolerance}, ${Power}"
-			(at 75.438 177.038 0)
+			(at 97.028 131.318 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -17092,7 +16986,7 @@
 			)
 		)
 		(property "Footprint" "reekilib_res:RESC1005"
-			(at 77.216 188.976 0)
+			(at 98.806 143.256 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -17102,7 +16996,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/data/global/pdfs/CR.pdf"
-			(at 77.47 192.024 0)
+			(at 99.06 146.304 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -17112,7 +17006,7 @@
 			)
 		)
 		(property "Description" "Resistor single 2 pad"
-			(at 77.47 190.5 0)
+			(at 99.06 144.78 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -17122,7 +17016,7 @@
 			)
 		)
 		(property "Resistance" "10kΩ"
-			(at 75.438 177.038 0)
+			(at 97.028 131.318 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -17132,7 +17026,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 75.438 178.562 0)
+			(at 97.028 132.842 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -17142,7 +17036,7 @@
 			)
 		)
 		(property "Power" "63mW"
-			(at 75.438 180.086 0)
+			(at 97.028 134.366 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -17152,7 +17046,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-1002GLF"
-			(at 77.47 195.58 0)
+			(at 99.06 149.86 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -17162,7 +17056,7 @@
 			)
 		)
 		(property "MFG" "Bourns Inc"
-			(at 63.5 195.326 0)
+			(at 85.09 149.606 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -17173,7 +17067,7 @@
 			)
 		)
 		(property "Link" "https://www.bourns.com/search?indexCatalogue=psindex&searchQuery=CR0402-FX-1002GLF*"
-			(at 33.655 195.58 0)
+			(at 55.245 149.86 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -17184,7 +17078,7 @@
 			)
 		)
 		(property "MPN2" "WR04X1002FTL"
-			(at 77.978 197.358 0)
+			(at 99.568 151.638 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -17194,7 +17088,7 @@
 			)
 		)
 		(property "MFG2" "Walsin Technology Corporation"
-			(at 63.246 197.358 0)
+			(at 84.836 151.638 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -17205,7 +17099,7 @@
 			)
 		)
 		(property "Link2" ""
-			(at 77.47 177.8 0)
+			(at 99.06 132.08 0)
 			(effects
 				(font
 					(size 0.9906 0.9906)
@@ -17214,7 +17108,7 @@
 			)
 		)
 		(property "MPN3" "RC0402FR-0710KL"
-			(at 77.47 199.136 0)
+			(at 99.06 153.416 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -17224,7 +17118,7 @@
 			)
 		)
 		(property "MFG3" "Yageo"
-			(at 63.246 199.136 0)
+			(at 84.836 153.416 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -17235,7 +17129,7 @@
 			)
 		)
 		(property "Link3" ""
-			(at 77.47 177.8 0)
+			(at 99.06 132.08 0)
 			(effects
 				(font
 					(size 0.9906 0.9906)
@@ -17573,7 +17467,7 @@
 	)
 	(symbol
 		(lib_id "reekilib_pwr:VSS")
-		(at 86.36 147.32 0)
+		(at 107.95 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -17581,7 +17475,7 @@
 		(dnp no)
 		(uuid "9d92c56e-778a-4b15-a900-ccaa4bb01bea")
 		(property "Reference" "#PWR0227"
-			(at 86.36 151.765 0)
+			(at 107.95 137.795 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -17591,7 +17485,7 @@
 			)
 		)
 		(property "Value" "VSSISO"
-			(at 86.36 149.86 0)
+			(at 107.95 135.89 0)
 			(effects
 				(font
 					(size 1 1)
@@ -17599,7 +17493,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 147.32 0)
+			(at 107.95 133.35 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -17607,7 +17501,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 144.78 0)
+			(at 107.95 130.81 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -17615,7 +17509,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.36 147.32 0)
+			(at 107.95 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17674,7 +17568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E106KA73-01.pdf"
 			(at 87.63 61.468 0)
 			(do_not_autoplace yes)
 			(effects
@@ -17731,7 +17625,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM21BR61E106KA73K"
 			(at 87.63 65.786 0)
 			(do_not_autoplace yes)
 			(effects
@@ -17741,7 +17635,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Murata"
 			(at 99.568 65.786 0)
 			(do_not_autoplace yes)
 			(effects
@@ -17832,7 +17726,7 @@
 	)
 	(symbol
 		(lib_id "reekilib_ind:ind")
-		(at 138.43 114.3 0)
+		(at 139.7 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17841,7 +17735,7 @@
 		(fields_autoplaced yes)
 		(uuid "a60e964d-f74d-47de-b971-8865ed9fe6cd")
 		(property "Reference" "L6"
-			(at 135.89 111.76 0)
+			(at 137.16 111.76 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -17851,7 +17745,7 @@
 			)
 		)
 		(property "Value" "Ind"
-			(at 139.7 111.76 0)
+			(at 140.97 111.76 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -17861,7 +17755,7 @@
 			)
 		)
 		(property "Footprint" "reekilib_ind:WE_IND5030"
-			(at 138.43 123.19 0)
+			(at 139.7 123.19 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -17871,7 +17765,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.cyntec.com/upfile/products/download/SDEI054T-000%20(A6).pdf"
-			(at 138.43 121.92 0)
+			(at 139.7 121.92 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -17881,7 +17775,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 138.43 120.65 0)
+			(at 139.7 120.65 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -17891,7 +17785,7 @@
 			)
 		)
 		(property "MPN" "SDEI054T-330MS"
-			(at 138.43 118.745 0)
+			(at 139.7 118.745 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -17901,7 +17795,7 @@
 			)
 		)
 		(property "MFG" "Delta Electronics/Cyntec"
-			(at 151.13 118.745 0)
+			(at 152.4 118.745 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -17912,7 +17806,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 162.56 118.745 0)
+			(at 163.83 118.745 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -17976,7 +17870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E106KA73-01.pdf"
 			(at 142.24 90.678 0)
 			(do_not_autoplace yes)
 			(effects
@@ -18033,7 +17927,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM21BR61E106KA73K"
 			(at 142.24 94.996 0)
 			(do_not_autoplace yes)
 			(effects
@@ -18043,7 +17937,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Murata"
 			(at 154.178 94.996 0)
 			(do_not_autoplace yes)
 			(effects
@@ -18237,7 +18131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/893/CL21B104KCFNNNE_Spec.pdf"
 			(at 172.72 144.018 0)
 			(do_not_autoplace yes)
 			(effects
@@ -18297,7 +18191,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL21B104KCFNNNE"
 			(at 172.72 148.336 0)
 			(do_not_autoplace yes)
 			(effects
@@ -18307,7 +18201,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Samsung Electro-Mechanics"
 			(at 160.782 148.336 0)
 			(do_not_autoplace yes)
 			(effects
@@ -18437,7 +18331,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GP_NP0_16V-to-250V"
 			(at 107.95 182.118 0)
 			(do_not_autoplace yes)
 			(effects
@@ -18457,7 +18351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Capacitors/part/CC0402BRNPO9BN1R0"
 			(at 107.95 180.594 0)
 			(do_not_autoplace yes)
 			(effects
@@ -18497,7 +18391,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CC0402BRNPO9BN1R0"
 			(at 107.95 186.436 0)
 			(do_not_autoplace yes)
 			(effects
@@ -18507,7 +18401,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Yageo"
 			(at 96.012 186.436 0)
 			(do_not_autoplace yes)
 			(effects
@@ -18634,7 +18528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf"
 			(at 152.4 7.874 0)
 			(do_not_autoplace yes)
 			(effects
@@ -18654,7 +18548,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "PH1-02-UA"
 			(at 152.4 13.716 0)
 			(do_not_autoplace yes)
 			(effects
@@ -18664,7 +18558,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Adam Tech"
 			(at 159.004 13.716 0)
 			(do_not_autoplace yes)
 			(effects
@@ -18804,7 +18698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/data/global/pdfs/CR.pdf"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 214.63 101.854 0)
 			(do_not_autoplace yes)
 			(effects
@@ -18824,7 +18718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.bourns.com/search?indexCatalogue=psindex&searchQuery=CR0402-FX-1002GLF*"
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-075K6L"
 			(at 214.884 103.378 0)
 			(do_not_autoplace yes)
 			(effects
@@ -18834,7 +18728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Resistance" "10kΩ"
+		(property "Resistance" "5.6kΩ"
 			(at 212.725 86.995 0)
 			(do_not_autoplace yes)
 			(effects
@@ -18864,7 +18758,7 @@
 				(justify right)
 			)
 		)
-		(property "MPN" "CR0402-FX-1002GLF"
+		(property "MPN" "RC0402FR-075K6L"
 			(at 214.63 105.41 0)
 			(do_not_autoplace yes)
 			(effects
@@ -18874,7 +18768,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Bourns Inc"
+		(property "MFG" "YAGEO"
 			(at 228.6 105.156 0)
 			(do_not_autoplace yes)
 			(effects
@@ -18885,7 +18779,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "WR04X1002FTL"
+		(property "MPN2" ""
 			(at 214.122 107.188 0)
 			(do_not_autoplace yes)
 			(effects
@@ -18895,7 +18789,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG2" "Walsin Technology Corporation"
+		(property "MFG2" ""
 			(at 228.854 107.188 0)
 			(do_not_autoplace yes)
 			(effects
@@ -18906,7 +18800,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN3" "RC0402FR-0710KL"
+		(property "MPN3" ""
 			(at 214.63 108.966 0)
 			(do_not_autoplace yes)
 			(effects
@@ -18916,7 +18810,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG3" "Yageo"
+		(property "MFG3" ""
 			(at 228.854 108.966 0)
 			(do_not_autoplace yes)
 			(effects
@@ -19109,7 +19003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E106KA73-01.pdf"
 			(at 130.81 131.318 0)
 			(do_not_autoplace yes)
 			(effects
@@ -19166,7 +19060,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM21BR61E106KA73K"
 			(at 130.81 135.636 0)
 			(do_not_autoplace yes)
 			(effects
@@ -19176,7 +19070,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Murata"
 			(at 142.748 135.636 0)
 			(do_not_autoplace yes)
 			(effects
@@ -19304,7 +19198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/28580/vjw1hvmlcccommseries.pdf"
 			(at 76.708 113.03 0)
 			(do_not_autoplace yes)
 			(effects
@@ -19361,7 +19255,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "VJ1206A101JXGCW1HV"
 			(at 81.026 113.03 0)
 			(do_not_autoplace yes)
 			(effects
@@ -19371,7 +19265,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Vishay Vitramon"
 			(at 81.026 101.092 0)
 			(do_not_autoplace yes)
 			(effects
@@ -19500,7 +19394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 100.33 175.514 0)
 			(do_not_autoplace yes)
 			(effects
@@ -19520,7 +19414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-0721KL"
 			(at 100.584 177.038 0)
 			(do_not_autoplace yes)
 			(effects
@@ -19560,7 +19454,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-0721KL"
 			(at 100.33 179.07 0)
 			(do_not_autoplace yes)
 			(effects
@@ -19570,7 +19464,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "YAGEO"
 			(at 114.3 178.816 0)
 			(do_not_autoplace yes)
 			(effects
@@ -19677,7 +19571,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E106KA73-01.pdf"
 			(at 232.41 61.468 0)
 			(do_not_autoplace yes)
 			(effects
@@ -19734,7 +19628,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM21BR61E106KA73K"
 			(at 232.41 65.786 0)
 			(do_not_autoplace yes)
 			(effects
@@ -19744,7 +19638,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Murata"
 			(at 244.348 65.786 0)
 			(do_not_autoplace yes)
 			(effects
@@ -20000,7 +19894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E106KA73-01.pdf"
 			(at 36.83 61.468 0)
 			(do_not_autoplace yes)
 			(effects
@@ -20057,7 +19951,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM21BR61E106KA73K"
 			(at 36.83 65.786 0)
 			(do_not_autoplace yes)
 			(effects
@@ -20067,7 +19961,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Murata"
 			(at 48.768 65.786 0)
 			(do_not_autoplace yes)
 			(effects
@@ -20373,7 +20267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/28580/vjw1hvmlcccommseries.pdf"
 			(at 76.708 86.36 0)
 			(do_not_autoplace yes)
 			(effects
@@ -20430,7 +20324,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "VJ1206A101JXGCW1HV"
 			(at 81.026 86.36 0)
 			(do_not_autoplace yes)
 			(effects
@@ -20440,7 +20334,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Vishay Vitramon"
 			(at 81.026 74.422 0)
 			(do_not_autoplace yes)
 			(effects
@@ -20875,7 +20769,7 @@
 	)
 	(symbol
 		(lib_id "reekilib_mfe:MOSFET_EN-N")
-		(at 63.5 182.88 0)
+		(at 85.09 137.16 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20884,7 +20778,7 @@
 		(dnp no)
 		(uuid "d090079d-9f36-44c2-8b2a-44ac1e679e91")
 		(property "Reference" "Q7"
-			(at 67.945 180.975 0)
+			(at 89.535 135.255 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -20894,7 +20788,7 @@
 			)
 		)
 		(property "Value" "MOSFET_EN-N"
-			(at 59.69 184.404 0)
+			(at 81.28 138.684 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -20905,7 +20799,7 @@
 			)
 		)
 		(property "Footprint" "reekilib_sot:SOT95P280X100-3"
-			(at 63.5 195.58 0)
+			(at 85.09 149.86 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -20915,7 +20809,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BSS138P.pdf"
-			(at 63.5 197.104 0)
+			(at 85.09 151.384 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -20925,7 +20819,7 @@
 			)
 		)
 		(property "Description" "mosfet enhancement n-ch standard pinout"
-			(at 63.5 200.152 0)
+			(at 85.09 154.432 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -20935,7 +20829,7 @@
 			)
 		)
 		(property "MPN" "BSS138P,215"
-			(at 59.69 182.88 0)
+			(at 81.28 137.16 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -20946,7 +20840,7 @@
 			)
 		)
 		(property "MFG" "Nexperia"
-			(at 63.5 201.676 0)
+			(at 85.09 155.956 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -20956,7 +20850,7 @@
 			)
 		)
 		(property "Link" "https://www.nexperia.com/product/BSS138P"
-			(at 63.5 198.628 0)
+			(at 85.09 152.908 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -20966,7 +20860,7 @@
 			)
 		)
 		(property "MPN2" "BSS138BK,215"
-			(at 63.5 203.454 0)
+			(at 85.09 157.734 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -20976,7 +20870,7 @@
 			)
 		)
 		(property "MFG2" "Nexperia"
-			(at 63.5 204.978 0)
+			(at 85.09 159.258 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -20986,7 +20880,7 @@
 			)
 		)
 		(property "MPN3" "BSS138AKAR"
-			(at 63.246 206.756 0)
+			(at 84.836 161.036 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -20996,7 +20890,7 @@
 			)
 		)
 		(property "MFG3" "Nexperia"
-			(at 63.5 208.026 0)
+			(at 85.09 162.306 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -21006,7 +20900,7 @@
 			)
 		)
 		(property "MPN4" "BSS138W-7-F"
-			(at 63.5 209.804 0)
+			(at 85.09 164.084 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -21016,7 +20910,7 @@
 			)
 		)
 		(property "MFG4" "Diodes Incorporated"
-			(at 63.5 211.328 0)
+			(at 85.09 165.608 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -21026,7 +20920,7 @@
 			)
 		)
 		(property "MPN5" "BSS138BKAHZGT116"
-			(at 63.5 212.852 0)
+			(at 85.09 167.132 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -21036,7 +20930,7 @@
 			)
 		)
 		(property "MFG5" "Rohm Semiconductor"
-			(at 63.5 214.376 0)
+			(at 85.09 168.656 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -21046,7 +20940,7 @@
 			)
 		)
 		(property "Sim.Library" "${REEKILIB}/simmodel/mfe/nexperia_BSS138P.txt"
-			(at 63.246 216.154 0)
+			(at 84.836 170.434 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -21056,7 +20950,7 @@
 			)
 		)
 		(property "Sim.Name" "BSS138P"
-			(at 63.754 218.186 0)
+			(at 85.344 172.466 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -21066,7 +20960,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 63.5 220.218 0)
+			(at 85.09 174.498 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -21076,7 +20970,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=GATE 2=SOURCE 3=DRAIN"
-			(at 63.754 222.25 0)
+			(at 85.344 176.53 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -21105,7 +20999,7 @@
 	)
 	(symbol
 		(lib_id "reekilib_led:led")
-		(at 63.5 166.37 90)
+		(at 85.09 120.65 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21114,7 +21008,7 @@
 		(dnp no)
 		(uuid "d0bf68c2-ee99-4412-a65b-47f715cfe3a3")
 		(property "Reference" "D26"
-			(at 66.04 166.37 90)
+			(at 87.63 120.65 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -21124,7 +21018,7 @@
 			)
 		)
 		(property "Value" "${color}"
-			(at 66.04 167.64 90)
+			(at 87.63 121.92 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -21134,7 +21028,7 @@
 			)
 		)
 		(property "Footprint" "reekilib_led:LEDM1608X80"
-			(at 73.025 166.37 0)
+			(at 94.615 120.65 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -21144,7 +21038,7 @@
 			)
 		)
 		(property "Datasheet" "https://look.ams-osram.com/m/6069422f8e1c569f/original/KO-EELP41-22.pdf"
-			(at 74.295 166.37 0)
+			(at 95.885 120.65 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -21154,7 +21048,7 @@
 			)
 		)
 		(property "Description" "LED discrete single"
-			(at 71.755 166.37 0)
+			(at 93.345 120.65 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -21164,7 +21058,7 @@
 			)
 		)
 		(property "MPN" "KT EELP41.12-S2U1-25-2X4Y"
-			(at 66.04 166.37 0)
+			(at 87.63 120.65 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -21174,7 +21068,7 @@
 			)
 		)
 		(property "MFG" "AMS-OSRAM"
-			(at 66.04 184.15 0)
+			(at 87.63 138.43 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -21185,7 +21079,7 @@
 			)
 		)
 		(property "Link" "https://ams-osram.com/products/leds/color-leds/osram-smartled-0603-ko-eelp41-22"
-			(at 66.04 199.39 0)
+			(at 87.63 153.67 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -21196,7 +21090,7 @@
 			)
 		)
 		(property "Vf" "2.0V"
-			(at 67.945 160.655 0)
+			(at 89.535 114.935 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -21207,7 +21101,7 @@
 			)
 		)
 		(property "Imax" "30mA"
-			(at 67.945 166.37 0)
+			(at 89.535 120.65 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -21217,7 +21111,7 @@
 			)
 		)
 		(property "Vr" "10V"
-			(at 67.945 173.355 0)
+			(at 89.535 127.635 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -21228,7 +21122,7 @@
 			)
 		)
 		(property "color" "orange"
-			(at 69.85 166.37 0)
+			(at 91.44 120.65 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -21238,7 +21132,7 @@
 			)
 		)
 		(property "λdom" "610nm"
-			(at 69.85 173.355 0)
+			(at 91.44 127.635 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -21249,7 +21143,7 @@
 			)
 		)
 		(property "lum" "392mcd@5mA"
-			(at 69.85 160.655 0)
+			(at 91.44 114.935 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -21260,7 +21154,7 @@
 			)
 		)
 		(property "viewangle" "130°"
-			(at 69.85 182.88 0)
+			(at 91.44 137.16 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -21325,7 +21219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/893/CL21B104KCFNNNE_Spec.pdf"
 			(at 248.92 144.018 0)
 			(do_not_autoplace yes)
 			(effects
@@ -21382,7 +21276,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL21B104KCFNNNE"
 			(at 248.92 148.336 0)
 			(do_not_autoplace yes)
 			(effects
@@ -21392,7 +21286,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Samsung Electro-Mechanics"
 			(at 236.982 148.336 0)
 			(do_not_autoplace yes)
 			(effects
@@ -21547,7 +21441,7 @@
 	)
 	(symbol
 		(lib_id "reekilib_res:res")
-		(at 86.36 132.08 0)
+		(at 107.95 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21555,7 +21449,7 @@
 		(dnp no)
 		(uuid "d3127de9-99c6-4ef4-800c-d49fe52138dc")
 		(property "Reference" "R148"
-			(at 84.455 128.778 0)
+			(at 106.045 115.57 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -21565,7 +21459,7 @@
 			)
 		)
 		(property "Value" "${Resistance}, ${Tolerance}, ${Power}"
-			(at 88.392 131.318 0)
+			(at 109.982 117.348 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -21576,7 +21470,7 @@
 			)
 		)
 		(property "Footprint" "reekilib_res:RESC1005"
-			(at 86.614 143.256 0)
+			(at 108.204 129.286 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -21585,8 +21479,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 86.36 146.304 0)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 107.95 132.334 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -21596,7 +21490,7 @@
 			)
 		)
 		(property "Description" "Resistor single 2 pad"
-			(at 86.36 144.78 0)
+			(at 107.95 130.81 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -21605,8 +21499,8 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
-			(at 86.614 147.828 0)
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-07316KL"
+			(at 108.204 133.858 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -21616,7 +21510,7 @@
 			)
 		)
 		(property "Resistance" "316kΩ"
-			(at 84.455 130.302 0)
+			(at 106.045 117.094 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -21626,7 +21520,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 84.455 131.826 0)
+			(at 106.045 118.618 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -21636,7 +21530,7 @@
 			)
 		)
 		(property "Power" "63mW"
-			(at 84.455 133.35 0)
+			(at 106.045 120.142 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -21645,8 +21539,8 @@
 				(justify right)
 			)
 		)
-		(property "MPN" ""
-			(at 86.36 149.86 0)
+		(property "MPN" "RC0402FR-07316KL"
+			(at 107.95 135.89 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -21655,8 +21549,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Bourns I"
-			(at 100.33 149.606 0)
+		(property "MFG" "YAGEO"
+			(at 121.92 135.636 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -21667,7 +21561,7 @@
 			)
 		)
 		(property "MPN2" ""
-			(at 85.852 151.638 0)
+			(at 107.442 137.668 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -21677,7 +21571,7 @@
 			)
 		)
 		(property "MFG2" ""
-			(at 100.584 151.638 0)
+			(at 122.174 137.668 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -21688,7 +21582,7 @@
 			)
 		)
 		(property "MPN3" ""
-			(at 86.36 153.416 0)
+			(at 107.95 139.446 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -21698,7 +21592,7 @@
 			)
 		)
 		(property "MFG3" ""
-			(at 100.584 153.416 0)
+			(at 122.174 139.446 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -21763,7 +21657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71E123KA55-01A.pdf"
 			(at 92.71 182.118 0)
 			(do_not_autoplace yes)
 			(effects
@@ -21823,7 +21717,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GCM155R71E123KA55J"
 			(at 92.71 186.436 0)
 			(do_not_autoplace yes)
 			(effects
@@ -21833,7 +21727,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Murata"
 			(at 104.648 186.436 0)
 			(do_not_autoplace yes)
 			(effects
@@ -22106,7 +22000,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf"
 			(at 265.43 62.484 0)
 			(do_not_autoplace yes)
 			(effects
@@ -22126,7 +22020,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "PH1-02-UA"
 			(at 265.43 68.326 0)
 			(do_not_autoplace yes)
 			(effects
@@ -22136,7 +22030,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Adam Tech"
 			(at 272.034 68.326 0)
 			(do_not_autoplace yes)
 			(effects
@@ -22147,7 +22041,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.we-online.com/en/components/products/TBL_5_00_1377_HORIZONTAL_ENTRY_W_PRESSURE_CLAMP_GLOW_WIRE_6911377100XX"
+		(property "Link" ""
 			(at 265.43 63.754 0)
 			(do_not_autoplace yes)
 			(effects
@@ -22275,7 +22169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/28580/vjw1hvmlcccommseries.pdf"
 			(at 76.708 60.96 0)
 			(do_not_autoplace yes)
 			(effects
@@ -22332,7 +22226,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "VJ1206A101JXGCW1HV"
 			(at 81.026 60.96 0)
 			(do_not_autoplace yes)
 			(effects
@@ -22342,7 +22236,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Vishay Vitramon"
 			(at 81.026 49.022 0)
 			(do_not_autoplace yes)
 			(effects
@@ -22599,7 +22493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/data/global/pdfs/CR.pdf"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 260.35 156.464 0)
 			(do_not_autoplace yes)
 			(effects
@@ -22619,7 +22513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.bourns.com/search?indexCatalogue=psindex&searchQuery=CR0402-FX-1002GLF*"
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-132K49L"
 			(at 260.604 157.988 0)
 			(do_not_autoplace yes)
 			(effects
@@ -22629,7 +22523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Resistance" "10kΩ"
+		(property "Resistance" "2.49kΩ"
 			(at 258.445 141.605 0)
 			(do_not_autoplace yes)
 			(effects
@@ -22659,7 +22553,7 @@
 				(justify right)
 			)
 		)
-		(property "MPN" "CR0402-FX-1002GLF"
+		(property "MPN" "RC0402FR-132K49L"
 			(at 260.35 160.02 0)
 			(do_not_autoplace yes)
 			(effects
@@ -22669,7 +22563,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Bourns Inc"
+		(property "MFG" "YAGEO"
 			(at 274.32 159.766 0)
 			(do_not_autoplace yes)
 			(effects
@@ -22680,7 +22574,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "WR04X1002FTL"
+		(property "MPN2" ""
 			(at 259.842 161.798 0)
 			(do_not_autoplace yes)
 			(effects
@@ -22690,7 +22584,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG2" "Walsin Technology Corporation"
+		(property "MFG2" ""
 			(at 274.574 161.798 0)
 			(do_not_autoplace yes)
 			(effects
@@ -22701,7 +22595,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN3" "RC0402FR-0710KL"
+		(property "MPN3" ""
 			(at 260.35 163.576 0)
 			(do_not_autoplace yes)
 			(effects
@@ -22711,7 +22605,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG3" "Yageo"
+		(property "MFG3" ""
 			(at 274.574 163.576 0)
 			(do_not_autoplace yes)
 			(effects
@@ -22955,7 +22849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
 			(at 48.26 61.468 0)
 			(do_not_autoplace yes)
 			(effects
@@ -22975,7 +22869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://www.passivecomponent.com/product-search/MLCC/?partnumber=0402B104K160CT"
 			(at 48.26 59.944 0)
 			(do_not_autoplace yes)
 			(effects
@@ -23015,7 +22909,7 @@
 				(justify right)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0402B104K160CT"
 			(at 48.26 65.786 0)
 			(do_not_autoplace yes)
 			(effects
@@ -23025,7 +22919,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Walsin Technology Corporation"
 			(at 60.198 65.786 0)
 			(do_not_autoplace yes)
 			(effects
@@ -23153,7 +23047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E106KA73-01.pdf"
 			(at 124.46 131.318 0)
 			(do_not_autoplace yes)
 			(effects
@@ -23210,7 +23104,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM21BR61E106KA73K"
 			(at 124.46 135.636 0)
 			(do_not_autoplace yes)
 			(effects
@@ -23220,7 +23114,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Murata"
 			(at 136.398 135.636 0)
 			(do_not_autoplace yes)
 			(effects
@@ -23348,7 +23242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E106KA73-01.pdf"
 			(at 116.84 131.318 0)
 			(do_not_autoplace yes)
 			(effects
@@ -23405,7 +23299,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM21BR61E106KA73K"
 			(at 116.84 135.636 0)
 			(do_not_autoplace yes)
 			(effects
@@ -23415,7 +23309,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Murata"
 			(at 128.778 135.636 0)
 			(do_not_autoplace yes)
 			(effects
@@ -23506,7 +23400,7 @@
 	)
 	(symbol
 		(lib_id "reekilib_pwr:VSS")
-		(at 63.5 189.23 0)
+		(at 85.09 143.51 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23515,7 +23409,7 @@
 		(dnp no)
 		(uuid "ed1a869a-481b-4cce-9534-ac6f9d5449e6")
 		(property "Reference" "#PWR0224"
-			(at 63.5 193.675 0)
+			(at 85.09 147.955 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -23525,7 +23419,7 @@
 			)
 		)
 		(property "Value" "VSSISO"
-			(at 63.5 191.77 0)
+			(at 85.09 146.05 0)
 			(effects
 				(font
 					(size 1 1)
@@ -23533,7 +23427,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 189.23 0)
+			(at 85.09 143.51 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -23541,7 +23435,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 186.69 0)
+			(at 85.09 140.97 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -23549,7 +23443,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 189.23 0)
+			(at 85.09 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23609,7 +23503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
 			(at 157.48 165.608 0)
 			(do_not_autoplace yes)
 			(effects
@@ -23669,7 +23563,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0603C105K4RACTU"
 			(at 157.48 169.926 0)
 			(do_not_autoplace yes)
 			(effects
@@ -23679,7 +23573,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "KEMET"
 			(at 169.418 169.926 0)
 			(do_not_autoplace yes)
 			(effects
@@ -23986,7 +23880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32EC72A106ME05-01A.pdf"
 			(at 177.8 144.018 0)
 			(do_not_autoplace yes)
 			(effects
@@ -24043,7 +23937,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM32EC72A106ME05K"
 			(at 177.8 148.336 0)
 			(do_not_autoplace yes)
 			(effects
@@ -24053,7 +23947,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Murata"
 			(at 165.862 148.336 0)
 			(do_not_autoplace yes)
 			(effects
@@ -24245,7 +24139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/28580/vjw1hvmlcccommseries.pdf"
 			(at 76.708 77.47 0)
 			(do_not_autoplace yes)
 			(effects
@@ -24305,7 +24199,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "VJ1206A101JXGCW1HV"
 			(at 81.026 77.47 0)
 			(do_not_autoplace yes)
 			(effects
@@ -24315,7 +24209,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Vishay Vitramon"
 			(at 81.026 65.532 0)
 			(do_not_autoplace yes)
 			(effects
@@ -24572,7 +24466,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 121.92 183.134 0)
 			(do_not_autoplace yes)
 			(effects
@@ -24592,7 +24486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-0737K4L"
 			(at 122.174 184.658 0)
 			(do_not_autoplace yes)
 			(effects
@@ -24632,7 +24526,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-0737K4L"
 			(at 121.92 186.69 0)
 			(do_not_autoplace yes)
 			(effects
@@ -24642,7 +24536,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "YAGEO"
 			(at 135.89 186.436 0)
 			(do_not_autoplace yes)
 			(effects

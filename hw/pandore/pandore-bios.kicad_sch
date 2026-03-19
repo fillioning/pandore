@@ -2023,7 +2023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Resistance" "0"
+		(property "Resistance" "0Ω"
 			(at 81.28 62.992 90)
 			(do_not_autoplace yes)
 			(effects
@@ -2559,7 +2559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Resistance" "0"
+		(property "Resistance" "0Ω"
 			(at 81.28 70.612 90)
 			(do_not_autoplace yes)
 			(effects
@@ -2751,7 +2751,7 @@
 				(justify left)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "25V"
 			(at 133.35 71.882 0)
 			(do_not_autoplace yes)
 			(effects
@@ -2792,7 +2792,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "CL05B104KA5NNNC"
+		(property "MPN2" ""
 			(at 130.81 91.44 0)
 			(do_not_autoplace yes)
 			(effects
@@ -2802,7 +2802,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG2" "Samsung Electro-Mechanics"
+		(property "MFG2" ""
 			(at 142.748 91.44 0)
 			(do_not_autoplace yes)
 			(effects
@@ -2813,7 +2813,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN3" "EMK105B7104KV-F"
+		(property "MPN3" ""
 			(at 130.81 92.964 0)
 			(do_not_autoplace yes)
 			(effects
@@ -2823,7 +2823,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG3" "Taiyo Yuden"
+		(property "MFG3" ""
 			(at 142.748 92.964 0)
 			(do_not_autoplace yes)
 			(effects
@@ -2940,7 +2940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Resistance" "0"
+		(property "Resistance" "0Ω"
 			(at 81.28 78.232 90)
 			(do_not_autoplace yes)
 			(effects
@@ -3121,7 +3121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Resistance" "0"
+		(property "Resistance" "0Ω"
 			(at 81.28 75.692 90)
 			(do_not_autoplace yes)
 			(effects
@@ -3302,7 +3302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Resistance" "0"
+		(property "Resistance" "0Ω"
 			(at 81.28 68.072 90)
 			(do_not_autoplace yes)
 			(effects
@@ -3611,7 +3611,7 @@
 				(hide yes)
 			)
 		)
-		(property "Resistance" "0"
+		(property "Resistance" "0Ω"
 			(at 81.28 65.532 90)
 			(do_not_autoplace yes)
 			(effects

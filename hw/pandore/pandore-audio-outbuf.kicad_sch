@@ -1932,7 +1932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E106KA73-01.pdf"
 			(at 157.48 138.938 0)
 			(do_not_autoplace yes)
 			(effects
@@ -1989,7 +1989,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM21BR61E106KA73K"
 			(at 157.48 143.256 0)
 			(do_not_autoplace yes)
 			(effects
@@ -1999,7 +1999,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Murata"
 			(at 169.418 143.256 0)
 			(do_not_autoplace yes)
 			(effects
@@ -2238,7 +2238,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "25V"
 			(at 152.4 118.999 0)
 			(do_not_autoplace yes)
 			(effects
@@ -2277,7 +2277,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "CL05B104KA5NNNC"
+		(property "MPN2" ""
 			(at 152.4 144.78 0)
 			(do_not_autoplace yes)
 			(effects
@@ -2287,7 +2287,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG2" "Samsung Electro-Mechanics"
+		(property "MFG2" ""
 			(at 164.338 144.78 0)
 			(do_not_autoplace yes)
 			(effects
@@ -2298,7 +2298,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN3" "EMK105B7104KV-F"
+		(property "MPN3" ""
 			(at 152.4 146.304 0)
 			(do_not_autoplace yes)
 			(effects
@@ -2308,7 +2308,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG3" "Taiyo Yuden"
+		(property "MFG3" ""
 			(at 164.338 146.304 0)
 			(do_not_autoplace yes)
 			(effects
@@ -2399,7 +2399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf"
 			(at 181.864 73.66 0)
 			(do_not_autoplace yes)
 			(effects
@@ -2439,7 +2439,7 @@
 				(justify right)
 			)
 		)
-		(property "Power" "0.25W"
+		(property "Power" "250mW"
 			(at 167.64 71.755 90)
 			(do_not_autoplace yes)
 			(effects
@@ -2450,7 +2450,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RR1220P-101-D"
 			(at 185.42 73.66 0)
 			(do_not_autoplace yes)
 			(effects
@@ -2460,7 +2460,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Susumu"
 			(at 185.166 59.69 0)
 			(do_not_autoplace yes)
 			(effects
@@ -2592,7 +2592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
 			(at 152.908 87.63 0)
 			(do_not_autoplace yes)
 			(effects
@@ -2652,7 +2652,7 @@
 				(justify right)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0603N301J500CT"
 			(at 157.226 87.63 0)
 			(do_not_autoplace yes)
 			(effects
@@ -2662,7 +2662,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Walsin Technology Corporation"
 			(at 157.226 99.568 0)
 			(do_not_autoplace yes)
 			(effects
@@ -2796,7 +2796,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
 			(at 152.908 64.77 0)
 			(do_not_autoplace yes)
 			(effects
@@ -2856,7 +2856,7 @@
 				(justify right)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "0603N301J500CT"
 			(at 157.226 64.77 0)
 			(do_not_autoplace yes)
 			(effects
@@ -2866,7 +2866,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Walsin Technology Corporation"
 			(at 157.226 76.708 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3071,7 +3071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RT0805DRE075K1L"
 			(at 108.458 81.026 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3263,7 +3263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RT0805DRE075K1L"
 			(at 127.508 81.026 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3577,7 +3577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RT0805DRE075K1L"
 			(at 154.178 59.436 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4027,7 +4027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RT0805DRE075K1L"
 			(at 127.508 70.866 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4351,7 +4351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C224KA12-01.pdf"
 			(at 124.46 118.618 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4411,7 +4411,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM155R71C224KA12D"
 			(at 124.46 122.936 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4421,7 +4421,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Murata"
 			(at 136.398 122.936 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4555,7 +4555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/41/CL10B333KB8WPNC_Spec.pdf"
 			(at 175.26 97.028 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4605,7 +4605,7 @@
 				(justify right)
 			)
 		)
-		(property "Dielectric" "C0G"
+		(property "Dielectric" "X7R"
 			(at 177.8 85.217 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4615,7 +4615,7 @@
 				(justify right)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL10B333KB8WPNC"
 			(at 175.26 101.346 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4625,7 +4625,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Samsung Electro-Mechanics"
 			(at 163.322 101.346 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4830,7 +4830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RT0805DRE075K1L"
 			(at 108.458 70.866 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4951,7 +4951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1H132JA01-01A.pdf"
 			(at 100.33 80.518 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5011,7 +5011,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM1885C1H132JA01D"
 			(at 100.33 84.836 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5021,7 +5021,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Murata"
 			(at 88.392 84.836 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5226,7 +5226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RT0805DRE075K1L"
 			(at 154.178 96.266 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5415,7 +5415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1H132JA01-01A.pdf"
 			(at 100.33 100.838 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5475,7 +5475,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM1885C1H132JA01D"
 			(at 100.33 105.156 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5485,7 +5485,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Murata"
 			(at 88.392 105.156 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5619,7 +5619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/41/CL10B333KB8WPNC_Spec.pdf"
 			(at 175.26 84.328 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5669,7 +5669,7 @@
 				(justify right)
 			)
 		)
-		(property "Dielectric" "C0G"
+		(property "Dielectric" "X7R"
 			(at 177.8 72.517 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5679,7 +5679,7 @@
 				(justify right)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL10B333KB8WPNC"
 			(at 175.26 88.646 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5689,7 +5689,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Samsung Electro-Mechanics"
 			(at 163.322 88.646 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5822,7 +5822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf"
 			(at 181.864 78.74 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5862,7 +5862,7 @@
 				(justify right)
 			)
 		)
-		(property "Power" "0.25W"
+		(property "Power" "250mW"
 			(at 167.64 76.835 90)
 			(do_not_autoplace yes)
 			(effects
@@ -5873,7 +5873,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RR1220P-101-D"
 			(at 185.42 78.74 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5883,7 +5883,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Susumu"
 			(at 185.166 64.77 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6052,7 +6052,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "25V"
 			(at 147.32 118.999 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6091,7 +6091,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "CL05B104KA5NNNC"
+		(property "MPN2" ""
 			(at 147.32 144.78 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6101,7 +6101,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG2" "Samsung Electro-Mechanics"
+		(property "MFG2" ""
 			(at 159.258 144.78 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6112,7 +6112,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN3" "EMK105B7104KV-F"
+		(property "MPN3" ""
 			(at 147.32 146.304 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6122,7 +6122,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG3" "Taiyo Yuden"
+		(property "MFG3" ""
 			(at 159.258 146.304 0)
 			(do_not_autoplace yes)
 			(effects

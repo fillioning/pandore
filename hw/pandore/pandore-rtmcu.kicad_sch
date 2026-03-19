@@ -2310,16 +2310,6 @@
 		)
 		(uuid "17002663-8f7b-42cf-94c1-c591722bb7b1")
 	)
-	(text "TODO: RTIO Voltage choice: 3.3V"
-		(exclude_from_sim no)
-		(at 243.586 82.55 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-		)
-		(uuid "4c62f36b-e27a-4407-8c35-579d1393b60d")
-	)
 	(text "SPI0.~{CS} / UART1.RX / I2C0.SCL / PWM2.B / CLOCK.GPOUT0"
 		(exclude_from_sim no)
 		(at 121.285 96.52 0)
@@ -2742,6 +2732,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6716aa5-fa56-4b46-9817-e2f6073cb23a")
+	)
+	(junction
+		(at 60.96 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6a1b66a-2e95-44ef-baa2-50a7c131b028")
 	)
 	(junction
 		(at 254 104.14)
@@ -3569,7 +3565,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 43.18) (xy 60.96 45.72)
+			(xy 60.96 21.59) (xy 60.96 24.13)
 		)
 		(stroke
 			(width 0)
@@ -3586,6 +3582,16 @@
 			(type default)
 		)
 		(uuid "3fb82ddc-8c08-4b54-b6e3-645a08173b92")
+	)
+	(wire
+		(pts
+			(xy 60.96 24.13) (xy 73.66 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40dfbc10-3cc0-4f21-9ae3-190d92bc690f")
 	)
 	(bus
 		(pts
@@ -3976,16 +3982,6 @@
 			(type default)
 		)
 		(uuid "75b8e1cf-f1f3-4b2e-ba5e-0e6ce9405774")
-	)
-	(wire
-		(pts
-			(xy 64.77 24.13) (xy 73.66 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7675fd31-d95a-4e7b-b962-f4a2f4a5c0ee")
 	)
 	(bus
 		(pts
@@ -4756,6 +4752,16 @@
 			(type default)
 		)
 		(uuid "d81215a6-71fe-4183-9d15-319fdfdc2c8e")
+	)
+	(wire
+		(pts
+			(xy 60.96 24.13) (xy 60.96 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d920908e-57b1-4695-ac9e-3457edbab032")
 	)
 	(bus
 		(pts
@@ -6781,7 +6787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf"
 			(at 58.166 73.66 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6801,7 +6807,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "PH1-02-UA"
 			(at 52.324 73.66 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6811,7 +6817,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Adam Tech"
 			(at 52.324 67.056 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7515,7 +7521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 70.104 81.28 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7535,7 +7541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-131KL"
 			(at 71.628 81.026 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7575,7 +7581,7 @@
 				(justify right)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-131KL"
 			(at 73.66 81.28 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7585,7 +7591,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "YAGEO"
 			(at 73.406 67.31 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7648,6 +7654,70 @@
 			(project "pandore"
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/f774142b-755f-468a-93e0-eecae9257f8f"
 					(reference "R244")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_pwr:VDD")
+		(at 60.96 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "627acd5c-435c-4842-b87b-6fc760fdeef3")
+		(property "Reference" "#PWR0103"
+			(at 60.96 17.145 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V3P3"
+			(at 60.96 19.05 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 20.32 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 20.32 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "885b1226-7d0f-4b6b-a139-a5437928c7f7")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/f774142b-755f-468a-93e0-eecae9257f8f"
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -8365,7 +8435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 67.564 66.04 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8385,7 +8455,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-131KL"
 			(at 69.088 65.786 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8425,7 +8495,7 @@
 				(justify right)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-131KL"
 			(at 71.12 66.04 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8435,7 +8505,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "YAGEO"
 			(at 70.866 52.07 0)
 			(do_not_autoplace yes)
 			(effects

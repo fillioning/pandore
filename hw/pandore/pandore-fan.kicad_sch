@@ -1932,7 +1932,7 @@
 				(justify left)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "25V"
 			(at 205.74 49.022 0)
 			(do_not_autoplace yes)
 			(effects
@@ -1973,7 +1973,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "CL05B104KA5NNNC"
+		(property "MPN2" ""
 			(at 208.28 68.58 0)
 			(do_not_autoplace yes)
 			(effects
@@ -1983,7 +1983,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG2" "Samsung Electro-Mechanics"
+		(property "MFG2" ""
 			(at 196.342 68.58 0)
 			(do_not_autoplace yes)
 			(effects
@@ -1994,7 +1994,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN3" "EMK105B7104KV-F"
+		(property "MPN3" ""
 			(at 208.28 70.104 0)
 			(do_not_autoplace yes)
 			(effects
@@ -2004,7 +2004,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG3" "Taiyo Yuden"
+		(property "MFG3" ""
 			(at 196.342 70.104 0)
 			(do_not_autoplace yes)
 			(effects
@@ -2430,7 +2430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 186.944 100.33 0)
 			(do_not_autoplace yes)
 			(effects
@@ -2450,7 +2450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-0721KL"
 			(at 188.468 100.076 0)
 			(do_not_autoplace yes)
 			(effects
@@ -2460,7 +2460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Resistance" "21.5kΩ"
+		(property "Resistance" "21kΩ"
 			(at 170.815 94.361 90)
 			(do_not_autoplace yes)
 			(effects
@@ -2490,7 +2490,7 @@
 				(justify right)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-0721KL"
 			(at 190.5 100.33 0)
 			(do_not_autoplace yes)
 			(effects
@@ -2500,7 +2500,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "YAGEO"
 			(at 190.246 86.36 0)
 			(do_not_autoplace yes)
 			(effects
@@ -2782,7 +2782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 186.944 102.87 0)
 			(do_not_autoplace yes)
 			(effects
@@ -2832,7 +2832,7 @@
 				(justify right)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-0749R9L"
 			(at 190.5 102.87 0)
 			(do_not_autoplace yes)
 			(effects
@@ -2842,7 +2842,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "YAGEO"
 			(at 190.246 88.9 0)
 			(do_not_autoplace yes)
 			(effects
@@ -2853,7 +2853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-0749R9L"
 			(at 190.5 59.055 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3020,7 +3020,7 @@
 				(justify left)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "25V"
 			(at 205.74 92.202 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3061,7 +3061,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "CL05B104KA5NNNC"
+		(property "MPN2" ""
 			(at 208.28 111.76 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3071,7 +3071,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG2" "Samsung Electro-Mechanics"
+		(property "MFG2" ""
 			(at 196.342 111.76 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3082,7 +3082,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN3" "EMK105B7104KV-F"
+		(property "MPN3" ""
 			(at 208.28 113.284 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3092,7 +3092,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG3" "Taiyo Yuden"
+		(property "MFG3" ""
 			(at 196.342 113.284 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3179,7 +3179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 186.944 57.15 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3199,7 +3199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-0721KL"
 			(at 188.468 56.896 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3209,7 +3209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Resistance" "21.5kΩ"
+		(property "Resistance" "21kΩ"
 			(at 170.815 51.181 90)
 			(do_not_autoplace yes)
 			(effects
@@ -3239,7 +3239,7 @@
 				(justify right)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-0721KL"
 			(at 190.5 57.15 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3249,7 +3249,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "YAGEO"
 			(at 190.246 43.18 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3422,7 +3422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 184.15 62.484 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3442,7 +3442,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-074K7L"
 			(at 184.404 64.008 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3482,7 +3482,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-074K7L"
 			(at 184.15 66.04 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3492,7 +3492,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "YAGEO"
 			(at 198.12 65.786 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3729,7 +3729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 184.15 105.664 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3749,7 +3749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-074K7L"
 			(at 184.404 107.188 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3789,7 +3789,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-074K7L"
 			(at 184.15 109.22 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3799,7 +3799,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "YAGEO"
 			(at 198.12 108.966 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4200,7 +4200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 186.944 59.69 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4250,7 +4250,7 @@
 				(justify right)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-0749R9L"
 			(at 190.5 59.69 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4260,7 +4260,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "YAGEO"
 			(at 190.246 45.72 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4271,7 +4271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-0749R9L"
 			(at 190.5 15.875 0)
 			(do_not_autoplace yes)
 			(effects

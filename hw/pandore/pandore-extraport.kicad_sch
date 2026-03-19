@@ -952,7 +952,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "url-ds"
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf"
 			(at 104.14 110.236 0)
 			(do_not_autoplace yes)
 			(effects
@@ -972,7 +972,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MPN"
+		(property "MPN" "PH1-03-UA"
 			(at 104.14 104.394 0)
 			(do_not_autoplace yes)
 			(effects
@@ -982,7 +982,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "MFG"
+		(property "MFG" "Adam Tech"
 			(at 110.744 104.394 0)
 			(do_not_autoplace yes)
 			(effects
@@ -993,7 +993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "url-link"
+		(property "Link" ""
 			(at 104.14 108.966 0)
 			(do_not_autoplace yes)
 			(effects
@@ -1059,7 +1059,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "url-ds"
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf"
 			(at 104.14 74.676 0)
 			(do_not_autoplace yes)
 			(effects
@@ -1079,7 +1079,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MPN"
+		(property "MPN" "PH1-03-UA"
 			(at 104.14 68.834 0)
 			(do_not_autoplace yes)
 			(effects
@@ -1089,7 +1089,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "MFG"
+		(property "MFG" "Adam Tech"
 			(at 110.744 68.834 0)
 			(do_not_autoplace yes)
 			(effects
@@ -1100,7 +1100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "url-link"
+		(property "Link" ""
 			(at 104.14 73.406 0)
 			(do_not_autoplace yes)
 			(effects
@@ -1166,7 +1166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "url-ds"
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf"
 			(at 104.14 126.746 0)
 			(do_not_autoplace yes)
 			(effects
@@ -1186,7 +1186,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MPN"
+		(property "MPN" "PH1-03-UA"
 			(at 104.14 120.904 0)
 			(do_not_autoplace yes)
 			(effects
@@ -1196,7 +1196,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "MFG"
+		(property "MFG" "Adam Tech"
 			(at 110.744 120.904 0)
 			(do_not_autoplace yes)
 			(effects
@@ -1207,7 +1207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "url-link"
+		(property "Link" ""
 			(at 104.14 125.476 0)
 			(do_not_autoplace yes)
 			(effects
@@ -1337,7 +1337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "url-ds"
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf"
 			(at 104.14 89.916 0)
 			(do_not_autoplace yes)
 			(effects
@@ -1357,7 +1357,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MPN"
+		(property "MPN" "PH1-03-UA"
 			(at 104.14 84.074 0)
 			(do_not_autoplace yes)
 			(effects
@@ -1367,7 +1367,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "MFG"
+		(property "MFG" "Adam Tech"
 			(at 110.744 84.074 0)
 			(do_not_autoplace yes)
 			(effects
@@ -1378,7 +1378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "url-link"
+		(property "Link" ""
 			(at 104.14 88.646 0)
 			(do_not_autoplace yes)
 			(effects

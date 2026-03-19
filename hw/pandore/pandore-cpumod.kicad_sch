@@ -5257,6 +5257,275 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "megaxone_power:VSTBY"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VSTBY"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VSTBY_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VSTBY_1_1"
+				(pin power_in line
+					(at 0 -1.27 90)
+					(length 1.27)
+					(name "VSTBY"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "reekilib_bat:batt"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BAT"
+				(at 5.08 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CR2032"
+				(at 5.08 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "reekilib_bat:keystone_1060"
+				(at 0 -26.035 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p4.pdf"
+				(at 0 -24.765 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "battery single-cell"
+				(at 0 -27.305 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "1060"
+				(at 0 -19.05 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFG" "Keystone Electronics"
+				(at 12.7 -19.05 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Link" "https://www.keyelco.com/product.cfm/product_id/726"
+				(at 33.02 -19.05 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "batt_0_1"
+				(polyline
+					(pts
+						(xy -3.81 0.508) (xy 3.81 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.762) (xy 2.54 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "batt_1_1"
+				(pin power_out line
+					(at 0 6.35 270)
+					(length 3.81)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 -6.35 90)
+					(length 3.81)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "reekilib_con:hdr-1x1"
 			(exclude_from_sim yes)
 			(in_bom yes)
@@ -5537,6 +5806,299 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "reekilib_led:led"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 1.905 4.445 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "${color}"
+				(at 1.905 3.175 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "reekilib_led:LEDM1608X80"
+				(at 0 -9.525 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://look.ams-osram.com/m/4cbb1524123e38e9/original/KT-EELP41-12.pdf"
+				(at 0 -10.795 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "LED discrete single"
+				(at 0 -8.255 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "KT EELP41.12-S2U1-25-2X4Y"
+				(at 0 -2.54 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFG" "AMS-OSRAM"
+				(at 17.78 -2.54 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Link" "https://ams-osram.com/products/leds/color-leds/osram-smartled-0603-kt-eelp41-12"
+				(at 33.02 -2.54 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Vf" "2.5V"
+				(at -5.715 -4.445 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify right)
+					(hide yes)
+				)
+			)
+			(property "Imax" "30mA"
+				(at 0 -4.445 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vr" "1.2V"
+				(at 6.985 -4.445 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "color" "green"
+				(at 0 -6.35 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "λdom" "527nm"
+				(at 6.985 -6.35 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "lum" "224mcd@5mA"
+				(at -5.715 -6.35 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify right)
+					(hide yes)
+				)
+			)
+			(property "viewangle" "130°"
+				(at 16.51 -6.35 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "led diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "reekilib_led:LEDM*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "led_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 1.778) (xy -0.508 2.54) (xy -0.254 2.286) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 3.048) (xy 0.254 2.794) (xy 0.254 3.556) (xy -0.254 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.27) (xy 0.508 2.032) (xy 0.762 1.778) (xy 1.016 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.54) (xy 1.27 2.286) (xy 1.27 3.048) (xy 0.762 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "led_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6078,12 +6640,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1aa2ef11-464c-4ba6-b8d5-2b09a9854187")
-	)
-	(junction
-		(at 252.73 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "332fe90b-97cf-4995-8992-83633d839387")
 	)
 	(junction
 		(at 269.24 186.69)
@@ -7271,6 +7827,16 @@
 		)
 		(uuid "05d53273-958b-4d37-8488-860706e5f7b6")
 	)
+	(wire
+		(pts
+			(xy 220.98 87.63) (xy 284.48 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0606fbdd-f0a4-41ba-940e-61ebe42af2b6")
+	)
 	(bus
 		(pts
 			(xy 104.14 194.31) (xy 104.14 196.85)
@@ -7901,16 +8467,6 @@
 		)
 		(uuid "320031f8-7516-4a54-b481-08c4b53ef3b1")
 	)
-	(wire
-		(pts
-			(xy 251.46 162.56) (xy 252.73 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32047a04-8409-4b04-b4b7-1107a4ff8e6f")
-	)
 	(bus
 		(pts
 			(xy 104.14 102.87) (xy 104.14 104.14)
@@ -8190,16 +8746,6 @@
 			(type default)
 		)
 		(uuid "4dac46d3-4114-43eb-91ac-8cd114778fc2")
-	)
-	(wire
-		(pts
-			(xy 254 163.83) (xy 254 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e094d96-568b-43c7-a8ed-d99c0bb79715")
 	)
 	(bus
 		(pts
@@ -8943,16 +9489,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 163.83) (xy 251.46 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "917256cf-b401-406f-9738-6f1aabcfeb2f")
-	)
-	(wire
-		(pts
 			(xy 220.98 146.05) (xy 241.3 146.05)
 		)
 		(stroke
@@ -9040,16 +9576,6 @@
 			(type default)
 		)
 		(uuid "96bd25e2-6029-4f54-b494-cfa4c639f4d6")
-	)
-	(wire
-		(pts
-			(xy 254 162.56) (xy 252.73 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96e5302c-2876-483f-ad03-58f48f31fa34")
 	)
 	(wire
 		(pts
@@ -9411,6 +9937,16 @@
 		)
 		(uuid "adf4d811-836a-455a-8196-ba7299c3ace6")
 	)
+	(wire
+		(pts
+			(xy 344.17 222.25) (xy 351.79 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae38fedc-1a32-48b8-aff7-a904f9e6adf3")
+	)
 	(bus
 		(pts
 			(xy 104.14 68.58) (xy 104.14 69.85)
@@ -9520,6 +10056,16 @@
 			(type default)
 		)
 		(uuid "b8556381-d9ee-4a6c-8cfa-55d97e3025b3")
+	)
+	(wire
+		(pts
+			(xy 284.48 86.36) (xy 284.48 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bad990d6-0340-4048-9373-200bd1764aa7")
 	)
 	(bus
 		(pts
@@ -12836,6 +13382,21 @@
 	(rule_area
 		(polyline
 			(pts
+				(xy 350.52 220.98) (xy 341.63 220.98) (xy 341.63 233.68) (xy 350.52 233.68)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid dbea680d-2739-477d-82bb-6d361124a73a)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
 				(xy 135.89 132.08) (xy 116.84 132.08) (xy 116.84 163.83) (xy 135.89 163.83)
 			)
 			(stroke
@@ -13125,6 +13686,36 @@
 		)
 		(property "Component Class" ""
 			(at 46.99 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape diamond)
+		(at 344.17 220.98 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba9197d3-3e8f-43bb-8a45-0448586dd2d6")
+		(property "Netclass" "PWR"
+			(at 345.44 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 172.72 407.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13563,6 +14154,188 @@
 		)
 	)
 	(symbol
+		(lib_id "reekilib_led:led")
+		(at 284.48 74.93 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27460248-3413-433d-ade2-f9a83b9a8912")
+		(property "Reference" "D43"
+			(at 280.035 74.93 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "${color}"
+			(at 280.035 76.2 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "reekilib_led:LEDM1608X80"
+			(at 294.005 74.93 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://look.ams-osram.com/m/d52ca9fd43e8197/original/KS-EELP41-22.pdf"
+			(at 295.275 74.93 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED discrete single"
+			(at 292.735 74.93 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "KS EELP41.22-P1R2-58-A8J8"
+			(at 287.02 74.93 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "AMS-OSRAM"
+			(at 287.02 92.71 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://ams-osram.com/products/leds/color-leds/osram-smartled-0603-ks-eelp41-22"
+			(at 287.02 107.95 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Vf" "1.95V"
+			(at 288.925 69.215 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Imax" "30mA"
+			(at 288.925 74.93 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vr" "10V"
+			(at 288.925 81.915 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "color" "red"
+			(at 290.83 74.93 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "λdom" "640nm"
+			(at 290.83 81.915 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "lum" "180mcd@20mA"
+			(at 290.83 69.215 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "viewangle" "130°"
+			(at 290.83 91.44 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "a982112c-9f28-45ab-9a92-5f17469fcdb2")
+		)
+		(pin "C"
+			(uuid "ba02d082-bb3e-49d3-9625-bf35f513703f")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/88bddcf3-091d-4999-8622-d323c703fd74/5f490059-030e-46be-8d18-c6ad7eadfe53"
+					(reference "D43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "reekilib_pwr:VDD")
 		(at 267.97 161.29 0)
 		(unit 1)
@@ -13666,7 +14439,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 269.24 181.864 0)
 			(do_not_autoplace yes)
 			(effects
@@ -13719,7 +14492,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-072K2L"
 			(at 269.24 185.42 0)
 			(do_not_autoplace yes)
 			(effects
@@ -13729,7 +14502,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "YAGEO"
 			(at 283.21 185.166 0)
 			(do_not_autoplace yes)
 			(effects
@@ -13740,7 +14513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-072K2L"
 			(at 313.055 185.42 0)
 			(do_not_autoplace yes)
 			(effects
@@ -13827,6 +14600,69 @@
 		)
 	)
 	(symbol
+		(lib_id "megaxone_power:VSTBY")
+		(at 284.48 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "41142bd5-4ac6-4c8b-b555-90ad5b738977")
+		(property "Reference" "#PWR01"
+			(at 284.48 72.39 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSTBY"
+			(at 284.48 68.58 0)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 284.48 69.85 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 284.48 69.85 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 284.48 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ecd55f79-6d07-4c31-adca-2507da2cd88e")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/88bddcf3-091d-4999-8622-d323c703fd74/5f490059-030e-46be-8d18-c6ad7eadfe53"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "reekilib_res:res")
 		(at 276.86 167.64 0)
 		(unit 1)
@@ -13866,7 +14702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 276.86 181.864 0)
 			(do_not_autoplace yes)
 			(effects
@@ -13916,7 +14752,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-072K2L"
 			(at 276.86 185.42 0)
 			(do_not_autoplace yes)
 			(effects
@@ -13926,7 +14762,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "YAGEO"
 			(at 290.83 185.166 0)
 			(do_not_autoplace yes)
 			(effects
@@ -13937,7 +14773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-072K2L"
 			(at 320.675 185.42 0)
 			(do_not_autoplace yes)
 			(effects
@@ -14088,206 +14924,6 @@
 		)
 	)
 	(symbol
-		(lib_id "reekilib_res:res")
-		(at 254 167.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4fb5e0cc-9ccb-4897-ac3a-3f6b16719c84")
-		(property "Reference" "R177"
-			(at 255.27 169.545 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "${Resistance}, ${Tolerance}, ${Power}"
-			(at 256.032 166.878 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "reekilib_res:RESC1005"
-			(at 254.254 178.816 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 181.864 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor single 2 pad"
-			(at 254 180.34 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" "2.2kΩ"
-			(at 255.905 166.624 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 255.905 168.148 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Power" "63mW"
-			(at 255.905 169.672 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 254 185.42 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" ""
-			(at 267.97 185.166 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Link" ""
-			(at 297.815 185.42 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN2" ""
-			(at 253.492 187.198 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG2" ""
-			(at 268.224 187.198 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Link2" ""
-			(at 254 167.64 0)
-			(effects
-				(font
-					(size 0.9906 0.9906)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN3" ""
-			(at 254 188.976 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG3" ""
-			(at 268.224 188.976 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Link3" ""
-			(at 254 167.64 0)
-			(effects
-				(font
-					(size 0.9906 0.9906)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "69dd78df-c4b4-4d2f-8f87-ac7f31aab58d")
-		)
-		(pin "1"
-			(uuid "485eeb43-5d01-4759-840c-c21c9e2dea01")
-		)
-		(instances
-			(project "pandore"
-				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/88bddcf3-091d-4999-8622-d323c703fd74/5f490059-030e-46be-8d18-c6ad7eadfe53"
-					(reference "R177")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MCU_Module_LattePanda:LattePanda_Mu")
 		(at 367.03 210.82 0)
 		(unit 2)
@@ -14340,6 +14976,24 @@
 			(effects
 				(font
 					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "TE Connectivity"
+			(at 367.03 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2309411-1"
+			(at 367.03 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -15481,7 +16135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "url-ds"
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf"
 			(at 64.77 44.196 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15501,7 +16155,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MPN"
+		(property "MPN" "PH1-03-UA"
 			(at 64.77 38.354 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15511,7 +16165,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "MFG"
+		(property "MFG" "Adam Tech"
 			(at 58.166 38.354 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15522,7 +16176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "url-link"
+		(property "Link" ""
 			(at 64.77 42.926 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15716,70 +16370,6 @@
 		)
 	)
 	(symbol
-		(lib_id "reekilib_pwr:VDD")
-		(at 252.73 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "a0b0b9d7-9b75-406c-bf37-4ba4b54fa70e")
-		(property "Reference" "#PWR0253"
-			(at 252.73 158.115 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "V3P3"
-			(at 252.73 160.02 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 161.29 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 161.29 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 252.73 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cebdc624-5d8d-4df9-a4f6-8121d8fb9807")
-		)
-		(instances
-			(project "pandore"
-				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/88bddcf3-091d-4999-8622-d323c703fd74/5f490059-030e-46be-8d18-c6ad7eadfe53"
-					(reference "#PWR0253")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "reekilib_res:res")
 		(at 274.32 167.64 0)
 		(unit 1)
@@ -15819,7 +16409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 274.32 181.864 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15872,7 +16462,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-072K2L"
 			(at 274.32 185.42 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15882,7 +16472,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "YAGEO"
 			(at 288.29 185.166 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15893,7 +16483,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-072K2L"
 			(at 318.135 185.42 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15974,6 +16564,113 @@
 			(project "pandore"
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/88bddcf3-091d-4999-8622-d323c703fd74/5f490059-030e-46be-8d18-c6ad7eadfe53"
 					(reference "R172")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_bat:batt")
+		(at 344.17 236.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bda4d6d1-7132-4333-be4a-77b6b7c3288b")
+		(property "Reference" "BAT1"
+			(at 349.25 236.22 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CR2032"
+			(at 349.25 237.49 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "reekilib_bat:keystone_1060"
+			(at 344.17 262.255 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p4.pdf"
+			(at 344.17 260.985 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "battery single-cell"
+			(at 344.17 263.525 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1060"
+			(at 344.17 255.27 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Keystone Electronics"
+			(at 356.87 255.27 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.keyelco.com/product.cfm/product_id/726"
+			(at 377.19 255.27 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d8fcd1a4-86ef-41f6-96c1-57f311ebb01f")
+		)
+		(pin "1"
+			(uuid "e1ca43ce-c347-400b-88e2-4474b8b40c28")
+		)
+		(instances
+			(project ""
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/88bddcf3-091d-4999-8622-d323c703fd74/5f490059-030e-46be-8d18-c6ad7eadfe53"
+					(reference "BAT1")
 					(unit 1)
 				)
 			)
@@ -16147,7 +16844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 266.7 181.864 0)
 			(do_not_autoplace yes)
 			(effects
@@ -16200,7 +16897,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-072K2L"
 			(at 266.7 185.42 0)
 			(do_not_autoplace yes)
 			(effects
@@ -16210,7 +16907,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "YAGEO"
 			(at 280.67 185.166 0)
 			(do_not_autoplace yes)
 			(effects
@@ -16221,7 +16918,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-072K2L"
 			(at 310.515 185.42 0)
 			(do_not_autoplace yes)
 			(effects
@@ -16309,25 +17006,26 @@
 	)
 	(symbol
 		(lib_id "reekilib_res:res")
-		(at 251.46 167.64 0)
+		(at 344.17 226.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d895187d-29fa-4585-b1e7-50cf562552c0")
-		(property "Reference" "R176"
-			(at 250.19 169.545 90)
+		(fields_autoplaced yes)
+		(uuid "d2fc6726-09d0-4404-a9cd-969eb9546147")
+		(property "Reference" "R284"
+			(at 346.202 223.774 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "${Resistance}, ${Tolerance}, ${Power}"
-			(at 253.492 166.878 0)
+			(at 346.202 225.298 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -16338,7 +17036,7 @@
 			)
 		)
 		(property "Footprint" "reekilib_res:RESC1005"
-			(at 251.714 178.816 0)
+			(at 344.424 237.236 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -16347,8 +17045,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 251.46 181.864 0)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 344.17 240.284 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -16358,7 +17056,7 @@
 			)
 		)
 		(property "Description" "Resistor single 2 pad"
-			(at 251.46 180.34 0)
+			(at 344.17 238.76 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -16367,41 +17065,8 @@
 				(hide yes)
 			)
 		)
-		(property "Resistance" "2.2kΩ"
-			(at 249.555 166.624 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 249.555 168.148 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Power" "63mW"
-			(at 249.555 169.672 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 251.46 185.42 0)
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-131KL"
+			(at 344.424 241.808 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -16410,19 +17075,48 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
-			(at 265.43 185.166 0)
+		(property "Resistance" "1kΩ"
+			(at 346.202 225.298 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 346.202 226.822 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Power" "63mW"
+			(at 346.202 228.346 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "RC0402FR-131KL"
+			(at 344.17 243.84 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
 				(hide yes)
 			)
 		)
-		(property "Link" ""
-			(at 295.275 185.42 0)
+		(property "MFG" "YAGEO"
+			(at 358.14 243.586 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -16433,7 +17127,7 @@
 			)
 		)
 		(property "MPN2" ""
-			(at 250.952 187.198 0)
+			(at 343.662 245.618 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -16443,7 +17137,7 @@
 			)
 		)
 		(property "MFG2" ""
-			(at 265.684 187.198 0)
+			(at 358.394 245.618 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -16453,17 +17147,8 @@
 				(hide yes)
 			)
 		)
-		(property "Link2" ""
-			(at 251.46 167.64 0)
-			(effects
-				(font
-					(size 0.9906 0.9906)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN3" ""
-			(at 251.46 188.976 0)
+			(at 344.17 247.396 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -16473,7 +17158,7 @@
 			)
 		)
 		(property "MFG3" ""
-			(at 265.684 188.976 0)
+			(at 358.394 247.396 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -16483,25 +17168,16 @@
 				(hide yes)
 			)
 		)
-		(property "Link3" ""
-			(at 251.46 167.64 0)
-			(effects
-				(font
-					(size 0.9906 0.9906)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
-			(uuid "5581da63-404e-484a-9a51-d7ce7aa0dc61")
+			(uuid "bc931d18-e33c-4ecc-adc5-8d7b04577c60")
 		)
 		(pin "1"
-			(uuid "8b3a936b-e237-4c73-9237-3b02b707caa3")
+			(uuid "cf3fe70c-4520-4e82-8dfc-c93946319d6b")
 		)
 		(instances
 			(project "pandore"
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/88bddcf3-091d-4999-8622-d323c703fd74/5f490059-030e-46be-8d18-c6ad7eadfe53"
-					(reference "R176")
+					(reference "R284")
 					(unit 1)
 				)
 			)
@@ -16509,7 +17185,7 @@
 	)
 	(symbol
 		(lib_id "reekilib_pwr:VSS")
-		(at 347.98 232.41 0)
+		(at 344.17 243.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -16517,7 +17193,7 @@
 		(dnp no)
 		(uuid "dd42d818-41db-4856-9f5c-41842983550b")
 		(property "Reference" "#PWR0283"
-			(at 347.98 236.855 0)
+			(at 344.17 248.285 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -16527,7 +17203,7 @@
 			)
 		)
 		(property "Value" "VSS"
-			(at 347.98 234.95 0)
+			(at 344.17 246.38 0)
 			(effects
 				(font
 					(size 1 1)
@@ -16535,7 +17211,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 347.98 232.41 0)
+			(at 344.17 243.84 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -16543,7 +17219,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 347.98 229.87 0)
+			(at 344.17 241.3 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -16551,7 +17227,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 347.98 232.41 0)
+			(at 344.17 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16636,6 +17312,185 @@
 		)
 	)
 	(symbol
+		(lib_id "reekilib_res:res")
+		(at 284.48 82.55 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef4c797f-c09b-4508-8644-efc340d55c40")
+		(property "Reference" "R177"
+			(at 282.448 80.264 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "${Resistance}, ${Tolerance}, ${Power}"
+			(at 282.448 81.788 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "reekilib_res:RESC1005"
+			(at 284.226 93.726 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 284.48 96.774 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor single 2 pad"
+			(at 284.48 95.25 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-131KL"
+			(at 284.226 98.298 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "1kΩ"
+			(at 282.448 81.788 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 282.448 83.312 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Power" "63mW"
+			(at 282.448 84.836 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "RC0402FR-131KL"
+			(at 284.48 100.33 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "YAGEO"
+			(at 270.51 100.076 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN2" ""
+			(at 284.988 102.108 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG2" ""
+			(at 270.256 102.108 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN3" ""
+			(at 284.48 103.886 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG3" ""
+			(at 270.256 103.886 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fabf4d96-32c8-4778-b889-11fcf8511308")
+		)
+		(pin "1"
+			(uuid "53ddd4d6-57d7-4866-bee2-f6bc33e1a127")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/88bddcf3-091d-4999-8622-d323c703fd74/5f490059-030e-46be-8d18-c6ad7eadfe53"
+					(reference "R177")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MCU_Module_LattePanda:LattePanda_Mu")
 		(at 179.07 148.59 0)
 		(unit 1)
@@ -16689,6 +17544,24 @@
 			(effects
 				(font
 					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "TE Connectivity"
+			(at 179.07 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2309411-1"
+			(at 179.07 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -17525,7 +18398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 261.62 181.864 0)
 			(do_not_autoplace yes)
 			(effects
@@ -17578,7 +18451,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-072K2L"
 			(at 261.62 185.42 0)
 			(do_not_autoplace yes)
 			(effects
@@ -17588,7 +18461,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "YAGEO"
 			(at 275.59 185.166 0)
 			(do_not_autoplace yes)
 			(effects
@@ -17599,7 +18472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-072K2L"
 			(at 305.435 185.42 0)
 			(do_not_autoplace yes)
 			(effects
@@ -17725,7 +18598,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 259.08 181.864 0)
 			(do_not_autoplace yes)
 			(effects
@@ -17778,7 +18651,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-072K2L"
 			(at 259.08 185.42 0)
 			(do_not_autoplace yes)
 			(effects
@@ -17788,7 +18661,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "YAGEO"
 			(at 273.05 185.166 0)
 			(do_not_autoplace yes)
 			(effects
@@ -17799,7 +18672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-072K2L"
 			(at 302.895 185.42 0)
 			(do_not_autoplace yes)
 			(effects

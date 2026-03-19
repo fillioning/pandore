@@ -7983,7 +7983,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "25V"
 			(at 167.64 17.526 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8022,7 +8022,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "CL05B104KA5NNNC"
+		(property "MPN2" ""
 			(at 167.64 43.18 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8032,7 +8032,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG2" "Samsung Electro-Mechanics"
+		(property "MFG2" ""
 			(at 179.578 43.18 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8043,7 +8043,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN3" "EMK105B7104KV-F"
+		(property "MPN3" ""
 			(at 167.64 44.704 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8053,7 +8053,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG3" "Taiyo Yuden"
+		(property "MFG3" ""
 			(at 179.578 44.704 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8140,7 +8140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C224KA12-01.pdf"
 			(at 99.568 52.07 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8200,7 +8200,7 @@
 				(justify right)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM155R71C224KA12D"
 			(at 103.886 52.07 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8210,7 +8210,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Murata"
 			(at 103.886 40.132 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8377,7 +8377,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "25V"
 			(at 170.18 112.776 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8416,7 +8416,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "CL05B104KA5NNNC"
+		(property "MPN2" ""
 			(at 170.18 138.43 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8426,7 +8426,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG2" "Samsung Electro-Mechanics"
+		(property "MFG2" ""
 			(at 182.118 138.43 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8437,7 +8437,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN3" "EMK105B7104KV-F"
+		(property "MPN3" ""
 			(at 170.18 139.954 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8447,7 +8447,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG3" "Taiyo Yuden"
+		(property "MFG3" ""
 			(at 182.118 139.954 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8534,7 +8534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 186.944 177.8 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8554,7 +8554,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-131KL"
 			(at 188.468 177.546 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8594,7 +8594,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-131KL"
 			(at 190.5 177.8 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8604,7 +8604,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "YAGEO"
 			(at 190.246 163.83 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8967,7 +8967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E106KA73-01.pdf"
 			(at 172.72 37.338 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9024,7 +9024,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM21BR61E106KA73K"
 			(at 172.72 41.656 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9034,7 +9034,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Murata"
 			(at 184.658 41.656 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9227,7 +9227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 186.944 34.29 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9247,7 +9247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-131KL"
 			(at 188.468 34.036 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9287,7 +9287,7 @@
 				(justify right)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-131KL"
 			(at 190.5 34.29 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9297,7 +9297,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "YAGEO"
 			(at 190.246 20.32 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9683,7 +9683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C224KA12-01.pdf"
 			(at 102.108 69.85 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9746,7 +9746,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM155R71C224KA12D"
 			(at 106.426 69.85 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9756,7 +9756,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Murata"
 			(at 106.426 57.912 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9986,7 +9986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C224KA12-01.pdf"
 			(at 102.108 39.37 0)
 			(do_not_autoplace yes)
 			(effects
@@ -10049,7 +10049,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM155R71C224KA12D"
 			(at 106.426 39.37 0)
 			(do_not_autoplace yes)
 			(effects
@@ -10059,7 +10059,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Murata"
 			(at 106.426 27.432 0)
 			(do_not_autoplace yes)
 			(effects
@@ -10534,7 +10534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0402JR-070RL"
 			(at 162.306 107.95 0)
 			(do_not_autoplace yes)
 			(effects
@@ -10584,7 +10584,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402JR-070RL"
 			(at 158.75 107.95 0)
 			(do_not_autoplace yes)
 			(effects
@@ -10594,7 +10594,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Yageo"
 			(at 159.004 121.92 0)
 			(do_not_autoplace yes)
 			(effects
@@ -10605,7 +10605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402JR-070RL"
 			(at 160.782 108.204 0)
 			(do_not_autoplace yes)
 			(effects
@@ -10615,7 +10615,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" ""
+		(property "MPN2" "RMCF0402ZT0R00"
 			(at 156.972 107.442 0)
 			(do_not_autoplace yes)
 			(effects
@@ -10625,7 +10625,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG2" ""
+		(property "MFG2" "Stackpole"
 			(at 156.972 122.174 0)
 			(do_not_autoplace yes)
 			(effects
@@ -10636,7 +10636,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN3" ""
+		(property "MPN3" "CRCW04020000Z0ED"
 			(at 155.194 107.95 0)
 			(do_not_autoplace yes)
 			(effects
@@ -10646,7 +10646,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG3" ""
+		(property "MFG3" "Vishay Dale"
 			(at 155.194 122.174 0)
 			(do_not_autoplace yes)
 			(effects
@@ -10712,7 +10712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 186.944 165.1 0)
 			(do_not_autoplace yes)
 			(effects
@@ -10732,7 +10732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-131KL"
 			(at 188.468 164.846 0)
 			(do_not_autoplace yes)
 			(effects
@@ -10772,7 +10772,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-131KL"
 			(at 190.5 165.1 0)
 			(do_not_autoplace yes)
 			(effects
@@ -10782,7 +10782,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "YAGEO"
 			(at 190.246 151.13 0)
 			(do_not_autoplace yes)
 			(effects
@@ -10928,7 +10928,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "25V"
 			(at 170.18 246.126 0)
 			(do_not_autoplace yes)
 			(effects
@@ -10967,7 +10967,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "CL05B104KA5NNNC"
+		(property "MPN2" ""
 			(at 170.18 271.78 0)
 			(do_not_autoplace yes)
 			(effects
@@ -10977,7 +10977,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG2" "Samsung Electro-Mechanics"
+		(property "MFG2" ""
 			(at 182.118 271.78 0)
 			(do_not_autoplace yes)
 			(effects
@@ -10988,7 +10988,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN3" "EMK105B7104KV-F"
+		(property "MPN3" ""
 			(at 170.18 273.304 0)
 			(do_not_autoplace yes)
 			(effects
@@ -10998,7 +10998,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG3" "Taiyo Yuden"
+		(property "MFG3" ""
 			(at 182.118 273.304 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11277,7 +11277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0402JR-070RL"
 			(at 162.306 87.63 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11327,7 +11327,7 @@
 				(justify right)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402JR-070RL"
 			(at 158.75 87.63 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11337,7 +11337,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Yageo"
 			(at 159.004 101.6 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11348,7 +11348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402JR-070RL"
 			(at 160.782 87.884 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11358,7 +11358,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" ""
+		(property "MPN2" "RMCF0402ZT0R00"
 			(at 156.972 87.122 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11368,7 +11368,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG2" ""
+		(property "MFG2" "Stackpole"
 			(at 156.972 101.854 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11379,7 +11379,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN3" ""
+		(property "MPN3" "CRCW04020000Z0ED"
 			(at 155.194 87.63 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11389,7 +11389,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG3" ""
+		(property "MFG3" "Vishay Dale"
 			(at 155.194 101.854 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11493,7 +11493,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "25V"
 			(at 171.45 150.876 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11532,7 +11532,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "CL05B104KA5NNNC"
+		(property "MPN2" ""
 			(at 171.45 176.53 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11542,7 +11542,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG2" "Samsung Electro-Mechanics"
+		(property "MFG2" ""
 			(at 183.388 176.53 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11553,7 +11553,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN3" "EMK105B7104KV-F"
+		(property "MPN3" ""
 			(at 171.45 178.054 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11563,7 +11563,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG3" "Taiyo Yuden"
+		(property "MFG3" ""
 			(at 183.388 178.054 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11893,7 +11893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0402JR-070RL"
 			(at 80.01 101.346 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11943,7 +11943,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402JR-070RL"
 			(at 80.01 97.79 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11953,7 +11953,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Yageo"
 			(at 66.04 98.044 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11964,7 +11964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402JR-070RL"
 			(at 79.756 99.822 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11974,7 +11974,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" ""
+		(property "MPN2" "RMCF0402ZT0R00"
 			(at 80.518 96.012 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11984,7 +11984,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG2" ""
+		(property "MFG2" "Stackpole"
 			(at 65.786 96.012 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11995,7 +11995,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN3" ""
+		(property "MPN3" "CRCW04020000Z0ED"
 			(at 80.01 94.234 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12005,7 +12005,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG3" ""
+		(property "MFG3" "Vishay Dale"
 			(at 65.786 94.234 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12172,7 +12172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C224KA12-01.pdf"
 			(at 105.918 203.2 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12232,7 +12232,7 @@
 				(justify right)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM155R71C224KA12D"
 			(at 110.236 203.2 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12242,7 +12242,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Murata"
 			(at 110.236 191.262 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12371,7 +12371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C224KA12-01.pdf"
 			(at 99.568 36.83 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12431,7 +12431,7 @@
 				(justify right)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM155R71C224KA12D"
 			(at 103.886 36.83 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12441,7 +12441,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Murata"
 			(at 103.886 24.892 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12633,7 +12633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E106KA73-01.pdf"
 			(at 175.26 132.588 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12690,7 +12690,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM21BR61E106KA73K"
 			(at 175.26 136.906 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12700,7 +12700,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Murata"
 			(at 187.198 136.906 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12829,7 +12829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C224KA12-01.pdf"
 			(at 102.108 85.09 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12892,7 +12892,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM155R71C224KA12D"
 			(at 106.426 85.09 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12902,7 +12902,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Murata"
 			(at 106.426 73.152 0)
 			(do_not_autoplace yes)
 			(effects
@@ -13031,7 +13031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C224KA12-01.pdf"
 			(at 99.568 67.31 0)
 			(do_not_autoplace yes)
 			(effects
@@ -13091,7 +13091,7 @@
 				(justify right)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM155R71C224KA12D"
 			(at 103.886 67.31 0)
 			(do_not_autoplace yes)
 			(effects
@@ -13101,7 +13101,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Murata"
 			(at 103.886 55.372 0)
 			(do_not_autoplace yes)
 			(effects
@@ -13294,7 +13294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0402JR-070RL"
 			(at 157.226 220.98 0)
 			(do_not_autoplace yes)
 			(effects
@@ -13344,7 +13344,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402JR-070RL"
 			(at 153.67 220.98 0)
 			(do_not_autoplace yes)
 			(effects
@@ -13354,7 +13354,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Yageo"
 			(at 153.924 234.95 0)
 			(do_not_autoplace yes)
 			(effects
@@ -13365,7 +13365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402JR-070RL"
 			(at 155.702 221.234 0)
 			(do_not_autoplace yes)
 			(effects
@@ -13375,7 +13375,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" ""
+		(property "MPN2" "RMCF0402ZT0R00"
 			(at 151.892 220.472 0)
 			(do_not_autoplace yes)
 			(effects
@@ -13385,7 +13385,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG2" ""
+		(property "MFG2" "Stackpole"
 			(at 151.892 235.204 0)
 			(do_not_autoplace yes)
 			(effects
@@ -13396,7 +13396,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN3" ""
+		(property "MPN3" "CRCW04020000Z0ED"
 			(at 150.114 220.98 0)
 			(do_not_autoplace yes)
 			(effects
@@ -13406,7 +13406,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG3" ""
+		(property "MFG3" "Vishay Dale"
 			(at 150.114 235.204 0)
 			(do_not_autoplace yes)
 			(effects
@@ -14098,7 +14098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C224KA12-01.pdf"
 			(at 108.458 205.74 0)
 			(do_not_autoplace yes)
 			(effects
@@ -14161,7 +14161,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM155R71C224KA12D"
 			(at 112.776 205.74 0)
 			(do_not_autoplace yes)
 			(effects
@@ -14171,7 +14171,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Murata"
 			(at 112.776 193.802 0)
 			(do_not_autoplace yes)
 			(effects
@@ -14299,7 +14299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E106KA73-01.pdf"
 			(at 176.53 170.688 0)
 			(do_not_autoplace yes)
 			(effects
@@ -14356,7 +14356,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM21BR61E106KA73K"
 			(at 176.53 175.006 0)
 			(do_not_autoplace yes)
 			(effects
@@ -14366,7 +14366,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Murata"
 			(at 188.468 175.006 0)
 			(do_not_autoplace yes)
 			(effects
@@ -14623,7 +14623,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C224KA12-01.pdf"
 			(at 102.108 54.61 0)
 			(do_not_autoplace yes)
 			(effects
@@ -14686,7 +14686,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM155R71C224KA12D"
 			(at 106.426 54.61 0)
 			(do_not_autoplace yes)
 			(effects
@@ -14696,7 +14696,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Murata"
 			(at 106.426 42.672 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15006,7 +15006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0402JR-070RL"
 			(at 167.64 109.474 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15056,7 +15056,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402JR-070RL"
 			(at 167.64 113.03 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15066,7 +15066,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Yageo"
 			(at 181.61 112.776 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15077,7 +15077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402JR-070RL"
 			(at 167.894 110.998 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15087,7 +15087,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" ""
+		(property "MPN2" "RMCF0402ZT0R00"
 			(at 167.132 114.808 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15097,7 +15097,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG2" ""
+		(property "MFG2" "Stackpole"
 			(at 181.864 114.808 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15108,7 +15108,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN3" ""
+		(property "MPN3" "CRCW04020000Z0ED"
 			(at 167.64 116.586 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15118,7 +15118,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG3" ""
+		(property "MFG3" "Vishay Dale"
 			(at 181.864 116.586 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15185,7 +15185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0402JR-070RL"
 			(at 109.474 226.06 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15235,7 +15235,7 @@
 				(justify right)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402JR-070RL"
 			(at 113.03 226.06 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15245,7 +15245,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Yageo"
 			(at 112.776 240.03 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15256,7 +15256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402JR-070RL"
 			(at 110.998 226.314 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15266,7 +15266,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" ""
+		(property "MPN2" "RMCF0402ZT0R00"
 			(at 114.808 225.552 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15276,7 +15276,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG2" ""
+		(property "MFG2" "Stackpole"
 			(at 114.808 240.284 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15287,7 +15287,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN3" ""
+		(property "MPN3" "CRCW04020000Z0ED"
 			(at 116.586 226.06 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15297,7 +15297,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG3" ""
+		(property "MFG3" "Vishay Dale"
 			(at 116.586 240.284 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15541,7 +15541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C224KA12-01.pdf"
 			(at 99.568 82.55 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15601,7 +15601,7 @@
 				(justify right)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM155R71C224KA12D"
 			(at 103.886 82.55 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15611,7 +15611,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Murata"
 			(at 103.886 70.612 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15919,7 +15919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0402JR-070RL"
 			(at 104.14 247.904 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15969,7 +15969,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402JR-070RL"
 			(at 104.14 251.46 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15979,7 +15979,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Yageo"
 			(at 90.17 251.206 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15990,7 +15990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402JR-070RL"
 			(at 103.886 249.428 0)
 			(do_not_autoplace yes)
 			(effects
@@ -16000,7 +16000,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" ""
+		(property "MPN2" "RMCF0402ZT0R00"
 			(at 104.648 253.238 0)
 			(do_not_autoplace yes)
 			(effects
@@ -16010,7 +16010,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG2" ""
+		(property "MFG2" "Stackpole"
 			(at 89.916 253.238 0)
 			(do_not_autoplace yes)
 			(effects
@@ -16021,7 +16021,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN3" ""
+		(property "MPN3" "CRCW04020000Z0ED"
 			(at 104.14 255.016 0)
 			(do_not_autoplace yes)
 			(effects
@@ -16031,7 +16031,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG3" ""
+		(property "MFG3" "Vishay Dale"
 			(at 89.916 255.016 0)
 			(do_not_autoplace yes)
 			(effects
@@ -16162,7 +16162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 93.98 129.794 0)
 			(do_not_autoplace yes)
 			(effects
@@ -16182,7 +16182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-131KL"
 			(at 94.234 131.318 0)
 			(do_not_autoplace yes)
 			(effects
@@ -16222,7 +16222,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-131KL"
 			(at 93.98 133.35 0)
 			(do_not_autoplace yes)
 			(effects
@@ -16232,7 +16232,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "YAGEO"
 			(at 107.95 133.096 0)
 			(do_not_autoplace yes)
 			(effects
@@ -17346,7 +17346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E106KA73-01.pdf"
 			(at 175.26 265.938 0)
 			(do_not_autoplace yes)
 			(effects
@@ -17403,7 +17403,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM21BR61E106KA73K"
 			(at 175.26 270.256 0)
 			(do_not_autoplace yes)
 			(effects
@@ -17413,7 +17413,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Murata"
 			(at 187.198 270.256 0)
 			(do_not_autoplace yes)
 			(effects

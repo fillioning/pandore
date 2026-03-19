@@ -1328,7 +1328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 116.84 46.736 0)
 			(do_not_autoplace yes)
 			(effects
@@ -1378,7 +1378,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-0749R9L"
 			(at 116.84 43.18 0)
 			(do_not_autoplace yes)
 			(effects
@@ -1388,7 +1388,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "YAGEO"
 			(at 102.87 43.434 0)
 			(do_not_autoplace yes)
 			(effects
@@ -1399,7 +1399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-0749R9L"
 			(at 73.025 43.18 0)
 			(do_not_autoplace yes)
 			(effects

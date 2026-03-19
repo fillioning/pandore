@@ -2696,7 +2696,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 22.86) (xy 227.33 22.86)
+			(xy 218.44 22.86) (xy 231.14 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2733,16 +2733,6 @@
 			(type default)
 		)
 		(uuid "413fa86b-31dc-45c0-8b5a-89f351c586f3")
-	)
-	(wire
-		(pts
-			(xy 234.95 22.86) (xy 241.3 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44022d8f-82e8-408d-b063-1d539aaabf02")
 	)
 	(wire
 		(pts
@@ -3026,6 +3016,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 21.59) (xy 231.14 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba60a8d5-74f7-44be-8d83-95d44bd3ce4d")
+	)
+	(wire
+		(pts
 			(xy 92.71 74.93) (xy 92.71 83.82)
 		)
 		(stroke
@@ -3033,16 +3033,6 @@
 			(type default)
 		)
 		(uuid "bc4f6f18-857f-4fc7-b69b-39e25295f105")
-	)
-	(wire
-		(pts
-			(xy 241.3 21.59) (xy 241.3 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd5e4f72-a153-43b7-a5fa-4778e1a624e2")
 	)
 	(wire
 		(pts
@@ -3793,7 +3783,7 @@
 				(justify left)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "25V"
 			(at 124.46 92.202 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3834,7 +3824,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "CL05B104KA5NNNC"
+		(property "MPN2" ""
 			(at 127 111.76 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3844,7 +3834,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG2" "Samsung Electro-Mechanics"
+		(property "MFG2" ""
 			(at 115.062 111.76 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3855,7 +3845,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN3" "EMK105B7104KV-F"
+		(property "MPN3" ""
 			(at 127 113.284 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3865,7 +3855,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG3" "Taiyo Yuden"
+		(property "MFG3" ""
 			(at 115.062 113.284 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4089,7 +4079,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/28580/vjw1hvmlcccommseries.pdf"
 			(at 76.2 37.592 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4149,7 +4139,7 @@
 				(justify right)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "VJ1206A101JXGCW1HV"
 			(at 76.2 33.274 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4159,7 +4149,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Vishay Vitramon"
 			(at 64.262 33.274 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4286,7 +4276,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "url-ds"
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf"
 			(at 233.68 55.626 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4306,7 +4296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "url-link"
+		(property "Link" ""
 			(at 233.68 54.356 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4316,7 +4306,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MPN"
+		(property "MPN" "PH1-03-UA"
 			(at 233.68 49.784 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4326,7 +4316,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "MFG"
+		(property "MFG" "Adam Tech"
 			(at 240.284 49.784 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4385,7 +4375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "reekilib_res:RESC2012"
+		(property "Footprint" "reekilib_res:RESC1005"
 			(at 92.456 59.944 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4395,7 +4385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 92.71 56.896 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4435,7 +4425,7 @@
 				(justify right)
 			)
 		)
-		(property "Power" "250mW"
+		(property "Power" "63mW"
 			(at 95.25 73.025 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4445,7 +4435,7 @@
 				(justify right)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-0733RL"
 			(at 92.71 53.34 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4455,7 +4445,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "YAGEO"
 			(at 78.74 53.594 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4466,7 +4456,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-0730KL"
 			(at 92.456 55.372 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4678,7 +4668,7 @@
 				(justify left)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "25V"
 			(at 154.94 35.052 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4719,7 +4709,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "CL05B104KA5NNNC"
+		(property "MPN2" ""
 			(at 152.4 54.61 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4729,7 +4719,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG2" "Samsung Electro-Mechanics"
+		(property "MFG2" ""
 			(at 164.338 54.61 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4740,7 +4730,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN3" "EMK105B7104KV-F"
+		(property "MPN3" ""
 			(at 152.4 56.134 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4750,7 +4740,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG3" "Taiyo Yuden"
+		(property "MFG3" ""
 			(at 164.338 56.134 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4816,7 +4806,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "${Resistance}, ${Tolerance}, ${Power}"
+		(property "Value" "${Resistance}, ${Tolerance}, ${Type}"
 			(at 80.518 76.708 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4837,7 +4827,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCF.pdf"
 			(at 95.504 78.74 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4887,7 +4877,7 @@
 				(justify right)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RNCF0805DTE10R0"
 			(at 99.06 78.74 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4897,7 +4887,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Stackpole Electronics Inc"
 			(at 98.806 64.77 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5304,70 +5294,6 @@
 		)
 	)
 	(symbol
-		(lib_id "reekilib_pwr:VDD")
-		(at 241.3 20.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "aa8e90eb-f4c9-4460-911e-c9156b58eb9c")
-		(property "Reference" "#PWR0103"
-			(at 241.3 17.145 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VIO"
-			(at 241.3 19.05 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 20.32 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 20.32 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 241.3 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "750f66d9-60b4-4ec8-a83f-a7a2b2468998")
-		)
-		(instances
-			(project "pandore"
-				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/22b3123e-4770-49db-9ca3-fb0ae5205bb3"
-					(reference "#PWR0103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "reekilib_pwr:VSS")
 		(at 67.31 59.69 0)
 		(unit 1)
@@ -5471,7 +5397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/28580/vjw1hvmlcccommseries.pdf"
 			(at 67.31 41.402 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5531,7 +5457,7 @@
 				(justify right)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "VJ1206A101JXGCW1HV"
 			(at 67.31 37.084 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5541,7 +5467,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Vishay Vitramon"
 			(at 55.372 37.084 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5898,7 +5824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf"
 			(at 95.504 39.37 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5948,7 +5874,7 @@
 				(justify right)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RR1220P-221-D"
 			(at 99.06 39.37 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5958,7 +5884,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Susumu"
 			(at 98.806 25.4 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6076,7 +6002,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0402JR-070RL"
 			(at 128.016 68.58 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6126,7 +6052,7 @@
 				(justify right)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402JR-070RL"
 			(at 124.46 68.58 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6136,7 +6062,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Yageo"
 			(at 124.714 82.55 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6147,7 +6073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402JR-070RL"
 			(at 126.492 68.834 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6157,7 +6083,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" ""
+		(property "MPN2" "RMCF0402ZT0R00"
 			(at 122.682 68.072 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6167,7 +6093,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG2" ""
+		(property "MFG2" "Stackpole"
 			(at 122.682 82.804 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6178,7 +6104,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN3" ""
+		(property "MPN3" "CRCW04020000Z0ED"
 			(at 120.904 68.58 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6188,7 +6114,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG3" ""
+		(property "MFG3" "Vishay Dale"
 			(at 120.904 82.804 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6209,6 +6135,70 @@
 			(project "pandore"
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/22b3123e-4770-49db-9ca3-fb0ae5205bb3"
 					(reference "R245")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_pwr:VDD")
+		(at 231.14 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "de6949db-3f24-4591-a6af-f4c1c4564ea1")
+		(property "Reference" "#PWR?"
+			(at 231.14 17.145 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V3P3"
+			(at 231.14 19.05 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 20.32 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 20.32 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f416ebf-ca8f-4c69-8eb3-79f6745690e5")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/22b3123e-4770-49db-9ca3-fb0ae5205bb3"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -6434,7 +6424,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0402JR-070RL"
 			(at 58.166 90.17 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6484,7 +6474,7 @@
 				(justify right)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402JR-070RL"
 			(at 54.61 90.17 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6494,7 +6484,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Yageo"
 			(at 54.864 104.14 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6505,7 +6495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402JR-070RL"
 			(at 56.642 90.424 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6515,7 +6505,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" ""
+		(property "MPN2" "RMCF0402ZT0R00"
 			(at 52.832 89.662 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6525,7 +6515,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG2" ""
+		(property "MFG2" "Stackpole"
 			(at 52.832 104.394 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6536,7 +6526,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN3" ""
+		(property "MPN3" "CRCW04020000Z0ED"
 			(at 51.054 90.17 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6546,7 +6536,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG3" ""
+		(property "MFG3" "Vishay Dale"
 			(at 51.054 104.394 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6727,7 +6717,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "url-ds"
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf"
 			(at 233.68 92.456 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6747,7 +6737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "url-link"
+		(property "Link" ""
 			(at 233.68 91.186 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6757,7 +6747,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MPN"
+		(property "MPN" "PH1-03-UA"
 			(at 233.68 86.614 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6767,7 +6757,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "MFG"
+		(property "MFG" "Adam Tech"
 			(at 240.284 86.614 0)
 			(do_not_autoplace yes)
 			(effects

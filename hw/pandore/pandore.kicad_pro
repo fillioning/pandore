@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": true,
         "pads": {
-          "drill": 2.6,
-          "height": 5.0,
-          "width": 5.0
+          "drill": 1.0,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -1793,6 +1793,9 @@
       "EARTH": [
         "GND"
       ],
+      "Net-(BAT1-+)": [
+        "PWR"
+      ],
       "Net-(C159-+)": [
         "ANA"
       ],
@@ -1946,6 +1949,9 @@
       "Net-(J38-Pad4)": [
         "PWM"
       ],
+      "Net-(J6-TIP)": [
+        "PWR"
+      ],
       "Net-(J8-SHD)": [
         "GND"
       ],
@@ -2085,6 +2091,9 @@
         "ANA"
       ],
       "Net-(U19-NC(SW))": [
+        "PWR"
+      ],
+      "Net-(U1B-VBAT)": [
         "PWR"
       ],
       "Net-(U20-COMP)": [
@@ -2519,10 +2528,46 @@
           "show": true
         },
         {
+          "group_by": false,
+          "label": "Resistance",
+          "name": "Resistance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Tolerance",
+          "name": "Tolerance",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Power",
+          "name": "Power",
+          "show": false
+        },
+        {
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Capacitance",
+          "name": "Capacitance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage",
+          "name": "Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Dielectric",
+          "name": "Dielectric",
+          "show": false
         },
         {
           "group_by": false,
@@ -2531,7 +2576,7 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
           "show": true
@@ -2543,22 +2588,10 @@
           "show": false
         },
         {
-          "group_by": false,
-          "label": "Capacitance",
-          "name": "Capacitance",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Dielectric",
-          "name": "Dielectric",
-          "show": false
-        },
-        {
-          "group_by": false,
+          "group_by": true,
           "label": "F",
           "name": "F",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -2570,7 +2603,7 @@
           "group_by": false,
           "label": "Link",
           "name": "Link",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -2612,19 +2645,19 @@
           "group_by": false,
           "label": "MFG",
           "name": "MFG",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "MFG2",
           "name": "MFG2",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "MFG3",
           "name": "MFG3",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -2654,19 +2687,19 @@
           "group_by": false,
           "label": "MPN",
           "name": "MPN",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "MPN2",
           "name": "MPN2",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "MPN3",
           "name": "MPN3",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -2694,38 +2727,14 @@
         },
         {
           "group_by": false,
-          "label": "Power",
-          "name": "Power",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Rating",
           "name": "Rating",
-          "show": false
-        },
-        {
-          "group_by": true,
-          "label": "Resistance",
-          "name": "Resistance",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Tolerance",
-          "name": "Tolerance",
           "show": false
         },
         {
           "group_by": false,
           "label": "Vmax",
           "name": "Vmax",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Voltage",
-          "name": "Voltage",
           "show": false
         },
         {
@@ -2895,6 +2904,12 @@
           "label": "Iout",
           "name": "Iout",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DNP",
+          "name": "DNP",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -2902,7 +2917,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": false,
-      "sort_field": "Resistance"
+      "sort_field": "Capacitance"
     },
     "connection_grid_size": 50.0,
     "drawing": {

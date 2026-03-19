@@ -3052,7 +3052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "url-ds"
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf"
 			(at 175.26 124.206 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3072,7 +3072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "url-link"
+		(property "Link" ""
 			(at 175.26 122.936 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3082,7 +3082,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MPN"
+		(property "MPN" "PH1-03-UA"
 			(at 175.26 118.364 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3092,7 +3092,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "MFG"
+		(property "MFG" "Adam Tech"
 			(at 168.656 118.364 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3660,7 +3660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "url-ds"
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf"
 			(at 175.26 39.116 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3680,7 +3680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "url-link"
+		(property "Link" ""
 			(at 175.26 37.846 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3690,7 +3690,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MPN"
+		(property "MPN" "PH1-03-UA"
 			(at 175.26 33.274 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3700,7 +3700,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "MFG"
+		(property "MFG" "Adam Tech"
 			(at 168.656 33.274 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4174,7 +4174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "url-ds"
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf"
 			(at 215.9 154.686 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4194,7 +4194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "url-link"
+		(property "Link" ""
 			(at 215.9 153.416 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4204,7 +4204,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MPN"
+		(property "MPN" "PH1-03-UA"
 			(at 215.9 148.844 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4214,7 +4214,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "MFG"
+		(property "MFG" "Adam Tech"
 			(at 222.504 148.844 0)
 			(do_not_autoplace yes)
 			(effects

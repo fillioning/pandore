@@ -3208,6 +3208,12 @@
 		(uuid "3637c460-5ef0-4dec-9dc8-894068eca4c1")
 	)
 	(junction
+		(at 156.21 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "565ae277-6152-469c-91c9-2c737360eee3")
+	)
+	(junction
 		(at 55.88 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3477,13 +3483,13 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 177.8) (xy 157.48 177.8)
+			(xy 156.21 177.8) (xy 157.48 177.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0d9dd6a5-6202-4f96-87f9-9a8143177cc7")
+		(uuid "0e571ca1-afbb-4dde-8e41-ed7cc96ef18c")
 	)
 	(wire
 		(pts
@@ -3724,16 +3730,6 @@
 			(type default)
 		)
 		(uuid "36925d48-30db-4391-b17e-303ae77c461a")
-	)
-	(wire
-		(pts
-			(xy 151.13 180.34) (xy 157.48 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40946584-005a-4d0f-b791-4f5581bb6d79")
 	)
 	(wire
 		(pts
@@ -3997,6 +3993,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 177.8) (xy 156.21 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ab6d8f8-0670-4354-bb74-c889e7a29ccc")
+	)
+	(wire
+		(pts
 			(xy 55.88 88.9) (xy 55.88 87.63)
 		)
 		(stroke
@@ -4064,6 +4070,16 @@
 			(type default)
 		)
 		(uuid "81a66824-479f-4de8-84f9-e0658bf3b358")
+	)
+	(wire
+		(pts
+			(xy 156.21 180.34) (xy 157.48 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81ae3deb-6ff9-49d3-882e-e07bcf21e468")
 	)
 	(bus
 		(pts
@@ -4264,6 +4280,16 @@
 			(type default)
 		)
 		(uuid "9f5f3381-726f-41e0-964d-06261523d258")
+	)
+	(wire
+		(pts
+			(xy 156.21 180.34) (xy 156.21 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f9fc505-18a9-4096-8555-791d08161eef")
 	)
 	(wire
 		(pts
@@ -5907,7 +5933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "url-ds"
+		(property "Datasheet" "https://www.waldom.com/productfiles/mf-FCI/10129378-908002BLF.pdf"
 			(at 165.1 135.636 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5927,7 +5953,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MPN"
+		(property "MPN" "10129378-908002BLF"
 			(at 165.1 129.794 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5937,7 +5963,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "MFG"
+		(property "MFG" "Amphenol ICC (FCI)"
 			(at 171.704 129.794 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5948,7 +5974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "url-link"
+		(property "Link" ""
 			(at 165.1 134.366 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6029,7 +6055,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "url-ds"
+		(property "Datasheet" "https://www.waldom.com/productfiles/mf-FCI/10129378-908002BLF.pdf"
 			(at 165.1 163.576 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6049,7 +6075,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MPN"
+		(property "MPN" "10129378-908002BLF"
 			(at 165.1 157.734 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6059,7 +6085,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "MFG"
+		(property "MFG" "Amphenol ICC (FCI)"
 			(at 171.704 157.734 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6070,7 +6096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "url-link"
+		(property "Link" ""
 			(at 165.1 162.306 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6267,7 +6293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "url-ds"
+		(property "Datasheet" "https://www.waldom.com/productfiles/mf-FCI/10129378-908002BLF.pdf"
 			(at 48.26 191.516 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6287,7 +6313,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MPN"
+		(property "MPN" "10129378-908002BLF"
 			(at 48.26 185.674 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6297,7 +6323,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "MFG"
+		(property "MFG" "Amphenol ICC (FCI)"
 			(at 54.864 185.674 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6308,7 +6334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "url-link"
+		(property "Link" ""
 			(at 48.26 190.246 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6617,7 +6643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "url-ds"
+		(property "Datasheet" "https://www.waldom.com/productfiles/mf-FCI/10129378-908002BLF.pdf"
 			(at 165.1 191.516 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6637,7 +6663,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MPN"
+		(property "MPN" "10129378-908002BLF"
 			(at 165.1 185.674 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6647,7 +6673,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "MFG"
+		(property "MFG" "Amphenol ICC (FCI)"
 			(at 171.704 185.674 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6658,7 +6684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "url-link"
+		(property "Link" ""
 			(at 165.1 190.246 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6741,7 +6767,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0402JR-070RL"
 			(at 50.546 119.38 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6791,7 +6817,7 @@
 				(justify right)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402JR-070RL"
 			(at 46.99 119.38 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6801,7 +6827,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Yageo"
 			(at 47.244 133.35 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6812,7 +6838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402JR-070RL"
 			(at 49.022 119.634 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6822,7 +6848,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" ""
+		(property "MPN2" "RMCF0402ZT0R00"
 			(at 45.212 118.872 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6832,7 +6858,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG2" ""
+		(property "MFG2" "Stackpole"
 			(at 45.212 133.604 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6843,7 +6869,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN3" ""
+		(property "MPN3" "CRCW04020000Z0ED"
 			(at 43.434 119.38 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6853,7 +6879,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG3" ""
+		(property "MFG3" "Vishay Dale"
 			(at 43.434 133.604 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6916,7 +6942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf"
 			(at 61.976 19.05 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6936,7 +6962,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "PH1-02-UA"
 			(at 56.134 19.05 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6946,7 +6972,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Adam Tech"
 			(at 56.134 12.446 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7151,7 +7177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
 			(at 25.4 89.408 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7211,7 +7237,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0603C105K4RACTU"
 			(at 25.4 93.726 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7221,7 +7247,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "KEMET"
 			(at 13.462 93.726 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7414,7 +7440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0402JR-070RL"
 			(at 50.546 116.84 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7464,7 +7490,7 @@
 				(justify right)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402JR-070RL"
 			(at 46.99 116.84 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7474,7 +7500,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Yageo"
 			(at 47.244 130.81 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7485,7 +7511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402JR-070RL"
 			(at 49.022 117.094 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7495,7 +7521,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" ""
+		(property "MPN2" "RMCF0402ZT0R00"
 			(at 45.212 116.332 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7505,7 +7531,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG2" ""
+		(property "MFG2" "Stackpole"
 			(at 45.212 131.064 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7516,7 +7542,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN3" ""
+		(property "MPN3" "CRCW04020000Z0ED"
 			(at 43.434 116.84 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7526,7 +7552,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG3" ""
+		(property "MFG3" "Vishay Dale"
 			(at 43.434 131.064 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7692,7 +7718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
 			(at 55.88 93.218 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7752,7 +7778,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0603C105K4RACTU"
 			(at 55.88 97.536 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7762,7 +7788,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "KEMET"
 			(at 67.818 97.536 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7889,7 +7915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf"
 			(at 61.976 39.37 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7909,7 +7935,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "PH1-02-UA"
 			(at 56.134 39.37 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7919,7 +7945,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Adam Tech"
 			(at 56.134 45.974 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7950,6 +7976,70 @@
 			(project "pandore"
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8"
 					(reference "JMP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "reekilib_pwr:VSS")
+		(at 156.21 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "da3b239b-c169-4619-aaf9-c5dcf80b0910")
+		(property "Reference" "#PWR0391"
+			(at 156.21 187.325 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSS"
+			(at 156.21 185.42 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 182.88 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef0c1197-42d9-4863-933a-e6b3101ba76c")
+		)
+		(instances
+			(project "pandore"
+				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8"
+					(reference "#PWR0391")
 					(unit 1)
 				)
 			)
@@ -8027,7 +8117,7 @@
 		(in_bom no)
 		(on_board no)
 		(dnp no)
-		(uuid "de6949db-3f24-4591-a6af-f4c1c4564ea1")
+		(uuid "de6949db-3f24-4591-a6af-f4c1c4564ea2")
 		(property "Reference" "#PWR0333"
 			(at 69.85 83.185 0)
 			(do_not_autoplace yes)
@@ -8072,7 +8162,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6f416ebf-ca8f-4c69-8eb3-79f6745690e5")
+			(uuid "6f416ebf-ca8f-4c69-8eb3-79f6745690e6")
 		)
 		(instances
 			(project "pandore"

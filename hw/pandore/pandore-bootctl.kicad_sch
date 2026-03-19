@@ -4088,7 +4088,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
 			(at 86.36 164.338 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4148,7 +4148,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0603C105K4RACTU"
 			(at 86.36 168.656 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4158,7 +4158,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "KEMET"
 			(at 98.298 168.656 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4715,7 +4715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E106KA73-01.pdf"
 			(at 58.42 124.968 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4775,7 +4775,7 @@
 				(justify right)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM21BR61E106KA73K"
 			(at 58.42 129.286 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4785,7 +4785,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Murata"
 			(at 70.358 129.286 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4914,7 +4914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
 			(at 86.36 140.208 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4974,7 +4974,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0603C105K4RACTU"
 			(at 86.36 144.526 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4984,7 +4984,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "KEMET"
 			(at 98.298 144.526 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5113,7 +5113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 112.014 121.92 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5163,7 +5163,7 @@
 				(justify right)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-0749R9L"
 			(at 115.57 121.92 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5173,7 +5173,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "YAGEO"
 			(at 115.316 107.95 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5184,7 +5184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-0749R9L"
 			(at 115.57 78.105 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6111,7 +6111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf"
 			(at 58.42 113.284 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6131,7 +6131,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "PH1-02-UA"
 			(at 58.42 119.126 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6141,7 +6141,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Adam Tech"
 			(at 51.816 119.126 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7164,7 +7164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 73.66 110.744 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7184,7 +7184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-0793K1L"
 			(at 73.914 112.268 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7224,7 +7224,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-07100KL"
 			(at 73.66 114.3 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7234,7 +7234,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "YAGEO"
 			(at 87.63 114.046 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7748,7 +7748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 64.77 78.994 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7768,7 +7768,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-131KL"
 			(at 65.024 80.518 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7808,7 +7808,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-131KL"
 			(at 64.77 82.55 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7818,7 +7818,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "YAGEO"
 			(at 78.74 82.296 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7926,7 +7926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 58.42 110.744 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7946,7 +7946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-071ML"
 			(at 58.674 112.268 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7986,7 +7986,7 @@
 				(justify right)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-071ML"
 			(at 58.42 114.3 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7996,7 +7996,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "YAGEO"
 			(at 72.39 114.046 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8103,7 +8103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "url-ds"
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf"
 			(at 157.48 60.706 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8123,7 +8123,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MPN"
+		(property "MPN" "PH1-03-UA"
 			(at 157.48 54.864 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8133,7 +8133,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "MFG"
+		(property "MFG" "Adam Tech"
 			(at 150.876 54.864 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8144,7 +8144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "url-link"
+		(property "Link" ""
 			(at 157.48 59.436 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8339,7 +8339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 80.01 41.656 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8359,7 +8359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-131KL"
 			(at 79.756 40.132 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8399,7 +8399,7 @@
 				(justify right)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-131KL"
 			(at 80.01 38.1 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8409,7 +8409,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "YAGEO"
 			(at 66.04 38.354 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8581,7 +8581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 112.014 146.05 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8631,7 +8631,7 @@
 				(justify right)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-0749R9L"
 			(at 115.57 146.05 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8641,7 +8641,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "YAGEO"
 			(at 115.316 132.08 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8652,7 +8652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-0749R9L"
 			(at 115.57 102.235 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8838,7 +8838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf"
 			(at 58.42 137.414 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8858,7 +8858,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "PH1-02-UA"
 			(at 58.42 143.256 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8868,7 +8868,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Adam Tech"
 			(at 51.816 143.256 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8944,7 +8944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 111.76 36.576 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8964,7 +8964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-131KL"
 			(at 111.506 35.052 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9004,7 +9004,7 @@
 				(justify right)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-131KL"
 			(at 111.76 33.02 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9014,7 +9014,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "YAGEO"
 			(at 97.79 33.274 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9446,7 +9446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf"
 			(at 100.076 92.71 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9466,7 +9466,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "PH1-02-UA"
 			(at 94.234 92.71 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9476,7 +9476,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Adam Tech"
 			(at 94.234 86.106 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9553,7 +9553,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 96.52 71.374 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9573,7 +9573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-131KL"
 			(at 96.774 72.898 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9613,7 +9613,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-131KL"
 			(at 96.52 74.93 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9623,7 +9623,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "YAGEO"
 			(at 110.49 74.676 0)
 			(do_not_autoplace yes)
 			(effects

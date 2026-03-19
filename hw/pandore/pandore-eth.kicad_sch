@@ -7922,7 +7922,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "25V"
 			(at 96.52 100.33 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7961,7 +7961,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "CL05B104KA5NNNC"
+		(property "MPN2" ""
 			(at 96.52 125.73 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7971,7 +7971,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG2" "Samsung Electro-Mechanics"
+		(property "MFG2" ""
 			(at 84.582 125.73 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7982,7 +7982,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN3" "EMK105B7104KV-F"
+		(property "MPN3" ""
 			(at 96.52 127.254 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7992,7 +7992,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG3" "Taiyo Yuden"
+		(property "MFG3" ""
 			(at 84.582 127.254 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8742,7 +8742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "25V"
 			(at 60.96 53.086 90)
 			(do_not_autoplace yes)
 			(effects
@@ -8785,7 +8785,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "CL05B104KA5NNNC"
+		(property "MPN2" ""
 			(at 80.01 57.15 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8795,7 +8795,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG2" "Samsung Electro-Mechanics"
+		(property "MFG2" ""
 			(at 80.01 45.212 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8806,7 +8806,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN3" "EMK105B7104KV-F"
+		(property "MPN3" ""
 			(at 81.534 57.15 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8816,7 +8816,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG3" "Taiyo Yuden"
+		(property "MFG3" ""
 			(at 81.534 45.212 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9256,7 +9256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0402JR-070RL"
 			(at 278.13 67.056 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9306,7 +9306,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402JR-070RL"
 			(at 278.13 63.5 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9316,7 +9316,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Yageo"
 			(at 264.16 63.754 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9327,7 +9327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402JR-070RL"
 			(at 277.876 65.532 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9337,7 +9337,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" ""
+		(property "MPN2" "RMCF0402ZT0R00"
 			(at 278.638 61.722 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9347,7 +9347,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG2" ""
+		(property "MFG2" "Stackpole"
 			(at 263.906 61.722 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9358,7 +9358,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN3" ""
+		(property "MPN3" "CRCW04020000Z0ED"
 			(at 278.13 59.944 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9368,7 +9368,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG3" ""
+		(property "MFG3" "Vishay Dale"
 			(at 263.906 59.944 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9759,7 +9759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 252.73 68.326 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9809,7 +9809,7 @@
 				(justify right)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-07470RL"
 			(at 252.73 64.77 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9819,7 +9819,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "YAGEO"
 			(at 238.76 65.024 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9830,7 +9830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-07470RL"
 			(at 252.476 66.802 0)
 			(do_not_autoplace yes)
 			(effects
@@ -10631,7 +10631,7 @@
 				(justify right)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "25V"
 			(at 67.945 59.69 90)
 			(do_not_autoplace yes)
 			(effects
@@ -10672,7 +10672,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "CL05B104KA5NNNC"
+		(property "MPN2" ""
 			(at 83.82 62.23 0)
 			(do_not_autoplace yes)
 			(effects
@@ -10682,7 +10682,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG2" "Samsung Electro-Mechanics"
+		(property "MFG2" ""
 			(at 83.82 50.292 0)
 			(do_not_autoplace yes)
 			(effects
@@ -10693,7 +10693,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN3" "EMK105B7104KV-F"
+		(property "MPN3" ""
 			(at 85.344 62.23 0)
 			(do_not_autoplace yes)
 			(effects
@@ -10703,7 +10703,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG3" "Taiyo Yuden"
+		(property "MFG3" ""
 			(at 85.344 50.292 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11102,7 +11102,7 @@
 				(justify left)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "25V"
 			(at 172.72 90.932 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11143,7 +11143,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "CL05B104KA5NNNC"
+		(property "MPN2" ""
 			(at 170.18 110.49 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11153,7 +11153,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG2" "Samsung Electro-Mechanics"
+		(property "MFG2" ""
 			(at 182.118 110.49 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11164,7 +11164,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN3" "EMK105B7104KV-F"
+		(property "MPN3" ""
 			(at 170.18 112.014 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11174,7 +11174,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG3" "Taiyo Yuden"
+		(property "MFG3" ""
 			(at 182.118 112.014 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11266,7 +11266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GP_NP0_16V-to-250V"
 			(at 176.53 142.748 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11316,7 +11316,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CC0402JRNPO9BN120"
 			(at 176.53 147.066 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11326,7 +11326,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Yageo"
 			(at 164.592 147.066 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11337,7 +11337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Capacitors/part/CC0402JRNPO9BN120"
 			(at 176.53 141.224 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11509,7 +11509,7 @@
 				(justify right)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "25V"
 			(at 61.595 52.07 90)
 			(do_not_autoplace yes)
 			(effects
@@ -11550,7 +11550,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "CL05B104KA5NNNC"
+		(property "MPN2" ""
 			(at 77.47 54.61 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11560,7 +11560,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG2" "Samsung Electro-Mechanics"
+		(property "MFG2" ""
 			(at 77.47 42.672 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11571,7 +11571,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN3" "EMK105B7104KV-F"
+		(property "MPN3" ""
 			(at 78.994 54.61 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11581,7 +11581,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG3" "Taiyo Yuden"
+		(property "MFG3" ""
 			(at 78.994 42.672 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12330,7 +12330,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "25V"
 			(at 88.9 86.106 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12369,7 +12369,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "CL05B104KA5NNNC"
+		(property "MPN2" ""
 			(at 88.9 111.76 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12379,7 +12379,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG2" "Samsung Electro-Mechanics"
+		(property "MFG2" ""
 			(at 76.962 111.76 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12390,7 +12390,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN3" "EMK105B7104KV-F"
+		(property "MPN3" ""
 			(at 88.9 113.284 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12400,7 +12400,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG3" "Taiyo Yuden"
+		(property "MFG3" ""
 			(at 76.962 113.284 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12532,7 +12532,7 @@
 				(justify left)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "25V"
 			(at 66.04 117.348 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12573,7 +12573,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "CL05B104KA5NNNC"
+		(property "MPN2" ""
 			(at 68.58 135.89 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12583,7 +12583,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG2" "Samsung Electro-Mechanics"
+		(property "MFG2" ""
 			(at 56.642 135.89 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12594,7 +12594,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN3" "EMK105B7104KV-F"
+		(property "MPN3" ""
 			(at 68.58 137.414 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12604,7 +12604,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG3" "Taiyo Yuden"
+		(property "MFG3" ""
 			(at 56.642 137.414 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12693,7 +12693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://abracon.com/Resonators/ABM8G.pdf"
 			(at 182.88 140.97 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12753,7 +12753,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "ABM8G-25.000MHZ-B4Y-T"
 			(at 183.515 144.78 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12763,7 +12763,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Abracon LLC"
 			(at 201.93 144.78 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12957,7 +12957,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "25V"
 			(at 83.82 86.106 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12996,7 +12996,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "CL05B104KA5NNNC"
+		(property "MPN2" ""
 			(at 83.82 111.76 0)
 			(do_not_autoplace yes)
 			(effects
@@ -13006,7 +13006,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG2" "Samsung Electro-Mechanics"
+		(property "MFG2" ""
 			(at 71.882 111.76 0)
 			(do_not_autoplace yes)
 			(effects
@@ -13017,7 +13017,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN3" "EMK105B7104KV-F"
+		(property "MPN3" ""
 			(at 83.82 113.284 0)
 			(do_not_autoplace yes)
 			(effects
@@ -13027,7 +13027,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG3" "Taiyo Yuden"
+		(property "MFG3" ""
 			(at 71.882 113.284 0)
 			(do_not_autoplace yes)
 			(effects
@@ -13227,7 +13227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "25V"
 			(at 67.31 60.706 90)
 			(do_not_autoplace yes)
 			(effects
@@ -13270,7 +13270,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "CL05B104KA5NNNC"
+		(property "MPN2" ""
 			(at 86.36 64.77 0)
 			(do_not_autoplace yes)
 			(effects
@@ -13280,7 +13280,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG2" "Samsung Electro-Mechanics"
+		(property "MFG2" ""
 			(at 86.36 52.832 0)
 			(do_not_autoplace yes)
 			(effects
@@ -13291,7 +13291,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN3" "EMK105B7104KV-F"
+		(property "MPN3" ""
 			(at 87.884 64.77 0)
 			(do_not_autoplace yes)
 			(effects
@@ -13301,7 +13301,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG3" "Taiyo Yuden"
+		(property "MFG3" ""
 			(at 87.884 52.832 0)
 			(do_not_autoplace yes)
 			(effects
@@ -13392,7 +13392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 151.13 93.726 0)
 			(do_not_autoplace yes)
 			(effects
@@ -13442,7 +13442,7 @@
 				(justify right)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-132K49L"
 			(at 151.13 90.17 0)
 			(do_not_autoplace yes)
 			(effects
@@ -13452,7 +13452,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "YAGEO"
 			(at 137.16 90.424 0)
 			(do_not_autoplace yes)
 			(effects
@@ -13463,7 +13463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-132K49L"
 			(at 150.876 92.202 0)
 			(do_not_autoplace yes)
 			(effects
@@ -13574,7 +13574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 272.034 99.06 0)
 			(do_not_autoplace yes)
 			(effects
@@ -13594,7 +13594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-131KL"
 			(at 273.558 98.806 0)
 			(do_not_autoplace yes)
 			(effects
@@ -13634,7 +13634,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-131KL"
 			(at 275.59 99.06 0)
 			(do_not_autoplace yes)
 			(effects
@@ -13644,7 +13644,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "YAGEO"
 			(at 275.336 85.09 0)
 			(do_not_autoplace yes)
 			(effects
@@ -13797,7 +13797,7 @@
 				(justify left)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "25V"
 			(at 86.36 117.348 0)
 			(do_not_autoplace yes)
 			(effects
@@ -13838,7 +13838,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "CL05B104KA5NNNC"
+		(property "MPN2" ""
 			(at 88.9 135.89 0)
 			(do_not_autoplace yes)
 			(effects
@@ -13848,7 +13848,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG2" "Samsung Electro-Mechanics"
+		(property "MFG2" ""
 			(at 76.962 135.89 0)
 			(do_not_autoplace yes)
 			(effects
@@ -13859,7 +13859,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN3" "EMK105B7104KV-F"
+		(property "MPN3" ""
 			(at 88.9 137.414 0)
 			(do_not_autoplace yes)
 			(effects
@@ -13869,7 +13869,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG3" "Taiyo Yuden"
+		(property "MFG3" ""
 			(at 76.962 137.414 0)
 			(do_not_autoplace yes)
 			(effects
@@ -14164,7 +14164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.johansontechnology.com/search/pn-pdf/VPDD202W102K1GV001E/"
 			(at 229.87 104.648 0)
 			(do_not_autoplace yes)
 			(effects
@@ -14204,7 +14204,7 @@
 				(justify right)
 			)
 		)
-		(property "Voltage" "1000V"
+		(property "Voltage" "1kV"
 			(at 227.33 91.313 0)
 			(do_not_autoplace yes)
 			(effects
@@ -14224,7 +14224,7 @@
 				(justify right)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "VPDD202W102K1GV001E"
 			(at 229.87 108.966 0)
 			(do_not_autoplace yes)
 			(effects
@@ -14234,7 +14234,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Johanson Dielectrics Inc."
 			(at 241.808 108.966 0)
 			(do_not_autoplace yes)
 			(effects
@@ -14367,7 +14367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GP_NP0_16V-to-250V"
 			(at 189.23 142.748 0)
 			(do_not_autoplace yes)
 			(effects
@@ -14417,7 +14417,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CC0402JRNPO9BN120"
 			(at 189.23 147.066 0)
 			(do_not_autoplace yes)
 			(effects
@@ -14427,7 +14427,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Yageo"
 			(at 201.168 147.066 0)
 			(do_not_autoplace yes)
 			(effects
@@ -14438,7 +14438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Capacitors/part/CC0402JRNPO9BN120"
 			(at 189.23 141.224 0)
 			(do_not_autoplace yes)
 			(effects
@@ -14609,7 +14609,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "25V"
 			(at 93.98 86.106 0)
 			(do_not_autoplace yes)
 			(effects
@@ -14648,7 +14648,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "CL05B104KA5NNNC"
+		(property "MPN2" ""
 			(at 93.98 111.76 0)
 			(do_not_autoplace yes)
 			(effects
@@ -14658,7 +14658,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG2" "Samsung Electro-Mechanics"
+		(property "MFG2" ""
 			(at 82.042 111.76 0)
 			(do_not_autoplace yes)
 			(effects
@@ -14669,7 +14669,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN3" "EMK105B7104KV-F"
+		(property "MPN3" ""
 			(at 93.98 113.284 0)
 			(do_not_autoplace yes)
 			(effects
@@ -14679,7 +14679,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG3" "Taiyo Yuden"
+		(property "MFG3" ""
 			(at 82.042 113.284 0)
 			(do_not_autoplace yes)
 			(effects
@@ -14838,7 +14838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 165.1 107.696 0)
 			(do_not_autoplace yes)
 			(effects
@@ -14888,7 +14888,7 @@
 				(justify right)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-071ML"
 			(at 165.1 104.14 0)
 			(do_not_autoplace yes)
 			(effects
@@ -14898,7 +14898,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "YAGEO"
 			(at 151.13 104.394 0)
 			(do_not_autoplace yes)
 			(effects
@@ -14909,7 +14909,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-071ML"
 			(at 164.846 106.172 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15061,7 +15061,7 @@
 				(justify left)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "25V"
 			(at 76.2 117.348 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15102,7 +15102,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "CL05B104KA5NNNC"
+		(property "MPN2" ""
 			(at 78.74 135.89 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15112,7 +15112,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG2" "Samsung Electro-Mechanics"
+		(property "MFG2" ""
 			(at 66.802 135.89 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15123,7 +15123,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN3" "EMK105B7104KV-F"
+		(property "MPN3" ""
 			(at 78.74 137.414 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15133,7 +15133,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG3" "Taiyo Yuden"
+		(property "MFG3" ""
 			(at 66.802 137.414 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15224,7 +15224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 250.19 68.326 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15274,7 +15274,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402FR-07470RL"
 			(at 250.19 64.77 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15284,7 +15284,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "YAGEO"
 			(at 236.22 65.024 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15295,7 +15295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-07470RL"
 			(at 249.936 66.802 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15632,7 +15632,7 @@
 				(justify left)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "25V"
 			(at 95.25 124.968 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15673,7 +15673,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "CL05B104KA5NNNC"
+		(property "MPN2" ""
 			(at 97.79 143.51 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15683,7 +15683,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG2" "Samsung Electro-Mechanics"
+		(property "MFG2" ""
 			(at 85.852 143.51 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15694,7 +15694,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN3" "EMK105B7104KV-F"
+		(property "MPN3" ""
 			(at 97.79 145.034 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15704,7 +15704,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG3" "Taiyo Yuden"
+		(property "MFG3" ""
 			(at 85.852 145.034 0)
 			(do_not_autoplace yes)
 			(effects

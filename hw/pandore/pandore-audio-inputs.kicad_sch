@@ -3720,7 +3720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL10C101JB8NNNC_Spec.pdf"
 			(at 57.15 147.828 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3780,7 +3780,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL10C101JB8NNNC"
 			(at 57.15 152.146 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3790,7 +3790,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Samsung Electro-Mechanics"
 			(at 69.088 152.146 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4446,7 +4446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/kyocera-avx-apd-series.pdf"
 			(at 111.252 45.72 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4466,7 +4466,7 @@
 				(hide yes)
 			)
 		)
-		(property "Capacitance" "47µF"
+		(property "Capacitance" "33µF"
 			(at 99.06 51.943 90)
 			(do_not_autoplace yes)
 			(effects
@@ -4475,7 +4475,7 @@
 				)
 			)
 		)
-		(property "Voltage" "100V"
+		(property "Voltage" "63V"
 			(at 99.06 50.419 90)
 			(do_not_autoplace yes)
 			(effects
@@ -4504,7 +4504,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "APD0609330M063R"
 			(at 116.078 45.72 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4514,7 +4514,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "KYOCERA AVX"
 			(at 116.078 57.912 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4633,7 +4633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL10C101JB8NNNC_Spec.pdf"
 			(at 52.07 147.828 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4693,7 +4693,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL10C101JB8NNNC"
 			(at 52.07 152.146 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4703,7 +4703,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Samsung Electro-Mechanics"
 			(at 40.132 152.146 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4831,7 +4831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/kyocera-avx-apd-series.pdf"
 			(at 111.252 40.64 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4851,7 +4851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Capacitance" "47µF"
+		(property "Capacitance" "33µF"
 			(at 99.06 34.417 90)
 			(do_not_autoplace yes)
 			(effects
@@ -4860,7 +4860,7 @@
 				)
 			)
 		)
-		(property "Voltage" "100V"
+		(property "Voltage" "63V"
 			(at 99.06 35.941 90)
 			(do_not_autoplace yes)
 			(effects
@@ -4889,7 +4889,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "APD0609330M063R"
 			(at 116.078 40.64 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4899,7 +4899,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "KYOCERA AVX"
 			(at 116.078 28.448 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5017,7 +5017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL10C101JB8NNNC_Spec.pdf"
 			(at 57.15 79.248 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5077,7 +5077,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL10C101JB8NNNC"
 			(at 57.15 83.566 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5087,7 +5087,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Samsung Electro-Mechanics"
 			(at 69.088 83.566 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5214,7 +5214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "url-ds"
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf"
 			(at 100.33 37.846 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5234,7 +5234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "url-link"
+		(property "Link" ""
 			(at 100.33 36.576 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5244,7 +5244,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MPN"
+		(property "MPN" "PH1-03-UA"
 			(at 100.33 32.004 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5254,7 +5254,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "MFG"
+		(property "MFG" "Adam Tech"
 			(at 106.934 32.004 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5321,7 +5321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "url-ds"
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf"
 			(at 82.55 105.156 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5341,7 +5341,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MPN"
+		(property "MPN" "PH1-02-UA"
 			(at 82.55 99.314 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5351,7 +5351,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "MFG"
+		(property "MFG" "Adam Tech"
 			(at 89.154 99.314 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5362,7 +5362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "url-link"
+		(property "Link" ""
 			(at 82.55 103.886 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5489,7 +5489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "url-ds"
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf"
 			(at 82.55 36.576 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5509,7 +5509,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MPN"
+		(property "MPN" "PH1-02-UA"
 			(at 82.55 30.734 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5519,7 +5519,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "MFG"
+		(property "MFG" "Adam Tech"
 			(at 89.154 30.734 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5530,7 +5530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "url-link"
+		(property "Link" ""
 			(at 82.55 35.306 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5660,7 +5660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL10C101JB8NNNC_Spec.pdf"
 			(at 52.07 131.318 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5720,7 +5720,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL10C101JB8NNNC"
 			(at 52.07 135.636 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5730,7 +5730,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Samsung Electro-Mechanics"
 			(at 40.132 135.636 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5859,7 +5859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf"
 			(at 68.58 20.066 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5910,7 +5910,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RR1220P-682-D"
 			(at 68.58 16.51 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5920,7 +5920,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Susumu"
 			(at 54.61 16.764 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6112,7 +6112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL10C101JB8NNNC_Spec.pdf"
 			(at 52.07 121.158 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6172,7 +6172,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL10C101JB8NNNC"
 			(at 52.07 125.476 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6182,7 +6182,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Samsung Electro-Mechanics"
 			(at 40.132 125.476 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6376,7 +6376,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL10C101JB8NNNC_Spec.pdf"
 			(at 54.61 154.178 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6436,7 +6436,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL10C101JB8NNNC"
 			(at 54.61 158.496 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6446,7 +6446,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Samsung Electro-Mechanics"
 			(at 42.672 158.496 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6576,7 +6576,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL10C101JB8NNNC_Spec.pdf"
 			(at 52.07 52.578 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6636,7 +6636,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL10C101JB8NNNC"
 			(at 52.07 56.896 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6646,7 +6646,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Samsung Electro-Mechanics"
 			(at 40.132 56.896 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6776,7 +6776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL10C101JB8NNNC_Spec.pdf"
 			(at 54.61 85.598 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6836,7 +6836,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL10C101JB8NNNC"
 			(at 54.61 89.916 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6846,7 +6846,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Samsung Electro-Mechanics"
 			(at 42.672 89.916 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6975,7 +6975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf"
 			(at 68.58 88.646 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7026,7 +7026,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RR1220P-682-D"
 			(at 68.58 85.09 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7036,7 +7036,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Susumu"
 			(at 54.61 85.344 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7162,7 +7162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/kyocera-avx-apd-series.pdf"
 			(at 111.252 109.22 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7182,7 +7182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Capacitance" "47µF"
+		(property "Capacitance" "33µF"
 			(at 99.06 102.997 90)
 			(do_not_autoplace yes)
 			(effects
@@ -7191,7 +7191,7 @@
 				)
 			)
 		)
-		(property "Voltage" "100V"
+		(property "Voltage" "63V"
 			(at 99.06 104.521 90)
 			(do_not_autoplace yes)
 			(effects
@@ -7220,7 +7220,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "APD0609330M063R"
 			(at 116.078 109.22 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7230,7 +7230,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "KYOCERA AVX"
 			(at 116.078 97.028 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7563,7 +7563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL10C101JB8NNNC_Spec.pdf"
 			(at 52.07 79.248 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7623,7 +7623,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL10C101JB8NNNC"
 			(at 52.07 83.566 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7633,7 +7633,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Samsung Electro-Mechanics"
 			(at 40.132 83.566 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7826,7 +7826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf"
 			(at 66.04 20.066 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7877,7 +7877,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RR1220P-682-D"
 			(at 66.04 16.51 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7887,7 +7887,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Susumu"
 			(at 52.07 16.764 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8201,7 +8201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL10C101JB8NNNC_Spec.pdf"
 			(at 52.07 62.738 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8261,7 +8261,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL10C101JB8NNNC"
 			(at 52.07 67.056 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8271,7 +8271,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Samsung Electro-Mechanics"
 			(at 40.132 67.056 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8647,7 +8647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "url-ds"
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf"
 			(at 100.33 157.226 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8667,7 +8667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "url-link"
+		(property "Link" ""
 			(at 100.33 155.956 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8677,7 +8677,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MPN"
+		(property "MPN" "PH1-03-UA"
 			(at 100.33 151.384 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8687,7 +8687,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "MFG"
+		(property "MFG" "Adam Tech"
 			(at 106.934 151.384 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8756,7 +8756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf"
 			(at 66.04 88.646 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8807,7 +8807,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RR1220P-682-D"
 			(at 66.04 85.09 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8817,7 +8817,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Susumu"
 			(at 52.07 85.344 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8942,7 +8942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "url-ds"
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf"
 			(at 100.33 106.426 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8962,7 +8962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "url-link"
+		(property "Link" ""
 			(at 100.33 105.156 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8972,7 +8972,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MPN"
+		(property "MPN" "PH1-03-UA"
 			(at 100.33 100.584 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8982,7 +8982,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "MFG"
+		(property "MFG" "Adam Tech"
 			(at 106.934 100.584 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9051,7 +9051,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/kyocera-avx-apd-series.pdf"
 			(at 111.252 114.3 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9071,7 +9071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Capacitance" "47µF"
+		(property "Capacitance" "33µF"
 			(at 99.06 120.523 90)
 			(do_not_autoplace yes)
 			(effects
@@ -9080,7 +9080,7 @@
 				)
 			)
 		)
-		(property "Voltage" "100V"
+		(property "Voltage" "63V"
 			(at 99.06 118.999 90)
 			(do_not_autoplace yes)
 			(effects
@@ -9109,7 +9109,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "APD0609330M063R"
 			(at 116.078 114.3 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9119,7 +9119,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "KYOCERA AVX"
 			(at 116.078 126.492 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9235,7 +9235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "url-ds"
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf"
 			(at 100.33 88.646 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9255,7 +9255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "url-link"
+		(property "Link" ""
 			(at 100.33 87.376 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9265,7 +9265,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MPN"
+		(property "MPN" "PH1-03-UA"
 			(at 100.33 82.804 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9275,7 +9275,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "MFG"
+		(property "MFG" "Adam Tech"
 			(at 106.934 82.804 0)
 			(do_not_autoplace yes)
 			(effects

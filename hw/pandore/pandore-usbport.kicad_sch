@@ -6045,7 +6045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
 			(at 168.91 67.818 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6105,7 +6105,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0603C105K4RACTU"
 			(at 168.91 72.136 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6115,7 +6115,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "KEMET"
 			(at 180.848 72.136 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6244,7 +6244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
 			(at 92.71 154.178 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6304,7 +6304,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0603C105K4RACTU"
 			(at 92.71 158.496 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6314,7 +6314,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "KEMET"
 			(at 104.648 158.496 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7442,7 +7442,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "25V"
 			(at 144.78 158.496 90)
 			(do_not_autoplace yes)
 			(effects
@@ -7485,7 +7485,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "CL05B104KA5NNNC"
+		(property "MPN2" ""
 			(at 163.83 162.56 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7495,7 +7495,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG2" "Samsung Electro-Mechanics"
+		(property "MFG2" ""
 			(at 163.83 150.622 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7506,7 +7506,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN3" "EMK105B7104KV-F"
+		(property "MPN3" ""
 			(at 165.354 162.56 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7516,7 +7516,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG3" "Taiyo Yuden"
+		(property "MFG3" ""
 			(at 165.354 150.622 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7867,7 +7867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
 			(at 92.71 104.648 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7927,7 +7927,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0603C105K4RACTU"
 			(at 92.71 108.966 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7937,7 +7937,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "KEMET"
 			(at 104.648 108.966 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8318,7 +8318,7 @@
 				(justify right)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "25V"
 			(at 145.415 107.95 90)
 			(do_not_autoplace yes)
 			(effects
@@ -8359,7 +8359,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "CL05B104KA5NNNC"
+		(property "MPN2" ""
 			(at 161.29 110.49 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8369,7 +8369,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG2" "Samsung Electro-Mechanics"
+		(property "MFG2" ""
 			(at 161.29 98.552 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8380,7 +8380,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN3" "EMK105B7104KV-F"
+		(property "MPN3" ""
 			(at 162.814 110.49 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8390,7 +8390,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG3" "Taiyo Yuden"
+		(property "MFG3" ""
 			(at 162.814 98.552 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8644,7 +8644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0402JR-070RL"
 			(at 248.92 157.226 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8694,7 +8694,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402JR-070RL"
 			(at 248.92 153.67 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8704,7 +8704,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Yageo"
 			(at 234.95 153.924 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8715,7 +8715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402JR-070RL"
 			(at 248.666 155.702 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8725,7 +8725,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" ""
+		(property "MPN2" "RMCF0402ZT0R00"
 			(at 249.428 151.892 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8735,7 +8735,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG2" ""
+		(property "MFG2" "Stackpole"
 			(at 234.696 151.892 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8746,7 +8746,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN3" ""
+		(property "MPN3" "CRCW04020000Z0ED"
 			(at 248.92 150.114 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8756,7 +8756,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG3" ""
+		(property "MFG3" "Vishay Dale"
 			(at 234.696 150.114 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9131,7 +9131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
 			(at 138.43 64.008 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9191,7 +9191,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0603C105K4RACTU"
 			(at 138.43 68.326 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9201,7 +9201,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "KEMET"
 			(at 126.492 68.326 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9458,7 +9458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0402JR-070RL"
 			(at 248.92 58.166 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9508,7 +9508,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0402JR-070RL"
 			(at 248.92 54.61 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9518,7 +9518,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Yageo"
 			(at 234.95 54.864 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9529,7 +9529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402JR-070RL"
 			(at 248.666 56.642 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9539,7 +9539,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" ""
+		(property "MPN2" "RMCF0402ZT0R00"
 			(at 249.428 52.832 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9549,7 +9549,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG2" ""
+		(property "MFG2" "Stackpole"
 			(at 234.696 52.832 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9560,7 +9560,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN3" ""
+		(property "MPN3" "CRCW04020000Z0ED"
 			(at 248.92 51.054 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9570,7 +9570,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG3" ""
+		(property "MFG3" "Vishay Dale"
 			(at 234.696 51.054 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9847,7 +9847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E106KA73-01.pdf"
 			(at 260.858 50.8 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9904,7 +9904,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM21BR61E106KA73K"
 			(at 265.176 50.8 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9914,7 +9914,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Murata"
 			(at 265.176 38.862 0)
 			(do_not_autoplace yes)
 			(effects
@@ -10212,7 +10212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "25V"
 			(at 144.78 108.966 90)
 			(do_not_autoplace yes)
 			(effects
@@ -10255,7 +10255,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "CL05B104KA5NNNC"
+		(property "MPN2" ""
 			(at 163.83 113.03 0)
 			(do_not_autoplace yes)
 			(effects
@@ -10265,7 +10265,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG2" "Samsung Electro-Mechanics"
+		(property "MFG2" ""
 			(at 163.83 101.092 0)
 			(do_not_autoplace yes)
 			(effects
@@ -10276,7 +10276,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN3" "EMK105B7104KV-F"
+		(property "MPN3" ""
 			(at 165.354 113.03 0)
 			(do_not_autoplace yes)
 			(effects
@@ -10286,7 +10286,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG3" "Taiyo Yuden"
+		(property "MFG3" ""
 			(at 165.354 101.092 0)
 			(do_not_autoplace yes)
 			(effects
@@ -10373,7 +10373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
 			(at 168.91 37.338 0)
 			(do_not_autoplace yes)
 			(effects
@@ -10433,7 +10433,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0603C105K4RACTU"
 			(at 168.91 41.656 0)
 			(do_not_autoplace yes)
 			(effects
@@ -10443,7 +10443,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "KEMET"
 			(at 180.848 41.656 0)
 			(do_not_autoplace yes)
 			(effects
@@ -10790,7 +10790,7 @@
 				(justify right)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "25V"
 			(at 145.415 157.48 90)
 			(do_not_autoplace yes)
 			(effects
@@ -10831,7 +10831,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" "CL05B104KA5NNNC"
+		(property "MPN2" ""
 			(at 161.29 160.02 0)
 			(do_not_autoplace yes)
 			(effects
@@ -10841,7 +10841,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG2" "Samsung Electro-Mechanics"
+		(property "MFG2" ""
 			(at 161.29 148.082 0)
 			(do_not_autoplace yes)
 			(effects
@@ -10852,7 +10852,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN3" "EMK105B7104KV-F"
+		(property "MPN3" ""
 			(at 162.814 160.02 0)
 			(do_not_autoplace yes)
 			(effects
@@ -10862,7 +10862,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG3" "Taiyo Yuden"
+		(property "MFG3" ""
 			(at 162.814 148.082 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11329,7 +11329,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
 			(at 138.43 33.528 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11389,7 +11389,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0603C105K4RACTU"
 			(at 138.43 37.846 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11399,7 +11399,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "KEMET"
 			(at 126.492 37.846 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11657,7 +11657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
 			(at 62.23 100.838 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11717,7 +11717,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0603C105K4RACTU"
 			(at 62.23 105.156 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11727,7 +11727,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "KEMET"
 			(at 50.292 105.156 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11855,7 +11855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E106KA73-01.pdf"
 			(at 260.858 20.32 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11912,7 +11912,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM21BR61E106KA73K"
 			(at 265.176 20.32 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11922,7 +11922,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Murata"
 			(at 265.176 8.382 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12345,7 +12345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E106KA73-01.pdf"
 			(at 259.588 137.16 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12402,7 +12402,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM21BR61E106KA73K"
 			(at 263.906 137.16 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12412,7 +12412,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Murata"
 			(at 263.906 125.222 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12540,7 +12540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E106KA73-01.pdf"
 			(at 259.588 87.63 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12597,7 +12597,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM21BR61E106KA73K"
 			(at 263.906 87.63 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12607,7 +12607,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Murata"
 			(at 263.906 75.692 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12801,7 +12801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
 			(at 62.23 150.368 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12861,7 +12861,7 @@
 				(justify left)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0603C105K4RACTU"
 			(at 62.23 154.686 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12871,7 +12871,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "KEMET"
 			(at 50.292 154.686 0)
 			(do_not_autoplace yes)
 			(effects
