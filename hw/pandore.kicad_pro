@@ -1,0 +1,3361 @@
+{
+  "board": {
+    "3dviewports": [],
+    "design_settings": {
+      "defaults": {
+        "apply_defaults_to_fp_fields": false,
+        "apply_defaults_to_fp_shapes": false,
+        "apply_defaults_to_fp_text": false,
+        "board_outline_line_width": 0.05,
+        "copper_line_width": 0.2,
+        "copper_text_italic": false,
+        "copper_text_size_h": 1.5,
+        "copper_text_size_v": 1.5,
+        "copper_text_thickness": 0.3,
+        "copper_text_upright": false,
+        "courtyard_line_width": 0.05,
+        "dimension_precision": 2,
+        "dimension_units": 3,
+        "dimensions": {
+          "arrow_length": 1270000,
+          "extension_offset": 500000,
+          "keep_text_aligned": true,
+          "suppress_zeroes": false,
+          "text_position": 0,
+          "units_format": 1
+        },
+        "fab_line_width": 0.1,
+        "fab_text_italic": false,
+        "fab_text_size_h": 1.0,
+        "fab_text_size_v": 1.0,
+        "fab_text_thickness": 0.15,
+        "fab_text_upright": true,
+        "other_line_width": 0.1,
+        "other_text_italic": false,
+        "other_text_size_h": 1.0,
+        "other_text_size_v": 1.0,
+        "other_text_thickness": 0.15,
+        "other_text_upright": true,
+        "pads": {
+          "drill": 0.0,
+          "height": 1.0,
+          "width": 1.0
+        },
+        "silk_line_width": 0.1,
+        "silk_text_italic": false,
+        "silk_text_size_h": 0.8,
+        "silk_text_size_v": 0.8,
+        "silk_text_thickness": 0.15,
+        "silk_text_upright": true,
+        "zones": {
+          "45_degree_only": false,
+          "min_clearance": 0.25
+        }
+      },
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        },
+        {
+          "gap": 0.127,
+          "via_gap": 0.127,
+          "width": 0.26
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.2,
+          "width": 0.26
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "clearance|124405000|40000000|7a94396b-5606-4b53-a43f-dfd043f1ebf6|b20e937c-db1e-4e84-a5be-3c2492551f51",
+          ""
+        ],
+        [
+          "clearance|154295000|40000000|7a94396b-5606-4b53-a43f-dfd043f1ebf6|d793afaa-db81-4c36-bd8a-baf06a4685e0",
+          ""
+        ],
+        [
+          "clearance|175095000|40000000|07564bb3-feae-4f80-af38-bccf0ac0b82e|7a94396b-5606-4b53-a43f-dfd043f1ebf6",
+          ""
+        ],
+        [
+          "clearance|201495000|40000000|7a94396b-5606-4b53-a43f-dfd043f1ebf6|8aa6a868-6cf3-4da7-a838-f243ce55d61e",
+          ""
+        ],
+        [
+          "clearance|20855000|64345000|7a94396b-5606-4b53-a43f-dfd043f1ebf6|904501de-003e-4045-bee4-71f3117f8bca",
+          ""
+        ],
+        [
+          "clearance|220495000|40000000|3c4e9215-79a7-405b-984b-0fcd06ca6d20|7a94396b-5606-4b53-a43f-dfd043f1ebf6",
+          ""
+        ],
+        [
+          "clearance|238450000|80450000|525bcd0c-1cf4-40a3-9522-95365beae36a|2cb83031-4921-43fd-881c-965d9ce9dfb8",
+          ""
+        ],
+        [
+          "clearance|240995000|40000000|7a94396b-5606-4b53-a43f-dfd043f1ebf6|fb10ddd8-f5a5-4816-bb06-1caac2efdd19",
+          ""
+        ],
+        [
+          "clearance|254035000|150000000|74fe8659-1cb1-476d-b95a-86a9dc8c4d39|7a94396b-5606-4b53-a43f-dfd043f1ebf6",
+          ""
+        ],
+        [
+          "clearance|258595000|40000000|222899a8-d90a-4d60-9984-3ef1e33e0066|7a94396b-5606-4b53-a43f-dfd043f1ebf6",
+          ""
+        ],
+        [
+          "clearance|266750000|68100000|93f5597b-a245-4f33-969c-ff3f6478a750|e61bd913-fe6d-4d84-b1ac-65ecd779af67",
+          ""
+        ],
+        [
+          "clearance|271395000|40000000|7a94396b-5606-4b53-a43f-dfd043f1ebf6|87877107-ca94-492a-bdb1-d692d66834c3",
+          ""
+        ],
+        [
+          "clearance|280000000|115800000|7a94396b-5606-4b53-a43f-dfd043f1ebf6|ea9b11a1-b623-4b1a-8942-c745467bf124",
+          ""
+        ],
+        [
+          "clearance|280000000|138680000|6de422a4-4dd1-437e-a451-7e8e845897ea|7a94396b-5606-4b53-a43f-dfd043f1ebf6",
+          ""
+        ],
+        [
+          "clearance|280000000|78245001|2a67d5a4-40fa-491f-88c7-00e8bc04e4b2|7a94396b-5606-4b53-a43f-dfd043f1ebf6",
+          ""
+        ],
+        [
+          "clearance|280000000|91495001|7a94396b-5606-4b53-a43f-dfd043f1ebf6|e6c85c89-468f-479c-96ad-0a1e8d7c8410",
+          ""
+        ],
+        [
+          "clearance|42495000|40000000|7a94396b-5606-4b53-a43f-dfd043f1ebf6|9b9ebaba-46b5-4c77-b20d-a321163ffeb1",
+          ""
+        ],
+        [
+          "clearance|68015000|40000000|7a94396b-5606-4b53-a43f-dfd043f1ebf6|b8d6b990-9f62-4e5f-b92d-000e2ed2b79b",
+          ""
+        ],
+        [
+          "clearance|97005000|40000000|7a94396b-5606-4b53-a43f-dfd043f1ebf6|8aabdf7c-1d0f-4203-ac25-ddaae10041e1",
+          ""
+        ],
+        [
+          "items_not_allowed|110050000|119000000|64f41311-4ef4-418c-b194-aa65dbae9572|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|114450000|119000000|1ab1d04e-677f-4603-889e-33c74bf64ef3|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|124877782|73122218|aca097fe-6849-47cd-8538-9d3f627dfef0|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|125550000|119000000|65c3e9f6-7c96-487e-908d-b8bcc5578ea2|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|126000000|105950000|1e7f49d7-214e-4867-9428-a4b8e2b2a9e5|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|126000000|105950000|2377abcb-84c8-4b1b-897e-c0e6d43522ce|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|126000000|105950000|56275697-a5f0-4790-bbf7-674cbb7fe092|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|126000000|105950000|b4ca4edc-f1cf-41a3-90ec-54548c79ed47|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|126905172|72837931|435a022b-567e-4b8e-94ec-e1521b5cd047|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|128000000|45000000|4484fc46-d395-4992-a3bf-037e81993a10|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|128000000|45000000|7d3189cb-bba8-41c3-a41b-b0520b6f85d0|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|129000000|55050000|1ebb558f-f2f6-4ff9-8995-047fbceb2269|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|129000000|55100000|eaa700bf-f1ae-46c1-a728-f67447e3670b|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|29200000|119000000|2338e25d-49e2-41a7-b8e8-18b870a217e3|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|29200000|119000000|77f5c305-8734-4c22-9b78-7fa7e17e4534|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|50949999|119000000|595835b2-ecdd-4aba-b04e-512d87f61158|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|59450000|119000000|3e5b99a9-891b-4f7e-aecb-b6e45cf1ec2a|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|81200000|119000000|0e39df5e-a8a2-404b-b90c-9dec931e66cf|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|81200000|119000000|bc545e4a-941b-402b-ab77-758a87d3c50f|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "track_dangling|186200000|69700000|66f206c4-1c08-47ea-a049-faa922d01a41|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "track_dangling|192561000|121875000|56283241-bc49-4c48-b1ed-dc331c9a7c49|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "track_dangling|200200000|69600000|337a1410-0d9b-4fc9-bc44-624332655e2f|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "track_dangling|208300000|55930000|7f9fa07d-b64d-44fb-ad18-b1921555fc6c|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "track_dangling|210700000|55870000|f4edae5d-3da5-4333-8a43-46439fcc86b8|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "track_dangling|212900000|55830000|64d9aa75-2bdb-40a3-8a85-83c39f2445d8|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "track_dangling|225420000|112700000|fabba28a-ef1a-47d0-b7eb-cf8bd4e73d56|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "track_dangling|225520000|127260000|c81820e1-f179-49e0-838e-5127d01d925e|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "track_dangling|246610000|60140000|cb61ea5c-ed4d-423f-8d4c-b588afc3a470|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
+      "meta": {
+        "filename": "board_design_settings.json",
+        "version": 2
+      },
+      "rule_severities": {
+        "annular_width": "error",
+        "clearance": "error",
+        "connection_width": "warning",
+        "copper_edge_clearance": "error",
+        "copper_sliver": "warning",
+        "courtyards_overlap": "ignore",
+        "creepage": "error",
+        "diff_pair_gap_out_of_range": "error",
+        "diff_pair_uncoupled_length_too_long": "ignore",
+        "drill_out_of_range": "error",
+        "duplicate_footprints": "warning",
+        "extra_footprint": "warning",
+        "footprint": "error",
+        "footprint_filters_mismatch": "ignore",
+        "footprint_symbol_mismatch": "warning",
+        "footprint_type_mismatch": "error",
+        "hole_clearance": "error",
+        "hole_near_hole": "error",
+        "hole_to_hole": "error",
+        "holes_co_located": "warning",
+        "invalid_outline": "error",
+        "isolated_copper": "warning",
+        "item_on_disabled_layer": "error",
+        "items_not_allowed": "error",
+        "length_out_of_range": "error",
+        "lib_footprint_issues": "warning",
+        "lib_footprint_mismatch": "ignore",
+        "malformed_courtyard": "error",
+        "microvia_drill_out_of_range": "error",
+        "mirrored_text_on_front_layer": "warning",
+        "missing_courtyard": "ignore",
+        "missing_footprint": "warning",
+        "net_conflict": "warning",
+        "nonmirrored_text_on_back_layer": "warning",
+        "npth_inside_courtyard": "ignore",
+        "padstack": "error",
+        "pth_inside_courtyard": "ignore",
+        "shorting_items": "error",
+        "silk_edge_clearance": "ignore",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
+        "skew_out_of_range": "error",
+        "solder_mask_bridge": "error",
+        "starved_thermal": "error",
+        "text_height": "warning",
+        "text_on_edge_cuts": "error",
+        "text_thickness": "warning",
+        "through_hole_pad_without_hole": "error",
+        "too_many_vias": "error",
+        "track_angle": "error",
+        "track_dangling": "warning",
+        "track_segment_length": "error",
+        "track_width": "error",
+        "tracks_crossing": "error",
+        "unconnected_items": "error",
+        "unresolved_variable": "error",
+        "via_dangling": "warning",
+        "zone_has_empty_net": "error",
+        "zones_intersect": "error"
+      },
+      "rule_severitieslegacy_courtyards_overlap": false,
+      "rule_severitieslegacy_no_courtyard_defined": false,
+      "rules": {
+        "allow_blind_buried_vias": false,
+        "allow_microvias": false,
+        "max_error": 0.005,
+        "min_clearance": 0.127,
+        "min_connection": 0.127,
+        "min_copper_edge_clearance": 0.254,
+        "min_groove_width": 0.0,
+        "min_hole_clearance": 0.127,
+        "min_hole_to_hole": 0.3,
+        "min_microvia_diameter": 0.2,
+        "min_microvia_drill": 0.1,
+        "min_resolved_spokes": 1,
+        "min_silk_clearance": 0.1,
+        "min_text_height": 0.8,
+        "min_text_thickness": 0.08,
+        "min_through_hole_diameter": 0.2,
+        "min_track_width": 0.127,
+        "min_via_annular_width": 0.1016,
+        "min_via_diameter": 0.458,
+        "solder_mask_to_copper_clearance": 0.0,
+        "use_height_for_length_calcs": true
+      },
+      "teardrop_options": [
+        {
+          "td_onpthpad": true,
+          "td_onroundshapesonly": false,
+          "td_onsmdpad": true,
+          "td_ontrackend": false,
+          "td_onvia": true
+        }
+      ],
+      "teardrop_parameters": [
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
+          "td_target_name": "td_round_shape",
+          "td_width_to_size_filter_ratio": 0.9
+        },
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
+          "td_target_name": "td_rect_shape",
+          "td_width_to_size_filter_ratio": 0.9
+        },
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
+          "td_target_name": "td_track_end",
+          "td_width_to_size_filter_ratio": 0.9
+        }
+      ],
+      "track_widths": [
+        0.0,
+        0.15,
+        0.2,
+        0.25,
+        0.3,
+        0.35,
+        0.4,
+        0.45,
+        0.5,
+        0.6,
+        0.7,
+        0.8,
+        0.9,
+        1.0,
+        1.5,
+        2.0
+      ],
+      "tuning_pattern_settings": {
+        "diff_pair_defaults": {
+          "corner_radius_percentage": 50,
+          "corner_style": 0,
+          "max_amplitude": 5.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 1.0
+        },
+        "diff_pair_skew_defaults": {
+          "corner_radius_percentage": 50,
+          "corner_style": 0,
+          "max_amplitude": 5.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 0.6
+        },
+        "single_track_defaults": {
+          "corner_radius_percentage": 50,
+          "corner_style": 0,
+          "max_amplitude": 5.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 0.6
+        }
+      },
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.508,
+          "drill": 0.254
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.5
+        }
+      ],
+      "zones_allow_external_fillets": false,
+      "zones_use_no_outline": true
+    },
+    "ipc2581": {
+      "dist": "",
+      "distpn": "",
+      "internal_id": "",
+      "mfg": "",
+      "mpn": ""
+    },
+    "layer_pairs": [
+      {
+        "bottomLayer": 2,
+        "enabled": true,
+        "name": "throught",
+        "topLayer": 0
+      },
+      {
+        "bottomLayer": 6,
+        "enabled": true,
+        "name": "internal",
+        "topLayer": 4
+      },
+      {
+        "bottomLayer": 4,
+        "enabled": true,
+        "name": "top-ref",
+        "topLayer": 0
+      },
+      {
+        "bottomLayer": 6,
+        "enabled": true,
+        "name": "bot-ref",
+        "topLayer": 2
+      }
+    ],
+    "layer_presets": [],
+    "viewports": []
+  },
+  "boards": [],
+  "cvpcb": {
+    "equivalence_files": []
+  },
+  "erc": {
+    "erc_exclusions": [
+      [
+        "pin_to_pin|1155700|1206500|20f00f3b-8e39-42dd-b2c6-9e0f988c7468|c66f8d0b-8065-4bd4-b8f6-56b87c8b0c31|/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8|/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8|/e55f2700-f75a-4062-8a27-fe258faa8966/88bddcf3-091d-4999-8622-d323c703fd74/5f490059-030e-46be-8d18-c6ad7eadfe53",
+        ""
+      ],
+      [
+        "pin_to_pin|1206500|1257300|980d6f03-3d4a-492f-885c-d93526234bcc|c66f8d0b-8065-4bd4-b8f6-56b87c8b0c31|/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/07e56b51-9be1-414d-8c59-faa1629d64d5|/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/07e56b51-9be1-414d-8c59-faa1629d64d5|/e55f2700-f75a-4062-8a27-fe258faa8966/88bddcf3-091d-4999-8622-d323c703fd74/5f490059-030e-46be-8d18-c6ad7eadfe53",
+        ""
+      ],
+      [
+        "pin_to_pin|1409700|749300|bf0a51e9-a72b-4796-97d8-49aabcf72a98|e2d26989-502e-45be-abca-b3eb878589f1|/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/c7a6c4ca-6083-4b1c-b07a-a9d1f5204bfb|/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/c7a6c4ca-6083-4b1c-b07a-a9d1f5204bfb|/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/07e56b51-9be1-414d-8c59-faa1629d64d5",
+        ""
+      ],
+      [
+        "pin_to_pin|1638300|2336800|170ce97c-cdd3-4cb0-a280-7b6483433c25|bdf6fe2a-16fb-4bfd-a757-f100ddd65ef1|/e55f2700-f75a-4062-8a27-fe258faa8966/a7a97f06-32f2-4ecd-8145-839e91065361|/e55f2700-f75a-4062-8a27-fe258faa8966/a7a97f06-32f2-4ecd-8145-839e91065361|/e55f2700-f75a-4062-8a27-fe258faa8966/88bddcf3-091d-4999-8622-d323c703fd74/5f490059-030e-46be-8d18-c6ad7eadfe53",
+        ""
+      ],
+      [
+        "pin_to_pin|1752600|495300|19d1274a-da40-40d6-a358-32b4f374b950|ceac3ac0-f8f0-4bb4-bea4-0834224b35d8|/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/505def28-a163-4964-82bd-abe7e8697de4/8d59667e-74a9-4b74-9da4-c408ef8d4019|/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/505def28-a163-4964-82bd-abe7e8697de4/8d59667e-74a9-4b74-9da4-c408ef8d4019|/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/505def28-a163-4964-82bd-abe7e8697de4/8d59667e-74a9-4b74-9da4-c408ef8d4019",
+        ""
+      ],
+      [
+        "pin_to_pin|1752600|495300|19d1274a-da40-40d6-a358-32b4f374b950|ceac3ac0-f8f0-4bb4-bea4-0834224b35d8|/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/505def28-a163-4964-82bd-abe7e8697de4/e109aa32-258e-4e34-aaf7-64bd999bfe07|/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/505def28-a163-4964-82bd-abe7e8697de4/e109aa32-258e-4e34-aaf7-64bd999bfe07|/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/505def28-a163-4964-82bd-abe7e8697de4/e109aa32-258e-4e34-aaf7-64bd999bfe07",
+        ""
+      ],
+      [
+        "pin_to_pin|1752600|558800|9ad6692a-3338-4cae-900d-1e95ee02ec65|4f5d8067-0aea-4468-b246-426e94b576d5|/e55f2700-f75a-4062-8a27-fe258faa8966/57ec90ce-deb5-4a52-b1c0-0a997012959b|/e55f2700-f75a-4062-8a27-fe258faa8966/57ec90ce-deb5-4a52-b1c0-0a997012959b|/e55f2700-f75a-4062-8a27-fe258faa8966/57ec90ce-deb5-4a52-b1c0-0a997012959b",
+        ""
+      ],
+      [
+        "pin_to_pin|1752600|596900|ceac3ac0-f8f0-4bb4-bea4-0834224b35d8|45ef3b79-c0e0-4ce5-b78a-b1078c8e44a6|/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/505def28-a163-4964-82bd-abe7e8697de4/8d59667e-74a9-4b74-9da4-c408ef8d4019|/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/505def28-a163-4964-82bd-abe7e8697de4/8d59667e-74a9-4b74-9da4-c408ef8d4019|/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/26459c94-7a75-4791-b22d-dba060dd3547",
+        ""
+      ],
+      [
+        "pin_to_pin|1752600|596900|ceac3ac0-f8f0-4bb4-bea4-0834224b35d8|45ef3b79-c0e0-4ce5-b78a-b1078c8e44a6|/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/505def28-a163-4964-82bd-abe7e8697de4/e109aa32-258e-4e34-aaf7-64bd999bfe07|/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/505def28-a163-4964-82bd-abe7e8697de4/e109aa32-258e-4e34-aaf7-64bd999bfe07|/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/26459c94-7a75-4791-b22d-dba060dd3547",
+        ""
+      ],
+      [
+        "pin_to_pin|1892300|1498600|91818175-101d-4536-8072-40b0d9dde3e0|cef72aa0-01a8-4e7d-bf38-8e2e5c33faa8|/e55f2700-f75a-4062-8a27-fe258faa8966/57ec90ce-deb5-4a52-b1c0-0a997012959b/d2a190b7-8486-4aae-97c0-33ac8d90da8a|/e55f2700-f75a-4062-8a27-fe258faa8966/57ec90ce-deb5-4a52-b1c0-0a997012959b/d2a190b7-8486-4aae-97c0-33ac8d90da8a|/e55f2700-f75a-4062-8a27-fe258faa8966/57ec90ce-deb5-4a52-b1c0-0a997012959b/d2a190b7-8486-4aae-97c0-33ac8d90da8a",
+        ""
+      ],
+      [
+        "pin_to_pin|1993900|444500|9e7a5739-cae4-4fa1-989a-19d598d32e07|15922d6d-226e-43d3-8574-c19c815e52be|/e55f2700-f75a-4062-8a27-fe258faa8966/88bddcf3-091d-4999-8622-d323c703fd74/c21b8118-8da9-423f-b9bf-b175418c956a|/e55f2700-f75a-4062-8a27-fe258faa8966/88bddcf3-091d-4999-8622-d323c703fd74/c21b8118-8da9-423f-b9bf-b175418c956a|/e55f2700-f75a-4062-8a27-fe258faa8966/88bddcf3-091d-4999-8622-d323c703fd74/c21b8118-8da9-423f-b9bf-b175418c956a",
+        ""
+      ],
+      [
+        "pin_to_pin|1993900|876300|15922d6d-226e-43d3-8574-c19c815e52be|3096fd74-4e5d-4d00-994b-cf59d35259f0|/e55f2700-f75a-4062-8a27-fe258faa8966/88bddcf3-091d-4999-8622-d323c703fd74/c21b8118-8da9-423f-b9bf-b175418c956a|/e55f2700-f75a-4062-8a27-fe258faa8966/88bddcf3-091d-4999-8622-d323c703fd74/c21b8118-8da9-423f-b9bf-b175418c956a|/e55f2700-f75a-4062-8a27-fe258faa8966/13357c90-191e-461b-8733-0658b5b931ff",
+        ""
+      ],
+      [
+        "pin_to_pin|3441700|2425700|d8fcd1a4-86ef-41f6-96c1-57f311ebb01f|2bc25bd2-cd57-4658-b547-9b9d166e1285|/e55f2700-f75a-4062-8a27-fe258faa8966/88bddcf3-091d-4999-8622-d323c703fd74/5f490059-030e-46be-8d18-c6ad7eadfe53|/e55f2700-f75a-4062-8a27-fe258faa8966/88bddcf3-091d-4999-8622-d323c703fd74/5f490059-030e-46be-8d18-c6ad7eadfe53|/e55f2700-f75a-4062-8a27-fe258faa8966/13357c90-191e-461b-8733-0658b5b931ff",
+        ""
+      ],
+      [
+        "pin_to_pin|622300|927100|dd77887d-c967-407b-925b-36669701a910|c91585c2-87bb-4e80-9e36-40ae9dd3dba8|/e55f2700-f75a-4062-8a27-fe258faa8966/88bddcf3-091d-4999-8622-d323c703fd74/9cf15687-6528-4b32-9653-59c05414133f|/e55f2700-f75a-4062-8a27-fe258faa8966/88bddcf3-091d-4999-8622-d323c703fd74/9cf15687-6528-4b32-9653-59c05414133f|/e55f2700-f75a-4062-8a27-fe258faa8966/13357c90-191e-461b-8733-0658b5b931ff",
+        ""
+      ],
+      [
+        "power_pin_not_driven|2628900|203200|84376b72-a66e-4d6c-9c0a-f6d91752a722|00000000-0000-0000-0000-000000000000|/e55f2700-f75a-4062-8a27-fe258faa8966|/e55f2700-f75a-4062-8a27-fe258faa8966|",
+        ""
+      ]
+    ],
+    "meta": {
+      "version": 0
+    },
+    "pin_map": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    ],
+    "rule_severities": {
+      "bus_definition_conflict": "error",
+      "bus_entry_needed": "error",
+      "bus_label_syntax": "error",
+      "bus_to_bus_conflict": "error",
+      "bus_to_net_conflict": "error",
+      "conflicting_netclasses": "error",
+      "different_unit_footprint": "error",
+      "different_unit_net": "error",
+      "duplicate_reference": "error",
+      "duplicate_sheet_names": "error",
+      "endpoint_off_grid": "warning",
+      "extra_units": "error",
+      "footprint_filter": "ignore",
+      "footprint_link_issues": "warning",
+      "four_way_junction": "ignore",
+      "global_label_dangling": "warning",
+      "hier_label_mismatch": "error",
+      "label_dangling": "error",
+      "label_multiple_wires": "warning",
+      "lib_symbol_issues": "warning",
+      "lib_symbol_mismatch": "warning",
+      "missing_bidi_pin": "warning",
+      "missing_input_pin": "warning",
+      "missing_power_pin": "error",
+      "missing_unit": "warning",
+      "multiple_net_names": "warning",
+      "net_not_bus_member": "warning",
+      "no_connect_connected": "warning",
+      "no_connect_dangling": "warning",
+      "pin_not_connected": "error",
+      "pin_not_driven": "error",
+      "pin_to_pin": "error",
+      "power_pin_not_driven": "error",
+      "same_local_global_label": "warning",
+      "similar_label_and_power": "warning",
+      "similar_labels": "warning",
+      "similar_power": "warning",
+      "simulation_model_issue": "ignore",
+      "single_global_label": "ignore",
+      "unannotated": "error",
+      "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
+      "unit_value_mismatch": "error",
+      "unresolved_variable": "error",
+      "wire_dangling": "error"
+    }
+  },
+  "libraries": {
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
+  },
+  "meta": {
+    "filename": "pandore.kicad_pro",
+    "version": 3
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "bus_width": 12,
+        "clearance": 0.127,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.4,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgb(0, 0, 0)",
+        "track_width": 0.127,
+        "via_diameter": 0.458,
+        "via_drill": 0.254,
+        "wire_width": 5
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.22,
+        "line_style": 0,
+        "name": "50Ω",
+        "pcb_color": "rgb(107, 23, 255)",
+        "priority": 1,
+        "schematic_color": "rgb(107, 23, 255)",
+        "track_width": 0.42,
+        "via_diameter": 0.6,
+        "via_drill": 0.4,
+        "wire_width": 5
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "ANA",
+        "pcb_color": "rgb(255, 211, 0)",
+        "priority": 2,
+        "schematic_color": "rgb(255, 211, 0)",
+        "wire_width": 5
+      },
+      {
+        "bus_width": 12,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.25,
+        "line_style": 0,
+        "name": "D100Ω",
+        "pcb_color": "rgb(194, 0, 194)",
+        "priority": 3,
+        "schematic_color": "rgb(194, 0, 194)",
+        "track_width": 0.2,
+        "via_diameter": 0.458,
+        "via_drill": 0.254,
+        "wire_width": 5
+      },
+      {
+        "bus_width": 12,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.185,
+        "line_style": 0,
+        "name": "D120Ω",
+        "pcb_color": "rgb(255, 0, 255)",
+        "priority": 4,
+        "schematic_color": "rgb(255, 0, 255)",
+        "track_width": 0.26,
+        "via_diameter": 0.458,
+        "via_drill": 0.4,
+        "wire_width": 5
+      },
+      {
+        "bus_width": 12,
+        "diff_pair_gap": 0.15,
+        "diff_pair_width": 0.28,
+        "line_style": 0,
+        "name": "D90Ω",
+        "pcb_color": "rgb(132, 0, 132)",
+        "priority": 5,
+        "schematic_color": "rgb(132, 0, 132)",
+        "track_width": 0.25,
+        "via_diameter": 0.458,
+        "via_drill": 0.4,
+        "wire_width": 5
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "DBG",
+        "pcb_color": "rgb(96, 59, 37)",
+        "priority": 6,
+        "schematic_color": "rgb(96, 59, 37)",
+        "wire_width": 5
+      },
+      {
+        "bus_width": 24,
+        "clearance": 0.2,
+        "line_style": 0,
+        "name": "GND",
+        "pcb_color": "rgb(72, 72, 72)",
+        "priority": 7,
+        "schematic_color": "rgb(72, 72, 72)",
+        "track_width": 0.25,
+        "wire_width": 12
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.453,
+        "line_style": 0,
+        "name": "HVFNC",
+        "pcb_color": "rgb(255, 153, 0)",
+        "priority": 8,
+        "schematic_color": "rgb(255, 153, 0)",
+        "wire_width": 5
+      },
+      {
+        "bus_width": 12,
+        "clearance": 2.25,
+        "line_style": 0,
+        "name": "HVRFD",
+        "pcb_color": "rgba(255, 153, 0, 0.851)",
+        "priority": 9,
+        "schematic_color": "rgb(221, 133, 0)",
+        "wire_width": 5
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "I2C",
+        "pcb_color": "rgb(0, 220, 4)",
+        "priority": 10,
+        "schematic_color": "rgb(0, 220, 4)",
+        "wire_width": 5
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "I2S",
+        "pcb_color": "rgb(1, 134, 53)",
+        "priority": 11,
+        "schematic_color": "rgb(1, 134, 53)",
+        "wire_width": 5
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "MMC",
+        "pcb_color": "rgb(174, 141, 67)",
+        "priority": 12,
+        "schematic_color": "rgb(174, 141, 67)",
+        "wire_width": 5
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "PWM",
+        "pcb_color": "rgb(152, 197, 255)",
+        "priority": 0,
+        "schematic_color": "rgb(152, 197, 255)",
+        "wire_width": 5
+      },
+      {
+        "bus_width": 24,
+        "clearance": 0.15,
+        "line_style": 0,
+        "name": "PWR",
+        "pcb_color": "rgb(255, 1, 18)",
+        "priority": 13,
+        "schematic_color": "rgb(255, 1, 18)",
+        "track_width": 0.25,
+        "wire_width": 12
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "QSPI",
+        "pcb_color": "rgb(62, 191, 255)",
+        "priority": 14,
+        "schematic_color": "rgb(62, 191, 255)",
+        "wire_width": 5
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "RGMII",
+        "pcb_color": "rgb(18, 122, 255)",
+        "priority": 15,
+        "schematic_color": "rgb(18, 122, 255)",
+        "wire_width": 5
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "SDIO",
+        "pcb_color": "rgb(154, 174, 121)",
+        "priority": 16,
+        "schematic_color": "rgb(154, 174, 121)",
+        "wire_width": 5
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "SPI",
+        "pcb_color": "rgb(0, 0, 255)",
+        "priority": 17,
+        "schematic_color": "rgb(0, 0, 255)",
+        "wire_width": 5
+      }
+    ],
+    "meta": {
+      "version": 4
+    },
+    "net_colors": null,
+    "netclass_assignments": {
+      "/Audio/AUDMST.SCL": [
+        "I2C"
+      ],
+      "/Audio/AUDMST.SDA": [
+        "I2C"
+      ],
+      "/Audio/Audio inputs/IN buffer 1/INBUF.FB+": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/IN buffer 1/INBUF.FB-": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/IN buffer 1/INBUF.IN+": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/IN buffer 1/INBUF.IN-": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/IN buffer 1/INBUF.OUT+": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/IN buffer 1/INBUF.OUT-": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/IN buffer 1/LINEIN.SIG+": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/IN buffer 1/LINEIN.SIG-": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/IN buffer 1/MICIN.SIG+": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/IN buffer 1/MICIN.SIG-": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/IN buffer 2/INBUF.FB+": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/IN buffer 2/INBUF.FB-": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/IN buffer 2/INBUF.IN+": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/IN buffer 2/INBUF.IN-": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/IN buffer 2/INBUF.OUT+": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/IN buffer 2/INBUF.OUT-": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/IN buffer 2/LINEIN.SIG+": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/IN buffer 2/LINEIN.SIG-": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/IN buffer 2/MICIN.SIG+": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/IN buffer 2/MICIN.SIG-": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/LINE1IN.SIG+": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/LINE1IN.SIG-": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/LINE2IN.SIG+": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/LINE2IN.SIG-": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/MIC1IN.SIG+": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/MIC1IN.SIG-": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/MIC2IN.SIG+": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/MIC2IN.SIG-": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/MICLINE1.SIG+": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/MICLINE1.SIG-": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/MICLINE2.SIG+": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/MICLINE2.SIG-": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/VCM": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/VPHANTOM": [
+        "PWR"
+      ],
+      "/Audio/Audio inputs/_LINE1IN.SIG+": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/_LINE1IN.SIG-": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/_LINE2IN.SIG+": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/_LINE2IN.SIG-": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/_MIC1IN.SIG+": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/_MIC1IN.SIG-": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/_MIC2IN.SIG+": [
+        "ANA"
+      ],
+      "/Audio/Audio inputs/_MIC2IN.SIG-": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/LEFT.SIG+": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/LEFT.SIG-": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/MONL.SIG-": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/MONR.SIG+": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUT buffer L/OUT+": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUT buffer L/OUT-": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUT buffer L/OUT.SIG+": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUT buffer L/OUT.SIG-": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUT buffer L/OUTBUF.FB+": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUT buffer L/OUTBUF.FB-": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUT buffer L/OUTBUF.IN+": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUT buffer L/OUTBUF.IN-": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUT buffer L/OUTBUF.OUT+": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUT buffer L/OUTBUF.OUT-": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUT buffer R/OUT+": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUT buffer R/OUT-": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUT buffer R/OUT.SIG+": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUT buffer R/OUT.SIG-": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUT buffer R/OUTBUF.FB+": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUT buffer R/OUTBUF.FB-": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUT buffer R/OUTBUF.IN+": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUT buffer R/OUTBUF.IN-": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUT buffer R/OUTBUF.OUT+": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUT buffer R/OUTBUF.OUT-": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUT monitor/LEFT": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUT monitor/RIGHT": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUTL.SIG+": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUTL.SIG-": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUTR.SIG+": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/OUTR.SIG-": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/RIGHT.SIG+": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/RIGHT.SIG-": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/VCM": [
+        "ANA"
+      ],
+      "/Audio/Audio outputs/VCMMON": [
+        "ANA"
+      ],
+      "/Audio/CODEC/CTL.SCL": [
+        "I2C"
+      ],
+      "/Audio/CODEC/CTL.SDA": [
+        "I2C"
+      ],
+      "/Audio/CODEC/DATA.MCLK": [
+        "I2S"
+      ],
+      "/Audio/CODEC/DATA.RXD0": [
+        "I2S"
+      ],
+      "/Audio/CODEC/DATA.TXCLK": [
+        "I2S"
+      ],
+      "/Audio/CODEC/DATA.TXD0": [
+        "I2S"
+      ],
+      "/Audio/CODEC/DATA.TXFS": [
+        "I2S"
+      ],
+      "/Audio/CPU.MCLK": [
+        "I2S"
+      ],
+      "/Audio/CPU.RXCLK": [
+        "I2S"
+      ],
+      "/Audio/CPU.RXD0": [
+        "I2S"
+      ],
+      "/Audio/CPU.RXFS": [
+        "I2S"
+      ],
+      "/Audio/CPU.TXCLK": [
+        "I2S"
+      ],
+      "/Audio/CPU.TXD0": [
+        "I2S"
+      ],
+      "/Audio/CPU.TXFS": [
+        "I2S"
+      ],
+      "/Audio/CPU.~{RST}": [
+        "I2S"
+      ],
+      "/Audio/CPU{I2S1DPX ~{RST}}": [
+        "I2S"
+      ],
+      "/Audio/Isolation/MCU.MCLK": [
+        "I2S"
+      ],
+      "/Audio/Isolation/MCU.RXCLK": [
+        "I2S"
+      ],
+      "/Audio/Isolation/MCU.RXD0": [
+        "I2S"
+      ],
+      "/Audio/Isolation/MCU.RXFS": [
+        "I2S"
+      ],
+      "/Audio/Isolation/MCU.TXCLK": [
+        "I2S"
+      ],
+      "/Audio/Isolation/MCU.TXD0": [
+        "I2S"
+      ],
+      "/Audio/Isolation/MCU.TXFS": [
+        "I2S"
+      ],
+      "/Audio/Isolation/MCU.~{RST}": [
+        "I2S"
+      ],
+      "/Audio/Isolation/MCU{I2S1DPX ~{RST}}": [
+        "I2S"
+      ],
+      "/Audio/Power/REGV48.OUT": [
+        "PWR"
+      ],
+      "/Audio/USB.D+": [
+        "D90Ω"
+      ],
+      "/Audio/USB.D-": [
+        "D90Ω"
+      ],
+      "/Audio/_USB.D+": [
+        "D90Ω"
+      ],
+      "/Audio/_USB.D-": [
+        "D90Ω"
+      ],
+      "/Computer/BIOS mem/BIOS.IO0": [
+        "QSPI"
+      ],
+      "/Computer/BIOS mem/BIOS.IO1": [
+        "QSPI"
+      ],
+      "/Computer/BIOS mem/BIOS.IO2": [
+        "QSPI"
+      ],
+      "/Computer/BIOS mem/BIOS.IO3": [
+        "QSPI"
+      ],
+      "/Computer/BIOS mem/BIOS.SCK": [
+        "QSPI"
+      ],
+      "/Computer/BIOS mem/BIOS.~{SS}": [
+        "QSPI"
+      ],
+      "/Computer/BIOS mem/BIOSMEM.IO0": [
+        "QSPI"
+      ],
+      "/Computer/BIOS mem/BIOSMEM.IO1": [
+        "QSPI"
+      ],
+      "/Computer/BIOS mem/BIOSMEM.IO2": [
+        "QSPI"
+      ],
+      "/Computer/BIOS mem/BIOSMEM.IO3": [
+        "QSPI"
+      ],
+      "/Computer/BIOS mem/BIOSMEM.SCK": [
+        "QSPI"
+      ],
+      "/Computer/BIOS mem/BIOSMEM.~{SS}": [
+        "QSPI"
+      ],
+      "/Computer/Computer module/FANCPU.PWM": [
+        "PWM"
+      ],
+      "/Computer/Computer module/FANCPU.TAC": [
+        "PWM"
+      ],
+      "/Computer/Computer module/I2C3.SCL": [
+        "I2C"
+      ],
+      "/Computer/Computer module/I2C3.SDA": [
+        "I2C"
+      ],
+      "/Computer/Computer module/I2C4.SCL": [
+        "I2C"
+      ],
+      "/Computer/Computer module/I2C4.SDA": [
+        "I2C"
+      ],
+      "/Computer/Computer module/SYSCPU.PWM": [
+        "PWM"
+      ],
+      "/Computer/Computer module/SYSCPU.TAC": [
+        "PWM"
+      ],
+      "/Computer/DDIB.CLK+": [
+        "D100Ω"
+      ],
+      "/Computer/DDIB.CLK-": [
+        "D100Ω"
+      ],
+      "/Computer/DDIB.D0+": [
+        "D100Ω"
+      ],
+      "/Computer/DDIB.D0-": [
+        "D100Ω"
+      ],
+      "/Computer/DDIB.D1+": [
+        "D100Ω"
+      ],
+      "/Computer/DDIB.D1-": [
+        "D100Ω"
+      ],
+      "/Computer/DDIB.D2+": [
+        "D100Ω"
+      ],
+      "/Computer/DDIB.D2-": [
+        "D100Ω"
+      ],
+      "/Computer/DDIB.DDC.CLK": [
+        "I2C"
+      ],
+      "/Computer/DDIB.DDC.DAT": [
+        "I2C"
+      ],
+      "/Computer/DISP.CLK+": [
+        "D100Ω"
+      ],
+      "/Computer/DISP.CLK-": [
+        "D100Ω"
+      ],
+      "/Computer/DISP.D0+": [
+        "D100Ω"
+      ],
+      "/Computer/DISP.D0-": [
+        "D100Ω"
+      ],
+      "/Computer/DISP.D1+": [
+        "D100Ω"
+      ],
+      "/Computer/DISP.D1-": [
+        "D100Ω"
+      ],
+      "/Computer/DISP.D2+": [
+        "D100Ω"
+      ],
+      "/Computer/DISP.D2-": [
+        "D100Ω"
+      ],
+      "/Computer/DISP.DDC.CLK": [
+        "I2C"
+      ],
+      "/Computer/DISP.DDC.DAT": [
+        "I2C"
+      ],
+      "/Computer/ETHI.HSI0+": [
+        "D100Ω"
+      ],
+      "/Computer/ETHI.HSI0-": [
+        "D100Ω"
+      ],
+      "/Computer/ETHI.HSO0+": [
+        "D100Ω"
+      ],
+      "/Computer/ETHI.HSO0-": [
+        "D100Ω"
+      ],
+      "/Computer/ETHI.REFCLK+": [
+        "D100Ω"
+      ],
+      "/Computer/ETHI.REFCLK-": [
+        "D100Ω"
+      ],
+      "/Computer/ETHX.HSI0+": [
+        "D100Ω"
+      ],
+      "/Computer/ETHX.HSI0-": [
+        "D100Ω"
+      ],
+      "/Computer/ETHX.HSO0+": [
+        "D100Ω"
+      ],
+      "/Computer/ETHX.HSO0-": [
+        "D100Ω"
+      ],
+      "/Computer/ETHX.REFCLK+": [
+        "D100Ω"
+      ],
+      "/Computer/ETHX.REFCLK-": [
+        "D100Ω"
+      ],
+      "/Computer/M2E.D+": [
+        "D90Ω"
+      ],
+      "/Computer/M2E.D-": [
+        "D90Ω"
+      ],
+      "/Computer/M2E.HSI0+": [
+        "D100Ω"
+      ],
+      "/Computer/M2E.HSI0-": [
+        "D100Ω"
+      ],
+      "/Computer/M2E.HSO0+": [
+        "D100Ω"
+      ],
+      "/Computer/M2E.HSO0-": [
+        "D100Ω"
+      ],
+      "/Computer/M2E.REFCLK+": [
+        "D100Ω"
+      ],
+      "/Computer/M2E.REFCLK-": [
+        "D100Ω"
+      ],
+      "/Computer/M2E.SCL": [
+        "I2C"
+      ],
+      "/Computer/M2E.SDA": [
+        "I2C"
+      ],
+      "/Computer/M2M.HSI0+": [
+        "D100Ω"
+      ],
+      "/Computer/M2M.HSI0-": [
+        "D100Ω"
+      ],
+      "/Computer/M2M.HSI1+": [
+        "D100Ω"
+      ],
+      "/Computer/M2M.HSI1-": [
+        "D100Ω"
+      ],
+      "/Computer/M2M.HSI2+": [
+        "D100Ω"
+      ],
+      "/Computer/M2M.HSI2-": [
+        "D100Ω"
+      ],
+      "/Computer/M2M.HSI3+": [
+        "D100Ω"
+      ],
+      "/Computer/M2M.HSI3-": [
+        "D100Ω"
+      ],
+      "/Computer/M2M.HSO0+": [
+        "D100Ω"
+      ],
+      "/Computer/M2M.HSO0-": [
+        "D100Ω"
+      ],
+      "/Computer/M2M.HSO1+": [
+        "D100Ω"
+      ],
+      "/Computer/M2M.HSO1-": [
+        "D100Ω"
+      ],
+      "/Computer/M2M.HSO2+": [
+        "D100Ω"
+      ],
+      "/Computer/M2M.HSO2-": [
+        "D100Ω"
+      ],
+      "/Computer/M2M.HSO3+": [
+        "D100Ω"
+      ],
+      "/Computer/M2M.HSO3-": [
+        "D100Ω"
+      ],
+      "/Computer/M2M.REFCLK+": [
+        "D100Ω"
+      ],
+      "/Computer/M2M.REFCLK-": [
+        "D100Ω"
+      ],
+      "/Computer/MGMTMCU.D+": [
+        "D90Ω"
+      ],
+      "/Computer/MGMTMCU.D-": [
+        "D90Ω"
+      ],
+      "/Computer/RTIOMCU.D+": [
+        "D90Ω"
+      ],
+      "/Computer/RTIOMCU.D-": [
+        "D90Ω"
+      ],
+      "/Computer/USB2P3.D+": [
+        "D90Ω"
+      ],
+      "/Computer/USB2P3.D-": [
+        "D90Ω"
+      ],
+      "/Computer/USB2P4.D+": [
+        "D90Ω"
+      ],
+      "/Computer/USB2P4.D-": [
+        "D90Ω"
+      ],
+      "/Computer/USB2P5.D+": [
+        "D90Ω"
+      ],
+      "/Computer/USB2P5.D-": [
+        "D90Ω"
+      ],
+      "/Computer/USB2P6.D+": [
+        "D90Ω"
+      ],
+      "/Computer/USB2P6.D-": [
+        "D90Ω"
+      ],
+      "/Computer/USB2P7.D+": [
+        "D90Ω"
+      ],
+      "/Computer/USB2P7.D-": [
+        "D90Ω"
+      ],
+      "/Computer/USB2P8.D+": [
+        "D90Ω"
+      ],
+      "/Computer/USB2P8.D-": [
+        "D90Ω"
+      ],
+      "/Computer/USB3P2.D+": [
+        "D90Ω"
+      ],
+      "/Computer/USB3P2.D-": [
+        "D90Ω"
+      ],
+      "/Computer/USB3P2.SSRX+": [
+        "D90Ω"
+      ],
+      "/Computer/USB3P2.SSRX-": [
+        "D90Ω"
+      ],
+      "/Computer/USB3P2.SSTX+": [
+        "D90Ω"
+      ],
+      "/Computer/USB3P2.SSTX-": [
+        "D90Ω"
+      ],
+      "/Computer/USBP1.D+": [
+        "D90Ω"
+      ],
+      "/Computer/USBP1.D-": [
+        "D90Ω"
+      ],
+      "/Computer/USBP1.SSRX+": [
+        "D90Ω"
+      ],
+      "/Computer/USBP1.SSRX-": [
+        "D90Ω"
+      ],
+      "/Computer/USBP1.SSTX+": [
+        "D90Ω"
+      ],
+      "/Computer/USBP1.SSTX-": [
+        "D90Ω"
+      ],
+      "/Display/_HDMI.CLK+": [
+        "D100Ω"
+      ],
+      "/Display/_HDMI.CLK-": [
+        "D100Ω"
+      ],
+      "/Display/_HDMI.D0+": [
+        "D100Ω"
+      ],
+      "/Display/_HDMI.D0-": [
+        "D100Ω"
+      ],
+      "/Display/_HDMI.D1+": [
+        "D100Ω"
+      ],
+      "/Display/_HDMI.D1-": [
+        "D100Ω"
+      ],
+      "/Display/_HDMI.D2+": [
+        "D100Ω"
+      ],
+      "/Display/_HDMI.D2-": [
+        "D100Ω"
+      ],
+      "/External Ethernet/ETH.VCORE": [
+        "PWR"
+      ],
+      "/External Ethernet/ETH.VIO": [
+        "PWR"
+      ],
+      "/External Ethernet/ETHPCIE.RX+": [
+        "D100Ω"
+      ],
+      "/External Ethernet/ETHPCIE.RX-": [
+        "D100Ω"
+      ],
+      "/External Ethernet/ETHPCIE.TX+": [
+        "D100Ω"
+      ],
+      "/External Ethernet/ETHPCIE.TX-": [
+        "D100Ω"
+      ],
+      "/External Ethernet/MDI0+": [
+        "D100Ω"
+      ],
+      "/External Ethernet/MDI0-": [
+        "D100Ω"
+      ],
+      "/External Ethernet/MDI1+": [
+        "D100Ω"
+      ],
+      "/External Ethernet/MDI1-": [
+        "D100Ω"
+      ],
+      "/External Ethernet/MDI2+": [
+        "D100Ω"
+      ],
+      "/External Ethernet/MDI2-": [
+        "D100Ω"
+      ],
+      "/External Ethernet/MDI3+": [
+        "D100Ω"
+      ],
+      "/External Ethernet/MDI3-": [
+        "D100Ω"
+      ],
+      "/External Ethernet/PAIR0+": [
+        "D100Ω"
+      ],
+      "/External Ethernet/PAIR0-": [
+        "D100Ω"
+      ],
+      "/External Ethernet/PAIR1+": [
+        "D100Ω"
+      ],
+      "/External Ethernet/PAIR1-": [
+        "D100Ω"
+      ],
+      "/External Ethernet/PAIR2+": [
+        "D100Ω"
+      ],
+      "/External Ethernet/PAIR2-": [
+        "D100Ω"
+      ],
+      "/External Ethernet/PAIR3+": [
+        "D100Ω"
+      ],
+      "/External Ethernet/PAIR3-": [
+        "D100Ω"
+      ],
+      "/External Ethernet/_MDI0+": [
+        "D100Ω"
+      ],
+      "/External Ethernet/_MDI0-": [
+        "D100Ω"
+      ],
+      "/External Ethernet/_MDI1+": [
+        "D100Ω"
+      ],
+      "/External Ethernet/_MDI1-": [
+        "D100Ω"
+      ],
+      "/External Ethernet/_MDI2+": [
+        "D100Ω"
+      ],
+      "/External Ethernet/_MDI2-": [
+        "D100Ω"
+      ],
+      "/External Ethernet/_MDI3+": [
+        "D100Ω"
+      ],
+      "/External Ethernet/_MDI3-": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/ETH.VCORE": [
+        "PWR"
+      ],
+      "/Internal Ethernet/ETH.VIO": [
+        "PWR"
+      ],
+      "/Internal Ethernet/ETHPCIE.RX+": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/ETHPCIE.RX-": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/ETHPCIE.TX+": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/ETHPCIE.TX-": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/MDI0+": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/MDI0-": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/MDI1+": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/MDI1-": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/MDI2+": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/MDI2-": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/MDI3+": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/MDI3-": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/PAIR0+": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/PAIR0-": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/PAIR1+": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/PAIR1-": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/PAIR2+": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/PAIR2-": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/PAIR3+": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/PAIR3-": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/_MDI0+": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/_MDI0-": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/_MDI1+": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/_MDI1-": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/_MDI2+": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/_MDI2-": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/_MDI3+": [
+        "D100Ω"
+      ],
+      "/Internal Ethernet/_MDI3-": [
+        "D100Ω"
+      ],
+      "/M.2/AE.PET0+": [
+        "D100Ω"
+      ],
+      "/M.2/AE.PET0-": [
+        "D100Ω"
+      ],
+      "/M.2/M.PET0+": [
+        "D100Ω"
+      ],
+      "/M.2/M.PET0-": [
+        "D100Ω"
+      ],
+      "/M.2/M.PET1+": [
+        "D100Ω"
+      ],
+      "/M.2/M.PET1-": [
+        "D100Ω"
+      ],
+      "/M.2/M.PET2+": [
+        "D100Ω"
+      ],
+      "/M.2/M.PET2-": [
+        "D100Ω"
+      ],
+      "/M.2/M.PET3+": [
+        "D100Ω"
+      ],
+      "/M.2/M.PET3-": [
+        "D100Ω"
+      ],
+      "/Mgmt MCU/ENC.BLUE": [
+        "PWM"
+      ],
+      "/Mgmt MCU/ENC.GREEN": [
+        "PWM"
+      ],
+      "/Mgmt MCU/ENC.RED": [
+        "PWM"
+      ],
+      "/Mgmt MCU/GROVEA.V+": [
+        "PWR"
+      ],
+      "/Mgmt MCU/GROVEB.V+": [
+        "PWR"
+      ],
+      "/Mgmt MCU/MCU/QSPI.D0": [
+        "QSPI"
+      ],
+      "/Mgmt MCU/MCU/QSPI.D1": [
+        "QSPI"
+      ],
+      "/Mgmt MCU/MCU/QSPI.D2": [
+        "QSPI"
+      ],
+      "/Mgmt MCU/MCU/QSPI.D3": [
+        "QSPI"
+      ],
+      "/Mgmt MCU/MCU/QSPI.SCK": [
+        "QSPI"
+      ],
+      "/Mgmt MCU/MCU/QSPI.~{CS}": [
+        "QSPI"
+      ],
+      "/Mgmt MCU/MCU/VCORE": [
+        "PWR"
+      ],
+      "/Mgmt MCU/MCU/VIO": [
+        "PWR"
+      ],
+      "/Mgmt MCU/MCU/_USB.D+": [
+        "D90Ω"
+      ],
+      "/Mgmt MCU/MCU/_USB.D-": [
+        "D90Ω"
+      ],
+      "/Mgmt MCU/MCU/__USB.D+": [
+        "D90Ω"
+      ],
+      "/Mgmt MCU/MCU/__USB.D-": [
+        "D90Ω"
+      ],
+      "/Mgmt MCU/SDISP.MOSI": [
+        "SPI"
+      ],
+      "/Mgmt MCU/SDISP.SCK": [
+        "SPI"
+      ],
+      "/Mgmt MCU/SDISP.~{SS}": [
+        "SPI"
+      ],
+      "/Real-Time MCU/MCU/QSPI.D0": [
+        "QSPI"
+      ],
+      "/Real-Time MCU/MCU/QSPI.D1": [
+        "QSPI"
+      ],
+      "/Real-Time MCU/MCU/QSPI.D2": [
+        "QSPI"
+      ],
+      "/Real-Time MCU/MCU/QSPI.D3": [
+        "QSPI"
+      ],
+      "/Real-Time MCU/MCU/QSPI.SCK": [
+        "QSPI"
+      ],
+      "/Real-Time MCU/MCU/QSPI.~{CS}": [
+        "QSPI"
+      ],
+      "/Real-Time MCU/MCU/VCORE": [
+        "PWR"
+      ],
+      "/Real-Time MCU/MCU/VIO": [
+        "PWR"
+      ],
+      "/Real-Time MCU/MCU/_USB.D+": [
+        "D90Ω"
+      ],
+      "/Real-Time MCU/MCU/_USB.D-": [
+        "D90Ω"
+      ],
+      "/Real-Time MCU/MCU/__USB.D+": [
+        "D90Ω"
+      ],
+      "/Real-Time MCU/MCU/__USB.D-": [
+        "D90Ω"
+      ],
+      "/Real-Time MCU/RTIO.AIO0": [
+        "ANA"
+      ],
+      "/Real-Time MCU/RTIO.AIO1": [
+        "ANA"
+      ],
+      "/Real-Time MCU/RTIO.AIO2": [
+        "ANA"
+      ],
+      "/Real-Time MCU/RTIO.AIO3": [
+        "ANA"
+      ],
+      "/Real-Time MCU/RTIO.AIO4": [
+        "ANA"
+      ],
+      "/Real-Time MCU/RTIO.AIO5": [
+        "ANA"
+      ],
+      "/Real-Time MCU/RTIO.AIO6": [
+        "ANA"
+      ],
+      "/Real-Time MCU/RTIO.AIO7": [
+        "ANA"
+      ],
+      "/USB ports/USB2H.VUSB": [
+        "PWR"
+      ],
+      "/USB ports/USB2L.VUSB": [
+        "PWR"
+      ],
+      "/USB ports/USB3H.VUSB": [
+        "PWR"
+      ],
+      "/USB ports/USB3L.VUSB": [
+        "PWR"
+      ],
+      "/USB ports/_USB3HIGH.SSTX+": [
+        "D90Ω"
+      ],
+      "/USB ports/_USB3HIGH.SSTX-": [
+        "D90Ω"
+      ],
+      "/USB ports/_USB3LOW.SSTX+": [
+        "D90Ω"
+      ],
+      "/USB ports/_USB3LOW.SSTX-": [
+        "D90Ω"
+      ],
+      "AV3P3": [
+        "PWR"
+      ],
+      "AV5": [
+        "PWR"
+      ],
+      "AVDD": [
+        "PWR"
+      ],
+      "AVIO": [
+        "PWR"
+      ],
+      "AVSS": [
+        "GND"
+      ],
+      "EARTH": [
+        "GND"
+      ],
+      "Net-(BAT1-+)": [
+        "PWR"
+      ],
+      "Net-(C159-+)": [
+        "ANA"
+      ],
+      "Net-(C160-+)": [
+        "ANA"
+      ],
+      "Net-(C161-+)": [
+        "ANA"
+      ],
+      "Net-(C162-+)": [
+        "ANA"
+      ],
+      "Net-(C163-+)": [
+        "ANA"
+      ],
+      "Net-(C164-+)": [
+        "ANA"
+      ],
+      "Net-(C165-+)": [
+        "ANA"
+      ],
+      "Net-(C166-+)": [
+        "ANA"
+      ],
+      "Net-(C180-Pad2)": [
+        "PWR"
+      ],
+      "Net-(C183-Pad2)": [
+        "ANA"
+      ],
+      "Net-(C190-Pad2)": [
+        "ANA"
+      ],
+      "Net-(C192-Pad2)": [
+        "PWR"
+      ],
+      "Net-(C233-Pad2)": [
+        "PWR"
+      ],
+      "Net-(C39-Pad2)": [
+        "ANA"
+      ],
+      "Net-(C40-Pad2)": [
+        "ANA"
+      ],
+      "Net-(C49-Pad2)": [
+        "HVFNC"
+      ],
+      "Net-(C50-Pad2)": [
+        "HVFNC"
+      ],
+      "Net-(C51-Pad2)": [
+        "GND"
+      ],
+      "Net-(C52-Pad2)": [
+        "GND"
+      ],
+      "Net-(C94-+)": [
+        "PWR"
+      ],
+      "Net-(D18-C)": [
+        "PWR"
+      ],
+      "Net-(D25-A)": [
+        "PWR"
+      ],
+      "Net-(D28-A)": [
+        "PWM"
+      ],
+      "Net-(D36-C)": [
+        "PWR"
+      ],
+      "Net-(D42-A)": [
+        "PWM"
+      ],
+      "Net-(D6-Pad1)": [
+        "ANA"
+      ],
+      "Net-(D6-Pad2)": [
+        "ANA"
+      ],
+      "Net-(D6-Pad4)": [
+        "ANA"
+      ],
+      "Net-(D6-Pad5)": [
+        "ANA"
+      ],
+      "Net-(D7-Pad1)": [
+        "ANA"
+      ],
+      "Net-(D7-Pad2)": [
+        "ANA"
+      ],
+      "Net-(D7-Pad4)": [
+        "ANA"
+      ],
+      "Net-(D7-Pad5)": [
+        "ANA"
+      ],
+      "Net-(E1-LB)": [
+        "PWM"
+      ],
+      "Net-(E1-LG)": [
+        "PWM"
+      ],
+      "Net-(E1-LR)": [
+        "PWM"
+      ],
+      "Net-(J1-DDC.CLK)": [
+        "I2C"
+      ],
+      "Net-(J1-DDC.DATA)": [
+        "I2C"
+      ],
+      "Net-(J1-TMDS.CLK+)": [
+        "D100Ω"
+      ],
+      "Net-(J1-TMDS.CLK-)": [
+        "D100Ω"
+      ],
+      "Net-(J1-TMDS.D0+)": [
+        "D100Ω"
+      ],
+      "Net-(J1-TMDS.D0-)": [
+        "D100Ω"
+      ],
+      "Net-(J1-TMDS.D1+)": [
+        "D100Ω"
+      ],
+      "Net-(J1-TMDS.D1-)": [
+        "D100Ω"
+      ],
+      "Net-(J1-TMDS.D2+)": [
+        "D100Ω"
+      ],
+      "Net-(J1-TMDS.D2-)": [
+        "D100Ω"
+      ],
+      "Net-(J25-IREF)": [
+        "ANA"
+      ],
+      "Net-(J25-VCOMH)": [
+        "PWR"
+      ],
+      "Net-(J26-Pad2)": [
+        "PWR"
+      ],
+      "Net-(J27-Pad4)": [
+        "PWM"
+      ],
+      "Net-(J38-Pad4)": [
+        "PWM"
+      ],
+      "Net-(J6-TIP)": [
+        "PWR"
+      ],
+      "Net-(J8-SHD)": [
+        "GND"
+      ],
+      "Net-(J9-SHD)": [
+        "GND"
+      ],
+      "Net-(JMP3-Pad2)": [
+        "PWR"
+      ],
+      "Net-(JMP4-Pad2)": [
+        "PWR"
+      ],
+      "Net-(Q10-D)": [
+        "PWM"
+      ],
+      "Net-(Q8-D)": [
+        "PWM"
+      ],
+      "Net-(Q9-D)": [
+        "PWM"
+      ],
+      "Net-(R100-Pad1)": [
+        "ANA"
+      ],
+      "Net-(R101-Pad1)": [
+        "ANA"
+      ],
+      "Net-(R110-Pad2)": [
+        "ANA"
+      ],
+      "Net-(R111-Pad2)": [
+        "ANA"
+      ],
+      "Net-(R264-Pad1)": [
+        "ANA"
+      ],
+      "Net-(R269-Pad1)": [
+        "ANA"
+      ],
+      "Net-(R34-Pad1)": [
+        "HVFNC"
+      ],
+      "Net-(R35-Pad1)": [
+        "HVFNC"
+      ],
+      "Net-(R36-Pad1)": [
+        "HVFNC"
+      ],
+      "Net-(R37-Pad1)": [
+        "HVFNC"
+      ],
+      "Net-(R38-Pad1)": [
+        "HVFNC"
+      ],
+      "Net-(R39-Pad1)": [
+        "HVFNC"
+      ],
+      "Net-(R40-Pad1)": [
+        "HVFNC"
+      ],
+      "Net-(R41-Pad1)": [
+        "HVFNC"
+      ],
+      "Net-(T1A-TCT)": [
+        "GND"
+      ],
+      "Net-(T1A-TXCT)": [
+        "HVFNC"
+      ],
+      "Net-(T1B-RXCT)": [
+        "HVFNC"
+      ],
+      "Net-(T1C-TXCT)": [
+        "HVFNC"
+      ],
+      "Net-(T1D-RXCT)": [
+        "HVFNC"
+      ],
+      "Net-(T2A-TCT)": [
+        "GND"
+      ],
+      "Net-(T2A-TXCT)": [
+        "HVFNC"
+      ],
+      "Net-(T2B-RXCT)": [
+        "HVFNC"
+      ],
+      "Net-(T2C-TXCT)": [
+        "HVFNC"
+      ],
+      "Net-(T2D-RXCT)": [
+        "HVFNC"
+      ],
+      "Net-(U11-VA)": [
+        "PWR"
+      ],
+      "Net-(U11-VCOM)": [
+        "ANA"
+      ],
+      "Net-(U11-XTI)": [
+        "ANA"
+      ],
+      "Net-(U11-XTO)": [
+        "ANA"
+      ],
+      "Net-(U12-OUT)": [
+        "PWR"
+      ],
+      "Net-(U12-VIN+)": [
+        "PWR"
+      ],
+      "Net-(U12-VOUT+)": [
+        "PWR"
+      ],
+      "Net-(U13-FB)": [
+        "ANA"
+      ],
+      "Net-(U13-OUT)": [
+        "PWR"
+      ],
+      "Net-(U13-VIN+)": [
+        "PWR"
+      ],
+      "Net-(U13-VOUT+)": [
+        "PWR"
+      ],
+      "Net-(U14-FB)": [
+        "ANA"
+      ],
+      "Net-(U14-OUT)": [
+        "PWR"
+      ],
+      "Net-(U19-COMP)": [
+        "ANA"
+      ],
+      "Net-(U19-FB)": [
+        "ANA"
+      ],
+      "Net-(U19-NC(SW))": [
+        "PWR"
+      ],
+      "Net-(U1B-VBAT)": [
+        "PWR"
+      ],
+      "Net-(U20-COMP)": [
+        "ANA"
+      ],
+      "Net-(U20-FB)": [
+        "ANA"
+      ],
+      "Net-(U20-NC(SW))": [
+        "PWR"
+      ],
+      "Net-(U21-COMP)": [
+        "ANA"
+      ],
+      "Net-(U21-FB)": [
+        "ANA"
+      ],
+      "Net-(U21-RT)": [
+        "ANA"
+      ],
+      "Net-(U21-SS)": [
+        "ANA"
+      ],
+      "Net-(U21-VCC)": [
+        "PWR"
+      ],
+      "Net-(U22-FB)": [
+        "ANA"
+      ],
+      "Net-(U23-INA)": [
+        "I2S"
+      ],
+      "Net-(U23-INB)": [
+        "I2S"
+      ],
+      "Net-(U23-INC)": [
+        "I2S"
+      ],
+      "Net-(U23-IND)": [
+        "I2S"
+      ],
+      "Net-(U23-INE)": [
+        "I2S"
+      ],
+      "Net-(U23-OUTA)": [
+        "I2S"
+      ],
+      "Net-(U23-OUTB)": [
+        "I2S"
+      ],
+      "Net-(U23-OUTC)": [
+        "I2S"
+      ],
+      "Net-(U23-OUTD)": [
+        "I2S"
+      ],
+      "Net-(U23-OUTE)": [
+        "I2S"
+      ],
+      "Net-(U26A-IN-)": [
+        "ANA"
+      ],
+      "Net-(U26B-IN-)": [
+        "ANA"
+      ],
+      "Net-(U27-FB)": [
+        "ANA"
+      ],
+      "Net-(U27-OUT)": [
+        "PWR"
+      ],
+      "Net-(U33-OUT)": [
+        "PWR"
+      ],
+      "Net-(U34A-IN+)": [
+        "ANA"
+      ],
+      "Net-(U34A-IN-)": [
+        "ANA"
+      ],
+      "Net-(U34A-OUT)": [
+        "ANA"
+      ],
+      "Net-(U34A-V+)": [
+        "PWR"
+      ],
+      "Net-(U34B-IN+)": [
+        "ANA"
+      ],
+      "Net-(U34B-IN-)": [
+        "ANA"
+      ],
+      "Net-(U34B-OUT)": [
+        "ANA"
+      ],
+      "Net-(U35A-IN+)": [
+        "ANA"
+      ],
+      "Net-(U35A-IN-)": [
+        "ANA"
+      ],
+      "Net-(U35A-OUT)": [
+        "ANA"
+      ],
+      "Net-(U35B-IN+)": [
+        "ANA"
+      ],
+      "Net-(U35B-IN-)": [
+        "ANA"
+      ],
+      "Net-(U35B-OUT)": [
+        "ANA"
+      ],
+      "Net-(U36A-IN-)": [
+        "ANA"
+      ],
+      "Net-(U36A-OUT)": [
+        "ANA"
+      ],
+      "Net-(U36B-IN-)": [
+        "ANA"
+      ],
+      "Net-(U36B-OUT)": [
+        "ANA"
+      ],
+      "Net-(U3A-VREG.AVDD)": [
+        "PWR"
+      ],
+      "Net-(U3A-VREG.LX)": [
+        "PWR"
+      ],
+      "Net-(U3B-QSPI.~{SS}²(PU)|F0:QMI.~{CS0})": [
+        "QSPI"
+      ],
+      "Net-(U3B-XIN)": [
+        "ANA"
+      ],
+      "Net-(U3B-XOUT)": [
+        "ANA"
+      ],
+      "Net-(U4A-VREG.AVDD)": [
+        "PWR"
+      ],
+      "Net-(U4A-VREG.LX)": [
+        "PWR"
+      ],
+      "Net-(U4B-QSPI.~{SS}²(PU)|F0:QMI.~{CS0})": [
+        "QSPI"
+      ],
+      "Net-(U4B-XIN)": [
+        "ANA"
+      ],
+      "Net-(U4B-XOUT)": [
+        "ANA"
+      ],
+      "Net-(U7-CKXTAL1)": [
+        "ANA"
+      ],
+      "Net-(U7-CKXTAL2)": [
+        "ANA"
+      ],
+      "Net-(U7-RSET)": [
+        "ANA"
+      ],
+      "Net-(U8-CKXTAL1)": [
+        "ANA"
+      ],
+      "Net-(U8-CKXTAL2)": [
+        "ANA"
+      ],
+      "Net-(U8-RSET)": [
+        "ANA"
+      ],
+      "Net-(U9-3.3V-Pad15)": [
+        "PWR"
+      ],
+      "V12": [
+        "PWR"
+      ],
+      "V12ISO": [
+        "PWR"
+      ],
+      "V3P3": [
+        "PWR"
+      ],
+      "V3P3AUD": [
+        "PWR"
+      ],
+      "V5": [
+        "PWR"
+      ],
+      "V50": [
+        "PWR"
+      ],
+      "VDD": [
+        "PWR"
+      ],
+      "VIO": [
+        "PWR"
+      ],
+      "VM2": [
+        "PWR"
+      ],
+      "VMIDI": [
+        "PWR"
+      ],
+      "VPHANTOM": [
+        "PWR"
+      ],
+      "VRTIO": [
+        "PWR"
+      ],
+      "VSS": [
+        "GND"
+      ],
+      "VSSISO": [
+        "GND"
+      ],
+      "VSTBY": [
+        "PWR"
+      ],
+      "unconnected-(J1-5V-Pad18)": [
+        "PWR"
+      ],
+      "unconnected-(U1A-HSIO10_RX+-Pad52)": [
+        "D100Ω"
+      ],
+      "unconnected-(U1A-HSIO10_RX--Pad54)": [
+        "D100Ω"
+      ],
+      "unconnected-(U1A-HSIO10_TX+-Pad49)": [
+        "D100Ω"
+      ],
+      "unconnected-(U1A-HSIO10_TX--Pad51)": [
+        "D100Ω"
+      ],
+      "unconnected-(U1A-HSIO11_RX+-Pad58)": [
+        "D100Ω"
+      ],
+      "unconnected-(U1A-HSIO11_RX--Pad60)": [
+        "D100Ω"
+      ],
+      "unconnected-(U1A-HSIO11_TX+-Pad55)": [
+        "D100Ω"
+      ],
+      "unconnected-(U1A-HSIO11_TX--Pad57)": [
+        "D100Ω"
+      ],
+      "unconnected-(U1A-HSIO2_RX+-Pad28)": [
+        "D100Ω"
+      ],
+      "unconnected-(U1A-HSIO2_RX--Pad30)": [
+        "D100Ω"
+      ],
+      "unconnected-(U1A-HSIO2_TX+-Pad25)": [
+        "D100Ω"
+      ],
+      "unconnected-(U1A-HSIO2_TX--Pad27)": [
+        "D100Ω"
+      ],
+      "unconnected-(U1A-HSIO3_RX+-Pad34)": [
+        "D100Ω"
+      ],
+      "unconnected-(U1A-HSIO3_RX--Pad36)": [
+        "D100Ω"
+      ],
+      "unconnected-(U1A-HSIO3_TX+-Pad31)": [
+        "D100Ω"
+      ],
+      "unconnected-(U1A-HSIO3_TX--Pad33)": [
+        "D100Ω"
+      ],
+      "unconnected-(U1A-HSIO6_RX+-Pad64)": [
+        "D100Ω"
+      ],
+      "unconnected-(U1A-HSIO6_RX--Pad66)": [
+        "D100Ω"
+      ],
+      "unconnected-(U1A-HSIO6_TX+-Pad61)": [
+        "D100Ω"
+      ],
+      "unconnected-(U1A-HSIO6_TX--Pad63)": [
+        "D100Ω"
+      ],
+      "unconnected-(U1A-HSIO8_RX+-Pad40)": [
+        "D100Ω"
+      ],
+      "unconnected-(U1A-HSIO8_RX--Pad42)": [
+        "D100Ω"
+      ],
+      "unconnected-(U1A-HSIO8_TX+-Pad37)": [
+        "D100Ω"
+      ],
+      "unconnected-(U1A-HSIO8_TX--Pad39)": [
+        "D100Ω"
+      ],
+      "unconnected-(U1A-HSIO9_RX+-Pad46)": [
+        "D100Ω"
+      ],
+      "unconnected-(U1A-HSIO9_RX--Pad48)": [
+        "D100Ω"
+      ],
+      "unconnected-(U1A-HSIO9_TX+-Pad43)": [
+        "D100Ω"
+      ],
+      "unconnected-(U1A-HSIO9_TX--Pad45)": [
+        "D100Ω"
+      ],
+      "unconnected-(U1A-I2C2_SCL-Pad154)": [
+        "I2C"
+      ],
+      "unconnected-(U1A-I2C2_SDA-Pad156)": [
+        "I2C"
+      ],
+      "unconnected-(U1A-I2C3_SCL-Pad150)": [
+        "I2C"
+      ],
+      "unconnected-(U1A-I2C3_SDA-Pad152)": [
+        "I2C"
+      ],
+      "unconnected-(U1A-I2C4_SCL-Pad146)": [
+        "I2C"
+      ],
+      "unconnected-(U1A-I2C4_SDA-Pad148)": [
+        "I2C"
+      ],
+      "unconnected-(U1A-I2C5_SCL-Pad142)": [
+        "I2C"
+      ],
+      "unconnected-(U1A-I2C5_SDA-Pad144)": [
+        "I2C"
+      ],
+      "unconnected-(U1A-REFCLK0+-Pad85)": [
+        "D100Ω"
+      ],
+      "unconnected-(U1A-REFCLK0--Pad87)": [
+        "D100Ω"
+      ],
+      "unconnected-(U1A-REFCLK1+-Pad91)": [
+        "D100Ω"
+      ],
+      "unconnected-(U1A-REFCLK1--Pad93)": [
+        "D100Ω"
+      ],
+      "unconnected-(U1A-REFCLK2+-Pad97)": [
+        "D100Ω"
+      ],
+      "unconnected-(U1A-REFCLK2--Pad99)": [
+        "D100Ω"
+      ],
+      "unconnected-(U1A-REFCLK3+-Pad88)": [
+        "D100Ω"
+      ],
+      "unconnected-(U1A-REFCLK3--Pad90)": [
+        "D100Ω"
+      ],
+      "unconnected-(U1A-REFCLK4+-Pad94)": [
+        "D100Ω"
+      ],
+      "unconnected-(U1A-REFCLK4--Pad96)": [
+        "D100Ω"
+      ],
+      "unconnected-(U1A-SMB_CLK-Pad106)": [
+        "I2C"
+      ],
+      "unconnected-(U1A-SMB_DATA-Pad108)": [
+        "I2C"
+      ],
+      "unconnected-(U1A-SML1_CLK-Pad147)": [
+        "I2C"
+      ],
+      "unconnected-(U1A-SML1_DATA-Pad145)": [
+        "I2C"
+      ],
+      "unconnected-(U1A-~{SMB_ALERT}-Pad104)": [
+        "I2C"
+      ],
+      "unconnected-(U1A-~{SML1_ALERT}-Pad149)": [
+        "I2C"
+      ]
+    },
+    "netclass_patterns": []
+  },
+  "pcbnew": {
+    "last_paths": {
+      "gencad": "",
+      "idf": "",
+      "netlist": "",
+      "plot": "",
+      "pos_files": "",
+      "specctra_dsn": "",
+      "step": ".step",
+      "svg": "",
+      "vmrl": "",
+      "vrml": ""
+    },
+    "page_layout_descr_file": "kicad-embed://realee.kicad_wks"
+  },
+  "schematic": {
+    "annotate_start_num": 0,
+    "bom_export_filename": "",
+    "bom_fmt_presets": [],
+    "bom_fmt_settings": {
+      "field_delimiter": ",",
+      "keep_line_breaks": false,
+      "keep_tabs": false,
+      "name": "CSV",
+      "ref_delimiter": ",",
+      "ref_range_delimiter": "",
+      "string_delimiter": "\""
+    },
+    "bom_presets": [],
+    "bom_settings": {
+      "exclude_dnp": false,
+      "fields_ordered": [
+        {
+          "group_by": false,
+          "label": "Reference",
+          "name": "Reference",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Value",
+          "name": "Value",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Resistance",
+          "name": "Resistance",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Tolerance",
+          "name": "Tolerance",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Power",
+          "name": "Power",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Capacitance",
+          "name": "Capacitance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage",
+          "name": "Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Dielectric",
+          "name": "Dielectric",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "F",
+          "name": "F",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Imax",
+          "name": "Imax",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Link",
+          "name": "Link",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Link2",
+          "name": "Link2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Link3",
+          "name": "Link3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Link4",
+          "name": "Link4",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Link5",
+          "name": "Link5",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Link6",
+          "name": "Link6",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Link7",
+          "name": "Link7",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFG",
+          "name": "MFG",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MFG2",
+          "name": "MFG2",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MFG3",
+          "name": "MFG3",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MFG4",
+          "name": "MFG4",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFG5",
+          "name": "MFG5",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFG6",
+          "name": "MFG6",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFG7",
+          "name": "MFG7",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MPN2",
+          "name": "MPN2",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MPN3",
+          "name": "MPN3",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MPN4",
+          "name": "MPN4",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN5",
+          "name": "MPN5",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN6",
+          "name": "MPN6",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN7",
+          "name": "MPN7",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Rating",
+          "name": "Rating",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vmax",
+          "name": "Vmax",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "load",
+          "name": "load",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "stab",
+          "name": "stab",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "tol",
+          "name": "tol",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Type",
+          "name": "Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vbr",
+          "name": "Vbr",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vclamp",
+          "name": "Vclamp",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vf",
+          "name": "Vf",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vimax",
+          "name": "Vimax",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vimin",
+          "name": "Vimin",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vo",
+          "name": "Vo",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Library",
+          "name": "Sim.Library",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vr",
+          "name": "Vr",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vrwm",
+          "name": "Vrwm",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "bit",
+          "name": "bit",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "color",
+          "name": "color",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "config",
+          "name": "config",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Name",
+          "name": "Sim.Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "lum",
+          "name": "lum",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "sr",
+          "name": "sr",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Temperature",
+          "name": "Temperature",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "viewangle",
+          "name": "viewangle",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "λdom",
+          "name": "λdom",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Io",
+          "name": "Io",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vout",
+          "name": "Vout",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Iout",
+          "name": "Iout",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DNP",
+          "name": "DNP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Enable",
+          "name": "Sim.Enable",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Config",
+          "name": "Config",
+          "show": false
+        }
+      ],
+      "filter_string": "",
+      "group_symbols": true,
+      "include_excluded_from_bom": false,
+      "name": "",
+      "sort_asc": false,
+      "sort_field": "Capacitance"
+    },
+    "connection_grid_size": 50.0,
+    "drawing": {
+      "dashed_lines_dash_length_ratio": 12.0,
+      "dashed_lines_gap_length_ratio": 3.0,
+      "default_line_thickness": 6.0,
+      "default_text_size": 40.0,
+      "field_names": [],
+      "intersheets_ref_own_page": true,
+      "intersheets_ref_prefix": "",
+      "intersheets_ref_short": true,
+      "intersheets_ref_show": true,
+      "intersheets_ref_suffix": "",
+      "junction_size_choice": 3,
+      "label_size_ratio": 0.25,
+      "operating_point_overlay_i_precision": 3,
+      "operating_point_overlay_i_range": "~A",
+      "operating_point_overlay_v_precision": 3,
+      "operating_point_overlay_v_range": "~V",
+      "overbar_offset_ratio": 1.23,
+      "pin_symbol_size": 0.0,
+      "text_offset_ratio": 0.08
+    },
+    "legacy_lib_dir": "",
+    "legacy_lib_list": [],
+    "meta": {
+      "version": 1
+    },
+    "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "fix_passive_vals": false,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
+    "page_layout_descr_file": "kicad-embed://realee.kicad_wks",
+    "plot_directory": "",
+    "space_save_all_events": true,
+    "spice_adjust_passive_values": false,
+    "spice_current_sheet_as_root": false,
+    "spice_external_command": "spice \"%I\"",
+    "spice_model_current_sheet_as_root": true,
+    "spice_save_all_currents": false,
+    "spice_save_all_dissipations": false,
+    "spice_save_all_voltages": false,
+    "subpart_first_id": 65,
+    "subpart_id_separator": 0
+  },
+  "sheets": [
+    [
+      "e55f2700-f75a-4062-8a27-fe258faa8966",
+      "Root"
+    ],
+    [
+      "88bddcf3-091d-4999-8622-d323c703fd74",
+      "Computer"
+    ],
+    [
+      "13357c90-191e-461b-8733-0658b5b931ff",
+      "Power"
+    ],
+    [
+      "b4e2772d-7748-46ec-bd38-bc8e72cebcb8",
+      "Audio"
+    ],
+    [
+      "22b3123e-4770-49db-9ca3-fb0ae5205bb3",
+      "MIDI"
+    ],
+    [
+      "db554ed3-9c74-43b8-ae28-746fed02a615",
+      "Display"
+    ],
+    [
+      "a7a97f06-32f2-4ecd-8145-839e91065361",
+      "M.2"
+    ],
+    [
+      "b69294f0-a26d-445f-ba7c-20a0f29876f9",
+      "External Ethernet"
+    ],
+    [
+      "83546ca1-08e2-4cd0-99ad-1e2a6bc1b076",
+      "Internal Ethernet"
+    ],
+    [
+      "57ec90ce-deb5-4a52-b1c0-0a997012959b",
+      "Mgmt MCU"
+    ],
+    [
+      "f774142b-755f-468a-93e0-eecae9257f8f",
+      "Real-Time MCU"
+    ],
+    [
+      "bb2b2e05-965b-41e8-90ff-dc0d1c46f97c",
+      "USB ports"
+    ],
+    [
+      "5f490059-030e-46be-8d18-c6ad7eadfe53",
+      "Computer module"
+    ],
+    [
+      "b0d5502d-1c9e-460a-aaa4-6a1fd0bb26fe",
+      "BIOS mem"
+    ],
+    [
+      "9cf15687-6528-4b32-9653-59c05414133f",
+      "Boot control"
+    ],
+    [
+      "c21b8118-8da9-423f-b9bf-b175418c956a",
+      "Fans"
+    ],
+    [
+      "120f9400-7b51-421c-92c5-6533e572ad77",
+      "Extra ports"
+    ],
+    [
+      "d2a190b7-8486-4aae-97c0-33ac8d90da8a",
+      "MCU"
+    ],
+    [
+      "8e05de8b-3536-4686-b4df-144081dee611",
+      "MCU"
+    ],
+    [
+      "505def28-a163-4964-82bd-abe7e8697de4",
+      "Audio inputs"
+    ],
+    [
+      "9a4ddd59-6699-41a4-a382-0b3d520d6256",
+      "Audio outputs"
+    ],
+    [
+      "c7a6c4ca-6083-4b1c-b07a-a9d1f5204bfb",
+      "CODEC"
+    ],
+    [
+      "4fb68e0a-941d-4208-9504-51093c7ea075",
+      "OUT buffer L"
+    ],
+    [
+      "7f4e67fa-3c07-407d-92c2-385efb421c13",
+      "OUT buffer R"
+    ],
+    [
+      "8d59667e-74a9-4b74-9da4-c408ef8d4019",
+      "IN buffer 1"
+    ],
+    [
+      "e109aa32-258e-4e34-aaf7-64bd999bfe07",
+      "IN buffer 2"
+    ],
+    [
+      "26459c94-7a75-4791-b22d-dba060dd3547",
+      "Power"
+    ],
+    [
+      "07e56b51-9be1-414d-8c59-faa1629d64d5",
+      "Isolation"
+    ],
+    [
+      "d2b85c26-0f6a-489f-849d-8c679c4f1d00",
+      "OUT monitor"
+    ]
+  ],
+  "text_variables": {
+    "address": "1207 st-andre, montreal, qc, ca",
+    "author": "Laurence DV",
+    "corp": "RealEE inc",
+    "name": "pandore",
+    "reviewer": "",
+    "revision": "A0",
+    "weburl": "https://gitlab.com/real-ee/client/vincentfillion/pandore"
+  }
+}
