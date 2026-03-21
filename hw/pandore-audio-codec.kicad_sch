@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "fd0f5a6b-d064-4bb4-969c-eb4ec668bef4")
 	(paper "A4")
 	(title_block
@@ -15,9 +15,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 7.62 -3.175 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
 				(effects
 					(font
 						(size 1 1)
@@ -27,7 +30,8 @@
 			)
 			(property "Value" "OPAMP_2"
 				(at 7.62 -5.08 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
 				(effects
 					(font
 						(size 1 1)
@@ -37,60 +41,74 @@
 			)
 			(property "Footprint" "reekilib_soic:SOIC127P600X150-8"
 				(at 15.875 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "?"
 				(at 15.875 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "dual generic opamp"
 				(at 15.875 -14.605 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
-					(hide yes)
 				)
 			)
 			(property "MPN" "?"
 				(at 15.875 -6.985 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
-					(hide yes)
 				)
 			)
 			(property "MFG" "?"
 				(at 15.875 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
-					(hide yes)
 				)
 			)
 			(property "Link" "?"
 				(at 15.875 -10.795 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -99,20 +117,24 @@
 			)
 			(property "ki_keywords" "opamp 8pin"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "reekilib_dip:DIP127P762X508-8 reekilib_soic:SOIC127P600X150-8 reekilib_sop:SOP65P640X300-8 reekilib_sop:SOP65P490X300-8 reekilib_sop:SOP50P310X200-8 reekilib_sot:SOT65P280X100-8 reekilib_dfn:DFN50P200X200X55-9"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "OPAMP_2_1_1"
@@ -126,6 +148,24 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(pin output line
+					(at 15.24 0 180)
+					(length 3.81)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 				(pin input line
@@ -165,24 +205,6 @@
 					)
 				)
 				(pin power_in line
-					(at 0 10.16 270)
-					(length 4.42)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at 0 -10.16 90)
 					(length 4.42)
 					(name "V-"
@@ -200,17 +222,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 15.24 0 180)
-					(length 3.81)
-					(name "OUT"
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 4.42)
+					(name "V+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -233,24 +255,6 @@
 					)
 				)
 				(pin input line
-					(at -10.16 5.08 0)
-					(length 3.81)
-					(name "IN-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -10.16 -5.08 0)
 					(length 3.81)
 					(name "IN+"
@@ -261,6 +265,24 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 3.81)
+					(name "IN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -299,9 +321,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 2.54 2.286 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
 				(effects
 					(font
 						(size 1 1)
@@ -311,58 +336,64 @@
 			)
 			(property "Value" "${Capacitance}, ${Voltage}, ${Dielectric}"
 				(at 2.54 0.762 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "reekilib_cap:CAPC1005"
 				(at 0 -9.652 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
 				(at 0 -14.478 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Non polarized capacitor"
 				(at 0 -11.43 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
-					(hide yes)
 				)
 			)
 			(property "Link" "https://www.passivecomponent.com/product-search/MLCC/?partnumber=0402B104K160CT"
 				(at 0 -12.954 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
-					(hide yes)
 				)
 			)
 			(property "Capacitance" "100nF"
 				(at 2.54 0.762 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
 				(effects
 					(font
 						(size 1 1)
@@ -372,7 +403,8 @@
 			)
 			(property "Voltage" "16V"
 				(at 2.54 -0.762 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
 				(effects
 					(font
 						(size 1 1)
@@ -382,7 +414,8 @@
 			)
 			(property "Dielectric" "X7R"
 				(at 2.54 -2.286 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
 				(effects
 					(font
 						(size 1 1)
@@ -392,104 +425,116 @@
 			)
 			(property "MPN" "0402B104K160CT"
 				(at 0 -18.796 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
-					(hide yes)
 				)
 			)
 			(property "MFG" "Walsin Technology Corporation"
 				(at 11.938 -18.796 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "MPN2" "CL05B104KA5NNNC"
 				(at 0 -20.32 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
-					(hide yes)
 				)
 			)
 			(property "MFG2" "Samsung Electro-Mechanics"
 				(at 11.938 -20.32 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "MPN3" "EMK105B7104KV-F"
 				(at 0 -21.844 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
-					(hide yes)
 				)
 			)
 			(property "MFG3" "Taiyo Yuden"
 				(at 11.938 -21.844 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "MPN4" "CC0402KRX7R7BB104"
 				(at 0 -23.368 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
-					(hide yes)
 				)
 			)
 			(property "MFG4" "YAGEO"
 				(at 12.192 -23.368 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "cap"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "reekilib_cap:CAPC*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "cap_0_1"
@@ -520,24 +565,6 @@
 			)
 			(symbol "cap_1_1"
 				(pin passive line
-					(at 0 2.54 270)
-					(length 1.905)
-					(name "2"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 0 -2.54 90)
 					(length 1.905)
 					(name "1"
@@ -555,6 +582,24 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.905)
+					(name "2"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
@@ -565,9 +610,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 2.54 2.286 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
 				(effects
 					(font
 						(size 1 1)
@@ -577,58 +625,64 @@
 			)
 			(property "Value" "${Capacitance}, ${Voltage}, ${Tolerance}"
 				(at 2.54 0.762 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "reekilib_cap:CAPAE630Xxxx"
 				(at 0 -8.636 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/A768EB476M1VLAE042"
 				(at 0 -12.192 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Polarized capacitor"
 				(at 0 -10.414 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
-					(hide yes)
 				)
 			)
 			(property "Link" "https://www.kemet.com/en/us/product/A768EB476M1VLAE042.html"
 				(at 0 -13.97 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
-					(hide yes)
 				)
 			)
 			(property "Capacitance" "47µF"
 				(at 2.54 0.762 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
 				(effects
 					(font
 						(size 1 1)
@@ -638,7 +692,8 @@
 			)
 			(property "Voltage" "25V"
 				(at 2.54 -0.762 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
 				(effects
 					(font
 						(size 1 1)
@@ -648,7 +703,8 @@
 			)
 			(property "Tolerance" "20%"
 				(at 2.54 -2.286 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
 				(effects
 					(font
 						(size 1 1)
@@ -658,94 +714,105 @@
 			)
 			(property "Temperature" "105°C"
 				(at 2.54 -3.81 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "MPN" "A768EB476M1VLAE042"
 				(at 0 -17.018 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
-					(hide yes)
 				)
 			)
 			(property "MFG" "KEMET"
 				(at 12.192 -17.018 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "MPN2" "APXG250ARA470MF61G"
 				(at 0 -18.542 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
-					(hide yes)
 				)
 			)
 			(property "MFG2" "Chemi-Con"
 				(at 12.192 -18.542 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "MPN3" "A765EB476M1ELAE040"
 				(at 0 -20.066 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
-					(hide yes)
 				)
 			)
 			(property "MFG3" "KEMET"
 				(at 12.192 -20.066 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "cap"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "reekilib_cap:CAPAE* reekilib_cap:CAPPR*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "cap_pol_0_0"
@@ -828,9 +895,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at -11.43 43.18 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
 				(effects
 					(font
 						(size 1 1)
@@ -840,7 +910,8 @@
 			)
 			(property "Value" "CS4272"
 				(at 11.43 43.18 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
 				(effects
 					(font
 						(size 1 1)
@@ -850,69 +921,76 @@
 			)
 			(property "Footprint" "reekilib_sop:SOP65P640X970-28"
 				(at 0 -54.61 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://statics.cirrus.com/pubs/proDatasheet/CS4272_F2.pdf"
 				(at 0.635 -52.705 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "I2S Stereo CODEC 24bit 192KHz"
 				(at 0 -50.8 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
-					(hide yes)
 				)
 			)
 			(property "MPN" "CS4272K-CZZR"
 				(at 0 -43.18 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
-					(hide yes)
 				)
 			)
 			(property "MFG" "Cirrus Logic Inc."
 				(at 14.605 -43.18 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Link" "https://www.cirrus.com/products/cs4272"
 				(at 33.655 -43.18 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "bit" "24b"
 				(at 0 13.97 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
 				(effects
 					(font
 						(size 1 1)
@@ -921,7 +999,8 @@
 			)
 			(property "sr" "192K"
 				(at 0 12.065 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
 				(effects
 					(font
 						(size 1 1)
@@ -930,7 +1009,8 @@
 			)
 			(property "config" "2x2"
 				(at 0 15.875 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
 				(effects
 					(font
 						(size 1 1)
@@ -939,20 +1019,24 @@
 			)
 			(property "ki_keywords" "codec i2s stereo"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "reekilib_sop:SOP65P640X970-28"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "CS4272_0_1"
@@ -1113,6 +1197,42 @@
 						(type background)
 					)
 				)
+				(pin output clock
+					(at -16.51 -5.08 0)
+					(length 3.81)
+					(name "XTO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -16.51 -2.54 0)
+					(length 3.81)
+					(name "XTI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin bidirectional clock
 					(at -16.51 39.37 0)
 					(length 3.81)
@@ -1203,17 +1323,53 @@
 						)
 					)
 				)
-				(pin input inverted
-					(at -16.51 20.32 0)
+				(pin power_in line
+					(at -16.51 -39.37 0)
 					(length 3.81)
-					(name "~{RST}"
+					(name "DGND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "14"
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -16.51 -31.75 0)
+					(length 3.81)
+					(name "VD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -16.51 -34.29 0)
+					(length 3.81)
+					(name "VL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1278,125 +1434,17 @@
 					)
 					(alternate "~{CS}" input inverted)
 				)
-				(pin input clock
-					(at -16.51 -2.54 0)
+				(pin input inverted
+					(at -16.51 20.32 0)
 					(length 3.81)
-					(name "XTI"
+					(name "~{RST}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output clock
-					(at -16.51 -5.08 0)
-					(length 3.81)
-					(name "XTO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -16.51 -31.75 0)
-					(length 3.81)
-					(name "VD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -16.51 -34.29 0)
-					(length 3.81)
-					(name "VL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -16.51 -39.37 0)
-					(length 3.81)
-					(name "DGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 16.51 39.37 180)
-					(length 3.81)
-					(name "~{AMUTEC}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 16.51 36.83 180)
-					(length 3.81)
-					(name "~{BMUTEC}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1405,88 +1453,16 @@
 					)
 				)
 				(pin output line
-					(at 16.51 31.75 180)
+					(at 16.51 -13.97 180)
 					(length 3.81)
-					(name "AOUTA+"
+					(name "VCOM"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 16.51 26.67 180)
-					(length 3.81)
-					(name "AOUTA-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 16.51 21.59 180)
-					(length 3.81)
-					(name "AOUTB+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 16.51 16.51 180)
-					(length 3.81)
-					(name "AOUTB-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 16.51 11.43 180)
-					(length 3.81)
-					(name "AINA+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1505,6 +1481,24 @@
 						)
 					)
 					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 11.43 180)
+					(length 3.81)
+					(name "AINA+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1548,42 +1542,6 @@
 						)
 					)
 				)
-				(pin output line
-					(at 16.51 -13.97 180)
-					(length 3.81)
-					(name "VCOM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 16.51 -24.13 180)
-					(length 3.81)
-					(name "FILT+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at 16.51 -34.29 180)
 					(length 3.81)
@@ -1620,11 +1578,137 @@
 						)
 					)
 				)
+				(pin output line
+					(at 16.51 -24.13 180)
+					(length 3.81)
+					(name "FILT+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 16.51 39.37 180)
+					(length 3.81)
+					(name "~{AMUTEC}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 16.51 26.67 180)
+					(length 3.81)
+					(name "AOUTA-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 16.51 31.75 180)
+					(length 3.81)
+					(name "AOUTA+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 16.51 21.59 180)
+					(length 3.81)
+					(name "AOUTB+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 16.51 16.51 180)
+					(length 3.81)
+					(name "AOUTB-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 16.51 36.83 180)
+					(length 3.81)
+					(name "~{BMUTEC}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
 		(symbol "reekilib_pwr:VDD"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -1635,18 +1719,23 @@
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board no)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 3.175 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "VDD"
 				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1 1)
@@ -1655,6 +1744,8 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -1663,6 +1754,8 @@
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -1671,11 +1764,13 @@
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "VDD_0_1"
@@ -1715,7 +1810,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "reekilib_pwr:VSS"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -1726,18 +1821,23 @@
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board no)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -4.445 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "VSS"
 				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1 1)
@@ -1746,6 +1846,8 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -1754,6 +1856,8 @@
 			)
 			(property "Datasheet" ""
 				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -1762,11 +1866,13 @@
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "VSS_0_1"
@@ -1815,9 +1921,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 2.032 2.286 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
 				(effects
 					(font
 						(size 1 1)
@@ -1827,58 +1936,64 @@
 			)
 			(property "Value" "${Resistance}, ${Tolerance}, ${Power}"
 				(at 2.032 0.762 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "reekilib_res:RESC1005"
 				(at 0.254 -11.176 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://www.bourns.com/data/global/pdfs/CR.pdf"
 				(at 0 -14.224 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Resistor single 2 pad"
 				(at 0 -12.7 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
-					(hide yes)
 				)
 			)
 			(property "Link" "https://www.bourns.com/search?indexCatalogue=psindex&searchQuery=CR0402-FX-1002GLF*"
 				(at 0.254 -15.748 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
-					(hide yes)
 				)
 			)
 			(property "Resistance" "10kΩ"
 				(at 2.032 0.762 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
 				(effects
 					(font
 						(size 1 1)
@@ -1888,7 +2003,8 @@
 			)
 			(property "Tolerance" "1%"
 				(at 2.032 -0.762 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
 				(effects
 					(font
 						(size 1 1)
@@ -1898,7 +2014,8 @@
 			)
 			(property "Power" "63mW"
 				(at 2.032 -2.286 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
 				(effects
 					(font
 						(size 1 1)
@@ -1908,74 +2025,82 @@
 			)
 			(property "MPN" "CR0402-FX-1002GLF"
 				(at 0 -17.78 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
-					(hide yes)
 				)
 			)
 			(property "MFG" "Bourns Inc"
 				(at 13.97 -17.526 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "MPN2" "WR04X1002FTL"
 				(at -0.508 -19.558 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
-					(hide yes)
 				)
 			)
 			(property "MFG2" "Walsin Technology Corporation"
 				(at 14.224 -19.558 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "MPN3" "RC0402FR-0710KL"
 				(at 0 -21.336 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
-					(hide yes)
 				)
 			)
 			(property "MFG3" "Yageo"
 				(at 14.224 -21.336 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "resistor single"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "res_0_1"
@@ -2040,9 +2165,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "X"
 				(at 0 6.35 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
 				(effects
 					(font
 						(size 1 1)
@@ -2051,47 +2179,52 @@
 			)
 			(property "Value" "${F}, ${tol}+${stab}, ${load}"
 				(at 0 5.08 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "reekilib_osc:OSCCC320X250X90"
 				(at 0 -13.335 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://portal.iqdfrequencyproducts.com/products/pn/LFXTAL082071.pdf"
 				(at 0 -15.24 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Crystal with shield"
 				(at 0 -11.43 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
-					(hide yes)
 				)
 			)
 			(property "F" "16MHz"
 				(at -1.27 -6.985 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
 				(effects
 					(font
 						(size 1 1)
@@ -2101,7 +2234,8 @@
 			)
 			(property "tol" "30ppm"
 				(at 1.27 -6.985 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
 				(effects
 					(font
 						(size 1 1)
@@ -2111,18 +2245,20 @@
 			)
 			(property "stab" "20ppm"
 				(at 8.255 -6.985 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "load" "8pF"
 				(at 0 -8.89 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
 				(effects
 					(font
 						(size 1 1)
@@ -2131,148 +2267,164 @@
 			)
 			(property "MPN" "LFXTAL082071"
 				(at 0.635 -19.05 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
-					(hide yes)
 				)
 			)
 			(property "MFG" "IQD Frequency Products"
 				(at 19.05 -19.05 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Link" "https://www.iqdfrequencyproducts.com/en/system/catalog?q=LFXTAL082071"
 				(at 53.975 -19.05 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "MPN2" "STDCRG2-16M"
 				(at 0 -20.955 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
-					(hide yes)
 				)
 			)
 			(property "MFG2" "NDK (NIHON DEMPA KOGYO CO., LTD)"
 				(at 19.05 -20.955 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Link2" "https://www.ndk.com/en/products/upload/lineup/pdf/NDKX03-00006_en.pdf"
 				(at 53.975 -20.955 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "MPN3" "0132M4-16.000F08DTNLK"
 				(at 0 -22.86 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
-					(hide yes)
 				)
 			)
 			(property "MFG3" "Suzhou Hangjing Elec&Tech Co.,Ltd"
 				(at 19.05 -22.86 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Link3" "https://www.hcixtal.com/uploads/44524/files/0132M4.pdf"
 				(at 53.975 -22.86 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "MPN4" "CX3225GB16000D0HPQCC"
 				(at 0 -24.765 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
-					(hide yes)
 				)
 			)
 			(property "MFG4" "KYOCERA AVX"
 				(at 19.05 -24.765 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Link4" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/662/CX3225GBxD0HPQCC_Series_Spec.pdf"
 				(at 53.975 -24.765 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
 				(effects
 					(font
 						(size 1 1)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "Crystal xtal"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "reekilib_osc:OSCCC*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "crystal_shield_0_1"
@@ -4197,6 +4349,10 @@
 		(uuid "f1eacd55-a75a-49f3-8755-581cd078d65b")
 	)
 	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(polyline
 			(pts
 				(xy 137.16 72.39) (xy 139.7 72.39) (xy 139.7 78.74) (xy 137.16 78.74)
@@ -4208,10 +4364,14 @@
 			(fill
 				(type none)
 			)
-			(uuid 0434be89-700a-4540-8dcf-3000c2b6b7b1)
+			(uuid "0434be89-700a-4540-8dcf-3000c2b6b7b1")
 		)
 	)
 	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(polyline
 			(pts
 				(xy 137.16 87.63) (xy 139.7 87.63) (xy 139.7 92.71) (xy 137.16 92.71)
@@ -4223,10 +4383,14 @@
 			(fill
 				(type none)
 			)
-			(uuid 63e7b676-45de-4077-a92d-46990d0d0832)
+			(uuid "63e7b676-45de-4077-a92d-46990d0d0832")
 		)
 	)
 	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(polyline
 			(pts
 				(xy 137.16 44.45) (xy 139.7 44.45) (xy 139.7 58.42) (xy 137.16 58.42)
@@ -4238,10 +4402,14 @@
 			(fill
 				(type none)
 			)
-			(uuid 77d59db7-8caf-483e-9ccd-8d89ac1d10b0)
+			(uuid "77d59db7-8caf-483e-9ccd-8d89ac1d10b0")
 		)
 	)
 	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(polyline
 			(pts
 				(xy 175.26 53.34) (xy 177.8 53.34) (xy 177.8 92.71) (xy 175.26 92.71)
@@ -4253,7 +4421,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 953f7f55-e04e-4219-b5de-69d1a02dc4f8)
+			(uuid "953f7f55-e04e-4219-b5de-69d1a02dc4f8")
 		)
 	)
 	(netclass_flag ""
@@ -4268,8 +4436,10 @@
 			(justify left bottom)
 		)
 		(uuid "10a39a86-5e1e-439d-89e7-6988068d1ff9")
-		(property "Netclass" "PWR"
+		(property "Net Class" "PWR"
 			(at 178.8973 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4279,6 +4449,8 @@
 		)
 		(property "Component Class" ""
 			(at 3.81 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4299,8 +4471,10 @@
 			(justify left bottom)
 		)
 		(uuid "22808f4c-854c-4093-9a5a-b6c23b6e79aa")
-		(property "Netclass" "PWR"
+		(property "Net Class" "PWR"
 			(at 134.4473 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4310,6 +4484,8 @@
 		)
 		(property "Component Class" ""
 			(at -40.64 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4330,8 +4506,10 @@
 			(justify left bottom)
 		)
 		(uuid "4328bb37-ca35-4b5c-b9ba-e8e807112789")
-		(property "Netclass" "I2S"
+		(property "Net Class" "I2S"
 			(at 139.5273 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4341,6 +4519,8 @@
 		)
 		(property "Component Class" ""
 			(at -35.56 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4361,8 +4541,10 @@
 			(justify left bottom)
 		)
 		(uuid "5e0acb84-5683-42d5-a8d6-494f10aaa656")
-		(property "Netclass" "I2C"
+		(property "Net Class" "I2C"
 			(at 139.5273 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4372,6 +4554,8 @@
 		)
 		(property "Component Class" ""
 			(at -35.56 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4392,8 +4576,10 @@
 			(justify left bottom)
 		)
 		(uuid "5ebdd752-c2ba-4f59-83ac-dfbcc26d0e6b")
-		(property "Netclass" "ANA"
+		(property "Net Class" "ANA"
 			(at 222.0773 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4403,6 +4589,8 @@
 		)
 		(property "Component Class" ""
 			(at 46.99 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4423,8 +4611,10 @@
 			(justify left bottom)
 		)
 		(uuid "6d6a3f43-2dec-4acb-9d77-7040ab7f151b")
-		(property "Netclass" "ANA"
+		(property "Net Class" "ANA"
 			(at 222.0773 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4434,6 +4624,8 @@
 		)
 		(property "Component Class" ""
 			(at 46.99 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4454,8 +4646,10 @@
 			(justify left bottom)
 		)
 		(uuid "73f278cf-77dc-4311-bf64-6ceee4be68f5")
-		(property "Netclass" "GND"
+		(property "Net Class" "GND"
 			(at 166.1973 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4465,6 +4659,8 @@
 		)
 		(property "Component Class" ""
 			(at -8.89 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4485,8 +4681,10 @@
 			(justify left bottom)
 		)
 		(uuid "7c0e3d2d-5ed3-489c-b890-8b0f5e5ddff4")
-		(property "Netclass" "ANA"
+		(property "Net Class" "ANA"
 			(at 185.2473 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4496,6 +4694,8 @@
 		)
 		(property "Component Class" ""
 			(at 10.16 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4516,8 +4716,10 @@
 			(justify left bottom)
 		)
 		(uuid "db34eec8-d297-4176-9abc-96e7a9d97bda")
-		(property "Netclass" "ANA"
+		(property "Net Class" "ANA"
 			(at 139.5273 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4527,6 +4729,8 @@
 		)
 		(property "Component Class" ""
 			(at -35.56 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4547,8 +4751,10 @@
 			(justify left bottom)
 		)
 		(uuid "f5ee3bd0-50a5-404d-a43f-faa955e96fa8")
-		(property "Netclass" "ANA"
+		(property "Net Class" "ANA"
 			(at 177.6273 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4558,6 +4764,8 @@
 		)
 		(property "Component Class" ""
 			(at 2.54 16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4578,8 +4786,10 @@
 			(justify left bottom)
 		)
 		(uuid "f7c49582-f066-4d99-a8c9-e78e36d5ddbc")
-		(property "Netclass" "GND"
+		(property "Net Class" "GND"
 			(at 150.9573 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4589,6 +4799,8 @@
 		)
 		(property "Component Class" ""
 			(at -24.13 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4601,14 +4813,17 @@
 		(lib_id "reekilib_amp:OPAMP_2")
 		(at 227.33 154.94 0)
 		(unit 2)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07c072dc-f548-4ba0-b10c-707b96155674")
 		(property "Reference" "U26"
 			(at 234.95 158.115 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4619,6 +4834,7 @@
 		)
 		(property "Value" "OPA1656"
 			(at 234.95 160.02 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4629,56 +4845,68 @@
 		)
 		(property "Footprint" "reekilib_soic:SOIC127P600X150-8"
 			(at 243.205 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa1656.pdf"
 			(at 243.205 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "dual generic opamp"
 			(at 243.205 169.545 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN" "OPA1656IDR"
 			(at 243.205 161.925 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG" "TI"
 			(at 243.205 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Link" "https://www.ti.com/product/OPA1656"
 			(at 243.205 165.735 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(pin "7"
@@ -4706,7 +4934,7 @@
 			(uuid "0840a8bd-3fd3-415c-83ab-2eac9a0cc02f")
 		)
 		(instances
-			(project ""
+			(project "pandore"
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/c7a6c4ca-6083-4b1c-b07a-a9d1f5204bfb"
 					(reference "U26")
 					(unit 2)
@@ -4718,14 +4946,17 @@
 		(lib_id "reekilib_res:res")
 		(at 176.53 30.48 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0e1a8a52-9a6e-428d-96c4-d7a576d12043")
 		(property "Reference" "R107"
 			(at 178.562 28.194 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4736,57 +4967,63 @@
 		)
 		(property "Value" "${Resistance}, ${Tolerance}, ${Power}"
 			(at 178.562 29.718 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "reekilib_res:RESC1005"
 			(at 176.784 41.656 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/data/global/pdfs/CR.pdf"
 			(at 176.53 44.704 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor single 2 pad"
 			(at 176.53 43.18 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Link" "https://www.bourns.com/search?indexCatalogue=psindex&searchQuery=CR0402-FX-1002GLF*"
 			(at 176.784 46.228 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Resistance" "10kΩ"
 			(at 178.562 29.718 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4797,6 +5034,7 @@
 		)
 		(property "Tolerance" "1%"
 			(at 178.562 31.242 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4807,6 +5045,7 @@
 		)
 		(property "Power" "63mW"
 			(at 178.562 32.766 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4817,65 +5056,71 @@
 		)
 		(property "MPN" "CR0402-FX-1002GLF"
 			(at 176.53 48.26 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG" "Bourns Inc"
 			(at 190.5 48.006 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN2" "WR04X1002FTL"
 			(at 176.022 50.038 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG2" "Walsin Technology Corporation"
 			(at 190.754 50.038 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN3" "RC0402FR-0710KL"
 			(at 176.53 51.816 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG3" "Yageo"
 			(at 190.754 51.816 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -4897,14 +5142,17 @@
 		(lib_id "reekilib_cap:cap_pol")
 		(at 191.77 114.3 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "139d9615-6995-4271-a64e-7fd51b22e833")
 		(property "Reference" "C94"
 			(at 194.31 112.014 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4915,57 +5163,63 @@
 		)
 		(property "Value" "${Capacitance}, ${Voltage}, ${Tolerance}"
 			(at 194.31 113.538 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "reekilib_cap:CAPAE630Xxxx"
 			(at 191.77 122.936 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/A768EB476M1VLAE042"
 			(at 191.77 126.492 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Polarized capacitor"
 			(at 191.77 124.714 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Link" "https://www.kemet.com/en/us/product/A768EB476M1VLAE042.html"
 			(at 191.77 128.27 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Capacitance" "47µF"
 			(at 194.31 113.538 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4976,6 +5230,7 @@
 		)
 		(property "Voltage" "25V"
 			(at 194.31 115.062 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4986,6 +5241,7 @@
 		)
 		(property "Tolerance" "20%"
 			(at 194.31 116.586 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4996,76 +5252,83 @@
 		)
 		(property "Temperature" "105°C"
 			(at 194.31 118.11 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN" "A768EB476M1VLAE042"
 			(at 191.77 131.318 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG" "KEMET"
 			(at 203.962 131.318 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN2" "APXG250ARA470MF61G"
 			(at 191.77 132.842 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG2" "Chemi-Con"
 			(at 203.962 132.842 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN3" "A765EB476M1ELAE040"
 			(at 191.77 134.366 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG3" "KEMET"
 			(at 203.962 134.366 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5088,13 +5351,16 @@
 		(at 115.57 96.52 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "13dce944-1280-4f6b-b9df-f0ce62ef595e")
 		(property "Reference" "X5"
 			(at 115.57 91.44 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5104,46 +5370,51 @@
 		)
 		(property "Value" "${F}, ${tol}+${stab}, ${load}"
 			(at 115.57 91.44 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "reekilib_osc:OSCCC320X250X90"
 			(at 115.57 109.855 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6536/ABM8_Datasheet.pdf"
 			(at 115.57 111.76 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Crystal with shield"
 			(at 115.57 107.95 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "F" "24.576MHz"
 			(at 116.84 103.505 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5154,6 +5425,7 @@
 		)
 		(property "tol" "50ppm"
 			(at 114.3 103.505 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5164,17 +5436,19 @@
 		)
 		(property "stab" "20ppm"
 			(at 107.315 103.505 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "load" "18pF"
 			(at 115.57 105.41 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5184,34 +5458,37 @@
 		)
 		(property "MPN" "ABM8-24.576MHZ-B2-T"
 			(at 114.935 115.57 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG" "Abracon LLC"
 			(at 96.52 115.57 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Link" ""
 			(at 61.595 115.57 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5239,23 +5516,28 @@
 		(lib_id "reekilib_pwr:VSS")
 		(at 176.53 35.56 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "20e03e9f-afa8-4c77-a1e9-58e2f95e5448")
 		(property "Reference" "#PWR0167"
 			(at 176.53 40.005 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "AVSS"
 			(at 176.53 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -5264,6 +5546,8 @@
 		)
 		(property "Footprint" ""
 			(at 176.53 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5272,6 +5556,8 @@
 		)
 		(property "Datasheet" ""
 			(at 176.53 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5280,11 +5566,13 @@
 		)
 		(property "Description" ""
 			(at 176.53 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5303,13 +5591,16 @@
 		(lib_id "reekilib_cap:cap")
 		(at 134.62 123.19 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "25121e16-1360-463c-9177-cbf0b2f03b1c")
 		(property "Reference" "C91"
 			(at 134.62 112.268 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5319,57 +5610,63 @@
 		)
 		(property "Value" "${Capacitance}, ${Voltage}, ${Dielectric}"
 			(at 137.16 122.428 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "reekilib_cap:CAPC1005"
 			(at 134.62 132.842 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
 			(at 134.62 137.668 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Non polarized capacitor"
 			(at 134.62 134.62 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Link" "https://www.passivecomponent.com/product-search/MLCC/?partnumber=0402B104K160CT"
 			(at 134.62 136.144 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Capacitance" "100nF"
 			(at 134.62 113.792 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5379,6 +5676,7 @@
 		)
 		(property "Voltage" "25V"
 			(at 134.62 115.316 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5388,6 +5686,7 @@
 		)
 		(property "Dielectric" "X7R"
 			(at 134.62 116.84 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5397,86 +5696,94 @@
 		)
 		(property "MPN" "0402B104K160CT"
 			(at 134.62 141.986 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG" "Walsin Technology Corporation"
 			(at 146.558 141.986 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN2" ""
 			(at 134.62 143.51 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG2" ""
 			(at 146.558 143.51 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN3" ""
 			(at 134.62 145.034 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG3" ""
 			(at 146.558 145.034 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN4" "CC0402KRX7R7BB104"
 			(at 134.62 146.558 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG4" "YAGEO"
 			(at 146.812 146.558 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5498,14 +5805,17 @@
 		(lib_id "reekilib_res:res")
 		(at 176.53 20.32 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "271cbc8f-9bb8-470e-960a-982fa3c88ca0")
 		(property "Reference" "R106"
 			(at 178.562 18.034 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5516,57 +5826,63 @@
 		)
 		(property "Value" "${Resistance}, ${Tolerance}, ${Power}"
 			(at 178.562 19.558 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "reekilib_res:RESC1005"
 			(at 176.784 31.496 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/data/global/pdfs/CR.pdf"
 			(at 176.53 34.544 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor single 2 pad"
 			(at 176.53 33.02 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Link" "https://www.bourns.com/search?indexCatalogue=psindex&searchQuery=CR0402-FX-1002GLF*"
 			(at 176.784 36.068 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Resistance" "10kΩ"
 			(at 178.562 19.558 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5577,6 +5893,7 @@
 		)
 		(property "Tolerance" "1%"
 			(at 178.562 21.082 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5587,6 +5904,7 @@
 		)
 		(property "Power" "63mW"
 			(at 178.562 22.606 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5597,65 +5915,71 @@
 		)
 		(property "MPN" "CR0402-FX-1002GLF"
 			(at 176.53 38.1 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG" "Bourns Inc"
 			(at 190.5 37.846 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN2" "WR04X1002FTL"
 			(at 176.022 39.878 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG2" "Walsin Technology Corporation"
 			(at 190.754 39.878 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN3" "RC0402FR-0710KL"
 			(at 176.53 41.656 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG3" "Yageo"
 			(at 190.754 41.656 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5677,23 +6001,28 @@
 		(lib_id "reekilib_pwr:VSS")
 		(at 191.77 118.11 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "27ce0931-a321-4cbf-aa1c-e3a737e9627d")
 		(property "Reference" "#PWR0106"
 			(at 191.77 122.555 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "AVSS"
 			(at 191.77 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -5702,6 +6031,8 @@
 		)
 		(property "Footprint" ""
 			(at 191.77 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5710,6 +6041,8 @@
 		)
 		(property "Datasheet" ""
 			(at 191.77 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5718,11 +6051,13 @@
 		)
 		(property "Description" ""
 			(at 191.77 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5741,13 +6076,16 @@
 		(lib_id "reekilib_cap:cap")
 		(at 231.14 115.57 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "2bdd5b10-ba82-4084-b486-edc47b0a6c14")
 		(property "Reference" "C235"
 			(at 231.14 107.061 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5757,57 +6095,63 @@
 		)
 		(property "Value" "${Capacitance}, ${Voltage}, ${Dielectric}"
 			(at 233.68 114.808 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "reekilib_cap:CAPC1005"
 			(at 231.14 125.222 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
 			(at 231.14 130.048 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Non polarized capacitor"
 			(at 231.14 127 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Link" "https://www.passivecomponent.com/product-search/MLCC/?partnumber=0402B104K160CT"
 			(at 231.14 128.524 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Capacitance" "100nF"
 			(at 231.14 108.585 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5817,6 +6161,7 @@
 		)
 		(property "Voltage" "25V"
 			(at 231.14 110.109 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5826,6 +6171,7 @@
 		)
 		(property "Dielectric" "X7R"
 			(at 231.14 111.633 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5835,86 +6181,94 @@
 		)
 		(property "MPN" "0402B104K160CT"
 			(at 231.14 134.366 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG" "Walsin Technology Corporation"
 			(at 243.078 134.366 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN2" ""
 			(at 231.14 135.89 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG2" ""
 			(at 243.078 135.89 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN3" ""
 			(at 231.14 137.414 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG3" ""
 			(at 243.078 137.414 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN4" "CC0402KRX7R7BB104"
 			(at 231.14 138.938 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG4" "YAGEO"
 			(at 243.332 138.938 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5936,13 +6290,16 @@
 		(lib_id "reekilib_cap:cap")
 		(at 175.26 123.19 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "2caf4565-e42d-4073-bae5-06b26e7906e0")
 		(property "Reference" "C88"
 			(at 175.26 114.681 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5952,57 +6309,63 @@
 		)
 		(property "Value" "${Capacitance}, ${Voltage}, ${Dielectric}"
 			(at 177.8 122.428 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "reekilib_cap:CAPC1005"
 			(at 175.26 132.842 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
 			(at 175.26 137.668 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Non polarized capacitor"
 			(at 175.26 134.62 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Link" "https://www.passivecomponent.com/product-search/MLCC/?partnumber=0402B104K160CT"
 			(at 175.26 136.144 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Capacitance" "100nF"
 			(at 175.26 116.205 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -6012,6 +6375,7 @@
 		)
 		(property "Voltage" "25V"
 			(at 175.26 117.729 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -6021,6 +6385,7 @@
 		)
 		(property "Dielectric" "X7R"
 			(at 175.26 119.253 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -6030,86 +6395,94 @@
 		)
 		(property "MPN" "0402B104K160CT"
 			(at 175.26 141.986 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG" "Walsin Technology Corporation"
 			(at 187.198 141.986 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN2" ""
 			(at 175.26 143.51 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG2" ""
 			(at 187.198 143.51 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN3" ""
 			(at 175.26 145.034 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG3" ""
 			(at 187.198 145.034 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN4" "CC0402KRX7R7BB104"
 			(at 175.26 146.558 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG4" "YAGEO"
 			(at 187.452 146.558 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6131,13 +6504,16 @@
 		(lib_id "reekilib_cap:cap")
 		(at 185.42 113.03 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "2e9299b6-26c2-4516-9192-7ffa8c7852e9")
 		(property "Reference" "C93"
 			(at 185.42 104.521 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -6147,57 +6523,63 @@
 		)
 		(property "Value" "${Capacitance}, ${Voltage}, ${Dielectric}"
 			(at 187.96 112.268 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "reekilib_cap:CAPC1005"
 			(at 185.42 122.682 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
 			(at 185.42 127.508 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Non polarized capacitor"
 			(at 185.42 124.46 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Link" "https://www.passivecomponent.com/product-search/MLCC/?partnumber=0402B104K160CT"
 			(at 185.42 125.984 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Capacitance" "100nF"
 			(at 185.42 106.045 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -6207,6 +6589,7 @@
 		)
 		(property "Voltage" "25V"
 			(at 185.42 107.569 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -6216,6 +6599,7 @@
 		)
 		(property "Dielectric" "X7R"
 			(at 185.42 109.093 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -6225,86 +6609,94 @@
 		)
 		(property "MPN" "0402B104K160CT"
 			(at 185.42 131.826 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG" "Walsin Technology Corporation"
 			(at 197.358 131.826 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN2" ""
 			(at 185.42 133.35 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG2" ""
 			(at 197.358 133.35 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN3" ""
 			(at 185.42 134.874 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG3" ""
 			(at 197.358 134.874 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN4" "CC0402KRX7R7BB104"
 			(at 185.42 136.398 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG4" "YAGEO"
 			(at 197.612 136.398 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6326,23 +6718,28 @@
 		(lib_id "reekilib_pwr:VSS")
 		(at 189.23 35.56 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "2fcb70fb-5877-4157-92ad-e90b6b76aee3")
 		(property "Reference" "#PWR0171"
 			(at 189.23 40.005 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "AVSS"
 			(at 189.23 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -6351,6 +6748,8 @@
 		)
 		(property "Footprint" ""
 			(at 189.23 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6359,6 +6758,8 @@
 		)
 		(property "Datasheet" ""
 			(at 189.23 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6367,11 +6768,13 @@
 		)
 		(property "Description" ""
 			(at 189.23 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6390,23 +6793,28 @@
 		(lib_id "reekilib_pwr:VSS")
 		(at 175.26 134.62 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "48da0e0e-ee05-4ba4-b3a3-6ef6c31e963a")
 		(property "Reference" "#PWR0105"
 			(at 175.26 139.065 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "AVSS"
 			(at 175.26 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -6415,6 +6823,8 @@
 		)
 		(property "Footprint" ""
 			(at 175.26 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6423,6 +6833,8 @@
 		)
 		(property "Datasheet" ""
 			(at 175.26 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6431,11 +6843,13 @@
 		)
 		(property "Description" ""
 			(at 175.26 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6454,23 +6868,28 @@
 		(lib_id "reekilib_pwr:VDD")
 		(at 185.42 119.38 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "497d8ea2-e4a2-49af-ae7b-1f5f19b27208")
 		(property "Reference" "#PWR0110"
 			(at 185.42 116.205 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "AV5"
 			(at 185.42 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -6479,6 +6898,8 @@
 		)
 		(property "Footprint" ""
 			(at 185.42 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6487,6 +6908,8 @@
 		)
 		(property "Datasheet" ""
 			(at 185.42 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6495,11 +6918,13 @@
 		)
 		(property "Description" ""
 			(at 185.42 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6518,13 +6943,16 @@
 		(lib_id "reekilib_cap:cap")
 		(at 236.22 115.57 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "4a414b7c-8d6e-42e2-ad74-7f4c8129f3f8")
 		(property "Reference" "C236"
 			(at 236.22 107.061 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -6534,57 +6962,63 @@
 		)
 		(property "Value" "${Capacitance}, ${Voltage}, ${Dielectric}"
 			(at 238.76 114.808 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "reekilib_cap:CAPC2012"
 			(at 236.22 125.222 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E106KA73-01.pdf"
 			(at 236.22 130.048 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Non polarized capacitor"
 			(at 236.22 127 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Link" ""
 			(at 236.22 128.524 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Capacitance" "10µF"
 			(at 236.22 108.585 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -6594,6 +7028,7 @@
 		)
 		(property "Voltage" "25V"
 			(at 236.22 110.109 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -6603,6 +7038,7 @@
 		)
 		(property "Dielectric" "X5R"
 			(at 236.22 111.633 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -6612,86 +7048,94 @@
 		)
 		(property "MPN" "GRM21BR61E106KA73K"
 			(at 236.22 134.366 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG" "Murata"
 			(at 248.158 134.366 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN2" ""
 			(at 236.22 135.89 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG2" ""
 			(at 248.158 135.89 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN3" ""
 			(at 236.22 137.414 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG3" ""
 			(at 248.158 137.414 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN4" ""
 			(at 236.22 138.938 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG4" ""
 			(at 248.412 138.938 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6713,23 +7157,28 @@
 		(lib_id "reekilib_pwr:VSS")
 		(at 85.09 111.76 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "4f3481ff-0f6a-4fe7-b009-ec2e8af7efec")
 		(property "Reference" "#PWR0108"
 			(at 85.09 116.205 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "VSSISO"
 			(at 85.09 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -6738,6 +7187,8 @@
 		)
 		(property "Footprint" ""
 			(at 85.09 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6746,6 +7197,8 @@
 		)
 		(property "Datasheet" ""
 			(at 85.09 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6754,11 +7207,13 @@
 		)
 		(property "Description" ""
 			(at 85.09 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6777,23 +7232,28 @@
 		(lib_id "reekilib_pwr:VSS")
 		(at 227.33 137.16 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "649d0f01-ead5-4475-858d-484f37683777")
 		(property "Reference" "#PWR0280"
 			(at 227.33 141.605 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "AVSS"
 			(at 227.33 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -6802,6 +7262,8 @@
 		)
 		(property "Footprint" ""
 			(at 227.33 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6810,6 +7272,8 @@
 		)
 		(property "Datasheet" ""
 			(at 227.33 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6818,11 +7282,13 @@
 		)
 		(property "Description" ""
 			(at 227.33 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6841,13 +7307,16 @@
 		(lib_id "reekilib_cap:cap")
 		(at 139.7 123.19 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "6a0e1e6e-9df3-456f-9517-2d177cdcf543")
 		(property "Reference" "C90"
 			(at 139.7 112.268 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -6857,57 +7326,63 @@
 		)
 		(property "Value" "${Capacitance}, ${Voltage}, ${Dielectric}"
 			(at 142.24 122.428 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "reekilib_cap:CAPC1005"
 			(at 139.7 132.842 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
 			(at 139.7 137.668 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Non polarized capacitor"
 			(at 139.7 134.62 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Link" "https://www.passivecomponent.com/product-search/MLCC/?partnumber=0402B104K160CT"
 			(at 139.7 136.144 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Capacitance" "100nF"
 			(at 139.7 113.792 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -6917,6 +7392,7 @@
 		)
 		(property "Voltage" "25V"
 			(at 139.7 115.316 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -6926,6 +7402,7 @@
 		)
 		(property "Dielectric" "X7R"
 			(at 139.7 116.84 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -6935,86 +7412,94 @@
 		)
 		(property "MPN" "0402B104K160CT"
 			(at 139.7 141.986 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG" "Walsin Technology Corporation"
 			(at 151.638 141.986 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN2" ""
 			(at 139.7 143.51 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG2" ""
 			(at 151.638 143.51 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN3" ""
 			(at 139.7 145.034 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG3" ""
 			(at 151.638 145.034 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN4" "CC0402KRX7R7BB104"
 			(at 139.7 146.558 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG4" "YAGEO"
 			(at 151.892 146.558 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7036,23 +7521,28 @@
 		(lib_id "reekilib_pwr:VDD")
 		(at 123.19 118.11 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "6cf13785-a2b9-415d-82a6-0dd5fcf5f76e")
 		(property "Reference" "#PWR0168"
 			(at 123.19 114.935 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "AV3P3"
 			(at 123.19 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -7061,6 +7551,8 @@
 		)
 		(property "Footprint" ""
 			(at 123.19 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7069,6 +7561,8 @@
 		)
 		(property "Datasheet" ""
 			(at 123.19 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7077,11 +7571,13 @@
 		)
 		(property "Description" ""
 			(at 123.19 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7100,14 +7596,17 @@
 		(lib_id "reekilib_res:res")
 		(at 189.23 30.48 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6fd27eb1-755f-4c2b-86a4-f2c6ce761e08")
 		(property "Reference" "R109"
 			(at 191.262 28.194 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7118,57 +7617,63 @@
 		)
 		(property "Value" "${Resistance}, ${Tolerance}, ${Power}"
 			(at 191.262 29.718 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "reekilib_res:RESC1005"
 			(at 189.484 41.656 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/data/global/pdfs/CR.pdf"
 			(at 189.23 44.704 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor single 2 pad"
 			(at 189.23 43.18 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Link" "https://www.bourns.com/search?indexCatalogue=psindex&searchQuery=CR0402-FX-1002GLF*"
 			(at 189.484 46.228 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Resistance" "10kΩ"
 			(at 191.262 29.718 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7179,6 +7684,7 @@
 		)
 		(property "Tolerance" "1%"
 			(at 191.262 31.242 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7189,6 +7695,7 @@
 		)
 		(property "Power" "63mW"
 			(at 191.262 32.766 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7199,65 +7706,71 @@
 		)
 		(property "MPN" "CR0402-FX-1002GLF"
 			(at 189.23 48.26 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG" "Bourns Inc"
 			(at 203.2 48.006 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN2" "WR04X1002FTL"
 			(at 188.722 50.038 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG2" "Walsin Technology Corporation"
 			(at 203.454 50.038 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN3" "RC0402FR-0710KL"
 			(at 189.23 51.816 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG3" "Yageo"
 			(at 203.454 51.816 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7279,13 +7792,16 @@
 		(lib_id "reekilib_cap:cap")
 		(at 129.54 123.19 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "75489e8f-b95c-474b-9102-c0b203cf0b87")
 		(property "Reference" "C92"
 			(at 129.54 114.681 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7295,57 +7811,63 @@
 		)
 		(property "Value" "${Capacitance}, ${Voltage}, ${Dielectric}"
 			(at 132.08 122.428 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "reekilib_cap:CAPC2012"
 			(at 129.54 132.842 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E106KA73-01.pdf"
 			(at 129.54 137.668 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Non polarized capacitor"
 			(at 129.54 134.62 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Link" ""
 			(at 129.54 136.144 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Capacitance" "10µF"
 			(at 129.54 116.205 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7355,6 +7877,7 @@
 		)
 		(property "Voltage" "25V"
 			(at 129.54 117.729 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7364,6 +7887,7 @@
 		)
 		(property "Dielectric" "X5R"
 			(at 129.54 119.253 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7373,86 +7897,94 @@
 		)
 		(property "MPN" "GRM21BR61E106KA73K"
 			(at 129.54 141.986 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG" "Murata"
 			(at 141.478 141.986 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN2" ""
 			(at 129.54 143.51 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG2" ""
 			(at 141.478 143.51 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN3" ""
 			(at 129.54 145.034 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG3" ""
 			(at 141.478 145.034 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN4" ""
 			(at 129.54 146.558 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG4" ""
 			(at 141.732 146.558 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7474,13 +8006,16 @@
 		(lib_id "reekilib_cap:cap")
 		(at 180.34 123.19 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "7704d00d-1ba1-4a4d-9be3-f434d25f6ed2")
 		(property "Reference" "C89"
 			(at 180.34 114.681 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7490,57 +8025,63 @@
 		)
 		(property "Value" "${Capacitance}, ${Voltage}, ${Dielectric}"
 			(at 182.88 122.428 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "reekilib_cap:CAPC2012"
 			(at 180.34 132.842 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E106KA73-01.pdf"
 			(at 180.34 137.668 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Non polarized capacitor"
 			(at 180.34 134.62 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Link" ""
 			(at 180.34 136.144 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Capacitance" "10µF"
 			(at 180.34 116.205 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7550,6 +8091,7 @@
 		)
 		(property "Voltage" "25V"
 			(at 180.34 117.729 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7559,6 +8101,7 @@
 		)
 		(property "Dielectric" "X5R"
 			(at 180.34 119.253 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7568,86 +8111,94 @@
 		)
 		(property "MPN" "GRM21BR61E106KA73K"
 			(at 180.34 141.986 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG" "Murata"
 			(at 192.278 141.986 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN2" ""
 			(at 180.34 143.51 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG2" ""
 			(at 192.278 143.51 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN3" ""
 			(at 180.34 145.034 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG3" ""
 			(at 192.278 145.034 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN4" ""
 			(at 180.34 146.558 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG4" ""
 			(at 192.532 146.558 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7669,23 +8220,28 @@
 		(lib_id "reekilib_pwr:VDD")
 		(at 85.09 91.44 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "7a5e6e95-d46a-4aaf-89c1-416f7e22de5d")
 		(property "Reference" "#PWR0111"
 			(at 85.09 88.265 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "AV3P3"
 			(at 85.09 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -7694,6 +8250,8 @@
 		)
 		(property "Footprint" ""
 			(at 85.09 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7702,6 +8260,8 @@
 		)
 		(property "Datasheet" ""
 			(at 85.09 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7710,11 +8270,13 @@
 		)
 		(property "Description" ""
 			(at 85.09 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7733,23 +8295,28 @@
 		(lib_id "reekilib_pwr:VDD")
 		(at 227.33 110.49 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "7bb3b32b-f17d-4223-bc97-a21479b59d0b")
 		(property "Reference" "#PWR0279"
 			(at 227.33 107.315 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "AV5"
 			(at 227.33 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -7758,6 +8325,8 @@
 		)
 		(property "Footprint" ""
 			(at 227.33 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7766,6 +8335,8 @@
 		)
 		(property "Datasheet" ""
 			(at 227.33 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7774,11 +8345,13 @@
 		)
 		(property "Description" ""
 			(at 227.33 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7797,23 +8370,28 @@
 		(lib_id "reekilib_pwr:VSS")
 		(at 139.7 134.62 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "8dc0c9e8-ab31-475d-ab0d-febfcef9a358")
 		(property "Reference" "#PWR0104"
 			(at 139.7 139.065 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "VSSISO"
 			(at 139.7 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -7822,6 +8400,8 @@
 		)
 		(property "Footprint" ""
 			(at 139.7 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7830,6 +8410,8 @@
 		)
 		(property "Datasheet" ""
 			(at 139.7 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7838,11 +8420,13 @@
 		)
 		(property "Description" ""
 			(at 139.7 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7861,23 +8445,28 @@
 		(lib_id "reekilib_pwr:VSS")
 		(at 123.19 104.14 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "9112cc66-6a5e-4eb0-9d25-49cbed0f45e1")
 		(property "Reference" "#PWR0109"
 			(at 123.19 108.585 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "VSSISO"
 			(at 123.19 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -7886,6 +8475,8 @@
 		)
 		(property "Footprint" ""
 			(at 123.19 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7894,6 +8485,8 @@
 		)
 		(property "Datasheet" ""
 			(at 123.19 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7902,11 +8495,13 @@
 		)
 		(property "Description" ""
 			(at 123.19 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7925,14 +8520,17 @@
 		(lib_id "reekilib_amp:OPAMP_2")
 		(at 227.33 125.73 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92fcceb1-d847-4e54-97ff-e97851915a13")
 		(property "Reference" "U26"
 			(at 234.95 128.905 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7943,6 +8541,7 @@
 		)
 		(property "Value" "OPA1656"
 			(at 234.95 130.81 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7953,56 +8552,68 @@
 		)
 		(property "Footprint" "reekilib_soic:SOIC127P600X150-8"
 			(at 243.205 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa1656.pdf"
 			(at 243.205 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "dual generic opamp"
 			(at 243.205 140.335 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN" "OPA1656IDR"
 			(at 243.205 132.715 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG" "TI"
 			(at 243.205 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Link" "https://www.ti.com/product/OPA1656"
 			(at 243.205 136.525 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(pin "7"
@@ -8030,7 +8641,7 @@
 			(uuid "0840a8bd-3fd3-415c-83ab-2eac9a0cc030")
 		)
 		(instances
-			(project ""
+			(project "pandore"
 				(path "/e55f2700-f75a-4062-8a27-fe258faa8966/b4e2772d-7748-46ec-bd38-bc8e72cebcb8/c7a6c4ca-6083-4b1c-b07a-a9d1f5204bfb"
 					(reference "U26")
 					(unit 1)
@@ -8042,14 +8653,17 @@
 		(lib_id "reekilib_res:res")
 		(at 189.23 20.32 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97214e50-352f-44fb-af1e-3253ddbc7a33")
 		(property "Reference" "R108"
 			(at 191.262 18.034 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8060,57 +8674,63 @@
 		)
 		(property "Value" "${Resistance}, ${Tolerance}, ${Power}"
 			(at 191.262 19.558 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "reekilib_res:RESC1005"
 			(at 189.484 31.496 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/data/global/pdfs/CR.pdf"
 			(at 189.23 34.544 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor single 2 pad"
 			(at 189.23 33.02 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Link" "https://www.bourns.com/search?indexCatalogue=psindex&searchQuery=CR0402-FX-1002GLF*"
 			(at 189.484 36.068 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Resistance" "10kΩ"
 			(at 191.262 19.558 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8121,6 +8741,7 @@
 		)
 		(property "Tolerance" "1%"
 			(at 191.262 21.082 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8131,6 +8752,7 @@
 		)
 		(property "Power" "63mW"
 			(at 191.262 22.606 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8141,65 +8763,71 @@
 		)
 		(property "MPN" "CR0402-FX-1002GLF"
 			(at 189.23 38.1 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG" "Bourns Inc"
 			(at 203.2 37.846 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN2" "WR04X1002FTL"
 			(at 188.722 39.878 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG2" "Walsin Technology Corporation"
 			(at 203.454 39.878 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN3" "RC0402FR-0710KL"
 			(at 189.23 41.656 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG3" "Yageo"
 			(at 203.454 41.656 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8221,13 +8849,16 @@
 		(lib_id "reekilib_cdc:CS4272")
 		(at 157.48 86.36 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "983ae242-50d0-44ba-b05d-82380fe74a03")
 		(property "Reference" "U11"
 			(at 146.05 43.18 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8238,6 +8869,7 @@
 		)
 		(property "Value" "CS4272"
 			(at 168.91 43.18 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8248,68 +8880,75 @@
 		)
 		(property "Footprint" "reekilib_sop:SOP65P640X970-28"
 			(at 157.48 137.16 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://statics.cirrus.com/pubs/proDatasheet/CS4272_F2.pdf"
 			(at 158.115 135.255 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "I2S Stereo CODEC 24bit 192KHz"
 			(at 157.48 133.35 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN" "CS4272K-CZZR"
 			(at 157.48 125.73 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG" "Cirrus Logic Inc."
 			(at 172.085 125.73 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Link" "https://www.cirrus.com/products/cs4272"
 			(at 191.135 125.73 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "bit" "24b"
 			(at 157.48 72.39 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8319,6 +8958,7 @@
 		)
 		(property "sr" "192K"
 			(at 157.48 74.295 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8328,6 +8968,7 @@
 		)
 		(property "config" "2x2"
 			(at 157.48 70.485 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8432,13 +9073,16 @@
 		(lib_id "reekilib_cap:cap")
 		(at 121.92 99.06 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "a1309e2f-908d-41a4-be93-a1da9dbb7b8a")
 		(property "Reference" "C96"
 			(at 124.46 97.79 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8449,47 +9093,52 @@
 		)
 		(property "Value" "${Capacitance}, ${Voltage}, ${Dielectric}"
 			(at 124.46 98.298 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "reekilib_cap:CAPC1005"
 			(at 121.92 108.712 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GP_NP0_16V-to-250V"
 			(at 121.92 113.538 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Non polarized capacitor"
 			(at 121.92 110.49 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Capacitance" "12pF"
 			(at 124.46 99.314 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8500,6 +9149,7 @@
 		)
 		(property "Voltage" "6.3V"
 			(at 124.46 100.838 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8510,6 +9160,7 @@
 		)
 		(property "Dielectric" "X7R"
 			(at 124.46 102.362 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8520,96 +9171,105 @@
 		)
 		(property "MPN" "CC0402JRNPO9BN120"
 			(at 121.92 117.856 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG" "Yageo"
 			(at 133.858 117.856 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Link" "https://yageogroup.com/products/Capacitors/part/CC0402JRNPO9BN120"
 			(at 121.92 112.014 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN2" ""
 			(at 121.92 119.38 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG2" ""
 			(at 133.858 119.38 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN3" ""
 			(at 121.92 120.904 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG3" ""
 			(at 133.858 120.904 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN4" ""
 			(at 121.92 122.428 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG4" ""
 			(at 134.112 122.428 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8631,23 +9291,28 @@
 		(lib_id "reekilib_pwr:VDD")
 		(at 176.53 13.97 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "ae14676e-455f-4895-9d31-1f47ae6d8b64")
 		(property "Reference" "#PWR0151"
 			(at 176.53 10.795 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "AV5"
 			(at 176.53 12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -8656,6 +9321,8 @@
 		)
 		(property "Footprint" ""
 			(at 176.53 13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8664,6 +9331,8 @@
 		)
 		(property "Datasheet" ""
 			(at 176.53 13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8672,11 +9341,13 @@
 		)
 		(property "Description" ""
 			(at 176.53 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8695,23 +9366,28 @@
 		(lib_id "reekilib_pwr:VSS")
 		(at 175.26 106.68 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "cd2e1c13-d692-4a88-92b7-1a3007d7ae5b")
 		(property "Reference" "#PWR0107"
 			(at 175.26 111.125 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "AVSS"
 			(at 175.26 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -8720,6 +9396,8 @@
 		)
 		(property "Footprint" ""
 			(at 175.26 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8728,6 +9406,8 @@
 		)
 		(property "Datasheet" ""
 			(at 175.26 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8736,11 +9416,13 @@
 		)
 		(property "Description" ""
 			(at 175.26 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8759,23 +9441,28 @@
 		(lib_id "reekilib_pwr:VSS")
 		(at 107.95 104.14 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "d2fefb91-1d0f-4bb5-9753-2273ba098ac6")
 		(property "Reference" "#PWR0112"
 			(at 107.95 108.585 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "VSSISO"
 			(at 107.95 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -8784,6 +9471,8 @@
 		)
 		(property "Footprint" ""
 			(at 107.95 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8792,6 +9481,8 @@
 		)
 		(property "Datasheet" ""
 			(at 107.95 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8800,11 +9491,13 @@
 		)
 		(property "Description" ""
 			(at 107.95 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8823,13 +9516,16 @@
 		(lib_id "reekilib_res:res")
 		(at 85.09 106.68 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "d35f5eb5-d1ae-4be0-9542-5b7eb49f28db")
 		(property "Reference" "R65"
 			(at 83.185 104.648 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8840,57 +9536,63 @@
 		)
 		(property "Value" "${Resistance}, ${Tolerance}, ${Power}"
 			(at 87.122 105.918 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "reekilib_res:RESC1005"
 			(at 85.344 117.856 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 85.09 120.904 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor single 2 pad"
 			(at 85.09 119.38 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Link" "https://yageogroup.com/products/Resistors/part/RC0402FR-131KL"
 			(at 85.344 122.428 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Resistance" "1kΩ"
 			(at 83.185 106.172 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8901,6 +9603,7 @@
 		)
 		(property "Tolerance" "1%"
 			(at 83.185 107.696 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8911,6 +9614,7 @@
 		)
 		(property "Power" "63mW"
 			(at 83.185 109.22 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8921,65 +9625,71 @@
 		)
 		(property "MPN" "RC0402FR-131KL"
 			(at 85.09 124.46 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG" "YAGEO"
 			(at 99.06 124.206 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN2" ""
 			(at 84.582 126.238 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG2" ""
 			(at 99.314 126.238 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN3" ""
 			(at 85.09 128.016 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG3" ""
 			(at 99.314 128.016 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9001,13 +9711,16 @@
 		(lib_id "reekilib_cap:cap")
 		(at 180.34 102.87 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "d48f274e-94b8-4fb5-81e0-fc252f6ef4bf")
 		(property "Reference" "C237"
 			(at 180.34 94.615 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9017,57 +9730,63 @@
 		)
 		(property "Value" "${Capacitance}, ${Voltage}, ${Dielectric}"
 			(at 182.88 102.108 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "reekilib_cap:CAPC1608"
 			(at 180.34 112.522 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
 			(at 180.34 117.348 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Non polarized capacitor"
 			(at 180.34 114.3 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Link" ""
 			(at 180.34 115.824 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Capacitance" "1µF"
 			(at 180.34 96.139 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9077,6 +9796,7 @@
 		)
 		(property "Voltage" "16V"
 			(at 180.34 97.663 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9086,6 +9806,7 @@
 		)
 		(property "Dielectric" "X7R"
 			(at 180.34 99.187 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9095,86 +9816,94 @@
 		)
 		(property "MPN" "C0603C105K4RACTU"
 			(at 180.34 121.666 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG" "KEMET"
 			(at 192.278 121.666 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN2" ""
 			(at 180.34 123.19 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG2" ""
 			(at 192.278 123.19 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN3" ""
 			(at 180.34 124.714 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG3" ""
 			(at 192.278 124.714 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN4" ""
 			(at 180.34 126.238 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG4" ""
 			(at 192.532 126.238 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9196,13 +9925,16 @@
 		(lib_id "reekilib_cap:cap")
 		(at 175.26 102.87 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "d79b771b-42a9-45fd-af88-36aca2d6c9ca")
 		(property "Reference" "C95"
 			(at 175.26 94.361 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9212,57 +9944,63 @@
 		)
 		(property "Value" "${Capacitance}, ${Voltage}, ${Dielectric}"
 			(at 177.8 102.108 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "reekilib_cap:CAPC1005"
 			(at 175.26 112.522 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
 			(at 175.26 117.348 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Non polarized capacitor"
 			(at 175.26 114.3 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Link" "https://www.passivecomponent.com/product-search/MLCC/?partnumber=0402B104K160CT"
 			(at 175.26 115.824 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Capacitance" "100nF"
 			(at 175.26 95.885 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9272,6 +10010,7 @@
 		)
 		(property "Voltage" "25V"
 			(at 175.26 97.409 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9281,6 +10020,7 @@
 		)
 		(property "Dielectric" "X7R"
 			(at 175.26 98.933 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9290,86 +10030,94 @@
 		)
 		(property "MPN" "0402B104K160CT"
 			(at 175.26 121.666 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG" "Walsin Technology Corporation"
 			(at 187.198 121.666 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN2" ""
 			(at 175.26 123.19 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG2" ""
 			(at 187.198 123.19 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN3" ""
 			(at 175.26 124.714 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG3" ""
 			(at 187.198 124.714 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN4" "CC0402KRX7R7BB104"
 			(at 175.26 126.238 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG4" "YAGEO"
 			(at 187.452 126.238 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9391,13 +10139,16 @@
 		(lib_id "reekilib_res:res")
 		(at 85.09 96.52 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "dc5f20d2-3abf-4b7e-9814-72c39ca9bab6")
 		(property "Reference" "R64"
 			(at 83.185 94.488 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9408,57 +10159,63 @@
 		)
 		(property "Value" "${Resistance}, ${Tolerance}, ${Power}"
 			(at 87.122 95.758 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "reekilib_res:RESC1005"
 			(at 85.344 107.696 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/data/global/pdfs/CR.pdf"
 			(at 85.09 110.744 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor single 2 pad"
 			(at 85.09 109.22 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Link" "https://www.bourns.com/search?indexCatalogue=psindex&searchQuery=CR0402-FX-1002GLF*"
 			(at 85.344 112.268 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Resistance" "10kΩ"
 			(at 83.185 96.012 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9469,6 +10226,7 @@
 		)
 		(property "Tolerance" "1%"
 			(at 83.185 97.536 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9479,6 +10237,7 @@
 		)
 		(property "Power" "63mW"
 			(at 83.185 99.06 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9489,65 +10248,71 @@
 		)
 		(property "MPN" "CR0402-FX-1002GLF"
 			(at 85.09 114.3 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG" "Bourns Inc"
 			(at 99.06 114.046 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN2" "WR04X1002FTL"
 			(at 84.582 116.078 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG2" "Walsin Technology Corporation"
 			(at 99.314 116.078 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN3" "RC0402FR-0710KL"
 			(at 85.09 117.856 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG3" "Yageo"
 			(at 99.314 117.856 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9569,13 +10334,16 @@
 		(lib_id "reekilib_res:res")
 		(at 254 154.94 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "df6a4b02-6b80-471b-8879-766c538a9c9d")
 		(property "Reference" "R205"
 			(at 254 151.765 90)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9586,47 +10354,52 @@
 		)
 		(property "Value" "${Resistance}, ${Tolerance}, ${Type}"
 			(at 253.238 152.908 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "reekilib_res:RESC2012"
 			(at 265.176 154.686 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCF.pdf"
 			(at 268.224 154.94 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor single 2 pad - thin film"
 			(at 266.7 154.94 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Resistance" "10Ω"
 			(at 254.635 151.765 90)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9637,6 +10410,7 @@
 		)
 		(property "Tolerance" "1%"
 			(at 254.635 153.035 90)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9647,90 +10421,100 @@
 		)
 		(property "Power" "250mW"
 			(at 254 153.035 90)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN" "RNCF0805DTE10R0"
 			(at 271.78 154.94 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG" "Stackpole Electronics Inc"
 			(at 271.526 140.97 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Link" ""
 			(at 269.748 154.686 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN2" ""
 			(at 273.558 155.448 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG2" ""
 			(at 273.558 140.716 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN3" ""
 			(at 275.336 154.94 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG3" ""
 			(at 275.336 140.716 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Type" "thin film"
 			(at 254 153.035 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -9757,13 +10541,16 @@
 		(lib_id "reekilib_res:res")
 		(at 254 125.73 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "e7c77944-d5e2-45d7-a800-33a9736c281c")
 		(property "Reference" "R204"
 			(at 254 122.555 90)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9774,47 +10561,52 @@
 		)
 		(property "Value" "${Resistance}, ${Tolerance}, ${Type}"
 			(at 253.238 123.698 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "reekilib_res:RESC2012"
 			(at 265.176 125.476 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCF.pdf"
 			(at 268.224 125.73 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor single 2 pad - thin film"
 			(at 266.7 125.73 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Resistance" "10Ω"
 			(at 254.635 122.555 90)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9825,6 +10617,7 @@
 		)
 		(property "Tolerance" "1%"
 			(at 254.635 123.825 90)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9835,90 +10628,100 @@
 		)
 		(property "Power" "250mW"
 			(at 254 123.825 90)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN" "RNCF0805DTE10R0"
 			(at 271.78 125.73 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG" "Stackpole Electronics Inc"
 			(at 271.526 111.76 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Link" ""
 			(at 269.748 125.476 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN2" ""
 			(at 273.558 126.238 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG2" ""
 			(at 273.558 111.506 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN3" ""
 			(at 275.336 125.73 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG3" ""
 			(at 275.336 111.506 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Type" "thin film"
 			(at 254 123.825 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -9946,13 +10749,16 @@
 		(at 109.22 99.06 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "e828b2cd-5446-4d98-bcd3-620fc2c67b5a")
 		(property "Reference" "C97"
 			(at 106.68 97.536 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9963,47 +10769,52 @@
 		)
 		(property "Value" "${Capacitance}, ${Voltage}, ${Dielectric}"
 			(at 106.68 98.298 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "reekilib_cap:CAPC1005"
 			(at 109.22 108.712 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GP_NP0_16V-to-250V"
 			(at 109.22 113.538 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Non polarized capacitor"
 			(at 109.22 110.49 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Capacitance" "12pF"
 			(at 106.68 99.06 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10014,6 +10825,7 @@
 		)
 		(property "Voltage" "6.3V"
 			(at 106.68 100.584 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10024,6 +10836,7 @@
 		)
 		(property "Dielectric" "X7R"
 			(at 106.68 102.108 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10034,96 +10847,105 @@
 		)
 		(property "MPN" "CC0402JRNPO9BN120"
 			(at 109.22 117.856 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG" "Yageo"
 			(at 97.282 117.856 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Link" "https://yageogroup.com/products/Capacitors/part/CC0402JRNPO9BN120"
 			(at 109.22 112.014 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN2" ""
 			(at 109.22 119.38 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG2" ""
 			(at 97.282 119.38 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN3" ""
 			(at 109.22 120.904 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG3" ""
 			(at 97.282 120.904 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "MPN4" ""
 			(at 109.22 122.428 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFG4" ""
 			(at 97.028 122.428 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10145,23 +10967,28 @@
 		(lib_id "reekilib_pwr:VDD")
 		(at 189.23 13.97 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "eb89d22d-ff8e-4ca5-ac38-2c73781af0c6")
 		(property "Reference" "#PWR0166"
 			(at 189.23 10.795 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "AV5"
 			(at 189.23 12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -10170,6 +10997,8 @@
 		)
 		(property "Footprint" ""
 			(at 189.23 13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10178,6 +11007,8 @@
 		)
 		(property "Datasheet" ""
 			(at 189.23 13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10186,11 +11017,13 @@
 		)
 		(property "Description" ""
 			(at 189.23 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10209,23 +11042,28 @@
 		(lib_id "reekilib_pwr:VSS")
 		(at 236.22 119.38 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "fad4fee7-db33-4d55-859d-2bcd05fb6e76")
 		(property "Reference" "#PWR0281"
 			(at 236.22 123.825 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "AVSS"
 			(at 236.22 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -10234,6 +11072,8 @@
 		)
 		(property "Footprint" ""
 			(at 236.22 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10242,6 +11082,8 @@
 		)
 		(property "Datasheet" ""
 			(at 236.22 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10250,11 +11092,13 @@
 		)
 		(property "Description" ""
 			(at 236.22 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"

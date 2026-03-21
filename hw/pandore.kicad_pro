@@ -3,6 +3,8 @@
     "3dviewports": [],
     "design_settings": {
       "defaults": {
+        "apply_defaults_to_fp_barcodes": false,
+        "apply_defaults_to_fp_dimensions": false,
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
@@ -278,6 +280,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_filters_mismatch": "ignore",
+        "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "error",
         "hole_clearance": "error",
@@ -296,6 +299,7 @@
         "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
+        "missing_tuning_profile": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
@@ -315,9 +319,12 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
+        "track_not_centered_on_via": "ignore",
+        "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
+        "tuning_profile_track_geometries": "ignore",
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
@@ -455,11 +462,13 @@
       "zones_use_no_outline": true
     },
     "ipc2581": {
+      "bom_rev": "",
       "dist": "",
       "distpn": "",
       "internal_id": "",
       "mfg": "",
-      "mpn": ""
+      "mpn": "",
+      "sch_revision": "${revision}"
     },
     "layer_pairs": [
       {
@@ -491,6 +500,15 @@
     "viewports": []
   },
   "boards": [],
+  "component_class_settings": {
+    "assignments": [],
+    "meta": {
+      "version": 0
+    },
+    "sheet_component_classes": {
+      "enabled": false
+    }
+  },
   "cvpcb": {
     "equivalence_files": []
   },
@@ -743,11 +761,14 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
+      "field_name_whitespace": "warning",
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
+      "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
+      "isolated_pin_label": "warning",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
@@ -770,6 +791,7 @@
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
       "single_global_label": "ignore",
+      "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
       "undefined_netclass": "error",
@@ -802,6 +824,7 @@
         "priority": 2147483647,
         "schematic_color": "rgb(0, 0, 0)",
         "track_width": 0.127,
+        "tuning_profile": "",
         "via_diameter": 0.458,
         "via_drill": 0.254,
         "wire_width": 5
@@ -815,6 +838,7 @@
         "priority": 1,
         "schematic_color": "rgb(107, 23, 255)",
         "track_width": 0.42,
+        "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.4,
         "wire_width": 5
@@ -826,6 +850,7 @@
         "pcb_color": "rgb(255, 211, 0)",
         "priority": 2,
         "schematic_color": "rgb(255, 211, 0)",
+        "tuning_profile": "",
         "wire_width": 5
       },
       {
@@ -838,6 +863,7 @@
         "priority": 3,
         "schematic_color": "rgb(194, 0, 194)",
         "track_width": 0.2,
+        "tuning_profile": "",
         "via_diameter": 0.458,
         "via_drill": 0.254,
         "wire_width": 5
@@ -852,6 +878,7 @@
         "priority": 4,
         "schematic_color": "rgb(255, 0, 255)",
         "track_width": 0.26,
+        "tuning_profile": "",
         "via_diameter": 0.458,
         "via_drill": 0.4,
         "wire_width": 5
@@ -866,6 +893,7 @@
         "priority": 5,
         "schematic_color": "rgb(132, 0, 132)",
         "track_width": 0.25,
+        "tuning_profile": "",
         "via_diameter": 0.458,
         "via_drill": 0.4,
         "wire_width": 5
@@ -877,6 +905,7 @@
         "pcb_color": "rgb(96, 59, 37)",
         "priority": 6,
         "schematic_color": "rgb(96, 59, 37)",
+        "tuning_profile": "",
         "wire_width": 5
       },
       {
@@ -888,6 +917,7 @@
         "priority": 7,
         "schematic_color": "rgb(72, 72, 72)",
         "track_width": 0.25,
+        "tuning_profile": "",
         "wire_width": 12
       },
       {
@@ -898,6 +928,7 @@
         "pcb_color": "rgb(255, 153, 0)",
         "priority": 8,
         "schematic_color": "rgb(255, 153, 0)",
+        "tuning_profile": "",
         "wire_width": 5
       },
       {
@@ -908,6 +939,7 @@
         "pcb_color": "rgba(255, 153, 0, 0.851)",
         "priority": 9,
         "schematic_color": "rgb(221, 133, 0)",
+        "tuning_profile": "",
         "wire_width": 5
       },
       {
@@ -917,6 +949,7 @@
         "pcb_color": "rgb(0, 220, 4)",
         "priority": 10,
         "schematic_color": "rgb(0, 220, 4)",
+        "tuning_profile": "",
         "wire_width": 5
       },
       {
@@ -926,6 +959,7 @@
         "pcb_color": "rgb(1, 134, 53)",
         "priority": 11,
         "schematic_color": "rgb(1, 134, 53)",
+        "tuning_profile": "",
         "wire_width": 5
       },
       {
@@ -935,6 +969,7 @@
         "pcb_color": "rgb(174, 141, 67)",
         "priority": 12,
         "schematic_color": "rgb(174, 141, 67)",
+        "tuning_profile": "",
         "wire_width": 5
       },
       {
@@ -944,6 +979,7 @@
         "pcb_color": "rgb(152, 197, 255)",
         "priority": 0,
         "schematic_color": "rgb(152, 197, 255)",
+        "tuning_profile": "",
         "wire_width": 5
       },
       {
@@ -955,6 +991,7 @@
         "priority": 13,
         "schematic_color": "rgb(255, 1, 18)",
         "track_width": 0.25,
+        "tuning_profile": "",
         "wire_width": 12
       },
       {
@@ -964,6 +1001,7 @@
         "pcb_color": "rgb(62, 191, 255)",
         "priority": 14,
         "schematic_color": "rgb(62, 191, 255)",
+        "tuning_profile": "",
         "wire_width": 5
       },
       {
@@ -973,6 +1011,7 @@
         "pcb_color": "rgb(18, 122, 255)",
         "priority": 15,
         "schematic_color": "rgb(18, 122, 255)",
+        "tuning_profile": "",
         "wire_width": 5
       },
       {
@@ -982,6 +1021,7 @@
         "pcb_color": "rgb(154, 174, 121)",
         "priority": 16,
         "schematic_color": "rgb(154, 174, 121)",
+        "tuning_profile": "",
         "wire_width": 5
       },
       {
@@ -991,11 +1031,12 @@
         "pcb_color": "rgb(0, 0, 255)",
         "priority": 17,
         "schematic_color": "rgb(0, 0, 255)",
+        "tuning_profile": "",
         "wire_width": 5
       }
     ],
     "meta": {
-      "version": 4
+      "version": 5
     },
     "net_colors": null,
     "netclass_assignments": {
@@ -2744,6 +2785,10 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "annotation": {
+      "method": 0,
+      "sort_order": 0
+    },
     "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -3181,6 +3226,488 @@
       "sort_asc": false,
       "sort_field": "Capacitance"
     },
+    "bus_aliases": {
+      "ANADIFF": [
+        "SIG+",
+        "SIG-"
+      ],
+      "CAN": [
+        "RX",
+        "TX",
+        "~{EN}"
+      ],
+      "CANbus": [
+        "H",
+        "L"
+      ],
+      "CSI-2": [
+        "D0+",
+        "D0-",
+        "D1+",
+        "D1-",
+        "D2+",
+        "D2-",
+        "D3+",
+        "D3-",
+        "CLK+",
+        "CLK-"
+      ],
+      "DP": [
+        "L0+",
+        "L0-",
+        "L1+",
+        "L1-",
+        "L2+",
+        "L2-",
+        "L3+",
+        "L3-",
+        "AUX+",
+        "AUX-",
+        "Config[1..2]",
+        "HPD",
+        "PWR"
+      ],
+      "DSI": [
+        "CLK+",
+        "CLK-",
+        "D0+",
+        "D0-",
+        "D1+",
+        "D1-",
+        "D2+",
+        "D2-",
+        "D3+",
+        "D3-"
+      ],
+      "ETH": [
+        "RX-",
+        "RX+",
+        "TX-",
+        "TX+"
+      ],
+      "ETM": [
+        "CLK",
+        "D[0..3]"
+      ],
+      "GETH": [
+        "A+",
+        "A-",
+        "B+",
+        "B-",
+        "C+",
+        "C-",
+        "D+",
+        "D-"
+      ],
+      "GMII": [
+        "GTXCLK",
+        "TXCLK",
+        "TXD[0..7]",
+        "TXEN",
+        "TXER",
+        "RXCLK",
+        "RXD[0..7]",
+        "RXDV",
+        "RXER",
+        "COL",
+        "CS",
+        "MDC",
+        "MDIO"
+      ],
+      "HDMI": [
+        "D0+",
+        "D0-",
+        "D1+",
+        "D1-",
+        "D2+",
+        "D2-",
+        "CLK+",
+        "CLK-",
+        "DDC.CLK",
+        "DDC.DAT",
+        "CEC",
+        "HPD",
+        "5V"
+      ],
+      "I2C": [
+        "SDA",
+        "SCL"
+      ],
+      "I2S1": [
+        "MCLK",
+        "FS",
+        "CLK",
+        "D0"
+      ],
+      "I2S1DPX": [
+        "MCLK",
+        "RXFS",
+        "RXCLK",
+        "RXD0",
+        "TXFS",
+        "TXCLK",
+        "TXD0"
+      ],
+      "I2S4DPX": [
+        "MCLK",
+        "RXFS",
+        "RXCLK",
+        "RXD[0..3]",
+        "TXFS",
+        "TXCLK",
+        "TXD[0..3]"
+      ],
+      "JTAG": [
+        "TCK",
+        "TDI",
+        "TDO",
+        "TMS",
+        "RST"
+      ],
+      "MII": [
+        "TXCLK",
+        "TXD[0..3]",
+        "TXEN",
+        "TXER",
+        "RXCLK",
+        "RXD[0..3]",
+        "RXDV",
+        "RXER",
+        "CRS",
+        "COL",
+        "MDIO",
+        "MDC"
+      ],
+      "MMC4": [
+        "D[0..3]",
+        "CMD",
+        "CLK",
+        "~{RST}"
+      ],
+      "MMC8": [
+        "D[0..7]",
+        "CMD",
+        "CLK",
+        "~{RST}"
+      ],
+      "ONFI": [
+        "R/~{B}[0..3]",
+        "W/~{R}[0..3]",
+        "~{CE[0..1]}",
+        "CLE[0..1]",
+        "ALE[0..1]",
+        "~{WE[0..1]}",
+        "~{RE[0..1]}",
+        "CLK[0..1]",
+        "~{WP[0..1]}",
+        "IO[0..15]"
+      ],
+      "OSPI": [
+        "SCK",
+        "IO[0..7]",
+        "~{SS}"
+      ],
+      "PCIE16X": [
+        "~{PRSNT[1..2]}",
+        "SMCLK",
+        "SMDAT",
+        "~{TRST}",
+        "TCK",
+        "TDI",
+        "TDO",
+        "TMS",
+        "~{PERST}",
+        "~{WAKE}",
+        "REFCLK+",
+        "REFCLK-",
+        "HSO0+",
+        "HSO0-",
+        "HSI0+",
+        "HSI0-",
+        "HSO1+",
+        "HSO1-",
+        "HSI1+",
+        "HSI1-",
+        "HSO2+",
+        "HSO2-",
+        "HSI2+",
+        "HSI2-",
+        "HSO3+",
+        "HSO3-",
+        "HSI3+",
+        "HSI3-",
+        "HSO4+",
+        "HSO4-",
+        "HSI4+",
+        "HSI4-",
+        "HSO5+",
+        "HSO5-",
+        "HSI5+",
+        "HSI5-",
+        "HSO6+",
+        "HSO6-",
+        "HSI6+",
+        "HSI6-",
+        "HSO7+",
+        "HSO7-",
+        "HSI7+",
+        "HSI7-",
+        "HSO8+",
+        "HSO8-",
+        "HSI8+",
+        "HSI8-",
+        "HSO9+",
+        "HSO9-",
+        "HSI9+",
+        "HSI9-",
+        "HSO10+",
+        "HSO10-",
+        "HSI10+",
+        "HSI10-",
+        "HSO11+",
+        "HSO11-",
+        "HSI11+",
+        "HSI11-",
+        "HSO12+",
+        "HSO12-",
+        "HSI12+",
+        "HSI12-",
+        "HSO13+",
+        "HSO13-",
+        "HSI13+",
+        "HSI13-",
+        "HSO14+",
+        "HSO14-",
+        "HSI14+",
+        "HSI14-",
+        "HSO15+",
+        "HSO15-",
+        "HSI15+",
+        "HSI15-",
+        "~{CLKREQ}",
+        "SUSCLK"
+      ],
+      "PCIE1X": [
+        "~{PRSNT[1..2]}",
+        "SMCLK",
+        "SMDAT",
+        "~{TRST}",
+        "TCK",
+        "TDI",
+        "TDO",
+        "TMS",
+        "~{PERST}",
+        "~{WAKE}",
+        "REFCLK+",
+        "REFCLK-",
+        "HSO0+",
+        "HSO0-",
+        "HSI0+",
+        "HSI0-",
+        "SUSCLK",
+        "~{CLKREQ}"
+      ],
+      "PCIE4X": [
+        "~{PRSNT[1..2]}",
+        "SMCLK",
+        "SMDAT",
+        "~{TRST}",
+        "TCK",
+        "TDI",
+        "TDO",
+        "TMS",
+        "~{PERST}",
+        "~{WAKE}",
+        "REFCLK+",
+        "REFCLK-",
+        "HSO0+",
+        "HSO0-",
+        "HSI0+",
+        "HSI0-",
+        "HSO1+",
+        "HSO1-",
+        "HSI1+",
+        "HSI1-",
+        "HSO2+",
+        "HSO2-",
+        "HSI2+",
+        "HSI2-",
+        "HSO3+",
+        "HSO3-",
+        "HSI3+",
+        "HSI3-",
+        "~{CLKREQ}",
+        "SUSCLK"
+      ],
+      "PCIE8X": [
+        "~{PRSNT[1..2]}",
+        "SMCLK",
+        "SMDAT",
+        "~{TRST}",
+        "TCK",
+        "TDI",
+        "TDO",
+        "TMS",
+        "~{PERST}",
+        "~{WAKE}",
+        "REFCLK+",
+        "REFCLK-",
+        "HSO0+",
+        "HSO0-",
+        "HSI0+",
+        "HSI0-",
+        "HSO1+",
+        "HSO1-",
+        "HSI1+",
+        "HSI1-",
+        "HSO2+",
+        "HSO2-",
+        "HSI2+",
+        "HSI2-",
+        "HSO3+",
+        "HSO3-",
+        "HSI3+",
+        "HSI3-",
+        "HSO4+",
+        "HSO4-",
+        "HSI4+",
+        "HSI4-",
+        "HSO5+",
+        "HSO5-",
+        "HSI5+",
+        "HSI5-",
+        "HSO6+",
+        "HSO6-",
+        "HSI6+",
+        "HSI6-",
+        "HSO7+",
+        "HSO7-",
+        "HSI7+",
+        "HSI7-",
+        "~{CLKREQ}",
+        "SUSCLK"
+      ],
+      "QSPI": [
+        "SCK",
+        "IO[0..3]",
+        "~{SS}"
+      ],
+      "RGMII": [
+        "RXC",
+        "RXCTL",
+        "RXD[0..3]",
+        "TXC",
+        "TXCTL",
+        "TXD[0..3]",
+        "MDC",
+        "MDIO"
+      ],
+      "RMII": [
+        "REFCLK",
+        "CRSDV",
+        "RXD[0..1]",
+        "TXEN",
+        "TXD[0..1]",
+        "MDC",
+        "MDIO",
+        "RXER"
+      ],
+      "RS485": [
+        "RX",
+        "TX",
+        "~{RXEN}",
+        "TXEN"
+      ],
+      "RS485bus": [
+        "A",
+        "B"
+      ],
+      "SATA": [
+        "A+",
+        "A-",
+        "B+",
+        "B-"
+      ],
+      "SDIO": [
+        "CLK",
+        "CMD",
+        "D[0..3]",
+        "~{CD}"
+      ],
+      "SMB": [
+        "CLK",
+        "DAT",
+        "~{ALERT}"
+      ],
+      "SPI": [
+        "SCK",
+        "MOSI",
+        "MISO",
+        "~{SS}"
+      ],
+      "SPI4SLV": [
+        "SCK",
+        "MOSI",
+        "MISO",
+        "~{SS[0..3]}"
+      ],
+      "SWD": [
+        "SWDIO",
+        "SWCLK",
+        "SWO",
+        "~{RST}"
+      ],
+      "UART": [
+        "RX",
+        "TX",
+        "CTS",
+        "RTS"
+      ],
+      "USB2": [
+        "VBUS",
+        "D-",
+        "D+",
+        "ID"
+      ],
+      "USB3": [
+        "VBUS",
+        "D-",
+        "D+",
+        "ID",
+        "SSTX+",
+        "SSTX-",
+        "SSRX+",
+        "SSRX-"
+      ],
+      "USB3C": [
+        "VBUS",
+        "D-",
+        "D+",
+        "SSTX+",
+        "SSTX-",
+        "SSRX+",
+        "SSRX-",
+        "CC[1..2]",
+        "SBU[1..2]"
+      ],
+      "USB4": [
+        "VBUS",
+        "D1-",
+        "D1+",
+        "D2-",
+        "D2+",
+        "CC[1..2]",
+        "SBU[1..2]",
+        "SSTX1+",
+        "SSTX1-",
+        "SSRX1+",
+        "SSRX1-",
+        "SSTX2+",
+        "SSTX2-",
+        "SSRX2+",
+        "SSRX2-"
+      ]
+    },
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -3188,6 +3715,7 @@
       "default_line_thickness": 6.0,
       "default_text_size": 40.0,
       "field_names": [],
+      "hop_over_size_choice": 0,
       "intersheets_ref_own_page": true,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": true,
@@ -3220,6 +3748,7 @@
     },
     "page_layout_descr_file": "kicad-embed://realee.kicad_wks",
     "plot_directory": "",
+    "reuse_designators": true,
     "space_save_all_events": true,
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
@@ -3229,12 +3758,21 @@
     "spice_save_all_dissipations": false,
     "spice_save_all_voltages": false,
     "subpart_first_id": 65,
-    "subpart_id_separator": 0
+    "subpart_id_separator": 0,
+    "top_level_sheets": [
+      {
+        "filename": "pandore.kicad_sch",
+        "name": "pandore",
+        "uuid": "e55f2700-f75a-4062-8a27-fe258faa8966"
+      }
+    ],
+    "used_designators": "",
+    "variants": []
   },
   "sheets": [
     [
       "e55f2700-f75a-4062-8a27-fe258faa8966",
-      "Root"
+      "pandore"
     ],
     [
       "88bddcf3-091d-4999-8622-d323c703fd74",
@@ -3357,5 +3895,11 @@
     "reviewer": "",
     "revision": "A0",
     "weburl": "https://gitlab.com/real-ee/client/vincentfillion/pandore"
+  },
+  "tuning_profiles": {
+    "meta": {
+      "version": 0
+    },
+    "tuning_profiles_impedance_geometric": []
   }
 }
