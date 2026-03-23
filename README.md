@@ -62,7 +62,7 @@ Pandore is a custom-designed PCB built around the [LattePanda Mu](https://www.la
 
 - **Audio/MIDI bridge:** [Teensy 4.1](https://www.pjrc.com/store/teensy41.html) — I2S-to-USB audio bridge between the CS4272 codec and the LattePanda Mu, also handles MIDI data transfer to the host computer
 - **Codec:** Cirrus Logic CS4272 — stereo 24-bit ADC/DAC, I2S interface
-- **Preamp:** THAT1512-based microphone preamplifier with configurable gain
+- **Preamp:** THS4521 fully-differential amplifier + OPA1656 op-amp signal conditioning
 - **Phantom power:** 48V ultra-low-noise step-up converter (~10 mA) for condenser microphones
 - **I2S isolation:** Galvanic isolation between digital and audio domains (H11L1 optocouplers)
 - **Monitor output:** Dedicated headphone/speaker amplifier with hardware volume knob
@@ -142,7 +142,7 @@ The `doc/reference/` directory includes datasheets and design guides used during
 - RP2350 datasheet and hardware design guide
 - LattePanda Mu evaluation kit guide and carrier board reference
 - CS4272 codec (via SuperAudioBoard design guide and schematic)
-- THAT1512 microphone preamp gain configuration
+- THAT1512 microphone preamp gain configuration (reference design)
 - 48V phantom power supply design (TI SBOA320A + ultra-low-noise RAQ approach)
 - Analog circuit design references (Analog Secrets series, AES mic preamp paper)
 - THAT Corporation mic preamp reference design (git submodule)
