@@ -62,7 +62,7 @@ Pandore is a custom-designed PCB built around the [LattePanda Mu](https://www.la
 
 ### Audio
 
-- **Audio bridge:** [Teensy 4.1](https://www.pjrc.com/store/teensy41.html) — I2S-to-USB bridge between the CS4272 codec and the host computer, providing class-compliant USB audio
+- **Audio/MIDI bridge:** [Teensy 4.1](https://www.pjrc.com/store/teensy41.html) — I2S-to-USB audio bridge between the CS4272 codec and the LattePanda Mu, also handles MIDI data transfer to the host computer
 - **Codec:** Cirrus Logic CS4272 — stereo 24-bit ADC/DAC, I2S interface
 - **Preamp:** THAT1512-based microphone preamplifier with configurable gain
 - **Phantom power:** 48V ultra-low-noise step-up converter (~10 mA) for condenser microphones
