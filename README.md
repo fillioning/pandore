@@ -1,8 +1,6 @@
 # Pandore
 
-![Pandore A0 — Top View](doc/img/pandore_A0_top.png)
-
-![Pandore A0 — Isometric View](doc/img/pandore_A0_topiso.png)
+![Pandore A0](doc/img/pandore_A0_topiso.png)
 
 **Open-source digital audio instrument prototyping platform.**
 
