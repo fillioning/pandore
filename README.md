@@ -152,6 +152,17 @@ The `doc/reference/` directory includes datasheets and design guides used during
 - [KiCad 10](https://www.kicad.org/) to open and edit schematics and PCB layout
 - [draw.io](https://app.diagrams.net/) to view architecture diagrams
 
+## Credits
+
+Designed by **Vincent Fillion** at [Artificiel](https://artificiel.org), with the help of **Alexandre Burton**.
+
+Hardware engineering and KiCad source files by **Laurence Deschênes Villeneuve** ([@laurencedv](https://github.com/laurencedv)).
+
 ## License
 
-Open-source hardware. See repository for details.
+This project is licensed under the [CERN Open Hardware Licence Version 2 — Strongly Reciprocal (CERN-OHL-S-2.0)](https://ohwr.org/cern_ohl_s_v2.txt).
+
+You are free to use, study, modify, and distribute this design, provided that:
+- You credit the original authors
+- You distribute any modified versions under the same licence
+- You make the source files available
