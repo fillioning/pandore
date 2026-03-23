@@ -1,8 +1,12 @@
 # Pandore
 
+![Pandore A0 — Top View](doc/img/pandore_A0_top.png)
+
+![Pandore A0 — Isometric View](doc/img/pandore_A0_topiso.png)
+
 **Open-source digital audio instrument prototyping platform.**
 
-Pandore is a custom-designed PCB built around the [LattePanda Mu](https://www.lattepanda.com/lattepanda-mu) compute module, dual [RP2350](https://www.raspberrypi.com/products/rp2350/) microcontrollers, and a professional audio I/O chain. It provides a complete hardware foundation for building digital audio instruments, effects processors, and experimental sound tools.
+Pandore is a custom-designed PCB built around the [LattePanda Mu](https://www.lattepanda.com/lattepanda-mu) compute module, a [Teensy 4.1](https://www.pjrc.com/store/teensy41.html) audio bridge, dual [RP2350](https://www.raspberrypi.com/products/rp2350/) microcontrollers, and a professional audio I/O chain. It provides a complete hardware foundation for building digital audio instruments, effects processors, and experimental sound tools.
 
 ## Status
 
@@ -26,17 +30,28 @@ Pandore is a custom-designed PCB built around the [LattePanda Mu](https://www.la
                          |  (x86-64 SBC)   |
                          +--------+--------+
                                   |
-               +------------------+------------------+
-               |                                     |
-      +--------+--------+                  +---------+--------+
-      |   RTIO MCU      |                  |  Management MCU  |
-      |   (RP2350)      |                  |  (RP2350)        |
-      +--------+--------+                  +---------+--------+
-               |                                     |
-    +----------+----------+               +----------+----------+
-    | UART, SPI, I2C, USB |               | GPIO, Power Seq,   |
-    | ADC, 8x PWM I/O    |               | Fan, Display, Boot  |
-    +---------------------+               +---------------------+
+          +----------+-----------+-----------+----------+
+          |          |                       |          |
+ +--------+-------+  |             +---------+--------+ |
+ |  RTIO MCU      |  |             |  Management MCU  | |
+ |  (RP2350)      |  |             |  (RP2350)        | |
+ +--------+-------+  |             +---------+--------+ |
+          |          |                       |          |
+ +--------+-------+  |             +---------+--------+ |
+ | UART, SPI, I2C |  |             | GPIO, Power Seq, | |
+ | ADC, 8x PWM    |  |             | Fan, Display     | |
+ +----------------+  |             +------------------+ |
+                     |                                  |
+            +--------+--------+                         |
+            |   Teensy 4.1    |                         |
+            | (I2S-to-USB     |                         |
+            |  Audio Bridge)  |                         |
+            +--------+--------+                         |
+                     |                                  |
+            +--------+--------+               +---------+--------+
+            |   CS4272 Codec  |               |   Boot, BIOS,    |
+            |   (24-bit I2S)  |               |   Ethernet, M.2  |
+            +-----------------+               +------------------+
 ```
 
 ### Compute
@@ -47,6 +62,7 @@ Pandore is a custom-designed PCB built around the [LattePanda Mu](https://www.la
 
 ### Audio
 
+- **Audio bridge:** [Teensy 4.1](https://www.pjrc.com/store/teensy41.html) — I2S-to-USB bridge between the CS4272 codec and the host computer, providing class-compliant USB audio
 - **Codec:** Cirrus Logic CS4272 — stereo 24-bit ADC/DAC, I2S interface
 - **Preamp:** THAT1512-based microphone preamplifier with configurable gain
 - **Phantom power:** 48V ultra-low-noise step-up converter (~10 mA) for condenser microphones
@@ -92,6 +108,7 @@ pandore/
   hw/               Schematics (.kicad_sch) and PCB layout (.kicad_pcb)
   doc/
     arch/           Architecture diagrams (draw.io)
+    img/            Board renders
     reference/      Datasheets, app notes, design guides (PDF)
   lib/              3D models (.step), KiCad symbols and footprints
   release/          Manufacturing artifacts (Gerbers, BOM, placement, 3D)
