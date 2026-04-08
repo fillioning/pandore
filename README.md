@@ -8,7 +8,9 @@ Pandore is a custom-designed PCB built around the [LattePanda Mu](https://www.la
 
 ## Status
 
-**Revision A0** — Design complete. Manufacturing files released 2026-03-19. DRC passing, all components sourced.
+**Revision A0** — PCBs fabricated (3 units). Manufacturing files released 2026-03-19. DRC passing, all components sourced.
+
+> **PCBWay substitution:** RP2350A was unavailable at assembly time; PCBWay substituted **RP2350B (QFN-80)** for both MCU positions. RP2350A and RP2350B are binary-compatible — same cores, same peripherals, same memory map — they differ only in package size and number of exposed GPIO pins (30 vs 48). Firmware developed on RP2350A Pico boards transfers without modification.
 
 ## Board Specifications
 
@@ -54,7 +56,7 @@ Pandore is a custom-designed PCB built around the [LattePanda Mu](https://www.la
 
 ### Compute
 
-- **LattePanda Mu** — x86-64 quad-core SBC, main application processor
+- **LattePanda Mu** — x86-64 SBC (Intel N100 or N305), main application processor. Recommended: DFR1147 (N100, 16 GB LPDDR5) — the N305 gives only ~13% single-core gain at ~2× cost, with no meaningful benefit for real-time audio workloads where single-thread performance dominates.
 - **RTIO MCU (RP2350)** — Real-time I/O: UART, SPI, I2C, USB, ADC, 8x PWM channels
 - **Management MCU (RP2350)** — System control: power sequencing, GPIO, fan, display, boot
 
@@ -68,7 +70,7 @@ Pandore is a custom-designed PCB built around the [LattePanda Mu](https://www.la
 - **I2C isolation:** TI ISO1640BDR — isolated I2C for codec control path, 2500 VRMS isolation
 - **Isolated power:** Murata NXE2S1212MC — 1W isolated 12V→12V DC/DC converter for the isolated audio domain
 - **MIDI isolation:** Isocom H11L1SMT optoisolator with Schmitt-trigger output on MIDI IN
-- **Monitor output:** Dedicated headphone/speaker amplifier with hardware volume knob (Bourns PTR902 potentiometer)
+- **Monitor output:** Dedicated headphone/speaker amplifier with hardware volume knob (Bourns PTR902-2020K-A103 — 10 kΩ audio taper, 20 mm shaft)
 - **Input buffering:** Balanced input stage with line/mic switching
 - **Output buffering:** Line-level outputs
 
@@ -103,9 +105,9 @@ Pandore is a custom-designed PCB built around the [LattePanda Mu](https://www.la
 - **Ethernet** — 2× Gigabit Ethernet via Realtek RTL8111H-CG PCIe controllers (U7, U8), 2× shielded RJ45 with isolation transformers (Würth 749020111A)
 - **USB** — 8× USB from LattePanda Mu (3× USB 3.0 + 5× USB 2.0); 2× USB-C receptacles for Teensy 4.1 bridge
 - **MIDI** — 5-pin DIN IN/OUT with H11L1 optoisolation
-- **Display** — 24-pin 0.5mm FPC ZIF connector (GCT FFC2A32-24-T) for OLED display (Midas MCOT128064B1V-WM, SSD1309, 128×64 px, 1.54")
+- **Display** — 24-pin 0.5mm FPC ZIF connector (GCT FFC2A32-24-T) for OLED status display (SSD1309, 128×64 px, 1.54") — see [Components Requiring Separate Assembly](#components-requiring-separate-assembly)
 - **M.2 Key-M** — PCIe x4 (NVMe SSD)
-- **M.2 Key-A+E** — WiFi/Bluetooth or alternate storage
+- **M.2 Key-A+E** — WiFi/Bluetooth (tested: Intel AX210 — WiFi 6E tri-band + BT 5.3) or alternate storage
 - **Expansion headers** — GPIO, analog, I/O breakouts; 2× Grove I2C connectors; I2S header; UART debug
 
 ### User Interface
@@ -163,6 +165,27 @@ The top-level schematic (`pandore.kicad_sch`) references 24 sub-sheets organized
 **Interface** — `eth`, `usbport`, `midi`, `display`, `extraport`, `mdot2`
 
 **System** — `bootctl`, `bios`, `fan`
+
+## Components Requiring Separate Assembly
+
+The PCBWay PCBA order covers all SMD components. The following through-hole and DNP parts must be sourced and hand-soldered separately. BOM part numbers are listed; substitutions are noted where a different part is recommended over the original BOM.
+
+| BOM# | Per board | Ref | Description | Part (installed) | Notes |
+|------|-----------|-----|-------------|-----------------|-------|
+| 40 | 1 | E1 | Encoder + RGB LED + switch | Bourns **PEL12T-4225T-S1024** | 24 PPR, push switch, RGB illuminated |
+| 47 | 2 | J4, J5 | Mic/Line input combo jack | Neutrik **NCJ9FI-H-0** | XLR + 6.35mm TRS + 3-way switch |
+| 50 | 2 | J8, J9 | Ethernet RJ45 | Amphenol **RJE58-188-5411** | 8P8C shielded, dual LEDs, Cat5e |
+| 51 | 2 | J10, J11 | MIDI DIN | Same Sky **SDS-50J** | 5-pin DIN 180° |
+| 52 | 1 | J12 | Line output TRS | Neutrik **NSJ12HF-1** | 6.35mm stacking stereo |
+| 55 | 2 | J15, J16 | GPIO expansion header | Samtec **MTSW-108-22-L-T-330-RA** | 3×8 right-angle, 2.54mm pitch |
+| 56 | 2 | J17, J18 | Grove connectors | TE **440055-4** | HPI 2.0mm R/A THT (replaces BOM 2041145-4, same family) |
+| 105 | 1 | R273 | Headphone volume pot | Bourns **PTR902-2020K-A103** | Audio taper, 20mm shaft (replaces BOM 2015K-B103, linear, 15mm) |
+| — | 1 | J25 | OLED display panel | **Microtips REX012864AYAP3N00000** (primary) or Midas MCOT128064B1V-WM (alt) | SSD1309, 128×64, 24-pin 0.5mm FPC; J25 ZIF socket is PCBWay-assembled |
+| — | 1 | J28/J29 | Audio/MIDI bridge module | **PJRC Teensy 4.1** | J28/J29 USB-C receptacles are PCBWay-assembled |
+| — | 1 | J13 | NVMe SSD | User choice | M.2 2280 Key-M, PCIe x4 |
+| — | 1 | J19 | WiFi/BT module | **Intel AX210** (WiFi 6E + BT 5.3) | M.2 2230 Key-E |
+
+---
 
 ## Manufacturing
 
