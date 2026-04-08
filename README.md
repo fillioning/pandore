@@ -63,9 +63,12 @@ Pandore is a custom-designed PCB built around the [LattePanda Mu](https://www.la
 - **Audio/MIDI bridge:** [Teensy 4.1](https://www.pjrc.com/store/teensy41.html) — I2S-to-USB audio bridge between the CS4272 codec and the LattePanda Mu, also handles MIDI data transfer to the host computer
 - **Codec:** Cirrus Logic CS4272 — stereo 24-bit ADC/DAC, I2S interface
 - **Preamp:** THS4521 fully-differential amplifier + OPA1656 op-amp signal conditioning
-- **Phantom power:** 48V ultra-low-noise step-up converter (~10 mA) for condenser microphones
-- **I2S isolation:** Galvanic isolation between digital and audio domains (H11L1 optocouplers)
-- **Monitor output:** Dedicated headphone/speaker amplifier with hardware volume knob
+- **Phantom power:** 48V supply via TI LM5158 flyback controller + TPS7A4001 ultra-low-noise 40V LDO post-regulation (~10 mA) for condenser microphones
+- **I2S isolation:** TI ISO7762FDBQR — 6-channel digital isolator (4 forward / 2 reverse), 100 Mbps, 5000 VRMS galvanic isolation between digital and audio domains
+- **I2C isolation:** TI ISO1640BDR — isolated I2C for codec control path, 2500 VRMS isolation
+- **Isolated power:** Murata NXE2S1212MC — 1W isolated 12V→12V DC/DC converter for the isolated audio domain
+- **MIDI isolation:** Isocom H11L1SMT optoisolator with Schmitt-trigger output on MIDI IN
+- **Monitor output:** Dedicated headphone/speaker amplifier with hardware volume knob (Bourns PTR902 potentiometer)
 - **Input buffering:** Balanced input stage with line/mic switching
 - **Output buffering:** Line-level outputs
 
@@ -73,26 +76,55 @@ Pandore is a custom-designed PCB built around the [LattePanda Mu](https://www.la
 
 | Rail | Voltage | Current | Purpose |
 |---|---|---|---|
-| Main | 5V | 2A (10W) | Digital logic, peripherals |
-| Logic | 3.3V | 3A (10W) | MCUs, codec, I/O |
-| Phantom | 48V | 10 mA | Condenser microphone bias |
+| 12V | Main input | LattePanda Mu, OLED drive |
+| 5V | 2A (10W) | Digital logic, USB peripherals |
+| 3.3V | 3A (10W) | MCUs, codec digital, I/O |
+| 48V | 10 mA | Condenser microphone phantom power |
+| AV5 / AV3P3 | — | Analog audio supply (isolated domain) |
+| VSTBY | ~3.3V | Standby (CR2032 backup) |
+
+**Power ICs:**
+
+| Part | Role |
+|---|---|
+| Diodes AP63356Q (×2) | Synchronous buck converters (3.5A), main DC-DC regulation |
+| STM LDL212DR (×3) | Ultra-low-dropout LDOs, local clean rails |
+| ETEK ET20162 (×5) | Per-rail 5V load switching, 1A each |
+| TI LM5158RTER | Flyback controller for 48V phantom supply |
+| TI TPS7A4001DGNR | Ultra-low-noise 40V LDO, phantom post-regulation |
+| Murata NXE2S1212MC | 1W isolated 12V DC/DC for audio analog domain |
 
 - Reverse-polarity, overcurrent, and overvoltage protection
-- Per-rail load switching (1A each on 5V)
+- PTC fuses (Bel Fuse) on USB VBUS
 - Managed power-on sequencing via Management MCU
 
 ### Connectivity
 
-- **Ethernet** — RJ45 with isolation transformers
-- **USB** — Host/device (FTDI bridge for legacy support)
-- **MIDI** — 5-pin DIN IN/OUT
-- **Display** — Flat-flex LCD connector
-- **M.2** — Expansion slot (storage or optional modules)
-- **Expansion headers** — GPIO, analog, I/O breakouts
+- **Ethernet** — 2× Gigabit Ethernet via Realtek RTL8111H-CG PCIe controllers (U7, U8), 2× shielded RJ45 with isolation transformers (Würth 749020111A)
+- **USB** — 8× USB from LattePanda Mu (3× USB 3.0 + 5× USB 2.0); 2× USB-C receptacles for Teensy 4.1 bridge
+- **MIDI** — 5-pin DIN IN/OUT with H11L1 optoisolation
+- **Display** — 24-pin 0.5mm FPC ZIF connector (GCT FFC2A32-24-T) for OLED display (Midas MCOT128064B1V-WM, SSD1309, 128×64 px, 1.54")
+- **M.2 Key-M** — PCIe x4 (NVMe SSD)
+- **M.2 Key-A+E** — WiFi/Bluetooth or alternate storage
+- **Expansion headers** — GPIO, analog, I/O breakouts; 2× Grove I2C connectors; I2S header; UART debug
+
+### User Interface
+
+- **Encoder:** Bourns PEL12T-4225T-S1024 — 24 PPR optical rotary encoder with momentary push switch and RGB LED illumination
+- **Tactile switches:** 4× C&K PTS810 momentary switches (B1–B4)
+- **Volume knob:** Bourns PTR902-2015K-B103 potentiometer (monitor output level)
+- **RGBA LED:** AMS-OSRAM multi-colour LEDs — blue (×3), green (×4), orange (×7), red (×1) status/indicator outputs
 
 ### Sensors
 
 - **BMI270** — 6-axis IMU (accelerometer + gyroscope) for motion-based control
+
+### Flash Storage
+
+3× Winbond W25Q128JVSIM (128 Mbit / 16 MB, QSPI):
+- U2 — BIOS flash (LattePanda Mu)
+- U5 — RTIO MCU flash (RP2350, U3)
+- U6 — Management MCU flash (RP2350, U4)
 
 ### Thermal
 

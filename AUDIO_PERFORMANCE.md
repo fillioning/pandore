@@ -24,7 +24,9 @@ Mic/Line In (Neutrik XLR+TRS combo)
 | **THS4521** (TI, ×4) | Fully-differential amp | 4.6 nV/√Hz noise, -112 dB THD+N @ 1 kHz, 145 MHz BW, 490 V/µs, 102 dB CMRR |
 | **OPA1656** (TI, ×4) | Dual op-amp | 2.9 nV/√Hz noise, -131 dB THD @ 1 kHz, 53 MHz GBW, 24 V/µs |
 | **ISO7762** (TI) | I2S digital isolator | 6-ch (4F/2R), 100 Mbps, 11 ns delay, 5000 VRMS isolation |
-| **H11L1** (Isocom) | MIDI optoisolator | Schmitt-trigger output |
+| **ISO1640** (TI) | Isolated I2C (codec control) | 1 Mbps, 2500 VRMS isolation |
+| **NXE2S1212MC** (Murata) | Isolated 12V DC/DC | 1W, 12V→12V, powers isolated audio domain |
+| **H11L1** (Isocom) | MIDI IN optoisolator | Schmitt-trigger output |
 | **Teensy 4.1** (PJRC) | Audio/MIDI bridge | Cortex-M7 @ 600 MHz, 2× I2S, USB Audio class-compliant |
 
 ## System-Level Estimates
